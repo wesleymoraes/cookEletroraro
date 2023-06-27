@@ -1,0 +1,80 @@
+{
+  "image#boleto": {
+    "title": "Imagem boleto",
+    "props": {
+      "maxHeight": "44px",
+      "maxWidth": "39px",
+      "src": "assets/icons/metodos-pagamentos/fc-boleto.svg",
+      "blockClass": "flag-image",
+      "alt": "Imagem boleto"
+    }
+  },
+  "image#dinners": {
+    "title": "Imagem dinners",
+    "props": {
+      "maxHeight": "44px",
+      "maxWidth": "39px",
+      "src": "assets/icons/metodos-pagamentos/fc-diners.svg",
+      "blockClass": "flag-image",
+      "alt": "Imagem dinners"
+    }
+  },
+  "image#paypal": {
+    "title": "Imagem paypal",
+    "props": {
+      "maxHeight": "44px",
+      "maxWidth": "39px",
+      "src": "assets/icons/metodos-pagamentos/fc-paypal.svg",
+      "blockClass": "flag-image",
+      "alt": "Imagem paypal"
+    }
+  },
+  "image#hipercard": {
+    "title": "Imagem hipercard",
+    "props": {
+      "maxHeight": "44px",
+      "maxWidth": "39px",
+      "src": "assets/icons/metodos-pagamentos/fc-hipercard.svg",
+      "blockClass": "flag-image",
+      "alt": "Imagem hipercard"
+    }
+  },
+  "image#elo": {
+    "title": "Imagem elo",
+    "props": {
+      "maxHeight": "44px",
+      "maxWidth": "39px",
+      "src": "assets/icons/metodos-pagamentos/fc-elo.svg",
+      "blockClass": "flag-image",
+      "alt": "Imagem elo"
+    }
+  },
+  "image#american-flag": {
+    "title": "Imagem american",
+    "props": {
+      "maxHeight": "44px",
+      "maxWidth": "39px",
+      "src": "assets/icons/metodos-pagamentos/fc-american-express.svg",
+      "blockClass": "flag-image",
+      "alt": "Imagem american"
+    }
+  },
+  "image#ame": {
+    "title": "Imagem ame",
+    "props": {
+      "maxHeight": "44px",
+      "maxWidth": "39px",
+      "src": "assets/icons/metodos-pagamentos/fc-ame.png",
+      "blockClass": "flag-image",
+      "alt": "Imagem ame"
+    }
+  },
+  "image#vtex-flag": {
+    "title": "Imagem VTEX",
+    "props": {
+      "src": "https://placehold.co/43x29",
+      "blockClass": "security-image",
+      "alt": "Imagem Certificado VTEX"
+    }
+  }
+}

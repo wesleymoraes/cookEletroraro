@@ -1,0 +1,49 @@
+{
+  "flex-layout.col#container-content-and-title-institucional-pagamento": {
+    "title": "Container Titulo E Conteudo",
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "container__conteudo-institucional"
+      ]
+    },
+    "children": [
+      "rich-text#titulo-institucional-pagamento",
+      "rich-text#text-institucional-pagamento-1",
+      "rich-text#text-institucional-pagamento-2",
+      "rich-text#text-institucional-pagamento-3",
+      "rich-text#text-institucional-pagamento-4"
+    ]
+  },
+  "rich-text#text-institucional-pagamento-1": {
+    "title": "Texto 01",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet. Id cumque quia est voluptatem quas quo magni nemo in commodi consequuntur cum veritatis nulla ea velit mollitia. Eum illo deleniti et delectus facilis ut nulla rerum sit enim perspiciatis et ipsam omnis ut quaerat optio et quia itaque.",
+      "blockClass": "text__institucional"
+    }
+  },
+
+  "rich-text#text-institucional-pagamento-2": {
+    "title": "Texto 02",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet. Id cumque quia est voluptatem quas quo magni nemo in commodi consequuntur cum veritatis nulla ea velit mollitia. Eum illo deleniti et delectus facilis ut nulla rerum sit enim perspiciatis et ipsam omnis ut quaerat optio et quia itaque.",
+      "blockClass": "text__institucional"
+    }
+  },
+
+  "rich-text#text-institucional-pagamento-3": {
+    "title": "Texto 03",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet. Id cumque quia est voluptatem quas quo magni nemo in commodi consequuntur cum veritatis nulla ea velit mollitia. Eum illo deleniti et delectus facilis ut nulla rerum sit enim perspiciatis et ipsam omnis ut quaerat optio et quia itaque.",
+      "blockClass": "text__institucional"
+    }
+  },
+  "rich-text#text-institucional-pagamento-4": {
+    "title": "Texto 04",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet. Id cumque quia est voluptatem quas quo magni nemo in commodi consequuntur cum veritatis nulla ea velit mollitia. Eum illo deleniti et delectus facilis ut nulla rerum sit enim perspiciatis et ipsam omnis ut quaerat optio et quia itaque.",
+
+      "blockClass": "text__institucional"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  // DESKTOP
+  "flex-layout.col#footer-menu-desktop-01": {
+    "title": "Menu - Coluna 1",
+    "children": [
+      "rich-text#institutional-footer",
+      "vtex.menu@2.x:menu#institutional-submenu-items"
+    ],
+    "props": {
+      "width":"20%",
+      "blockClass": "footerMenuDesktop",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#footer-menu-desktop-02": {
+    "title": "Menu - Coluna 2",
+    "children": [
+      "rich-text#atendimento-footer",
+      "vtex.menu@2.x:menu#atendimento-submenu-items"
+    ],
+    "props": {
+      "width":"30%",
+      "blockClass": "footerMenuDesktop",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#footer-menu-desktop-03": {
+    "title": "Menu - Coluna 3",
+    "children": [
+      "rich-text#departamentos-footer",
+      "flex-layout.row#footer-flags"
+    ],
+    "props": {
+      "width":"20%",
+      "blockClass": "footerMenuDesktop",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#footer-menu-desktop-04": {
+    "props": {
+      "blockClass": "footercol4"
+    },
+    "children": [
+      "flex-layout.col#footer-menu-desktop-05",
+      "flex-layout.col#footer-menu-desktop-03"
+    ]
+  },
+  "flex-layout.col#footer-menu-desktop-04": {
+    "title": "Menu - Coluna 4",
+    "children": [
+      "rich-text#duvidas-footer",
+      "vtex.menu@2.x:menu#duvidas-submenu-items"
+    ],
+    "props": {
+      "blockClass": "footerMenuDesktop",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#footer-menu-desktop-05":{
+    "children": [
+      "rich-text#HorárioDeAtendimento",
+      "vtex.menu@2.x:menu#horario-submenu-items"
+    ]
+  }
+}

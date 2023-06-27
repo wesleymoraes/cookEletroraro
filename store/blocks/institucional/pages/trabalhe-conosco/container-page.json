@@ -1,0 +1,24 @@
+{
+  "store.custom#pagina-institucional-trabalhe-conosco": {
+    "blocks": [
+      "responsive-layout.desktop#banner",
+      "flex-layout.row#breadcrumb-institucional-trabalhe-conosco",
+      "flex-layout.row#body-institucional-trabalhe-conosco"
+    ]
+  },
+  "flex-layout.row#body-institucional-trabalhe-conosco": {
+    "title": "Container Trabalhe Conosco",
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "container__pagina-institucional",
+        "container__pagina-institucional-trabalhe-conosco"
+      ]
+    },
+    "children": [
+      "flex-layout.col#menu-institucional",
+      "flex-layout.col#container-content-and-title-institucional-trabalhe-conosco"
+    ]
+  }
+}

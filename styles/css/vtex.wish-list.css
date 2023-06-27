@@ -1,0 +1,9 @@
+/*Colors */
+/* End colors */
+/* preto */
+/* cinza */
+/* branco */
+.wishlistIconContainer {
+  display: flex;
+  justify-content: end;
+}

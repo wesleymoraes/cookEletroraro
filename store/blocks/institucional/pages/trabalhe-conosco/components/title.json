@@ -1,0 +1,9 @@
+{
+  "rich-text#titulo-institucional-trabalhe-conosco": {
+    "title": "Title Principal",
+    "props": {
+      "text": "Trabalhe Conosco",
+      "blockClass": "text__title-institutional"
+    }
+  }
+}

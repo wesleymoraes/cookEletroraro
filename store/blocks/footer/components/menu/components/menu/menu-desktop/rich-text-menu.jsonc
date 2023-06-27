@@ -1,0 +1,44 @@
+{
+  "rich-text#institutional-footer": {
+    "title": "Título Menu Rodapé 01",
+    "props": {
+      "text": "#### Institucional",
+      "blockClass": "footerItemTitle"
+    }
+  },
+  "rich-text#atendimento-footer": {
+    "title": "Título Menu Rodapé 02",
+    "props": {
+      "text": "#### Atendimento",
+      "blockClass": "footerItemTitle"
+    }
+  },
+  "rich-text#departamentos-footer": {
+    "title": "Título Menu Rodapé 03",
+    "props": {
+      "text": "#### Formas de pagamento",
+      "blockClass": "footerItemTitle"
+    }
+  },
+  "rich-text#duvidas-footer": {
+    "title": "Título Menu Rodapé 04",
+    "props": {
+      "text": "#### Ajuda e Suporte",
+      "blockClass": "footerItemTitle"
+    }
+  },
+  "rich-text#HorárioDeAtendimento": {
+    "title": "Título Menu Rodapé 05",
+    "props": {
+      "text": "#### Horário de Atendimento",
+      "blockClass": "footerItemTitle"
+    }
+  },
+  "rich-text#redes-sociais-footer": {
+    "title": "Título Menu Rodapé 06",
+    "props": {
+      "text": "#### Redes Sociais",
+      "blockClass": "footerItemTitle"
+    }
+  }
+}

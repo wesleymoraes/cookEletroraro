@@ -1,0 +1,23 @@
+@import './variables.scss';
+
+.containerNormal {
+    background-color: $cor2;
+    .clearLink {
+        .element {
+            padding: 23px;
+            box-sizing: border-box;
+            align-items: center;
+            
+            .nameContainer {
+                margin-bottom: 10px;
+                .productBrand {
+                    text-align: center;
+                    font-weight: 600;
+                    color: $secondary-color;
+                    letter-spacing: 0;
+
+                }
+            }
+        }
+    }
+}

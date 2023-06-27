@@ -1,0 +1,392 @@
+/* SEGUNDO TEMA <theme2> ESTILO UNILAR */
+
+.theme2.desktop-navbar {
+  z-index: 999;
+  background-color: transparent; /* Remover essa estilização provisória */
+}
+
+.theme2 .desktop-menuItem,
+.theme2 .desktop-departmentsItem,
+.theme2 .desktop-menuSecondItemsWrapper,
+.theme2 .desktop-menuThirdItemsWrapper,
+.theme2 .desktop-departmentsItem .desktop-menuItemsWrapper {
+  transition: 0.3s;
+}
+
+.theme2 .desktop-menuItems {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+.theme2 .desktop-menuSecondItemsContainer {
+  height: 98%;
+}
+
+.theme2 .desktop-departmentsItem .desktop-menuSecondItemsContainer {
+  max-height: 380px;
+}
+
+.theme2 .desktop-menuSecondItems,
+.theme2 .desktop-menuThirdItems,
+.theme2 .desktop-departmentItems,
+.theme2 .desktop-departmentsItem .desktop-menuItems {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  background: transparent;
+  overflow-y: auto;
+  overflow-x: hidden;
+  list-style: none;      
+}
+
+.theme2 .desktop-menuThirdItemsWrapper,
+.theme2 .desktop-departmentsItem .desktop-menuSecondItemsWrapper {
+  box-shadow: inset 4px 0px 2px 0px #dedede96, -24px -16px 17px -2px rgb(0 0 0 / 0%);     
+}
+.theme2 .desktop-departmentsItem .desktop-menuSecondItemsWrapper::before,
+.theme2 .desktop-menuThirdItemsWrapper::before {
+  content: "";
+  background-color: transparent;
+  width: 20px;
+  height: 100%;
+  position: absolute;
+  left: -18px;
+  z-index: 9999;   
+}
+
+.theme2 .desktop-menuItem,
+.theme2 .desktop-departmentsItem {
+  position: relative;
+  font-size: 13px;
+  color: rgb(0, 0, 0);
+  border: 0px;
+  text-transform: initial;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.theme2 .desktop-menuItem:hover,
+.theme2 .desktop-departmentsItem:hover {
+  background-color: white;
+  color: black;
+}
+
+.theme2 .desktop-menuItemsTitleLink {
+  text-decoration: none;
+}
+
+.theme2 .desktop-menuItemsTitle--Second,
+.theme2 .desktop-menuItemsTitle--Third {
+  padding: 0px 20px;
+  color: black;
+  font-size: 13px;
+}
+
+.theme2 .desktop-menuItemsTitle--Second {
+  display: none;
+}
+
+.theme2 .desktop-departmentsItem .desktop-menuItemsTitle--Second {
+  display: block;
+}
+
+.theme2 .desktop-menuItemLink,
+.theme2 .desktop-departmentsItemLink {
+  padding: 10px;
+  font-size: 13px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.theme2 .desktop-menuItemLink .desktop-arrowIconContent {
+  display: none;
+}
+
+.theme2 .desktop-departmentsItem .desktop-menuItemLink .desktop-arrowIconContent {
+  display: block;
+}
+
+.theme2 .desktop-menuIcon {
+  max-width: 22px;
+}
+
+.theme2 .desktop-menuIconContent {
+  display: flex;
+  height: 20px;
+  text-align: center;
+  align-items: flex-end;
+}
+
+.theme2 .desktop-menuSecondItems .desktop-menuSecondItemLinkText,
+.theme2 .desktop-menuSecondItems .desktop-menuThirdItemLinkText {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.theme2 .desktop-departmentsItem .desktop-menuItemLink,
+.theme2 .desktop-departmentsItem .desktop-departmentsItemLink {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.theme2 .desktop-departmentsItem .desktop-menuItemLink {
+  align-items: center;
+}
+
+.theme2 .desktop-departmentsItem .desktop-departmentsItemLink {
+  align-items: center;
+}
+
+.theme2 .desktop-departmentsItem .desktop-menuItemLink {
+  flex-direction: row
+}
+
+.theme2 .desktop-menuItem:hover .desktop-menuItemLink,
+.theme2 .desktop-departmentsItem:hover .desktop-menuItemLink,
+.theme2 .desktop-departmentsItem:hover .desktop-departmentsItemLink {
+  color: black;
+}
+
+.theme2 .desktop-menuSecondItemsWrapper {
+  left: 0px;
+  top: 100%;
+}
+
+.theme2 .desktop-menuThirdItemsWrapper {
+  left: 300px;
+  top: 0;
+  display: block;
+  margin-left: -21px;
+}
+
+.theme2 .desktop-menuItem--child-3 .desktop-menuSecondItemsWrapper,
+.theme2 .desktop-menuItem--child-4 .desktop-menuSecondItemsWrapper, 
+.theme2 .desktop-menuItem--child-5 .desktop-menuSecondItemsWrapper, 
+.theme2 .desktop-menuItem--child-6 .desktop-menuSecondItemsWrapper, 
+.theme2 .desktop-menuItem--child-7 .desktop-menuSecondItemsWrapper, 
+.theme2 .desktop-menuItem--child-8 .desktop-menuSecondItemsWrapper {
+  right: 0px;
+  left: unset;
+}
+
+.theme2 .desktop-menuItem--child-3 .desktop-menuThirdItemsWrapper,
+.theme2 .desktop-menuItem--child-4 .desktop-menuThirdItemsWrapper, 
+.theme2 .desktop-menuItem--child-5 .desktop-menuThirdItemsWrapper, 
+.theme2 .desktop-menuItem--child-6 .desktop-menuThirdItemsWrapper, 
+.theme2 .desktop-menuItem--child-7 .desktop-menuThirdItemsWrapper, 
+.theme2 .desktop-menuItem--child-8 .desktop-menuThirdItemsWrapper {
+  right: 300px;
+  left: unset;
+  margin-right: -21px;
+  margin-left: unset;
+  box-shadow: inset -4px 0px 2px 0px #dedede96, -24px -16px 17px -2px rgb(0 0 0 / 0%);
+}
+
+.theme2 .desktop-menuItem--child-3 .desktop-menuThirdItemsWrapper::before,
+.theme2 .desktop-menuItem--child-4 .desktop-menuThirdItemsWrapper::before, 
+.theme2 .desktop-menuItem--child-5 .desktop-menuThirdItemsWrapper::before, 
+.theme2 .desktop-menuItem--child-6 .desktop-menuThirdItemsWrapper::before, 
+.theme2 .desktop-menuItem--child-7 .desktop-menuThirdItemsWrapper::before, 
+.theme2 .desktop-menuItem--child-8 .desktop-menuThirdItemsWrapper::before {
+  right: -18px;
+  left: unset;
+}
+
+.theme2 .desktop-menuSeeAllButton {
+  display: none;
+}
+
+.theme2 .desktop-menuSecondItemsWrapper,
+.theme2 .desktop-menuThirdItemsWrapper {
+  height: 432px;
+  position: absolute;
+  width: 279px;
+  background: white;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  display: flex;
+  flex-flow: row;
+  flex-direction: column;
+}
+
+.theme2 .desktop-menuItem:hover,
+.theme2 .desktop-menuItem:hover .desktop-menuSecondItemsWrapper,
+.theme2 .desktop-menuSecondItem:hover .desktop-menuThirdItemsWrapper {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.theme2 .desktop-bannerContent {
+  display: none;
+}
+
+.theme2 .desktop-menuSecondItems::-webkit-scrollbar,
+.theme2 .desktop-menuThirdItems::-webkit-scrollbar,
+.theme2 .desktop-departmentsItem .desktop-menuItems::-webkit-scrollbar {
+    width: 10px;              
+}
+
+.theme2 .desktop-menuSecondItems::-webkit-scrollbar-track, 
+.theme2 .desktop-menuThirdItems::-webkit-scrollbar-track,
+.theme2 .desktop-departmentsItem .desktop-menuItems::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+.theme2 .desktop-menuSecondItems::-webkit-scrollbar-thumb,
+.theme2 .desktop-menuThirdItems::-webkit-scrollbar-thumb,
+.theme2 .desktop-departmentsItem .desktop-menuItems::-webkit-scrollbar-thumb {
+  background-color: #D8D8D8;
+  border-radius: 20px;
+  border: 2px solid #fff;
+}
+
+.theme2 .desktop-menuSecondItem, 
+.theme2 .desktop-menuThirdItem,
+.theme2 .desktop-departmentsItem .desktop-menuItem {
+  padding: 0px 20px;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.theme2 .desktop-menuSecondItem:hover, 
+.theme2 .desktop-menuThirdItem:hover,
+.theme2 .desktop-departmentsItem .desktop-menuItem:hover {
+  background-color: rgba(0, 0, 0, 0.126);
+}
+
+.theme2 .desktop-menuSecondItem:hover .desktop-menuSecondItemLink, 
+.theme2 .desktop-menuThirdItem:hover .desktop-menuThirdItemLink,
+.theme2 .desktop-departmentsItem .desktop-menuItem:hover .desktop-menuItemLink {
+  color: black;
+  font-weight: bold;
+  border-color: transparent;
+}
+
+.theme2 .desktop-menuSecondItemLink, 
+.theme2 .desktop-menuThirdItemLink {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  padding: 12px 0;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  cursor: pointer;
+}
+ 
+.theme2 .desktop-arrowIconContent {
+  display: flex;
+}
+
+.theme2 .desktop-arrowIcon {
+  max-width: 8px;
+}
+
+
+
+
+
+.theme2 .desktop-departmentsItem .desktop-menuItemsWrapper {
+  height: 432px;
+  position: absolute;
+  width: 279px;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 12px 12px;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  display: flex;
+  flex-flow: row;
+  top: 100%;
+  left: 0;
+  padding: 10px 0;
+}
+
+.theme2 .desktop-departmentsItem .desktop-menuItems {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.theme2 .desktop-departmentsItem .desktop-menuItems {
+  flex-direction: column;
+  justify-content: initial;
+}
+
+.theme2 .desktop-departmentsItem .desktop-menuItem {
+  width: 100%;
+  display: block;
+  position: initial;
+  border-radius: 0;
+}
+
+.theme2 .desktop-menuItemLink,
+.theme2 .desktop-menuItemLinkText {
+  display: flex;
+  gap: 10px;
+}
+
+.theme2 .desktop-menuItemLink {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+
+.theme2 .desktop-menuItemLinkText {
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  font-weight: bold;
+  width: 100%;
+}
+
+.theme2 .desktop-departmentsItem:hover .desktop-menuItemsWrapper {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.theme2 .desktop-departmentsItem .desktop-menuSecondItemsWrapper {
+  top: 0;
+  left: 300px;
+  margin-left: -21px;
+  flex-direction: column;
+}
+
+.theme2 .desktop-departmentsItem .desktop-menuItemLink {
+  font-weight: bold;
+}
+
+.theme2 .desktop-departmentsItem .desktop-departmentsIcon {
+  fill: white;
+  padding-right: 8px;
+}
+
+.theme2 .desktop-departmentsItem:hover .desktop-departmentsIcon {
+  fill: black; 
+}
+
+/* FIM DO SEGUNDO TEMA </theme2> */

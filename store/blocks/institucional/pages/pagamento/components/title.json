@@ -1,0 +1,9 @@
+{
+  "rich-text#titulo-institucional-pagamento": {
+    "title": "Title Principal",
+    "props": {
+      "text": "Pagamento",
+      "blockClass": "text__title-institutional"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "rich-text#menu-institucional": {
+    "title": "Titulo Institucional",
+    "props": {
+      "blockClass": [
+        "title__menu-institucional",
+        "title__menu-institucional-institucional"
+      ],
+      "text": "Institucional"
+    }
+  }
+}

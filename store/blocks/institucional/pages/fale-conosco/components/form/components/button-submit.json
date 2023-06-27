@@ -1,0 +1,8 @@
+{
+  "form-submit#contact-fale-conosco": {
+    "props": {
+      "blockClass": "button__submit-fale-conosco",
+      "label": "Enviar"
+    }
+  }
+}

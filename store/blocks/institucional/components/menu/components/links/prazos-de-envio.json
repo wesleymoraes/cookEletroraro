@@ -1,0 +1,19 @@
+{
+  "menu-item#prazos-de-envio": {
+    "title": "Link 8",
+    "props": {
+      "blockClass": "link__menu-institucional",
+      "id": "menu-item-prazos-de-envio",
+      "type": "custom",
+      "iconId": null,
+      "itemProps": {
+        "type": "internal",
+        "href": "/prazos-de-envio",
+        "noFollow": false,
+        "tagTitle": "Prazos de Envio",
+        "text": "Prazos de Envio"
+      }
+    }
+  }
+
+}

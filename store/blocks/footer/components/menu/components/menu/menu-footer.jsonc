@@ -1,0 +1,118 @@
+{
+  // MOBILE
+  "flex-layout.row#footer-menu-mobile": {
+    "children": [
+      "flex-layout.col#footer-menu-mobile"
+    ],
+    "props": {
+      "blockClass": [
+        "footer-menu"
+      ],
+      "fullWidth": true
+      // "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.col#footer-menu-mobile": {
+    "children": [
+      "menu-item#institutional",
+      "menu-item#AjudaESuporte",
+      "menu-item#atendimento",
+      "menu-item#horarioDeAtendimento",
+      "menu-item#FormasDePagamentos"
+    ],
+    "props": {
+      "blockClass": "footerMenuCol",
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    }
+  },
+  //ITEMS DOS MENUS
+  "menu-item#institutional": {
+    "props": {
+      "blockClass": "footerMenuItem",
+      "id": "menu-item-footer-institutional",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Institucional",
+        "text": "Institucional"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#institutional-submenu"
+    ]
+  },
+  //ATENDIMENTO
+  "menu-item#atendimento": {
+    "props": {
+      "blockClass": "footerMenuItem",
+      "id": "menu-item-footer-atendimento",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Atendimento",
+        "text": "Atendimento"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#atendimento-submenu"
+    ]
+  },
+  //DEPARTAMENTOS
+  "menu-item#horarioDeAtendimento": {
+    "props": {
+      "blockClass": "footerMenuItem",
+      "id": "menu-item-footer-departamentos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Horario de Atendimento",
+        "text": "Horario de Atendimento"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#horario-submenu"
+    ]
+  },
+  //DUVIDAS
+  "menu-item#AjudaESuporte": {
+    "props": {
+      "blockClass": "footerMenuItem",
+      "id": "menu-item-footer-duvidas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Ajuda e Suporte",
+        "text": "Ajuda e Suporte"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#duvidas-submenu"
+    ]
+  },
+  "menu-item#FormasDePagamentos": {
+    "props": {
+      "blockClass": "footerMenuItem",
+      "id": "menu-item-footer-duvidas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Formas de pagamento",
+        "text": "Formas de pagamento"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#MetodosDePagamentos-submenu"
+    ]
+  }
+}

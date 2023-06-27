@@ -1,0 +1,97 @@
+@import './variables.scss';
+
+.minicartWrapperContainer {
+    .minicartContainer {
+        .openIconContainer {
+            padding: 0;
+
+            :global(.vtex-button) {
+                &:hover {
+                    background-color: transparent;
+                }
+
+                .minicartIconContainer {
+
+                    .cartIcon {
+                        display: none;
+                    }
+                }
+
+                :global(.vtex-button__label) {
+                    &::after {
+                        content: url('assets/icons/IconsHeader/minicart.svg');
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+.minicartQuantityBadgeDefault {
+    height: 15px;
+    width: 15px;
+    top: -1.3rem;
+    right: -2.1rem;
+    background-color: $cor10;
+}
+
+.childrenContainer {
+    .minicartSideBarContentWrapper {
+        .minicartContentContainer {
+            .minicartTitle {
+                font-size: 14px;
+                font-weight: 700;
+
+                .minicartProductListContainer {}
+            }
+        }
+    }
+}
+
+.minicartSummary {
+    :global(.vtex-checkout-summary-0-x-summarySmallContent) {
+        :global(.vtex-checkout-summary-0-x-summaryItemContainer) {
+
+            :global(.vtex-checkout-summary-0-x-summaryItemLabel),
+            :global(.vtex-checkout-summary-0-x-summaryItemPrice) :global(.vtex-checkout-summary-0-x-price) {
+                font-size: 14px;
+                text-transform: capitalize;
+                color: $secondary-color;
+            }
+
+            &:last-child {
+
+                :global(.vtex-checkout-summary-0-x-summaryItemLabel),
+                :global(.vtex-checkout-summary-0-x-summaryItemPrice) :global(.vtex-checkout-summary-0-x-price) {
+                    font-size: 20px;
+                    font-weight: 8700;
+                    color: $secondary-color;
+                }
+            }
+        }
+    }
+
+    :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+        display: none;
+       // color: #25282A;
+        //font-size: .95rem;
+       // text-transform: initial;
+    }
+}
+.minicartCheckoutButton{
+    :global(.vtex-button){
+        background-color: $cor31;
+        border-radius: 20px;
+        border: none;
+        :global(.vtex-button__label){
+            font-size: 0px;
+            &::after{
+                content: "Comprar";
+                font-size: 14px!important;
+                font-weight: 600;
+            }
+        }
+    }
+}
+

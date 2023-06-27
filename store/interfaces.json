@@ -1,0 +1,26 @@
+{
+  "header.full": {
+    "around": ["wave-menu-context"]
+  },
+  "discount":{
+    "component": "discount"
+  },
+  "TituloVitrine":{
+    "component": "TituloVitrine"
+  },
+  "CustomInfoCard":{
+    "component": "CustomInfoCard"
+  },
+  "TextComponent":{
+    "component": "TextComponent"
+  },
+  "CustomInstallments":{
+    "component": "CustomInstallments"
+  },
+  "StickyFloatBottom":{
+    "component": "StickyFloatBottom"
+  },
+  "ProductDescriptionWithTab":{
+    "component":"ProductDescriptionWithTab"
+  }
+}

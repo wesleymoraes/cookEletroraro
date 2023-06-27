@@ -1,0 +1,84 @@
+/*Colors */
+/* End colors */
+/* preto */
+/* cinza */
+/* branco */
+@media (min-width: 1024px) {
+  .newsletterForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    gap: 15px;
+  }
+  .newsletterForm .nameInputContainer {
+    width: 18em;
+    height: 41px;
+  }
+  .newsletterForm .nameInputContainer :global(.vtex-input) :global(.vtex-input-prefix__group) {
+    border: 1px solid;
+    border-radius: 20px;
+    color: #000000;
+    opacity: 1;
+  }
+  .newsletterForm .emailInputContainer {
+    width: 30em;
+    height: 41px;
+  }
+  .newsletterForm .emailInputContainer :global(.vtex-input) :global(.vtex-input-prefix__group) {
+    border: 1px solid;
+    border-radius: 20px;
+    color: #000000;
+    opacity: 1;
+  }
+  .newsletterForm .formSubmitContainer {
+    width: 15%;
+  }
+  .newsletterForm .formSubmitContainer :global(.vtex-button) {
+    margin-bottom: 1px;
+    background-color: #FAFAFA;
+    border: 1px solid;
+    border-radius: 20px;
+    color: #000000;
+    opacity: 1;
+    border: none;
+    background-color: #000000;
+    color: #FAFAFA;
+  }
+}
+@media (max-width: 1024px) {
+  .newsletterForm .nameInputContainer {
+    width: 60%;
+    margin: auto;
+  }
+  .newsletterForm .nameInputContainer :global(.vtex-input) :global(.vtex-input-prefix__group) {
+    border: 1px solid;
+    border-radius: 20px;
+    color: #000000;
+    opacity: 1;
+  }
+  .newsletterForm .emailInputContainer {
+    width: 60%;
+    margin: 10px auto;
+  }
+  .newsletterForm .emailInputContainer :global(.vtex-input) :global(.vtex-input-prefix__group) {
+    border: 1px solid;
+    border-radius: 20px;
+    color: #000000;
+    opacity: 1;
+  }
+  .newsletterForm .formSubmitContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .newsletterForm .formSubmitContainer :global(.vtex-button) {
+    width: 60%;
+    border: 1px solid;
+    border-radius: 20px;
+    color: #000000;
+    opacity: 1;
+    background-color: #000000;
+    color: #FAFAFA;
+  }
+}

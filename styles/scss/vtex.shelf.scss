@@ -1,0 +1,19 @@
+@import './variables.scss';
+.shelfContentContainer--pdp{
+    margin: 20px 0 100px 0
+}
+.slide--pdp{
+    background-color: $tertiary-color;
+    margin-left: 15px;
+}
+.title--pdp{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    
+}
+:global(.vtex-shelf-1-x-dot--isActive){
+    background-color:$primary-color ;
+    border-radius: 4;
+
+}

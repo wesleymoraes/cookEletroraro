@@ -1,0 +1,90 @@
+@import './variables.scss';
+
+@media (min-width:$large-tablet-size) {
+    .newsletterForm {
+        @include center;
+        max-width: 80%;
+        margin: auto;
+        gap: 15px;
+
+        .nameInputContainer {
+            width: 18em;
+            height: 41px;
+
+            :global(.vtex-input) {
+                :global(.vtex-input-prefix__group) {
+                    @include InputNewsletter;
+                }
+            }
+        }
+
+        .emailInputContainer {
+            width: 30em;
+            height: 41px;
+
+            :global(.vtex-input) {
+                :global(.vtex-input-prefix__group) {
+                    @include InputNewsletter;
+                }
+            }
+        }
+
+        .formSubmitContainer {
+            width: 15%;
+
+            :global(.vtex-button) {
+                margin-bottom: 1px;
+                background-color: $primary-color;
+                @include InputNewsletter;
+                border: none;
+                background-color: $secondary-color;
+                color: $primary-color;
+
+            }
+        }
+
+    }
+}
+
+@media (max-width:$large-tablet-size) {
+    .newsletterForm {
+
+        .nameInputContainer {
+            width: 60%;
+            margin: auto;
+
+            :global(.vtex-input) {
+                :global(.vtex-input-prefix__group) {
+                    @include InputNewsletter;
+
+                }
+            }
+        }
+
+        .emailInputContainer {
+            width: 60%;
+            margin: 10px auto;
+
+            :global(.vtex-input) {
+                :global(.vtex-input-prefix__group) {
+                    @include InputNewsletter;
+                }
+            }
+
+        }
+
+        .formSubmitContainer {
+            display: flex;
+            justify-content: center;
+
+            :global(.vtex-button) {
+                width: 60%;
+                @include InputNewsletter;
+                background-color: $secondary-color;
+                color: $primary-color;
+
+            }
+        }
+
+    }
+}

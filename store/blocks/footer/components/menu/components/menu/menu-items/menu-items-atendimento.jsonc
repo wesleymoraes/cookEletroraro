@@ -1,0 +1,44 @@
+{
+  "rich-text#link-atendimento-01": {
+    "title": "Menu Link 01",
+    "props": {
+      "blockClass": "footerAtendimento-1",
+      "text": "##### [Telefone: 0800-708-0010](/)"
+    }
+  },
+  "rich-text#link-atendimento-02": {
+    "title": "Menu Link 02",
+    "props": {
+      "blockClass": "footerAtendimento-2",
+      "text": "##### [Whatsapp: +55 31 991292-1800](/)"
+    }
+  },
+  "rich-text#link-atendimento-03": {
+    "title": "Menu Link 03",
+    "props": {
+      "blockClass": "footerAtendimento-3",
+      "text": "##### [E-mail: contato@cookeletroraro.com.br](/)"
+    }
+  },
+  "rich-text#link-atendimento-04": {
+    "title": "Menu Link 04",
+    "props": {
+      "blockClass": "footerSubmenuItem",
+      "text": "##### [Trabalhe Conosco](/)"
+    }
+  },
+  "rich-text#link-atendimento-05": {
+    "title": "Menu Link 05",
+    "props": {
+      "blockClass": "footerSubmenuItem",
+      "text": "##### [Trocas e Devoluções](/trocas-e-devolucoes)"
+    }
+  },
+  "rich-text#link-atendimento-06": {
+    "title": "Menu Link 06",
+    "props": {
+      "blockClass": "footerSubmenuItem",
+      "text": "##### [Rastreamento de pedido](/account#/orders)"
+    }
+  }
+}

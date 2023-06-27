@@ -1,0 +1,38 @@
+{
+  "flex-layout.row#footer-flags": {
+    "title": "Flags Pagamento e Segurança",
+    "children": [
+      "flex-layout.row#flags-list-1",
+      "flex-layout.row#flags-list-2"
+    ],
+    "props": {
+      "blockClass": "footer-flags",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#flags-list-1": {
+    "children": [
+      "image#boleto",
+      "image#dinners",
+      "image#paypal",
+      "image#hipercard",
+      "image#elo"
+    ],
+    "props": {
+      "blockClass": "flag-list-1",
+      "preventHorizontalStretch": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#flags-list-2": {
+    "children": [
+      "image#american-flag",
+      "image#ame"
+    ],
+    "props": {
+      "blockClass": "flag-list-1",
+      "preventHorizontalStretch": true,
+      "fullWidth": true
+    }
+  }
+}

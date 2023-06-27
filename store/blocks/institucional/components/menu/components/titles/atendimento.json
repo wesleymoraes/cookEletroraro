@@ -1,0 +1,13 @@
+{
+  "rich-text#menu-atendimento": {
+    "title": "Titulo Atendimento",
+    "props": {
+      "blockClass": [
+        "title__menu-institucional",
+        "title__menu-institucional-atendimento"
+      ],
+      "text": "Atendimento"
+    }
+  }
+
+}

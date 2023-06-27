@@ -1,0 +1,324 @@
+@import './variables.scss';
+
+.container--topbar-1 {
+    .wrapper {
+        .paragraph {
+            color: $cor8;
+            font-size: 14px;
+            margin: 0;
+
+            &::before {
+                margin-right: 11px;
+                content: url("assets/icons/IconsHeader/phone-alt.svg");
+            }
+        }
+    }
+}
+
+.container--topbar-2 {
+    .wrapper {
+        .paragraph {
+            margin: 0;
+            color: $cor8;
+            font-size: 14px;
+
+            &::before {
+                margin-right: 11px;
+                content: url("assets/icons/IconsHeader/logo-whatsapp.svg");
+            }
+        }
+    }
+}
+
+@media (max-width: $large-tablet-size) {
+    .container--topbar-1 {
+        .wrapper {
+            .paragraph {
+                color: $cor8;
+                font-size: 11px;
+
+                &::before {
+                    content: url("assets/icons/IconsHeader/mobile-awesome-phone-alt.svg");
+                    margin-right: 8px !important;
+                }
+            }
+        }
+    }
+
+    .container--topbar-2 {
+        .wrapper {
+            .paragraph {
+                color: $cor8;
+                font-size: 11px;
+
+                &::before {
+                    content: url("assets/icons/IconsHeader/mobile-logo-whatsapp.svg");
+                    margin-right: 8px !important;
+                }
+            }
+        }
+    }
+}
+
+.paragraph--deals {
+    .strong {
+        font-size: 12px;
+    }
+
+    &:last-child {
+        font-size: 10px;
+    }
+
+}
+
+.container--shelfTitle {
+    margin-top: 40px;
+
+    .wrapper {
+        .heading-level-2 {
+            font-size: 20px;
+        }
+    }
+}
+
+.container--newsletterTitle {
+    justify-content: center;
+
+    .wrapper {
+        .paragraph {
+            color: $secondary-color;
+            text-transform: uppercase;
+            font-weight: 800;
+            font-size: 20px;
+            margin-bottom: 0;
+        }
+    }
+}
+
+.container--newsletterSubtitle {
+    justify-content: center;
+
+    .wrapper {
+        .paragraph {
+            text-align: center;
+            font-size: 14px;
+            color: $cor12;
+            margin: 0px 0px 15px 0;
+        }
+    }
+
+}
+
+@media (max-width:758px) {
+    .container--newsletterSubtitle {
+        justify-content: center;
+        width: 70%;
+        margin: auto;
+
+        .wrapper {
+            .paragraph {
+                margin-bottom: 30px;
+            }
+        }
+
+    }
+}
+
+.container--homeTitleSeo {
+    justify-content: center;
+
+    .wrapper {
+        .paragraph {
+            text-align: center;
+        }
+    }
+}
+
+.container--homeContentSeo {
+    margin: auto;
+
+    .wrapper {
+        .paragraph {
+            text-align: center;
+            margin-top: 0;
+        }
+    }
+}
+
+.container--redes-sociais-flag {
+    .wrapper {
+        .paragraph {
+            font-size: 17px;
+            color: $cor2;
+            font-weight: 600;
+            margin: 0 0 5px 0;
+        }
+    }
+}
+
+.container--footerItemTitle {
+    margin-top: 20px;
+
+    .wrapper {
+        .headingLevel4 {
+            font-size: 19px;
+            font-weight: 700;
+            color: $secondary-color;
+            margin-bottom: 12px;
+        }
+    }
+}
+
+.container--footerSubmenuItem .wrapper .headingLevel5 {
+    margin: 7px 0 !important;
+}
+
+.container--footerSubmenuItem .wrapper .headingLevel5 .link {
+    text-decoration: none;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+    .container--footerSubmenuItem {
+        border-bottom: 1px solid #FFFFFF;
+    }
+
+    .container--footerSubmenuItem .wrapper .heading {
+        padding-left: 30px;
+    }
+}
+
+.container--footer-description-text {
+    margin-top: 21px;
+    display: flex;
+    justify-content: center;
+
+    .wrapper {
+        .paragraph {
+            text-align: center;
+        }
+    }
+}
+
+.container--footerAtendimento-1 {
+    .wrapper {
+        margin: 7px 0 !important;
+
+        .heading {
+            margin: 0;
+
+            .link--footerAtendimento-1 {
+                text-decoration: none;
+                font-size: 15px;
+                color: #000000;
+                font-weight: 500;
+                align-items: center;
+                display: flex;
+
+                &::before {
+                    content: url("assets/icons/Icons-Footer/Iconphone-alt.svg");
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+.container--footerAtendimento-2 {
+    .wrapper {
+        margin: 7px 0 !important;
+
+        .heading {
+            margin: 0;
+
+            .link--footerAtendimento-2 {
+                text-decoration: none;
+                font-size: 15px;
+                color: #000000;
+                font-weight: 500;
+                align-items: center;
+
+                &::before {
+                    content: url("assets/icons/Icons-Footer/logo-whatsapp.svg");
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+.container--footerAtendimento-3 {
+    .wrapper {
+        margin: 7px 0 !important;
+
+        .heading {
+            margin: 0;
+
+            .link--footerAtendimento-3 {
+                text-decoration: none;
+                font-size: 15px;
+                color: #000000;
+                font-weight: 500;
+                align-items: center;
+
+                &::before {
+                    content: url("assets/icons/Icons-Footer/material-email.svg");
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:758px) {
+    .container--footerSubmenuItem {
+        .wrapper {
+            .heading {
+                padding: 0 30px !important;
+                margin-left: 3px !important;
+            }
+        }
+    }
+
+    .container--footerAtendimento-1,
+    .container--footerAtendimento-2,
+    .container--footerAtendimento-3 {
+        padding-left: 33px;
+        border-top: 1px solid $cor7;
+        background-color: #f1f1f1;
+
+        .wrapper {
+            .heading {
+                .link {
+                    color: #3f3f40;
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+
+    .container--footerSubmenuItem {
+        border-top: 1px solid $cor7;
+        background-color: #f1f1f1;
+
+        .wrapper {
+            .heading {
+                .link {
+                    color: #3f3f40;
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+
+    .container--footer-description-text {
+        .wrapper {
+            .paragraph {
+                font-size: 14px;
+            }
+        }
+    }
+
+}

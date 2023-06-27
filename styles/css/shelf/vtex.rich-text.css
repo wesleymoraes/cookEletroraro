@@ -1,0 +1,31 @@
+.container--title-shelf-new-collection{
+  justify-content: center;
+}
+.paragraph--title-shelf-new-collection{
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.5em;
+  line-height: 43px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #24272f;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.paragraph--title-shelf-new-collection::after{
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='128' height='1' viewBox='0 0 128 1'%3E%3Cline id='Linha_235' data-name='Linha 235' x2='127' transform='translate(0.5 0.5)' fill='none' stroke='%23dadfe4' stroke-linecap='round' stroke-width='1'/%3E%3C/svg%3E%0A");
+  width: 127px;
+  height: 2px;
+}
+
+
+@media(max-width: 1024px){
+  .container--title-shelf-new-collection{
+    margin: 12px 0px 20px 0px;
+  }
+}

@@ -1,0 +1,14 @@
+/*Colors */
+/* End colors */
+/* preto */
+/* cinza */
+/* branco */
+.container {
+  margin-top: 20px;
+}
+.container .arrow {
+  text-transform: lowercase;
+}
+.container .arrow .link:focus {
+  color: #000000;
+}

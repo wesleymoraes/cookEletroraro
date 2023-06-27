@@ -1,42 +1,22 @@
-.skuSelectorContainer--quickview .skuSelectorItemImage .frameAround, .skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
-  border-radius: 50%;
+/*Colors */
+/* End colors */
+/* preto */
+/* cinza */
+/* branco */
+.containerNormal {
+  background-color: #FFFFFF;
 }
-
-.container :global(.vtex-modal-layout-0-x-triggerContainer) {
-  opacity: 0;
-  transition: opacity 200ms ease-in-out;
+.containerNormal .clearLink .element {
+  padding: 23px;
+  box-sizing: border-box;
+  align-items: center;
 }
-
-.container:hover :global(.vtex-modal-layout-0-x-triggerContainer) {
-  opacity: 1;
+.containerNormal .clearLink .element .nameContainer {
+  margin-bottom: 10px;
 }
-
-@media screen and (max-width: 40em) {
-  .container :global(.vtex-modal-layout-0-x-triggerContainer) {
-    display: none;
-  }
-}
-
-.nameContainer {
-  justify-content: start;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.brandName {
-  font-weight: 600;
-  font-size: 18px;
-  color: #2E2E2E;
-}
-
-.container {
-  text-align: start;
-}
-
-.imageContainer {
+.containerNormal .clearLink .element .nameContainer .productBrand {
   text-align: center;
-}
-
-.image {
-  border-radius: 0.25rem;
+  font-weight: 600;
+  color: #000000;
+  letter-spacing: 0;
 }

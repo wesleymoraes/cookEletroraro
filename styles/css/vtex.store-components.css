@@ -1,113 +1,135 @@
-.notificationBarContainer {
-  background-color: #e6f1e6;
-  color: #03034e;
+/*Colors */
+/* End colors */
+/* preto */
+/* cinza */
+/* branco */
+.searchBarContainer :global(.vtex-input) {
+  width: 45em !important;
+  height: 37px !important;
+}
+.searchBarContainer :global(.vtex-input) :global(.vtex-input-prefix__group) {
+  outline: none;
+  background: #000000;
+  border: 1px solid #adaaaa;
+  border-radius: 19px;
+}
+
+.searchBarInnerContainer {
+  width: 100%;
+  max-width: 332px;
+  margin-left: 0;
+  padding-right: 1px;
+}
+
+@media (max-width: 1024px) {
+  .searchBarContainer .searchBarInnerContainer {
+    margin: auto;
+  }
+}
+@media (min-width: 1024px) {
+  .productNameContainer .productBrand {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #000000;
+  }
+}
+.productNameContainer .productBrand {
+  display: block;
+  font-size: 24px;
   font-weight: 700;
-  font-size: 12px;
-  text-decoration: underline;
+  line-height: 30px;
+  color: #000000;
 }
 
-.infoCardContainer--info-card-home {
-  max-width: 1520px;
-  margin: 0 auto;
-  background-color: #e6f1e6;
-  padding: 0px;
+@media (max-width: 1024px) {
+  .productNameContainer .productBrand {
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #000000;
+  }
 }
-
-.newsletter {
-  background-color: #03054e;
-  max-width: 1528px;
-  margin: 0 auto;
-}
-
-.newsletter .container {
-  padding: 60px 10px;
-}
-
-.label {
-  color: #fff;
-  font-size: 26px;
-}
-
-.inputGroup {
-  padding-bottom: 4px;
-  display: flex;
-  color: #fff;
-}
-
-.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
-  background-color: transparent;
-  color: #fff;
-  border: none;
-}
-
-.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
-  color: #fff;
-  font-size: 16px;
-}
-
-.inputGroup :global(.vtex-button) {
-  background-color: transparent;
-  color: #fff;
-  border: none;
-  margin-right: -24px;
-}
-
-.buttonContainer {
-  padding-top: 0px;
-}
-
-.imageElement--storePrint {
-  max-height: 300px;
+.infoCardContainer--info-card-example {
   margin-bottom: 20px;
-}
-
-.skuSelectorContainer {
-  margin: 1rem 0;
-}
-
-@media only screen and (min-width: 640px) {
-  .newsletter .container {
-    padding: 140px;
-  }
-  .label {
-     font-size: 40px;
-  }
-  .infoCardContainer--info-card-home .infoCardTextContainer {
-    width: 30%;
-  }
-  .infoCardContainer--info-card-home .infoCardImageContainer {
-    width: 70%;
-  }
-  .imageElement--storePrint {
-    margin-bottom: 0px;
-    max-height: 600px;
-  }
-}
-
-.productImagesContainer--quickview .carouselContainer {
-  justify-content: flex-start;
-}
-
-.productImagesContainer--quickview .productImageTag {
-  object-fit: cover !important;
-}
-
-.productImagesContainer--quickview .carouselGaleryThumbs {
-  display: none;
-}
-
-.productImagesContainer--quickview .carouselGaleryCursor {
-  margin: 0;
-  padding: 0;
   width: 100%;
 }
 
-.productNameContainer {
-  color: #3f3f40;
-  font-weight: bold;
-  font-size: 30px;
+.skuSelectorContainer {
+  top: 55px;
+  position: relative;
+}
+.skuSelectorContainer .skuSelectorSubcontainer .skuSelectorNameContainer .skuSelectorTextContainer {
+  display: none;
 }
 
-.image {
-  image-rendering: -webkit-optimize-contrast;
+.skuSelectorOptionsList {
+  align-items: start;
+  margin-left: 0;
+}
+
+.skuSelectorInternalBox {
+  border-radius: 20px;
+}
+
+.skuSelectorItem {
+  border: none !important;
+}
+
+.frameAround {
+  border: none !important;
+}
+
+.skuSelectorItemTextValue {
+  background-color: black !important;
+  font-size: 12px;
+  padding: 10px 20px;
+  border-radius: 20%;
+  color: white !important;
+}
+
+.shippingContainer :global(.vtex-button) {
+  border-radius: 20px;
+  margin: auto;
+}
+.shippingContainer :global(.vtex-button) :global(.vtex-button__label) {
+  font-size: 17px;
+  text-transform: initial;
+  font-weight: 400;
+}
+
+@media (max-width: 758px) {
+  .shippingContainer :global(.vtex-button) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    border-radius: 20px;
+    margin: auto;
+  }
+  .shippingContainer :global(.vtex-button) :global(.vtex-button__label) {
+    font-size: 17px;
+    text-transform: initial;
+    font-weight: 400;
+  }
+  .shippingContainer :global(.vtex-address-form__postalCode) :global(.vtex-input) {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .shippingContainer :global(.vtex-address-form__postalCode) :global(.vtex-input) :global(.vtex-input-prefix__group) {
+    border-radius: 20px;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  :global(.vtex-address-form__postalCode-forgottenURL) {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
 }

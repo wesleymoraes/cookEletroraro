@@ -1,0 +1,36 @@
+.sliderLayoutContainer--shelf{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.paginationDotsContainer--shelf{
+  bottom: -20px;
+  gap: 20px;
+}
+.slideChildrenContainer--shelf{
+  min-height: 515px;
+  /* min-width: 300px; */
+  padding: 10px;
+}
+
+
+.slideChildrenContainer--shelf :global(.vtex-product-summary-2-x-nameContainer){
+  padding-top: 5px;
+  padding-bottom: 5px;
+  max-width: 220px;
+}
+.sliderTrackContainer--shelf{
+  padding-top: 10px;
+}
+
+@media(max-width: 1024px){
+  .slide--shelf{
+  padding-left: 0px !important;
+  }
+  .slideChildrenContainer--shelf{
+
+    padding: 0px;
+  }
+  .slideChildrenContainer--shelf{
+    min-height: unset;
+  }
+}

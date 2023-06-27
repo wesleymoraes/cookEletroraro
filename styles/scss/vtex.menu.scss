@@ -1,0 +1,202 @@
+@import './variables.scss';
+
+.menuContainer--menuPrincipal {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width:$large-tablet-size) {
+    .menuContainerNav--menuPrincipal {
+        .menuItem {
+            padding: 15px;
+            border-bottom: 1px solid $tertiary-color;
+            ;
+            background-color: $tertiary-color;
+        }
+
+        width: 100%;
+
+        .menuContainer {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 3%;
+        }
+    }
+}
+
+.submenuContainer {
+    .submenuWrapper--isOpen {
+        padding-top: 0;
+        border-top: 1px solid $tertiary-color;
+
+    }
+}
+
+.menuContainerNav {
+    width: 100%;
+}
+
+@media (min-width:$large-tablet-size) {
+    .menuItem--mainMenu {
+        .styledLinkContainer {
+            .styledLink {
+                .styledLinkContent--mainMenu {
+                    display: flex;
+                    align-items: center;
+
+                    &::before {
+                        content: url("assets/icons/icon-hamburguer.svg");
+                        height: 22px;
+                        width: 22px;
+                        margin-right: 3px;
+                    }
+
+                }
+
+            }
+        }
+
+    }
+
+}
+
+@media (max-width: $large-tablet-size) {
+    .menuItem--footerMenuItem {
+        .menuItemInnerDiv {
+            background-color: $tertiary-color;
+
+            .styledLinkContainer {
+                .submenuAccordion {
+                    background-color: $tertiary-color;
+                }
+            }
+        }
+
+    }
+
+}
+
+.submenuAccordion--footerSubmenu {
+    padding-left: 0px !important;
+
+    .menuContainerNav {
+        background-color: $tertiary-color;
+    }
+}
+
+.styledLinkContent--link__menu-institucional {
+    padding: 15px 12px;
+    background-color: $primary-color;
+    color: #fbfafa;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-radius: 4px;
+
+}
+
+.menuItem--link__menu-institucional--isOpen {
+    color: $primary-color;
+}
+
+.styledLinkIcon--text__institucional-title-menu-mobile {
+    display: none;
+}
+
+.menuItemInnerDiv--text__institucional-title-menu-mobile {
+    background-color: $tertiary-color;
+    padding: 7px;
+
+    .styledLinkContainer {
+        .styledLink {
+            .styledLinkContent {
+                color: $primary-color;
+            }
+
+            .accordionIcon {
+                color: $primary-color;
+            }
+        }
+    }
+}
+
+.accordionIcon--isClosed {
+    font-size: 0px;
+}
+
+
+.styledLinkContainer {
+    .styledLink {
+        .styledLinkContent {
+            .accordionIcon--isClosed {
+                width: 15px;
+                height: 15px;
+                margin: 0;
+                font-size: 0;
+                transform: rotate(0deg);
+                background-size: contain;
+                background-image: url("assets/icons/angulo-para-baixo.png");
+                background-repeat: no-repeat;
+                background-position: 50%;
+            }
+
+            .accordionIcon--isOpen {
+                width: 15px;
+                height: 15px;
+                margin: 0;
+                font-size: 0;
+                transform: rotate(180deg);
+                background-size: contain;
+                background-image: url("assets/icons/angulo-para-baixo.png");
+                background-repeat: no-repeat;
+                background-position: 50%;
+            }
+
+        }
+    }
+}
+
+.submenuAccordion--accordionPdp {
+    padding-left: 0 !important;
+}
+
+.menuItemInnerDiv--accordionPdp {
+    margin-bottom: 5px;
+
+    .styledLinkContainer {
+        margin: 0 !important;
+        padding: 10px;
+        border-bottom: 1px solid $primary-color;
+    }
+}
+
+@media(max-width:758px) {
+    .styledLinkContent--footerMenuItem {
+        padding: 15px 10px;
+    }
+
+    .menuItem--footerMenuItem {
+        border-bottom: 1px solid $cor7;
+    }
+}
+
+.menuItemInnerDiv--text__institucional-title-menu-mobile {
+    background-color: $tertiary-color;
+    border-radius: 4px;
+
+    .styledLinkContainer {
+        .styledLink {
+            .styledLinkContent {
+                color: $primary-color;
+            }
+        }
+    }
+}
+
+
+@media (max-width:758px) {
+    .styledLinkContent--footerMenuItem {
+        text-transform: uppercase;
+
+    }
+}

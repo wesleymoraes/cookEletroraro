@@ -1,0 +1,23 @@
+{
+    "rich-text#link-horario-01": {
+        "title": "Menu Link 01",
+        "props": {
+            "blockClass": "footerSubmenuItem",
+            "text": "##### [**Segunda a Sexta:** 09:00 às 20:00](/)"
+        }
+    },
+    "rich-text#link-horario-02": {
+        "title": "Menu Link 02",
+        "props": {
+            "blockClass": "footerSubmenuItem",
+            "text": "##### [**Sábado:** 09:00 às 16:00](/)"
+        }
+    },
+    "rich-text#link-horario-03": {
+        "title": "Menu Link 03",
+        "props": {
+            "blockClass": "footerSubmenuItem",
+            "text": "##### [**Domingo:** 14:00 às 20:00](/)"
+        }
+    }
+}

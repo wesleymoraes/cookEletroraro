@@ -1,0 +1,18 @@
+{
+  "menu-item#fale-conosco": {
+    "title": "Link 5",
+    "props": {
+      "blockClass": "link__menu-institucional",
+      "id": "menu-item-fale-conosco",
+      "type": "custom",
+      "iconId": null,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fale-conosco",
+        "noFollow": false,
+        "tagTitle": "Fale Conosco",
+        "text": "Fale Conosco"
+      }
+    }
+  }
+}

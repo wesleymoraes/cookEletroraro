@@ -1,0 +1,9 @@
+{
+  "form-input.textarea#mensage-fale-conosco": {
+    "props": {
+      "blockClass": "textarea__message-fale-conosco",
+      "pointer": "#/properties/message",
+      "placeholder": "Mensagem"
+    }
+  }
+}

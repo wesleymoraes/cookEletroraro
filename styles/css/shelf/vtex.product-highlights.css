@@ -1,0 +1,87 @@
+.productHighlightText[data-highlight-name="Frete Grátis"]{
+font-weight: bold;
+font-size: 11px;
+letter-spacing: 0.1em;
+line-height: 20px;
+text-transform: uppercase;
+color: #17b579;
+background: transparent;
+}
+
+.productHighlightWrapper[data-highlight-name="Frete Grátis"]{
+
+  top: unset;
+  bottom: -305px;
+  left: 137px;
+  width: max-content;
+  position: absolute;
+}
+.productHighlightWrapper[data-highlight-name="NOVIDADE"]{
+  height: 25px;
+  border-radius: 12.5px;
+  background: #21bbff;
+}
+.productHighlightText[data-highlight-name="NOVIDADE"]{
+
+  background: #21bbff;
+  font-weight: bold;
+  font-size: 10px;
+  letter-spacing: 0.25em;
+  line-height: 17px;
+  text-align: right;
+  color: #fff;
+
+}
+@media(min-width:1024px) and (max-width:1600px){
+  .productHighlightWrapper[data-highlight-name="Frete Grátis"]{
+    bottom: -300px;
+    left: 135px !important;
+
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--row-shelf-empty-search) .productHighlightWrapper[data-highlight-name="Frete Grátis"]{
+    bottom: -300px;
+    left: 130px !important;
+
+  }
+  /* :global(.vtex-search-result-3-x-searchResultContainer) .productHighlightWrapper[data-highlight-name="Frete Grátis"]{
+    bottom: -300px !important;
+    left: 117px !important;
+  } */
+
+}
+
+:global(.vtex-search-result-3-x-searchResultContainer) .productHighlightWrapper[data-highlight-name="Frete Grátis"]{
+  bottom: -330px;
+  left: 180px !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-rating-collection) .productHighlightWrapper[data-highlight-name="Frete Grátis"]{
+  display: flex !important;
+  position: initial !important;
+  margin-top: 38px;
+  padding: 0px;
+  padding-left: 0px;
+  padding-top: 3px;
+}
+:global(.vtex-stack-layout-0-x-stackItem--highlights) .productHighlightWrapper[data-highlight-name="Frete Grátis"] {
+  display: none;
+
+}
+
+@media(max-width: 1024px){
+  .productHighlightWrapper[data-highlight-name="Frete Grátis"]{
+    top: unset;
+    bottom: -337px;
+    left: 70px;
+    width: max-content;
+    padding: 6px 0px;
+  }
+  .productHighlightWrapper--collection {
+    padding: 6px 8px;
+  }
+  .productHighlightText[data-highlight-name="Frete Grátis"]{
+    font-size: 9px;
+  }
+}
+
+

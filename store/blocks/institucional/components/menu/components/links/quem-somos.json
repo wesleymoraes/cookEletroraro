@@ -1,0 +1,18 @@
+{
+  "menu-item#quem-somos": {
+    "title": "Link 1",
+    "props": {
+      "blockClass": "link__menu-institucional",
+      "id": "menu-item-quem-somos",
+      "type": "custom",
+      "iconId": null,
+      "itemProps": {
+        "type": "internal",
+        "href": "/quem-somos",
+        "noFollow": false,
+        "tagTitle": "Quem somos",
+        "text": "Quem somos"
+      }
+    }
+  }
+}

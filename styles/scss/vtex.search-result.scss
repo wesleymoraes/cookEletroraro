@@ -1,0 +1,272 @@
+@import './variables.scss';
+
+@media (min-width:$large-tablet-size) {
+    .searchResultContainer {
+        margin-bottom: 202px;
+    }
+
+    .filters--layout {
+        margin-top: 4em !important;
+        width: 17em;
+        padding: 1em;
+        margin: 0;
+        position: sticky;
+        top: 150px;
+        border: 1px solid $tertiary-color;
+        border-radius: 10px;
+        background-color: $tertiary-color;
+    }
+
+    .filters--layout {
+        margin-top: 3.9rem;
+
+        .filtersWrapper {
+            .filterTemplateOverflow {
+                :global(.vtex-slider-container) {
+                    :global(.vtex-slider) {
+                        :global(.vtex-slider__base) {
+                            :global(.vtex-slider__base-internal) {
+                                background-color: $secondary-color;
+
+                            }
+                        }
+                    }
+
+                    :global(.vtex-slider__selector-container) {
+                        :global(.vtex-slider__selector) {
+                            background-color: $secondary-color;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+    .gallery {
+        .galleryItem--normal {
+            :global(.vtex-product-summary-2-x-container) {
+                background-color: white;
+
+                :global(.vtex-product-summary-2-x-clearLink) {
+                    :global(.vtex-product-summary-2-x-element) {
+                        :global(.vtex-flex-layout-0-x-flexRow--addToCart) {
+                            display: none !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .galleryTitle--layout {
+        font-size: 24px;
+        font-weight: 700;
+        color: $secondary-color;
+    }
+}
+
+.accordionFilter {
+    .filterAccordionBreadcrumbs {
+        .filterBreadcrumbsContent {
+            .filterBreadcrumbsText {
+                color: $secondary-color;
+                margin-right: 10px;
+            }
+
+            .filterBreadcrumbsItem {
+                .filterBreadcrumbsItemName {
+                    color: $secondary-color;
+
+                }
+
+                .caretIcon {
+                    color: $secondary-color;
+                }
+            }
+        }
+    }
+}
+
+.filterButtonsBox {
+    .filterClearButtonWrapper {
+        :global(.vtex-button) {
+            border-radius: 10px;
+            background-color: $secondary-color;
+
+            :global(.vtex-button__label) {
+                color: $tertiary-color;
+                padding-top: 0.25em;
+                padding-bottom: 0.32em;
+            }
+        }
+    }
+
+    .filterApplyButtonWrapper {
+        :global(.vtex-button) {
+            border-radius: 10px;
+            background-color: $secondary-color;
+
+            :global(.vtex-button__label) {
+                color: $tertiary-color;
+                padding-top: 0.25em;
+                padding-bottom: 0.32em;
+            }
+        }
+    }
+}
+
+.gallery {
+    .galleryItem {
+        :global(.vtex-product-summary-2-x-container) {
+            background-color: white;
+
+            :global(.vtex-product-summary-2-x-clearLink) {
+                :global(.vtex-product-summary-2-x-element) {
+                    :global(.vtex-flex-layout-0-x-flexRow--sku-selector) {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+:global(.vtex-checkbox__inner-container) {
+    border-radius: 50%;
+    border: 1px solid grey;
+    align-items: center;
+    display: flex;
+    background-color: transparent;
+
+}
+
+:global(.vtex-checkbox__input) {
+    border: 1px solid;
+    background-color: transparent;
+}
+
+:global(.vtex__icon-check) {
+    background-color: $cor10;
+    color: $cor10;
+    border-radius: 50%;
+}
+
+:global(.vtex-checkbox__line-container) {
+    align-items: center;
+}
+
+:global(.vtex-checkbox__label) {
+    color: black;
+    font-size: 13px;
+
+}
+
+.orderBy--layout {
+    .orderByDropdown {
+        .orderByButton {
+            .filterPopupTitle {
+                color: $cor28;
+
+                .orderByText {
+                    color: $secondary-color;
+
+                }
+            }
+        }
+    }
+}
+
+.galleryLayoutSwitcher {
+    gap: 10px;
+
+
+    .galleryLayoutOptionButton {
+        &:first-child {
+            background-color: #F2F2F2;
+            padding: 0px 20px;
+            border-radius: 20px;
+
+        }
+    }
+
+}
+
+.buttonShowMore--layout {
+    margin: 40px 0px;
+
+    .buttonShowMore {
+
+        :global(.vtex-button) {
+            border-radius: 20px;
+
+            :global(.vtex-button__label) {
+                font-size: 0;
+
+                &::after {
+                    padding: 0.65em 7em;
+                    content: "VER MAIS PRODUTOS";
+                    font-size: 12px !important;
+                }
+            }
+        }
+    }
+}
+
+.totalProducts--layout {
+    color: $cor7;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.filters--layout {
+    .filtersWrapper {
+        .filter__container--title {
+            
+            .filterMessage {
+                font-weight: 600;
+                text-transform: uppercase;
+                &::after {
+                    content: url("assets/icons/IconsHeader/filter.svg");
+                    margin-left: 10px;
+                   // background-image: url("assets/icons/IconsHeader/filter.svg");
+                }
+            }
+        }
+    }
+}
+.filterBreadcrumbsText {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    &::after {
+        content: url("assets/icons/IconsHeader/filter.svg");
+        margin-left: 10px;
+       // background-image: url("assets/icons/IconsHeader/filter.svg");
+    } 
+}
+.accordionFilterContainer {
+    padding-left: 1rem!important;
+}
+.filterIcon {
+    color: black;
+}
+.filterBreadcrumbsItemName,
+.accordionFilterItemTitle{
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+}
+.filterTitle {
+    color: black;
+    font-weight: 500;
+}
+
+.filterTemplateOverflow {
+    max-height:max-content!important;
+    overflow-y: none!important;
+}
+.filterPopupButton   {
+    background-color:white ;
+    border-radius: 20px;
+}

@@ -1,0 +1,15 @@
+/*Colors */
+/* End colors */
+/* preto */
+/* cinza */
+/* branco */
+:global(.vtex-numeric-stepper-container) {
+  width: fit-content;
+  border-radius: 4px;
+}
+:global(.vtex-numeric-stepper-container) :global(.vtex-numeric-stepper__plus-button-container) :global(.vtex-numeric-stepper__plus-button) {
+  border-radius: 4px;
+}
+:global(.vtex-numeric-stepper-container) :global(.vtex-numeric-stepper__minus-button-container) :global(.vtex-numeric-stepper__minus-button) {
+  border-radius: 4px;
+}

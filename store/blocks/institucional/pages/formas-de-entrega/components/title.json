@@ -1,0 +1,9 @@
+{
+  "rich-text#titulo-institucional-formas-de-entregas": {
+    "title": "Title Principal",
+    "props": {
+      "text": "Formas De Entregas",
+      "blockClass": "text__title-institutional"
+    }
+  }
+}

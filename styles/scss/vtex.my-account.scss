@@ -1,0 +1,148 @@
+@import './variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Manrope', sans-serif !important;
+}
+
+:global(.discount-container-shelf) {
+    font-size: 14px;
+    color: $cor8;
+
+    :global(.discount-price-shelf) {
+        margin-bottom: 0px;
+
+    }
+}
+
+:global(.discount-message-shelf) {
+    margin: 0 2px;
+
+}
+
+:global(.text-block-container) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+}
+
+:global(.text-block-paragraph) {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: $secondary-color;
+    font-size: 20px;
+}
+
+:global(.text-block-span1) {
+    color: #707070;
+    font-size: 20px;
+}
+
+:global(.text-block-span2) {
+    color: $cor10 ;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+:global(.CustomInstallmentsContainer) {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    div {
+        p {
+            font-size: 12px;
+        }
+
+    }
+}
+
+:global(.CustomInstallmentsClosed),
+:global(.CustomInstallmentsOpen) {
+    border: none;
+    margin: 10px 0px;
+    background-color: transparent;
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+
+}
+
+@media (max-width:758px) {
+    :global(.vtex-product-price-1-x-installments) {
+        display: flex;
+        justify-content: center;
+        margin: 10px 0;
+    }
+
+    :global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        margin: auto;
+    }
+
+    :global(.discount-container),
+    :global(.pdp) {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    :global(.CustomInstallmentsClosed),
+    :global(.CustomInstallmentsOpen) {
+        display: flex;
+        justify-content: center;
+        margin: 10px auto;
+    }
+    :global(.CustomInstallmentsContainer){
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+    :global(.vtex-store-components-3-x-productNameContainer--quickview){
+      
+        text-align: center;
+    }
+    :global(.vtex-store-components-3-x-productBrand--quickview){
+        font-size: 24px!important;
+        font-weight: 600!important;
+        line-height: 25px!important;
+    }
+    :global(.FloatBottomH3){
+        font-size: 16px;
+    }
+
+}
+
+:global(.discount-container),
+:global(.pdp) {
+    margin-top: 30px;
+}
+
+:global(.pdp-message) {
+    color: #7D7B7B;
+    font-size: 13px;
+    margin: 5px 0;
+}
+
+:global(.pdp-price) {
+    color: #1B9A28;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+:global(.pdp-message-2) {
+    color: #7D7B7B;
+    font-size: 13px;
+    margin: 20px 0px 0px 0px;
+}
+
+:global(.pdp-messageParcelado) {
+    color: #000;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 5px 0;
+}

@@ -1,0 +1,24 @@
+{
+  "store.custom#pagina-institucional-prazos-de-envio": {
+    "blocks": [
+      "responsive-layout.desktop#banner",
+      "flex-layout.row#breadcrumb-institucional-prazos-de-envio",
+      "flex-layout.row#body-institucional-prazos-de-envio"
+    ]
+  },
+  "flex-layout.row#body-institucional-prazos-de-envio": {
+    "title": "Container Prazos de Envio",
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "container__pagina-institucional",
+        "container__pagina-institucional-prazos-de-envio"
+      ]
+    },
+    "children": [
+      "flex-layout.col#menu-institucional",
+      "flex-layout.col#container-content-and-title-institucional-prazos-de-envio"
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "flex-layout.row#footer-flags-01": {
+    "props": {
+      "blockClass": "footer-flags-01",
+      "fullWidth": true
+    },
+    "children": [ 
+      "flex-layout.col#flags-logo",
+      "flex-layout.col#flags"
+    ]
+  },
+  "flex-layout.col#flags-logo": {
+    "props": {
+      "blockClass": "social-flags-footer-logo"
+    },
+    "children": [
+      "image#logo"
+    ]
+  },
+  "image#logo":{
+    "props": {
+      "src": "assets/icons/IconsHeader/desktop-logo.png",
+      "maxHeight": "70px",
+      "maxWidth": "199px"
+    }
+  },
+  "flex-layout.col#flags": {
+    "props": {
+      "blockClass": "social-flags-footer"
+    },
+    "children": [
+      "rich-text#redes-sociais",
+      "image#youtube",
+      "image#facebook",
+      "image#instagram"
+     // "image#linkedin"
+    ]
+  },
+  "rich-text#redes-sociais": {
+    "props": {
+      "blockClass":"redes-sociais-flag",
+      "text": "Redes Sociais:"
+    }
+  },
+  "image#instagram": {
+    "title": "Icone Instragram",
+    "props": {
+      "maxWidth": "30px",
+      "maxHeight": "30px",
+      "width": "100%",
+      "alt": "Instagram Footer Logo",
+      "blockClass": [
+        "social-flags-icons"
+      ],
+      "srcSet": "assets/icons/Icons-Sociais/Instagram.png",
+      "link": {
+        "url": "https://www.instagram.com/",
+        "newTab": true
+      }
+    }
+  },
+  "image#facebook": {
+    "title": "Icone Facebook",
+    "props": {
+      "maxWidth": "30px",
+      "maxHeight": "30px",
+      "width": "100%",
+      "alt": "Facebook Footer Logo",
+      "blockClass": [
+        "social-flags-icons"
+      ],
+      "srcSet": "assets/icons/Icons-Sociais/Facebook.png",
+      "link": {
+        "url": "httpss://www.facebook.com/",
+        "newTab": true
+      }
+    }
+  },
+  "image#youtube": {
+    "title": "Icone Youtube",
+    "props": {
+      "maxWidth": "40px",
+      "maxHeight": "40px",
+      "width": "100%",
+      "alt": "Youtube Footer Logo",
+      "blockClass": [
+        "social-flags-icons"
+      ],
+      "srcSet": "assets/icons/Icons-Sociais/Youtube.png",
+      "link": {
+        "url": "https://www.youtube.com/",
+        "newTab": true
+      }
+    }
+  },
+  "image#linkedin": {
+    "title": "Icone Linkedin",
+    "props": {
+      "maxWidth": "30px",
+      "maxHeight": "30px",
+      "width": "100%",
+      "alt": "Linkedin Footer Logo",
+      "blockClass": [
+        "social-flags-icons"
+      ],
+      "srcSet": "assets/icons/Icons-Sociais/whatsapp.png",
+      "link": {
+        "url": "https://www.linkedin.com/company/",
+        "newTab": true
+      }
+    }
+  }
+}

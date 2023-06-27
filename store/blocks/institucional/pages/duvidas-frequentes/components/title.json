@@ -1,0 +1,9 @@
+{
+  "rich-text#titulo-institucional-duvidas-frequentes": {
+    "title": "Title Principal",
+    "props": {
+      "text": "Duvidas Frequentes",
+      "blockClass": "text__title-institutional"
+    }
+  }
+}

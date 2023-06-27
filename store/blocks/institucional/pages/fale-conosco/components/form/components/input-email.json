@@ -1,0 +1,9 @@
+{
+  "form-input.text#email-fale-conosco": {
+    "props": {
+      "blockClass": "input__email-fale-conosco",
+      "pointer": "#/properties/email",
+      "placeholder": "E-mail"
+    }
+  }
+}

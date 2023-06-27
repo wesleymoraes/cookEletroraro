@@ -1,0 +1,16 @@
+/*Colors */
+/* End colors */
+/* preto */
+/* cinza */
+/* branco */
+@media (max-width: 768px) {
+  .biggy-autocomplete {
+    width: 96vw;
+  }
+}
+@media (min-width: 768px) {
+  .biggy-autocomplete {
+    width: 100%;
+    max-width: 332px;
+  }
+}

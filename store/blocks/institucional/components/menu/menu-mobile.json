@@ -1,0 +1,62 @@
+{
+  "responsive-layout.mobile#menu-institucional-mobile": {
+    "title": "Mobile",
+    "children": [
+      "vtex.menu@2.x:menu#menu-institucional-mobile"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#menu-institucional-mobile": {
+    "props": {
+      "blockClass": "container__menu-institucional-mobile-menu-wrapper",
+      "orientation": "vertical"
+    },
+    "children": ["menu-item#institucional-mobile"]
+  },
+
+  "menu-item#institucional-mobile": {
+    "title": "Trigger menu",
+    "props": {
+      "id": "menu-item-category-institucional",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "text__institucional-title-menu-mobile",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Menus",
+        "text": "Navegue pelo menu"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#menu-institucional-mobile"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#menu-institucional-mobile": {
+    "title": "Submenu institucional",
+    "props": {
+      "blockClass": "container__institucional-accordion-mobile"
+    },
+    "children": ["vtex.menu@2.x:menu#itens-institucional-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#itens-institucional-mobile": {
+    "props": {
+      "blockClass": "container__menu-institucional-mobile-menu-list",
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#menu-institucional",
+      "menu-item#quem-somos",
+      "menu-item#politica-e-seguranca",
+      "menu-item#trabalhe-conosco",
+      "rich-text#menu-atendimento",
+      "menu-item#fale-conosco",
+      "menu-item#forma-de-entrega",
+      "menu-item#pagamento",
+      "menu-item#prazos-de-envio",
+      "menu-item#troca-e-devolucao",
+      "menu-item#duvidas-frequentes"
+    ]
+  }
+}

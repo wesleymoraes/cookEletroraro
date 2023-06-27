@@ -1,0 +1,15 @@
+@import './variables.scss';
+
+@media (max-width:$tablet-size) {
+    .biggy-autocomplete{
+        width: 96vw;
+    }  
+}
+@media (min-width:$tablet-size) {
+    .biggy-autocomplete{
+        width: 100%;
+        max-width: 332px;
+    } 
+  
+    
+}

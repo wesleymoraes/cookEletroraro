@@ -1,0 +1,24 @@
+{
+  "store.custom#pagina-institucional-quem-somos": {
+    "blocks": [
+      "responsive-layout.desktop#banner",
+      "flex-layout.row#breadcrumb-institucional-quem-somos",
+      "flex-layout.row#body-institucional-quem-somos"
+    ]
+  },
+  "flex-layout.row#body-institucional-quem-somos": {
+    "title": "Container Quem Somos",
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "container__pagina-institucional",
+        "container__pagina-institucional-quem-somos"
+      ]
+    },
+    "children": [
+      "flex-layout.col#menu-institucional",
+      "flex-layout.col#container-content-and-title-institucional-quem-somos"
+    ]
+  }
+}

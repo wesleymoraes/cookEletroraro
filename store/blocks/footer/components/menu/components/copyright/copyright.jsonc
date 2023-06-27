@@ -1,0 +1,60 @@
+{
+  "flex-layout.row#footer-copyright": {
+    "title": "Bloco do Copyright",
+    "children": [
+      "flex-layout.col#footer-copyright"
+    ],
+    "props": {
+      "blockClass": "footer-copyright-images",
+      "preventHorizontalStretch": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#footer-copyright": {
+    "children": [
+      "flex-layout.row#copyright-images"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#copyright-text": {
+    "title": "Texto Copyright",
+    "props": {
+      "text": "",
+      "blockClass": "copyrightText"
+    }
+  },
+  "flex-layout.row#copyright-images": {
+    "children": [
+      "image#wave-copyright",
+      "image#vtex-copyright"
+    ],
+    "props": {
+      "blockClass": "footer-copyright-images",
+      "preventHorizontalStretch": true,
+      "fullWidth": true,
+      "paddingBottom": {
+        "desktop": 4
+      }
+    }
+  },
+  "image#wave-copyright": {
+    "title": "Logo wave Footer",
+    "props": {
+      "maxHeight": "20px",
+      "alt": "Logo da wave",
+      "src": "assets/icons/metodos-pagamentos/logo-wave.svg",
+      "blockClass": "wave-image"
+    }
+  },
+  "image#vtex-copyright": {
+    "title": "Logo VTEX Footer",
+    "props": {
+      "maxHeight": "44px",
+      "maxWidth": "55px",
+      "alt": "Logo da VTEX",
+      "src": "assets/icons/metodos-pagamentos/logo-vtex.svg"
+    }
+  }
+}

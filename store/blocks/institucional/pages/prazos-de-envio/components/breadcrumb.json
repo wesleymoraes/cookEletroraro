@@ -1,0 +1,14 @@
+{
+  "flex-layout.row#breadcrumb-institucional-prazos-de-envio": {
+    "title": "Conteúdo Breadcrumb",
+    "props": {
+      "blockClass": ["container__breadcrumb-institucional"],
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true
+    },
+    "children": [
+      "breadcrumb"
+    ]
+  }
+}

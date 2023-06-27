@@ -1,0 +1,36 @@
+{
+  "flex-layout.row#footer-description": {
+    "props": {
+      "marginTop": {
+        "desktop": 8
+      },
+      "blockClass": "footer-description"
+    },
+    "children": [
+      "flex-layout.col#description-column"
+    ]
+  },
+  "flex-layout.col#description-column": {
+    "props": {
+      "blockClass": "description-column"
+    },
+    "children": [
+      "flex-layout.row#description-subtitle"
+    ]
+  },
+  "flex-layout.row#description-subtitle": {
+    "props": {
+      "blockClass": "description-subtitle"
+    },
+    "children": [
+      "rich-text#description-subtitle"
+    ]
+  },
+  "rich-text#description-subtitle": {
+    "title": "Footer Texto 02",
+    "props": {
+      "text": "© 2003, Cook Eletroraro - Todos os direitos reservados \n\n Shopping Ponteio: - Br 356, 2500 - 2º Piso - Santa Lúcia - Belo Horizonte - MG - (31) 3264-0008 / (31) 99201-0493 \n\n Praça da Liberdade: - Rua Sergipe, 719 - Funcionários - Belo Horizonte - MG - (31) 3281-4665 / (31) 98455-3055 \n\n Todas as marcas e suas imagens são de propriedade de seus respectivos donos. É vedada a reprodução, total ou parcial, \n de qualquer conteúdo sem expressa autorização.",
+      "blockClass": "footer-description-text"
+    }
+  }
+}

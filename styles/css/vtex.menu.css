@@ -1,0 +1,151 @@
+/*Colors */
+/* End colors */
+/* preto */
+/* cinza */
+/* branco */
+.menuContainer--menuPrincipal {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+  .menuContainerNav--menuPrincipal {
+    width: 100%;
+  }
+  .menuContainerNav--menuPrincipal .menuItem {
+    padding: 15px;
+    border-bottom: 1px solid transparent;
+    background-color: transparent;
+  }
+  .menuContainerNav--menuPrincipal .menuContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3%;
+  }
+}
+.submenuContainer .submenuWrapper--isOpen {
+  padding-top: 0;
+  border-top: 1px solid transparent;
+}
+
+.menuContainerNav {
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .menuItem--mainMenu .styledLinkContainer .styledLink .styledLinkContent--mainMenu {
+    display: flex;
+    align-items: center;
+  }
+  .menuItem--mainMenu .styledLinkContainer .styledLink .styledLinkContent--mainMenu::before {
+    content: url("assets/icons/icon-hamburguer.svg");
+    height: 22px;
+    width: 22px;
+    margin-right: 3px;
+  }
+}
+@media (max-width: 1024px) {
+  .menuItem--footerMenuItem .menuItemInnerDiv {
+    background-color: transparent;
+  }
+  .menuItem--footerMenuItem .menuItemInnerDiv .styledLinkContainer .submenuAccordion {
+    background-color: transparent;
+  }
+}
+.submenuAccordion--footerSubmenu {
+  padding-left: 0px !important;
+}
+.submenuAccordion--footerSubmenu .menuContainerNav {
+  background-color: transparent;
+}
+
+.styledLinkContent--link__menu-institucional {
+  padding: 15px 12px;
+  background-color: #FAFAFA;
+  color: #fbfafa;
+  text-transform: uppercase;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.menuItem--link__menu-institucional--isOpen {
+  color: #FAFAFA;
+}
+
+.styledLinkIcon--text__institucional-title-menu-mobile {
+  display: none;
+}
+
+.menuItemInnerDiv--text__institucional-title-menu-mobile {
+  background-color: transparent;
+  padding: 7px;
+}
+.menuItemInnerDiv--text__institucional-title-menu-mobile .styledLinkContainer .styledLink .styledLinkContent {
+  color: #FAFAFA;
+}
+.menuItemInnerDiv--text__institucional-title-menu-mobile .styledLinkContainer .styledLink .accordionIcon {
+  color: #FAFAFA;
+}
+
+.accordionIcon--isClosed {
+  font-size: 0px;
+}
+
+.styledLinkContainer .styledLink .styledLinkContent .accordionIcon--isClosed {
+  width: 15px;
+  height: 15px;
+  margin: 0;
+  font-size: 0;
+  transform: rotate(0deg);
+  background-size: contain;
+  background-image: url("assets/icons/angulo-para-baixo.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.styledLinkContainer .styledLink .styledLinkContent .accordionIcon--isOpen {
+  width: 15px;
+  height: 15px;
+  margin: 0;
+  font-size: 0;
+  transform: rotate(180deg);
+  background-size: contain;
+  background-image: url("assets/icons/angulo-para-baixo.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.submenuAccordion--accordionPdp {
+  padding-left: 0 !important;
+}
+
+.menuItemInnerDiv--accordionPdp {
+  margin-bottom: 5px;
+}
+.menuItemInnerDiv--accordionPdp .styledLinkContainer {
+  margin: 0 !important;
+  padding: 10px;
+  border-bottom: 1px solid #FAFAFA;
+}
+
+@media (max-width: 758px) {
+  .styledLinkContent--footerMenuItem {
+    padding: 15px 10px;
+  }
+  .menuItem--footerMenuItem {
+    border-bottom: 1px solid #B1B1B1;
+  }
+}
+.menuItemInnerDiv--text__institucional-title-menu-mobile {
+  background-color: transparent;
+  border-radius: 4px;
+}
+.menuItemInnerDiv--text__institucional-title-menu-mobile .styledLinkContainer .styledLink .styledLinkContent {
+  color: #FAFAFA;
+}
+
+@media (max-width: 758px) {
+  .styledLinkContent--footerMenuItem {
+    text-transform: uppercase;
+  }
+}

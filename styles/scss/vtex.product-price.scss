@@ -1,0 +1,23 @@
+@import './variables.scss';
+.listPrice--summary{
+    .listPriceValue--summary  {
+     text-decoration: line-through;
+     font-size: 14px;
+     color: $cor8;
+    } 
+ }
+ .spotPrice--summary{
+    .spotPriceValue--summary{
+       font-size: 24px; 
+       color: $secondary-color;
+    }
+ }
+ .installments--summary{
+    font-size: 14px;
+    color: $cor8;
+    margin-bottom: 10px;
+ }
+ .installments{
+   color: #7D7B7B;
+   font-size: 13px;
+ }

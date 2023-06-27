@@ -1,0 +1,9 @@
+{
+  "rich-text#titulo-institucional-politica-e-seguranca": {
+    "title": "Title Principal",
+    "props": {
+      "text": "Politica E Segurança",
+      "blockClass": "text__title-institutional"
+    }
+  }
+}

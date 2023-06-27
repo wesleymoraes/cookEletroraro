@@ -1,0 +1,322 @@
+@import './variables.scss';
+
+.flexRow--topbar {
+    background-color: $primary-color;
+
+    .flexRowContent {
+        height: 35px;
+        display: flex;
+        align-items: center;
+
+
+        .stretchChildrenWidth {
+            .flexCol {
+                height: fit-content;
+                align-items: center;
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+                justify-content: flex-end;
+            }
+
+        }
+    }
+}
+
+@media (max-width: $large-tablet-size) {
+    .flexRow--topbar {
+        .flexRowContent {
+            .stretchChildrenWidth {
+                .flexCol {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 10px;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+
+.flexRow--main-header-mobile {
+    .flexRowContent {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+.flexRow--main-header {
+    border-bottom: 1px solid $cor2;
+
+    .flexRowContent {
+        padding: 14px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.flexCol--componentsDesktop {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.flexRow--main-header {
+    .flexRowContent {
+        &:first-child {
+            .flexCol {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+        }
+    }
+}
+
+.flexRowContent--MenuDesktop {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.flexRow--containerDeals {
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.flexRow--deals {
+    .flexRowContent {
+        display: flex;
+        align-items: center;
+
+        &:first-child {
+            .stretchChildrenWidth {
+                max-width: fit-content;
+                margin-left: 10px;
+            }
+        }
+
+        &:last-child {
+            .stretchChildrenWidth {
+                width: 80% !important;
+            }
+        }
+    }
+}
+
+.flexRow--sku-cart {
+    .flexRowContent {
+        .stretchChildrenWidth {
+            :global(.vtex-button) {
+                background-color: $cor31 ;
+                border-radius: 25px;
+                padding: 8px 40px;
+            }
+        }
+    }
+}
+
+.flexRow--shelfBanner {
+    .flexRowContent {
+        align-items: center;
+
+        .stretchChildrenWidth {
+            &:first-child {
+                .flexCol {
+                    gap: 1.2em;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:758px) {
+    .flexRow--shelfBanner {
+        .flexRowContent {
+            .stretchChildrenWidth {
+                &:first-child {
+                    .flexCol {
+                        gap: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.flexRow--section-3 {
+    .flexRowContent {
+        .stretchChildrenWidth {
+            gap: 10px;
+        }
+    }
+}
+
+.flexRow--newsletterTitle {
+    background-color: $cor2;
+    padding-top: 30px;
+    margin-top: 20px;
+}
+
+.flexRow--newsletterFooter {
+    background-color: $cor2;
+    padding-bottom: 50px;
+
+    .flexRowContent {}
+}
+
+.flexRow--section-3-desktop {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    .flexRowContent {
+        gap: 12px;
+    }
+}
+
+.flexRow--fullbanner2 {
+    margin: 30px 0;
+}
+
+.flexRow--HomeSeo {
+    .flexRowContent {
+        display: flex;
+        flex-direction: column;
+
+        .stretchChildrenWidth {
+            width: 80% !important;
+            margin: auto;
+        }
+    }
+}
+
+.flexRow--footer-flags-01 {
+    background-color: $secondary-color ;
+
+    .flexRowContent {
+        padding: 8px 0;
+
+        .stretchChildrenWidth {
+            .flexCol--social-flags-footer {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                align-items: center;
+                gap: 10px;
+
+                .flexColChild {
+                    height: fit-content !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:758px) {
+    .flexCol--social-flags-footer-logo {
+        display: none;
+    }
+
+    .flexRow--footer-flags-01 {
+        background-color: $secondary-color ;
+
+        .flexRowContent {
+            padding: 15px 0;
+
+            .stretchChildrenWidth {
+                .flexCol--social-flags-footer {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 20px;
+
+                    .flexColChild {
+                        height: fit-content !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .flexRow--flag-list-1 {
+        background-color: #f1f1f1;
+        padding: 5px 0;
+
+        .flexRowContent {
+            display: flex;
+            justify-content: center;
+
+        }
+    }
+}
+
+.flexRow--footercol4 {
+    .flexRowContent {
+        display: flex;
+        flex-direction: column;
+
+        .stretchChildrenWidth {
+            width: 100% !important;
+        }
+    }
+}
+
+.flexRow--flag-list-1 {
+    .flexRowContent {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+}
+
+.flexRow--footer-styles {
+    background-color: $cor2;
+    padding-bottom: 20px;
+
+}
+
+.flexColChild--footerMenuDesktop {
+    margin-right: 10px;
+}
+
+.flexRowContent--searchtitle {
+    display: flex;
+    align-items: center;
+
+    .stretchChildrenWidth {
+        &:first-child {
+            width: fit-content !important;
+        }
+
+        &:last-child {
+            width: fit-content !important;
+        }
+    }
+}
+
+@media (max-width:758px) {
+    .flexRowContent--buybutton {
+        .stretchChildrenWidth {
+            :global(.vtex-button) {
+                width: 60%;
+                padding: 10px 5px;
+            }
+        }
+    }
+}
+
+.flexRowContent--buybutton {
+    .stretchChildrenWidth {
+        :global(.vtex-button) {
+            border-radius: 20px;
+            border: none;
+            background-color: $cor31;
+        }
+    }
+}

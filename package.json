@@ -1,0 +1,21 @@
+{
+  "name": "cookeletroraro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.57.1"
+  },
+  "scripts": {
+    "start": "gulp build && gulp watch"
+  },
+  "dependencies": {
+    "global": "^4.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0"
+  },
+  "repository": "https://github.com/wesleymoraes/BoilerplatePadrao.git",
+  "author": "wesley moraes <wesleymoraesserafim@gmail.com>"
+}

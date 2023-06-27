@@ -1,0 +1,9 @@
+{
+  "rich-text#titulo-institucional-prazos-de-envio": {
+    "title": "Title Principal",
+    "props": {
+      "text": "Prazos De Envio",
+      "blockClass": "text__title-institutional"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "menu-item#duvidas-frequentes": {
+    "title": "Link 10",
+    "props": {
+      "blockClass": "link__menu-institucional",
+      "id": "menu-item-duvidas-frequentes",
+      "type": "custom",
+      "iconId": null,
+      "itemProps": {
+        "type": "internal",
+        "href": "/duvidas-frequentes",
+        "noFollow": false,
+        "tagTitle": "Dúvidas Frequentes",
+        "text": "Dúvidas Frequentes"
+      }
+    }
+  }
+}

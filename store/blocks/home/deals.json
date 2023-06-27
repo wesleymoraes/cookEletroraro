@@ -1,17 +1,36 @@
 {
   "flex-layout.row#deals": {
     "children": [
-      "flex-layout.col#deals1",
-      "flex-layout.col#deals2",
-      "flex-layout.col#deals3",
-      "flex-layout.col#deals4"
+      "slider-layout#deals"
     ],
     "props": {
-      "blockClass": "deals"
+      "blockClass": "containerDeals",
+      "fullWidth": true
     }
   },
-
-  "flex-layout.col#deals1": {
+  "slider-layout#deals": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
+      "blockClass": "deals"
+    },
+    "children": [
+      "flex-layout.row#deals1",
+      "flex-layout.row#deals2",
+      "flex-layout.row#deals3",
+      "flex-layout.row#deals4"
+    ]
+  },
+  "flex-layout.row#deals1": {
+    "props": {
+      "blockClass": "deals"
+    },
     "children": [
       "image#deal1",
       "rich-text#deal1"
@@ -19,17 +38,20 @@
   },
   "image#deal1": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "src": "assets/icons/Icons-deals/barcode.svg",
       "maxHeight": "24px"
     }
   },
   "rich-text#deal1": {
     "props": {
-      "text": "Free shipping",
+      "text": "**5% DE DESCONTO À** \n  VISTA  ",
       "blockClass": "deals"
     }
   },
-  "flex-layout.col#deals2": {
+  "flex-layout.row#deals2": {
+    "props": {
+      "blockClass": "deals"
+    },
     "children": [
       "image#deal2",
       "rich-text#deal2"
@@ -37,17 +59,20 @@
   },
   "image#deal2": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/delivery-fast.png",
+      "src": "assets/icons/Icons-deals/credit-card.svg",
       "maxHeight": "24px"
     }
   },
   "rich-text#deal2": {
     "props": {
-      "text": "One day delivery",
+      "text": "**ATÉ 10X SEM** \n JUROS",
       "blockClass": "deals"
     }
   },
-  "flex-layout.col#deals3": {
+  "flex-layout.row#deals3": {
+    "props": {
+      "blockClass": "deals"
+    },
     "children": [
       "image#deal3",
       "rich-text#deal3"
@@ -55,17 +80,20 @@
   },
   "image#deal3": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/store.png",
+      "src": "assets/icons/Icons-deals/dinheiro-de-volta.svg",
       "maxHeight": "24px"
     }
   },
   "rich-text#deal3": {
     "props": {
-      "text": "Pick up in store",
+      "text": "**FRETE GRÁTIS** \n ACIMA DE R$300,00 - GRANDE BH",
       "blockClass": "deals"
     }
   },
-  "flex-layout.col#deals4": {
+  "flex-layout.row#deals4": {
+    "props": {
+      "blockClass": "deals"
+    },
     "children": [
       "image#deal4",
       "rich-text#deal4"
@@ -73,13 +101,13 @@
   },
   "image#deal4": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/coupon.png",
+      "src": "assets/icons/Icons-deals/metro-truck.svg",
       "maxHeight": "24px"
     }
   },
   "rich-text#deal4": {
     "props": {
-      "text": "Exclusive deals",
+      "text": "**CASHBACK** \n AME DIGITAL",
       "blockClass": "deals"
     }
   }

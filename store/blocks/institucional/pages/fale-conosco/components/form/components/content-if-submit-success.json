@@ -1,0 +1,30 @@
+{
+  "form-success#fale-conosco": {
+    "children": [
+      "flex-layout.row#container-content-fale-conosco-submit-has-success"
+    ]
+  },
+
+  "flex-layout.row#container-content-fale-conosco-submit-has-success": {
+    "title": "Container Do Conteudo Que Sera Exibido Ao Enviar O Formulario Com Sucesso",
+    "props": {
+      "blockClass": "container__submit-success-fale-conosco",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#text-success-submit-fale-conosco"
+    ]
+  },
+
+  "rich-text#text-success-submit-fale-conosco": {
+    "title": "Texto 01",
+    "props": {
+      "text": "Ficamos muito felizes com o seu contato. Responderemos em breve.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "text__submit-success-fale-conosco"
+    }
+  }
+}

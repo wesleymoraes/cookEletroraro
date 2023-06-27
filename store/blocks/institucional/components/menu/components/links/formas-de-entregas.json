@@ -1,0 +1,18 @@
+{
+  "menu-item#forma-de-entrega": {
+    "title": "Link 6",
+    "props": {
+      "blockClass": "link__menu-institucional",
+      "id": "menu-item-formas-de-entregas",
+      "type": "custom",
+      "iconId": null,
+      "itemProps": {
+        "type": "internal",
+        "href": "/formas-de-entregas",
+        "noFollow": false,
+        "tagTitle": "Formas de Entregas",
+        "text": "Formas de Entregas"
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+/*Colors */
+/* End colors */
+/* preto */
+/* cinza */
+/* branco */
+.productName {
+  font-size: 14px !important;
+  color: #000000;
+  font-weight: 700;
+}
+
+.unitPriceContainer {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.productPriceContainer .productPriceCurrency {
+  font-size: 12px;
+  margin-top: 5px;
+}
+.productPriceContainer .productPrice .price {
+  color: #00BF13 !important;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+@media (max-width: 758px) {
+  .productName {
+    font-size: 12px !important;
+  }
+  .unitPriceContainer {
+    font-size: 11px;
+  }
+  .productPriceContainer .productPriceCurrency {
+    font-size: 11px;
+  }
+  .productPriceContainer .productPrice .price {
+    font-size: 13px;
+  }
+  :global(.vtex-dropdown__container) {
+    border: 1px solid #BCBCBC !important;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+  }
+}
+:global(.vtex-dropdown__container) {
+  border: 1px solid #BCBCBC !important;
+  border-radius: 5px;
+  width: 98px;
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+}
+
+.removeButton {
+  background-image: url("assets/icons/IconsHeader/awesome-trash.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 13px;
+  height: 13px;
+}
+
+.deleteIcon {
+  display: none;
+}

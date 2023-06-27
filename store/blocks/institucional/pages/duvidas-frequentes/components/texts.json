@@ -1,0 +1,31 @@
+{
+  "flex-layout.col#container-content-and-title-institucional-duvidas-frequentes": {
+    "title": "Container Titulo E Conteudo",
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "container__conteudo-institucional"
+      ]
+    },
+    "children": [
+      "rich-text#titulo-institucional-duvidas-frequentes",
+      "rich-text#text-institucional-duvidas-frequentes-1",
+      "rich-text#text-institucional-duvidas-frequentes-2"
+    ]
+  },
+  "rich-text#text-institucional-duvidas-frequentes-1": {
+    "title": "Texto 01",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet. Id cumque quia est voluptatem quas quo magni nemo in commodi consequuntur cum veritatis nulla ea velit mollitia. Eum illo deleniti et delectus facilis ut nulla rerum sit enim perspiciatis et ipsam omnis ut quaerat optio et quia itaque.",
+      "blockClass": "text__institucional"
+    }
+  },
+
+  "rich-text#text-institucional-duvidas-frequentes-2": {
+    "title": "Texto 02",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet. Id cumque quia est voluptatem quas quo magni nemo in commodi consequuntur cum veritatis nulla ea velit mollitia. Eum illo deleniti et delectus facilis ut nulla rerum sit enim perspiciatis et ipsam omnis ut quaerat optio et quia itaque.",
+      "blockClass": "text__institucional"
+    }
+  }
+}

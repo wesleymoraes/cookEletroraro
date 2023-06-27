@@ -1,0 +1,9 @@
+{
+  "form-input.text#phone-fale-conosco": {
+    "props": {
+      "blockClass": "input__phone-fale-conosco",
+      "pointer": "#/properties/telephone",
+      "placeholder": "Telefone"
+    }
+  }
+}

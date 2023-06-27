@@ -1,0 +1,37 @@
+{
+  "rich-text#link-duvidas-01": {
+    "title": "Menu Link 01",
+    "props": {
+      "blockClass": "footerSubmenuItem",
+      "text": "##### [Políticas de Entrega](/)"
+    }
+  },
+  "rich-text#link-duvidas-02": {
+    "title": "Menu Link 02",
+    "props": {
+      "blockClass": "footerSubmenuItem",
+      "text": "##### [Politicas de Segurança](/)"
+    }
+  },
+  "rich-text#link-duvidas-03": {
+    "title": "Menu Link 03",
+    "props": {
+      "blockClass": "footerSubmenuItem",
+      "text": "##### [Privacidade e LGPD](/)"
+    }
+  },
+  "rich-text#link-duvidas-04": {
+    "title": "Menu Link 04",
+    "props": {
+      "blockClass": "footerSubmenuItem",
+      "text": "##### [Trocas e Devoluçoes](/)"
+    }
+  },
+  "rich-text#link-duvidas-05": {
+    "title": "Menu Link 05",
+    "props": {
+      "blockClass": "footerSubmenuItem",
+      "text": "##### [menu](/)"
+    }
+  }
+}

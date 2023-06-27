@@ -64,7 +64,7 @@
     "children": [
       "vtex.store-components:product-brand#summaryListDesktop",
       "product-summary-name#summaryListDesktop",
-      "flex-layout.col#productRating",
+      //"flex-layout.col#productRating",
       "flex-layout.row#productSpecifications"
     ]
   },
@@ -116,7 +116,7 @@
 
   "add-to-cart-button#buyNow": {
     "props": {
-      "text": "BUY NOW",
+      "text": "BUY",
       "isOneClickBuy": true,
       "onClickEventPropagation": "enabled",
       "blockClass": "buyNow"
@@ -131,8 +131,8 @@
   "stack-layout#summaryListDesktop": {
     "children": [
       "product-summary-image#summaryListDesktop",
-      "vtex.product-highlights@2.x:product-highlights#collection",
-      "modal-trigger#quickview" // Check quickview.jsonc
+      
+      "vtex.product-highlights@2.x:product-highlights#collection"
     ]
   },
   "product-summary-image#summaryListDesktop": {
@@ -158,6 +158,7 @@
   "stack-layout#summaryListMobile": {
     "children": [
       "product-summary-image#summaryListMobile",
+     
       "vtex.product-highlights@2.x:product-highlights#collection",
       "modal-trigger#quickview" // Check quickview.jsonc
     ]

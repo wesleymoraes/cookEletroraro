@@ -1,0 +1,9 @@
+{
+  "rich-text#titulo-institucional-trocas-e-devolucoes": {
+    "title": "Title Principal",
+    "props": {
+      "text": "Trocas E Devoluções",
+      "blockClass": "text__title-institutional"
+    }
+  }
+}

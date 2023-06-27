@@ -1,0 +1,17 @@
+@import 'variables.scss';
+
+.container {
+    margin-top: 20px;
+    
+    .arrow {
+        text-transform: lowercase;
+        .caretIcon {
+        }
+        .link{
+            &:focus{
+                color: $secondary-color;
+            }
+            
+        }
+    }
+}

@@ -1,13 +1,13 @@
 .nameContainer--summaryListDesktop {
   padding-top: 0.25rem;
   padding-bottom: 0.75rem;
-  justify-content: start;
+  justify-content: center;
 }
 
 .nameContainer--summaryListMobile {
   padding-top: 0.25rem;
   padding-bottom: 0.5rem;
-  justify-content: start;
+  justify-content: center;
 }
 
 .brandName--summaryListMobile {

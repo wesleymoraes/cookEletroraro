@@ -1,0 +1,21 @@
+{
+  "responsive-layout.desktop#banner": {
+    "children": ["flex-layout.row#image-banner-institucional"]
+  },
+  "flex-layout.row#image-banner-institucional": {
+    "title": "Banner principal",
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["container__banner-institucional"]
+    },
+    "children": ["image#banner-institucional"]
+  },
+
+  "image#banner-institucional": {
+    "title": "Imagem",
+    "props": {
+      "blockClass": "banner-institucional",
+      "src": "/arquivos/pensewave-institucional.jpg"
+    }
+  }
+}

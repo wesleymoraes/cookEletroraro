@@ -1,0 +1,105 @@
+@import './variables.scss';
+
+.container {
+    :global(.vtex-button) {
+        &:hover {
+            background-color: transparent;
+        }
+
+        :global(.vtex-button__label) {
+            padding: 0 10px 0 0;
+
+
+            &:hover {
+                background-color: transparent;
+            }
+
+            &::before {
+                content: url('assets/icons/IconsHeader/login.svg');
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 4px;
+
+            }
+        }
+    }
+}
+
+.label {
+    text-transform: initial;
+    color: $cor2;
+    font-size: 14px;
+}
+
+.box {
+    right: -175px !important;
+    border-radius: 20px;
+
+    .arrowUp {
+        right: 155px;
+        width: 1rem;
+    }
+
+    .contentContainer {
+        .content {
+            border-radius: 20px;
+        }
+    }
+}
+
+.loginOptionsContainer {
+    .options {
+        .formTitle {
+            font-weight: 600;
+            color: $secondary-color;
+        }
+
+        .optionsList {
+            .optionsListItem {
+                .emailPasswordOptionBtn {
+                    :global(.vtex-button) {
+                        border: 1px solid $cor32;
+                        border-radius: 20px;
+                        background-color: transparent;
+
+                        :global(.vtex-button__label) {
+                            font-size: 12px;
+                            color: $secondary-color ;
+                        }
+                    }
+
+
+                }
+            }
+        }
+    }
+}
+
+.inputContainer {
+    :global(.vtex-input) {
+        :global(.vtex-input-prefix__group) {
+            border: 1px solid $cor32;
+            border-radius: 20px;
+
+            :global(.vtex-styleguide-9-x-input) {
+                &::placeholder {
+                    font-size: 12px;
+                    color: $secondary-color !important;
+                }
+
+
+            }
+        }
+    }
+}
+
+.sendButton {
+    :global(.vtex-button) {
+        border-radius: 20px;
+    }
+}
+.formError {
+    background-color: transparent;
+    color: $cor10;
+}

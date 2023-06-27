@@ -1,0 +1,92 @@
+{
+    "menu-item#menuItem-1": {
+        "props": {
+            "id": "menu-item-custom",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "menuItem-1",
+                "text": "Categoria 1"
+            }
+        }
+    },
+    "menu-item#menuItem-2": {
+        "props": {
+            "id": "menu-item-custom",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "menuItem-2",
+                "text": "Categoria 2"
+            }
+        }
+    },
+    "menu-item#menuItem-3": {
+        "props": {
+            "id": "menu-item-custom",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "menuItem-3",
+                "text": "Categoria 3"
+            }
+        }
+    },
+    "menu-item#menuItem-4": {
+        "props": {
+            "id": "menu-item-custom",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "menuItem-4",
+                "text": "Categoria 4"
+            }
+        }
+    },
+    "menu-item#menuItem-5": {
+        "props": {
+            "id": "menu-item-custom",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "menuItem-5",
+                "text": "Categoria 5"
+            }
+        }
+    },
+    "menu-item#menuItem-6": {
+        "props": {
+            "id": "menu-item-custom",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "menuItem-6",
+                "text": "Categoria 6"
+            }
+        }
+    }
+}

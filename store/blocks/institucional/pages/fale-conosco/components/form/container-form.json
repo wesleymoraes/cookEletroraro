@@ -1,0 +1,33 @@
+{
+  "flex-layout.row#container-form-institucional-fale-conosco": {
+    "title": "Container Formulario",
+    "props": {
+      "blockClass": [
+        "container__form-fale-conosco"
+      ],
+      "fullWidth": true
+    },
+    "children": [
+
+    ]
+  },
+
+  "form#fale-conosco": {
+    "title": "Formulário Fale Conosco",
+    "props": {
+      "entity": "editar-aqui",
+      "schema": "editar-aqui",
+      "blockClass": "form__fale-conosco"
+    },
+    "blocks": [
+      "form-success#fale-conosco"
+    ],
+    "children": [
+      "form-input.text#name-fale-conosco",
+      "form-input.text#email-fale-conosco",
+      "form-input.text#phone-fale-conosco",
+      "form-input.textarea#mensage-fale-conosco",
+      "form-submit#contact-fale-conosco"
+    ]
+  }
+}

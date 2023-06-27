@@ -1,0 +1,17 @@
+{
+  "rich-text#breadcrumb-institucional-home": {
+    "title": "Texto Nome Da Home",
+    "props": {
+      "blockClass": "text__breadcrumb-institucional-home",
+      "text": "<a class='vtex-rich-text-0-x-breadcrumb-home' href='home'>Home</a>"
+    }
+  },
+
+  "image#breadcrumb-institucional-seta": {
+    "title": "Icone Seta",
+    "props": {
+      "blockClass": "icon__breadcrumb-institucional-seta",
+      "src": "/arquivos/icon-breadcrumb-seta.svg"
+    }
+  }
+}

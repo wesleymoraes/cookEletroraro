@@ -1,0 +1,9 @@
+{
+  "form-input.text#name-fale-conosco": {
+    "props": {
+      "blockClass": "input__name-fale-conosco",
+      "pointer": "#/properties/name",
+      "placeholder": "Nome"
+    }
+  }
+}

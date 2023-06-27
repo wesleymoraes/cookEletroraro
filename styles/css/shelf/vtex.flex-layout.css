@@ -1,0 +1,101 @@
+.flexRow--shelf-new-collection :global(.vtex-store-components-3-x-container){
+  width: 100%;
+  max-width: 1262px;
+  padding: 0px;
+  margin: 100px auto;
+}
+.flexRowContent--shelf-new-collection{
+  gap: 60px;
+  justify-content: space-between;
+}
+.flexRowContent--shelf-new-collection .stretchChildrenWidth{
+  width: 100% !important;
+  max-width: 630px !important;
+}
+.flexRowContent--shelf-new-collection .flexRowContent--sku-cart .stretchChildrenWidth{
+  width: fit-content !important;
+}
+.flexRowContent--shelf-new-collection .stretchChildrenWidth:first-child{
+  max-width: 570px;
+}
+
+.flexRowContent--sku-cart{
+  height: 45px;
+}
+
+.flexRowContent--result-department .flexRowContent--search-content .flexRowContent--sku-cart .stretchChildrenWidth:first-child{
+  width: fit-content !important;
+}
+.flexRowContent--sku-cart .stretchChildrenWidth:last-child{
+  width: 100% !important;
+}
+.flexRowContent--sku-cart :global(.vtex-button){
+  width: 100% ;
+  height: 47px;
+  background: #0ee03c;
+  border: none;
+
+
+}
+.flexRowContent--sku-cart :global(.vtex-button__label){
+font-weight: bold;
+font-size: 11px;
+letter-spacing: 0.3em;
+line-height: 13px;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+
+}
+.flexRowContent--container-rating-collection :global(.vtex-product-highlights-2-x-productHighlightWrapper--collection){
+  display: none;
+}
+.flexRowContent--container-rating-collection{
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+.flexColChild--productRating{
+  padding-bottom: 2px;
+}
+.flexCol--shelf-flags {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  height: auto;
+  width: fit-content;
+  z-index: 1;
+}
+@media(max-width: 1024px){
+  .flexRow--price-shelf{
+    margin-top: 8px;
+  }
+  .flexRowContent--sku-cart :global(.vtex-button){
+    width: 100% ;
+  }
+  .flexRow--shelf-new-collection :global(.vtex-store-components-3-x-container){
+    max-width: 90vw;
+    margin: 0px auto;
+  }
+  .flexRowContent--sku-cart{
+    display: flex;
+  }
+  .flexRowContent--sku-cart :global(.vtex-button__label){
+    padding: 0px;
+  }
+  .flexRowContent--container-rating-collection{
+    display: flex;
+  }
+  .flexRowContent--shelf-new-collection :global(.vtex-rich-text-0-x-container--title-shelf-new-collection){
+    display: none;
+  }
+  .flexColChild--shelf-new-collection :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf){
+    margin-top: 20px;
+  }
+  .flexRowContent--row-slider-lancamentos-home{
+    margin-top: 50px;
+  }
+  .flexRowContent--instragram-home{
+    margin-top: 60px;
+  }
+}

@@ -1,0 +1,160 @@
+@import './variables.scss';
+
+.searchBarContainer {
+    :global(.vtex-input) {
+        width: 45em !important;
+        height: 37px !important;
+
+        :global(.vtex-input-prefix__group) {
+            outline: none;
+            background: $secondary-color;
+            border: 1px solid #adaaaa;
+            border-radius: 19px;
+        }
+    }
+}
+
+.searchBarInnerContainer {
+    width: 100%;
+    max-width: 332px;
+    margin-left: 0;
+    padding-right: 1px;
+}
+
+@media (max-width:$large-tablet-size) {
+    .searchBarContainer {
+        .searchBarInnerContainer {
+            margin: auto;
+        }
+    }
+
+}
+
+@media (min-width:$large-tablet-size) {
+    .productNameContainer {
+        .productBrand {
+            display: block;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 18px;
+            color: $secondary-color;
+        }
+    }
+
+}
+
+.productNameContainer {
+    .productBrand {
+        display: block;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30px;
+        color: $secondary-color;
+    }
+}
+
+
+@media (max-width:$large-tablet-size) {
+    .productNameContainer {
+        .productBrand {
+            display: block;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 18px;
+            color: $secondary-color;
+        }
+    }
+
+}
+
+.infoCardContainer--info-card-example {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.skuSelectorContainer {
+    top: 55px;
+    position: relative;
+
+    .skuSelectorSubcontainer {
+        .skuSelectorNameContainer {
+            .skuSelectorTextContainer {
+                display: none;
+            }
+        }
+    }
+}
+.skuSelectorOptionsList {
+    align-items: start;
+    margin-left: 0;
+}
+.skuSelectorInternalBox {
+    border-radius: 20px;
+}
+
+.skuSelectorItem {
+
+    border: none !important;
+
+}
+
+.frameAround {
+    border: none !important;
+}
+
+.skuSelectorItemTextValue {
+    background-color: black !important;
+    font-size: 12px;
+    padding: 10px 20px;
+    border-radius: 20%;
+    color: white !important;
+}
+.shippingContainer {
+    :global(.vtex-button){
+        border-radius: 20px;
+        margin: auto;
+        :global(.vtex-button__label){
+            font-size:17px ;
+            text-transform:initial;
+            font-weight: 400;
+        }
+    }
+}
+@media (max-width:758px) {
+    .shippingContainer {
+        :global(.vtex-button){
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 60%;
+            border-radius: 20px;
+            margin: auto;
+            :global(.vtex-button__label){
+                font-size:17px ;
+                text-transform:initial;
+                font-weight: 400;
+            }
+        }
+        :global(.vtex-address-form__postalCode){
+            :global(.vtex-input){
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                
+                :global(.vtex-input-prefix__group){
+                    border-radius: 20px;
+                    width: 60%;
+                    margin: auto;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+    :global(.vtex-address-form__postalCode-forgottenURL){
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "menu-item#troca-e-devolucao": {
+    "title": "Link 9",
+    "props": {
+      "blockClass": "link__menu-institucional",
+      "id": "menu-item-trocas-e-devolucoes",
+      "type": "custom",
+      "iconId": null,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trocas-e-devolucoes",
+        "noFollow": false,
+        "tagTitle": "Trocas e Devoluções",
+        "text": "Trocas e Devoluções"
+      }
+    }
+  }
+
+}

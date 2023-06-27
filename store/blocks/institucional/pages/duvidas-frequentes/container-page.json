@@ -1,0 +1,37 @@
+{
+  "store.custom#pagina-institucional-duvidas-frequentes": {
+    "blocks": [
+      "responsive-layout.desktop#banner",
+      "flex-layout.row#breadcrumb-institucional-duvidas-frequentes",
+      "flex-layout.row#body-institucional-duvidas-frequentes"
+    ]
+  },
+  "flex-layout.row#body-institucional-duvidas-frequentes": {
+    "title": "Container Duvidas Frequentes",
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "container__pagina-institucional",
+        "container__pagina-institucional-duvidas-frequentes"
+      ]
+    },
+    "children": [
+      "flex-layout.col#menu-institucional",
+      "flex-layout.col#container-content-and-title-institucional-duvidas-frequentes"
+    ]
+  },
+  "flex-layout.col#container-content-and-title-institucional-duvidas-frequentes": {
+    "title": "Container Titulo E Conteudo",
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "container__conteudo-institucional-desktop"
+      ]
+    },
+    "children": [
+      "rich-text#titulo-institucional-duvidas-frequentes"
+    ]
+  }
+}
+

@@ -1,0 +1,9 @@
+{
+  "rich-text#titulo-institucional-quem-somos": {
+    "title": "Title Principal",
+    "props": {
+      "text": "Quem somos",
+      "blockClass": "text__title-institutional"
+    }
+  }
+}

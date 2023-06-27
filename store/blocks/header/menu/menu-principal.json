@@ -1,0 +1,64 @@
+{
+  "wave-menu-desktop": {
+    "props": {
+      "menuType": "theme5",
+      "departmentDef": true,
+      "department": "Departamentos",
+      "banners": true,
+      "bannerSize": {
+        "width": "274",
+        "height": "274"
+      },
+      "secondDef": true,
+      "thirdDef": true
+    }
+  },
+  "wave-menu-mobile": {
+    "props": {
+      "menuType": "theme5",
+      "burguerIcon": "assets/menu/burguer-icon.svg",
+      "backButton": "Voltar",
+      "seeAllButton": "Ver Tudo",
+      "header": {
+        "title": "Menu",
+        "closeIcon": "assets/menu/close-icon.svg",
+        "logoutDef": false,
+        "logoutLabel": "Não é você? Sair",
+        "items": [
+          {
+            "__editorItemTitle": "Meus favoritos",
+            "url": "/favoritos",
+            "loginType": false,
+            "iconDef": true,
+            "icon": "assets/menu/star-icon.svg"
+          },
+          {
+            "__editorItemTitle": "Faça login",
+            "url": "/login",
+            "loginType": true,
+            "iconDef": true,
+            "icon": "assets/menu/user-icon.svg"
+          }
+        ]
+      },
+      "footer": {
+        "items": [
+          {
+            "__editorItemTitle": "Nossas Lojas",
+            "url": "/nossas-lojas",
+            "loginType": false,
+            "iconDef": false
+          },
+          {
+            "__editorItemTitle": "Atendimento",
+            "url": "/atendimento",
+            "loginType": false,
+            "iconDef": false
+          }
+        ]
+      },
+      "secondDef": true,
+      "thirdDef": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+/*Colors */
+/* End colors */
+/* preto */
+/* cinza */
+/* branco */
+.link--componentListaDeCasamento {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+.link--componentListaDeCasamento .label {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  gap: 9px;
+}
+.link--componentListaDeCasamento .label::before {
+  content: url("assets/icons/IconsHeader/icone-de-presente.svg");
+  display: block;
+  margin-top: 1px;
+}

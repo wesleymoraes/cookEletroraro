@@ -1,0 +1,49 @@
+.stackItem--first :global(.vtex-product-summary-2-x-imageContainer){
+  min-height: 272px;
+}
+
+
+.stackItem--similars-shelf{
+  top: unset;
+  bottom: -30px;
+}
+:global(.vtex-similar-products-variants-0-x-title--similars-shelf){
+  display: none;
+}
+:global(.vtex-similar-products-variants-0-x-img--similars-shelf){
+  width: 55px;
+  height: 55px;
+}
+
+:global(.vtex-similar-products-variants-0-x-var-wrap--similars-shelf){
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 200px;
+  overflow: hidden;
+}
+:global(.vtex-similar-products-variants-0-x-var-wrap--similars-shelf) :first-child{
+  height: 65px;
+  width: 55px;
+  display: flex;
+  object-fit: cover;
+}
+
+@media(max-width: 375px){
+  :global(.vtex-similar-products-variants-0-x-var-wrap--similars-shelf){
+    max-width: 120px !important;
+  }
+}
+
+@media(max-width:640px){
+  .stackItem--first :global(.vtex-product-summary-2-x-imageContainer){
+    min-height: 210px;
+  }
+
+:global(.vtex-similar-products-variants-0-x-var-wrap--similars-shelf){
+  gap: 5px;
+  max-width: 175px;
+}
+}
+
+

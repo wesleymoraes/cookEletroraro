@@ -1,0 +1,88 @@
+/*Colors */
+
+$cor2: #FFFFFF;
+$cor4: #0000000D;
+$cor5: #00000029;
+$cor6: #00000017;
+$cor7: #B1B1B1;
+$cor8: #7D7B7B;
+$cor9: #F2F2F2;
+$cor10: #DC3E3F;
+$cor11: #707070;
+$cor12: #5E5E5E;
+$cor13: #0000009E;
+$cor14: #C1C4CC;
+$cor15: #161615;
+$cor16: #182E66;
+$cor17: #FF5F00;
+$cor18: #EB001B;
+$cor19: #F79E1B;
+$cor20: #F6D655;
+$cor21: #00A4E0;
+$cor22: #EF4123;
+$cor23: #0079BE;
+$cor24: #2557D6;
+$cor25: #85868A;
+$cor26: #43AB98;
+$cor27: #0066E4;
+$cor28: #F71963;
+$cor29: #00000024;
+$cor30: #00BF13;
+$cor31: #1B9A28;
+$cor32: #D8D8D8;
+$cor33: #BCBCBC;
+
+
+/* End colors */
+
+$primary-color: #FAFAFA;
+/* preto */
+$secondary-color: #000000;
+/* cinza */
+$tertiary-color: transparent;
+/* branco */
+$borderInputColorNewsletter: #000000;
+
+$borderInput-color: transparent;
+$success-color: green;
+
+$phone-size: 576px;
+$tablet-size: 768px;
+$large-tablet-size: 1024px;
+$desktop-size: 1200px;
+$large-desktop-size: 1400px;
+
+
+@mixin InputNewsletter {
+  border: 1px solid;
+  border-radius: 20px;
+  color: $secondary-color;
+  opacity: 1;
+}
+
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin container-large {
+  max-width: 1252px;
+  margin: auto;
+}
+
+@mixin height-fit-content {
+  height: -moz-fit-content;
+  height: -webkit-fit-content;
+  height: fit-content;
+}
+
+@mixin font-gotham-medium {
+  font-family: 'GothamMedium', sans-serif;
+}

@@ -1,0 +1,9 @@
+{
+  "rich-text#titulo-institucional-fale-conosco": {
+    "title": "Title Principal",
+    "props": {
+      "text": "Fale Conosco",
+      "blockClass": "text__title-institutional"
+    }
+  }
+}

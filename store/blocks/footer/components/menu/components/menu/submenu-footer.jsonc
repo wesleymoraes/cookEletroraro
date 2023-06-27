@@ -1,0 +1,147 @@
+{
+  "rich-text#duvidas-footer":{
+    "props": {
+      "text": "Horario de Atendimento"
+    }
+  },
+  "vtex.menu@2.x:submenu.accordion#institutional-submenu": {
+    "props": {
+      "blockClass": "footerSubmenu",
+      "orientation": "vertical"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#institutional-submenu-items"
+    ]
+  },
+  "vtex.menu@2.x:menu#institutional-submenu-items": {
+    "title": "Menu 01",
+    "props": {
+      "blockClass": "footerSubmenuItems",
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#link-institucional-01",
+      "rich-text#link-institucional-02"
+      //"rich-text#link-institucional-03",
+     // "rich-text#link-institucional-04",
+    //  "rich-text#link-institucional-05"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#atendimento-submenu": {
+    "props": {
+      "blockClass": "footerSubmenu",
+      "orientation": "vertical"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#atendimento-submenu-items"
+    ]
+  },
+  "vtex.menu@2.x:menu#atendimento-submenu-items": {
+    "title": "Menu 02",
+    "props": {
+      "blockClass": "footerSubmenuItems",
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#link-atendimento-01",
+      "rich-text#link-atendimento-02",
+      "rich-text#link-atendimento-03"
+    //  "rich-text#link-atendimento-04"
+      //"rich-text#link-atendimento-05"
+      //"rich-text#link-atendimento-06"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#departamentos-submenu": {
+    "props": {
+      "blockClass": "footerSubmenu",
+      "orientation": "vertical"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#departamentos-submenu-items"
+    ]
+  },
+  "vtex.menu@2.x:menu#departamentos-submenu-items": {
+    "title": "Menu 03",
+    "props": {
+      "blockClass": "footerSubmenuItems",
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#link-departamento-01",
+      "rich-text#link-departamento-02",
+      "rich-text#link-departamento-03",
+      "rich-text#link-departamento-04",
+      "rich-text#link-departamento-05"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#duvidas-submenu": {
+    "props": {
+      "blockClass": "footerSubmenu",
+      "orientation": "vertical"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#duvidas-submenu-items"
+    ]
+  },
+  "vtex.menu@2.x:menu#duvidas-submenu-items": {
+    "title": "Menu 04",
+    "props": {
+      "blockClass": "footerSubmenuItems",
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#link-duvidas-01",
+      "rich-text#link-duvidas-02",
+      "rich-text#link-duvidas-03",
+      "rich-text#link-duvidas-04"
+      //"rich-text#link-duvidas-05"
+    ]
+  },
+  
+
+  "vtex.menu@2.x:submenu.accordion#horario-submenu": {
+    "props": {
+      "blockClass": "footerSubmenu",
+      "orientation": "vertical"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#horario-submenu-items"
+    ]
+  },
+  "vtex.menu@2.x:menu#horario-submenu-items": {
+    "title": "Menu 04",
+    "props": {
+      "blockClass": "footerSubmenuItems",
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#link-horario-01",
+      "rich-text#link-horario-02",
+      "rich-text#link-horario-03"
+      //"rich-text#link-horario-04"
+      //"rich-text#link-horario-05"
+    ]
+  },
+
+
+
+  "vtex.menu@2.x:submenu.accordion#MetodosDePagamentos-submenu": {
+    "props": {
+      "blockClass": "footerSubmenu",
+      "orientation": "vertical"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#MetodosDePagamentos-submenu-items"
+    ]
+  },
+  "vtex.menu@2.x:menu#MetodosDePagamentos-submenu-items": {
+    "title": "Menu 04",
+    "props": {
+      "blockClass": "footerSubmenuItems",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#footer-flags"
+    ]
+  }
+}

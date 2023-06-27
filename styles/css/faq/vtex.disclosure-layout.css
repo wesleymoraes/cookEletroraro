@@ -27,7 +27,7 @@
 
 .content--answer[data-enter] {
   opacity: 1;
-  height: fit-content;
+  height: ;
   transform: translate3d(0, 0, 0);
 }
 

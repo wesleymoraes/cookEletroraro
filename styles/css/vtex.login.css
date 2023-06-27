@@ -1,0 +1,71 @@
+/*Colors */
+/* End colors */
+/* preto */
+/* cinza */
+/* branco */
+.container :global(.vtex-button):hover {
+  background-color: transparent;
+}
+.container :global(.vtex-button) :global(.vtex-button__label) {
+  padding: 0 10px 0 0;
+}
+.container :global(.vtex-button) :global(.vtex-button__label):hover {
+  background-color: transparent;
+}
+.container :global(.vtex-button) :global(.vtex-button__label)::before {
+  content: url("assets/icons/IconsHeader/login.svg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4px;
+}
+
+.label {
+  text-transform: initial;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+.box {
+  right: -175px !important;
+  border-radius: 20px;
+}
+.box .arrowUp {
+  right: 155px;
+  width: 1rem;
+}
+.box .contentContainer .content {
+  border-radius: 20px;
+}
+
+.loginOptionsContainer .options .formTitle {
+  font-weight: 600;
+  color: #000000;
+}
+.loginOptionsContainer .options .optionsList .optionsListItem .emailPasswordOptionBtn :global(.vtex-button) {
+  border: 1px solid #D8D8D8;
+  border-radius: 20px;
+  background-color: transparent;
+}
+.loginOptionsContainer .options .optionsList .optionsListItem .emailPasswordOptionBtn :global(.vtex-button) :global(.vtex-button__label) {
+  font-size: 12px;
+  color: #000000;
+}
+
+.inputContainer :global(.vtex-input) :global(.vtex-input-prefix__group) {
+  border: 1px solid #D8D8D8;
+  border-radius: 20px;
+}
+.inputContainer :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input)::placeholder {
+  font-size: 12px;
+  color: #000000 !important;
+}
+
+.sendButton :global(.vtex-button) {
+  border-radius: 20px;
+}
+
+.formError {
+  background-color: transparent;
+  color: #DC3E3F;
+}

@@ -1,0 +1,24 @@
+{
+  "store.custom#pagina-institucional-politica-e-seguranca": {
+    "blocks": [
+      "responsive-layout.desktop#banner",
+      "flex-layout.row#breadcrumb-institucional-politica-e-seguranca",
+      "flex-layout.row#body-institucional-politica-e-seguranca"
+    ]
+  },
+  "flex-layout.row#body-institucional-politica-e-seguranca": {
+    "title": "Container Política e Segurança",
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "container__pagina-institucional",
+        "container__pagina-institucional-politica-e-seguranca"
+      ]
+    },
+    "children": [
+      "flex-layout.col#menu-institucional",
+      "flex-layout.col#container-content-and-title-institucional-politica-e-seguranca"
+    ]
+  }
+}

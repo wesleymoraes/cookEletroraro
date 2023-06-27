@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#breadcrumb-institucional-trocas-e-devolucoes": {
+    "title": "Conteúdo Breadcrumb",
+    "props": {
+      "blockClass": [
+        "container__breadcrumb-institucional"
+      ],
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true
+    },
+    "children": [
+      "breadcrumb"
+    ]
+  }
+}

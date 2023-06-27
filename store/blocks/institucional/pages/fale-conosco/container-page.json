@@ -1,0 +1,24 @@
+{
+  "store.custom#pagina-institucional-fale-conosco": {
+    "blocks": [
+      "responsive-layout.desktop#banner",
+      "flex-layout.row#breadcrumb-institucional-fale-conosco",
+      "flex-layout.row#body-institucional-fale-conosco"
+    ]
+  },
+  "flex-layout.row#body-institucional-fale-conosco": {
+    "title": "Container Fale Conosco",
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "container__pagina-institucional",
+        "container__pagina-institucional-fale-conosco"
+      ]
+    },
+    "children": [
+      "flex-layout.col#menu-institucional",
+      "flex-layout.col#container-content-and-title-institucional-fale-conosco"
+    ]
+  }
+}

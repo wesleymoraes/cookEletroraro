@@ -7,10 +7,10 @@
       "marginBottom": 4
     },
     "children": [
-      "product-selling-price"
+      "product-list-price"
     ]
   },
-
+  
   "flex-layout.row#list-price-savings": {
     "props": {
       "colGap": 2,
@@ -20,7 +20,7 @@
       "marginTop": 5
     },
     "children": [
-      "product-list-price",
+      "product-selling-price",
       "product-price-savings"
     ]
   }

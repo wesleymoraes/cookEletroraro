@@ -1,0 +1,19 @@
+{
+  "menu-item#pagamento": {
+    "title": "Link 7",
+    "props": {
+      "blockClass": "link__menu-institucional",
+      "id": "menu-item-pagamento",
+      "type": "custom",
+      "iconId": null,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pagamento",
+        "noFollow": false,
+        "tagTitle": "Pagamento",
+        "text": "Pagamento"
+      }
+    }
+  }
+
+}

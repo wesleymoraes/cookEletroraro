@@ -1,0 +1,24 @@
+{
+  "store.custom#pagina-institucional-pagamento": {
+    "blocks": [
+      "responsive-layout.desktop#banner",
+      "flex-layout.row#breadcrumb-institucional-pagamento",
+      "flex-layout.row#body-institucional-pagamento"
+    ]
+  },
+  "flex-layout.row#body-institucional-pagamento": {
+    "title": "Container Pagamento",
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "container__pagina-institucional",
+        "container__pagina-institucional-pagamento"
+      ]
+    },
+    "children": [
+      "flex-layout.col#menu-institucional",
+      "flex-layout.col#container-content-and-title-institucional-pagamento"
+    ]
+  }
+}

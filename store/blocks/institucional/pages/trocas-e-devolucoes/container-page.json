@@ -1,0 +1,33 @@
+{
+  "store.custom#pagina-institucional-trocas-e-devolucoes": {
+    "blocks": [
+      "responsive-layout.desktop#banner",
+      "flex-layout.row#breadcrumb-institucional-trocas-e-devolucoes",
+      "flex-layout.row#body-institucional-trocas-e-devolucoes"
+    ]
+  },
+
+  "flex-layout.row#body-institucional-trocas-e-devolucoes": {
+    "title": "Container Trocas E Devoluções",
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "container__pagina-institucional",
+        "container__pagina-institucional-trocas-e-devolucoes"
+      ]
+    },
+    "children": [
+      "flex-layout.col#menu-institucional",
+      "flex-layout.col#container-content-and-title-institucional-trocas-e-devolucoes"
+    ]
+  },
+
+  "flex-layout.col#menu-institucional": {
+    "title": "Menus Laterais da Página",
+    "children": [
+      "responsive-layout.desktop#menu-institucional-desktop",
+      "responsive-layout.mobile#menu-institucional-mobile"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+@import './variables.scss';
+.productHighlightWrapper--collection {
+    position: absolute;
+    top: -30px;
+    left: -10px;
+    width: 200px;
+    z-index: 100;
+    .productHighlightText{
+        background-color: $primary-color;
+        padding: 6px;
+        border-radius: 10px;
+        color: $tertiary-color;
+    }
+}

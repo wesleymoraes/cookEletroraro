@@ -1,0 +1,37 @@
+{
+  "rich-text#link-institucional-01": {
+    "title": "Menu Link 01",
+    "props": {
+      "blockClass": "footerSubmenuItem",
+      "text": "##### [Quem Somos](/)"
+    }
+  },
+  "rich-text#link-institucional-02": {
+    "title": "Menu Link 02",
+    "props": {
+      "blockClass": "footerSubmenuItem",
+      "text": "##### [Nossas Lojas](/)"
+    }
+  },
+  "rich-text#link-institucional-03": {
+    "title": "Menu Link 03",
+    "props": {
+      "blockClass": "footerSubmenuItem",
+      "text": "##### [Envio e Entrega](/)"
+    }
+  },
+  "rich-text#link-institucional-04": {
+    "title": "Menu Link 05",
+    "props": {
+      "blockClass": "footerSubmenuItem",
+      "text": "##### [Troca e Devolução](/)"
+    }
+  },
+  "rich-text#link-institucional-05": {
+    "title": "Menu Link 06",
+    "props": {
+      "blockClass": "footerSubmenuItem",
+      "text": "##### [Perguntas Frequentes](/)"
+    }
+  }
+}

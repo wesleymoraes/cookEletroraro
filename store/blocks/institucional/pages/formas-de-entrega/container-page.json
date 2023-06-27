@@ -1,0 +1,24 @@
+{
+  "store.custom#pagina-institucional-formas-de-entregas": {
+    "blocks": [
+      "responsive-layout.desktop#banner",
+      "flex-layout.row#breadcrumb-institucional-formas-de-entregas",
+      "flex-layout.row#body-institucional-formas-de-entregas"
+    ]
+  },
+  "flex-layout.row#body-institucional-formas-de-entregas": {
+    "title": "Container Formas de Entregas",
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "container__pagina-institucional",
+        "container__pagina-institucional-formas-de-entregas"
+      ]
+    },
+    "children": [
+      "flex-layout.col#menu-institucional",
+      "flex-layout.col#container-content-and-title-institucional-formas-de-entregas"
+    ]
+  }
+}

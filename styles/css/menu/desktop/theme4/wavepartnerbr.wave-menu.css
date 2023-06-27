@@ -1,0 +1,409 @@
+/* QUARTO TEMA <theme4> ESTILO Baumgarten */
+
+.theme4.desktop-navbar {
+  z-index: 999;
+  position: relative;
+  background-color: transparent;
+}
+
+.theme4 .desktop-menuItem,
+.theme4 .desktop-menuSecondItemsWrapper,
+.theme4 .desktop-menuThirdItemsWrapper,
+.theme4 .desktop-departmentsItem .desktop-menuItemsWrapper,
+.theme4 .desktop-departmentsItem .desktop-menuItems {
+  transition: 0.4s;
+}
+
+.theme4 .desktop-menuItems {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background-color: white;
+}
+.theme4 .desktop-menuSecondItems,
+.theme4 .desktop-menuThirdItems,
+.theme4 .desktop-departmentItems,
+.theme4 .desktop-departmentsItem .desktop-menuItems {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  background: transparent;
+  overflow: hidden;
+  list-style: none;
+}
+
+.theme4 .desktop-menuSecondItemsContainer {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.theme4 .desktop-menuSecondItems {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  position: relative;
+  align-content: flex-start;
+  overflow: hidden;
+  row-gap: 30px;
+  max-height: 350px;
+}
+
+.theme4 .desktop-menuItem:hover .desktop-menuSecondItems {
+  overflow-y: auto;
+}
+
+.theme4 .desktop-menuItemsTitle--Third,
+.theme4 .desktop-menuSecondItem .desktop-arrowIcon {
+  display: none;
+}
+
+.theme4 .desktop-departmentsItem .desktop-menuSecondItems::before {
+  content: "";
+  background-color: transparent;
+  width: 20px;
+  height: 100%;
+  position: absolute;
+  left: -18px;
+  z-index: 9999;   
+  top: 0;
+}
+
+.theme4 .desktop-menuItem,
+.theme4 .desktop-departmentsItem {
+  font-size: 13px;
+  color: rgb(0, 0, 0);
+  border: 0px;
+  text-transform: initial;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.theme4 .desktop-menuItemsTitle--Second,
+.theme4 .desktop-menuItemsTitle--Third {
+  padding: 0px 20px;
+  color: black;
+  font-size: 13px;
+}
+
+.theme4 .desktop-menuItemsTitle--Second {
+  display: none;
+}
+
+.theme4 .desktop-menuItemLink,
+.theme4 .desktop-departmentsItemLink {
+  padding: 32px 0px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+}
+
+.theme4 .desktop-menuItemLink,
+.theme4 .desktop-menuItemLinkText {
+  display: flex;
+  gap: 10px;
+}
+
+.theme4 .desktop-menuItemLink {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+
+.theme4 .desktop-departmentsItem .desktop-menuItemLink {
+  align-items: initial;
+}
+
+.theme4 .desktop-menuItemLinkText {
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+}
+
+.theme4 .desktop-departmentsItem .desktop-menuItemLinkText {
+  text-align: left;
+}
+
+.theme4 .desktop-menuItemLink::after,
+.theme4 .desktop-departmentsItemLink::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  height: 4px;
+  left: 0px;
+  right: 0px;
+  transition: all 0.3s ease 0s;
+  text-align: center;
+  transform: scaleX(0.2);
+  background: transparent;
+  z-index: 1000;
+}
+
+.theme4 .desktop-menuItem:hover .desktop-menuItemLink::after,
+.theme4 .desktop-departmentsItem:hover .desktop-departmentsItemLink::after {
+  transform: scaleX(1);
+  background: rgb(0, 0, 0)
+}
+
+.theme4 .desktop-menuItemLink .desktop-arrowIconContent,
+.theme4 .desktop-departmentsItem .desktop-menuIcon {
+  display: none;
+}
+
+.theme4 .desktop-departmentsItem .desktop-menuItemLink .desktop-arrowIconContent {
+  display: block;
+}
+
+.theme4 .desktop-menuIcon {
+  max-width: 22px;
+}
+
+.theme4 .desktop-menuIconContent {
+  display: flex;
+  height: 20px;
+  text-align: center;
+  align-items: flex-end;
+}
+
+.theme4 .desktop-menuSecondItems .desktop-menuSecondItemLinkText,
+.theme4 .desktop-menuSecondItems .desktop-menuThirdItemLinkText {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.theme4 .desktop-departmentsItem .desktop-departmentsItemLink {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.theme4 .desktop-departmentsItem .desktop-menuItemLink::after {
+  display: none;
+}
+
+.theme4 .desktop-menuSecondItemsWrapper {
+  left: 0px;
+  top: 100%;
+}
+
+.theme4 .desktop-menuSecondItemsWrapper {
+  width: 100%;
+}
+
+.theme4 .desktop-bannerContent {
+  height: 100%;
+  display: grid;
+  align-items: center;
+}
+
+.theme4 .desktop-menuSecondItemsWrapper {
+  height: 0;
+  position: absolute;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 12px 12px;
+  visibility: hidden;
+  pointer-events: none;
+  display: flex;
+  flex-flow: row;
+  padding: 0;
+  padding: 0 3vw;
+}
+
+.theme4 .desktop-menuItem .desktop-bannerImage {
+  visibility: visible;
+  opacity: 0;
+  transition: all 0.3s ease 0s;
+}
+
+.theme4 .desktop-menuItem:hover .desktop-menuSecondItemsWrapper {
+  visibility: visible;
+  pointer-events: auto;
+  height: 432px;
+}
+
+.theme4 .desktop-menuItem:hover .desktop-menuSecondItemsWrapper {
+  padding: 4vh 3vw;
+}
+
+.theme4 .desktop-menuItem:hover .desktop-bannerImage {
+  visibility: visible;
+  opacity: 1;
+}
+
+.theme4 .desktop-menuSecondItems::-webkit-scrollbar,
+.theme4 .desktop-menuThirdItems::-webkit-scrollbar,
+.theme4 .desktop-departmentsItem .desktop-menuItems::-webkit-scrollbar {
+    width: 10px;              
+}
+
+.theme4 .desktop-menuSecondItems::-webkit-scrollbar-track, 
+.theme4 .desktop-menuThirdItems::-webkit-scrollbar-track,
+.theme4 .desktop-departmentsItem .desktop-menuItems::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+.theme4 .desktop-menuSecondItems::-webkit-scrollbar-thumb,
+.theme4 .desktop-menuThirdItems::-webkit-scrollbar-thumb,
+.theme4 .desktop-departmentsItem .desktop-menuItems::-webkit-scrollbar-thumb {
+  background-color: #D8D8D8;
+  border-radius: 20px;
+  border: 2px solid #fff;
+}
+
+.theme4 .desktop-menuItem--bannerOnly {
+  position: relative;
+}
+
+.theme4 .desktop-menuItem--bannerOnly .desktop-menuSecondItemsWrapper {
+  left: unset;
+  right: 0;
+  width: fit-content;
+}
+.theme4 .desktop-departmentsItem .desktop-menuItem--bannerOnly .desktop-menuSecondItemsWrapper {
+  left: 250px;
+  right: unset;
+  width: fit-content;
+}
+
+.theme4 .desktop-menuSecondItem, 
+.theme4 .desktop-menuThirdItem,
+.theme4 .desktop-departmentsItem .desktop-menuItem {
+  padding: 0;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
+.theme4 .desktop-departmentsItem .desktop-menuItemsWrapper .desktop-menuItemLink {
+  color: rgb(0, 0, 0);
+}
+
+.theme4 .desktop-departmentsItem .desktop-menuItem:hover .desktop-menuItemLink {
+  color: rgb(44, 85, 204);
+  font-weight: bold;
+  border-color: transparent;
+}
+
+.theme4 .desktop-menuThirdItemLink {
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  color: rgb(11, 31, 63);
+  display: block;
+  padding-bottom: 10px;
+}
+
+.theme4 .desktop-menuSecondItemLink {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: left;
+  color: rgb(11, 31, 63);
+  text-decoration: none;
+  display: flex;
+  padding-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.theme4 .desktop-menuSeeAllButton {
+  color: rgb(11, 31, 63);
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+  padding-bottom: 15px;
+}
+
+.theme4 .desktop-menuSeeAllButton--Second {
+  display: none;
+}
+ 
+.theme4 .desktop-arrowIconContent {
+  display: flex;
+}
+
+.theme4 .desktop-arrowIcon {
+  max-width: 8px;
+}
+
+
+
+.theme4 .desktop-departmentsItem .desktop-menuItemsWrapper {
+  height: 0;
+  position: absolute;
+  width: 100%;
+  visibility: hidden;
+  pointer-events: none;
+  display: flex;
+  flex-flow: row;
+  top: 100%;
+  left: 0;
+}
+
+.theme4 .desktop-departmentsItem .desktop-menuItems {
+  width: 300px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.theme4 .desktop-departmentsItem .desktop-menuItems {
+  flex-direction: column;
+  justify-content: initial;
+  width: 250px;
+  background-color: white;
+}
+
+.theme4 .desktop-departmentsItem .desktop-menuItem {
+  width: 100%;
+  display: block;
+  position: initial;
+  border-radius: 0;
+}
+
+.theme4 .desktop-departmentsItem .desktop-menuItemLink {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 10px;
+  font-weight: bold;
+  padding: 10px 22px;
+}
+
+.theme4 .desktop-departmentsItem:hover .desktop-menuItemsWrapper {
+  height: 432px;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.theme4 .desktop-departmentsItem .desktop-menuSecondItemsWrapper {
+  top: 0;
+  left: 250px;
+  width: calc(100% - 250px);
+}
+
+.theme4 .desktop-departmentsItem .desktop-departmentsIcon {
+  fill: black;
+  padding-right: 8px;
+}
+
+/* FIM DO QUARTO TEMA </theme4> */
