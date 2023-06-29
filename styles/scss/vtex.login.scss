@@ -2,12 +2,13 @@
 
 .container {
     :global(.vtex-button) {
+        border: 0;
         &:hover {
             background-color: transparent;
         }
 
         :global(.vtex-button__label) {
-            padding: 0 10px 0 0;
+            padding: 0 !important;
 
 
             &:hover {
@@ -20,7 +21,6 @@
                 align-items: center;
                 justify-content: center;
                 margin-top: 4px;
-
             }
         }
     }
@@ -29,7 +29,8 @@
 .label {
     text-transform: initial;
     color: $cor2;
-    font-size: 14px;
+    font-size: 13px;
+    text-align: left;
 }
 
 .box {

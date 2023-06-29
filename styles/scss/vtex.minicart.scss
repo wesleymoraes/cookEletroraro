@@ -6,6 +6,7 @@
             padding: 0;
 
             :global(.vtex-button) {
+                border: 0;
                 &:hover {
                     background-color: transparent;
                 }
@@ -18,6 +19,7 @@
                 }
 
                 :global(.vtex-button__label) {
+                    padding: 0;
                     &::after {
                         content: url('assets/icons/IconsHeader/minicart.svg');
 

@@ -50,7 +50,7 @@
   align-items: center;
   height: fit-content;
   flex-direction: row;
-  gap: 20px;
+  gap: 18px;
 }
 
 .flexRow--main-header .flexRowContent:first-child .flexCol {
@@ -224,4 +224,19 @@
   border-radius: 20px;
   border: none;
   background-color: #1B9A28;
+}
+
+.flexRow--main-header .flexRowContent--main-header .stretchChildrenWidth {
+  width: calc(100% - 513px) !important;
+}
+.flexRow--main-header .flexRowContent--main-header .stretchChildrenWidth:first-child {
+  width: 150px !important;
+}
+.flexRow--main-header .flexRowContent--main-header .stretchChildrenWidth:last-child {
+  width: 363px !important;
+}
+
+.flexCol--searchBar .flexColChild--searchBar {
+  width: 100%;
+  display: block;
 }

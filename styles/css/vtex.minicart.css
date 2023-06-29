@@ -6,11 +6,17 @@
 .minicartWrapperContainer .minicartContainer .openIconContainer {
   padding: 0;
 }
+.minicartWrapperContainer .minicartContainer .openIconContainer :global(.vtex-button) {
+  border: 0;
+}
 .minicartWrapperContainer .minicartContainer .openIconContainer :global(.vtex-button):hover {
   background-color: transparent;
 }
 .minicartWrapperContainer .minicartContainer .openIconContainer :global(.vtex-button) .minicartIconContainer .cartIcon {
   display: none;
+}
+.minicartWrapperContainer .minicartContainer .openIconContainer :global(.vtex-button) :global(.vtex-button__label) {
+  padding: 0;
 }
 .minicartWrapperContainer .minicartContainer .openIconContainer :global(.vtex-button) :global(.vtex-button__label)::after {
   content: url("assets/icons/IconsHeader/minicart.svg");

@@ -1,0 +1,18 @@
+.pixelStyle {
+    display: none;
+}
+
+[class*="searchBarContainer"] [aria-expanded="true"] :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input),
+[class*="searchBarContainer"] [aria-expanded="true"] :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) {
+    border-bottom-left-radius: 0;
+}
+[class*="searchBarContainer"] [aria-expanded="true"] :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) + :global(.vtex-input__suffix),
+[class*="searchBarContainer"] [aria-expanded="true"] :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) + :global(.vtex-input__suffix) {
+    border-bottom-right-radius: 0;
+}
+
+[class*="searchBarContainer"] [class*="portalContainer"],
+[class*="searchBarContainer"] [class*="portalContainer"] > div > div,
+[class*="searchBarContainer"] [class*="portalContainer"] > div > div > div {
+    position: static !important;
+}

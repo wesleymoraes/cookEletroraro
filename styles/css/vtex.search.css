@@ -8,9 +8,19 @@
     width: 96vw;
   }
 }
-@media (min-width: 768px) {
-  .biggy-autocomplete {
-    width: 100%;
-    max-width: 332px;
-  }
+.biggy-autocomplete-wrapper {
+  width: 100%;
+}
+
+.biggy-autocomplete {
+  width: 100%;
+  border: 1px solid #adaaaa;
+  padding: 0;
+  z-index: 1000;
+  max-width: 100%;
+  box-shadow: unset;
+  border-top: 0;
+  background-color: #FAFAFA;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }

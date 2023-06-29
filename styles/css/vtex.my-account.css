@@ -144,10 +144,11 @@
 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header) {
   background-color: #000;
 }
-:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--MenuDesktop) :global(.vtex-flex-layout-0-x-flexRow--MenuDesktop) {
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--MenuDesktop) {
   background-color: rgba(255, 255, 255, 0) !important;
 }
-:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--MenuDesktop) :global(.vtex-flex-layout-0-x-flexRow--MenuDesktop) :global(.vtex-flex-layout-0-x-flexRowContent--MenuDesktop) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.wavepartnerbr-wave-menu-0-x-theme5) :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItemsWrapper) :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItems) :global(.wavepartnerbr-wave-menu-0-x-desktop-departmentsItemLink) {
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--MenuDesktop) :global(.vtex-flex-layout-0-x-flexRowContent--MenuDesktop) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.wavepartnerbr-wave-menu-0-x-theme5) :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItemsWrapper) :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItems) :global(.wavepartnerbr-wave-menu-0-x-desktop-departmentsItemLink),
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--MenuDesktop) :global(.vtex-flex-layout-0-x-flexRowContent--MenuDesktop) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.wavepartnerbr-wave-menu-0-x-theme5) :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItemsWrapper) :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItems) :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItemLinkText) {
   color: black !important;
 }
 

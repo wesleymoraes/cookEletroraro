@@ -25,5 +25,8 @@
   },
   "ProductHighlight":{
     "component": "ProductHighlight"
+  },
+  "PixelStyle":{
+    "component": "GlobalStyles"
   }
 }

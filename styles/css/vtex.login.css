@@ -3,11 +3,14 @@
 /* preto */
 /* cinza */
 /* branco */
+.container :global(.vtex-button) {
+  border: 0;
+}
 .container :global(.vtex-button):hover {
   background-color: transparent;
 }
 .container :global(.vtex-button) :global(.vtex-button__label) {
-  padding: 0 10px 0 0;
+  padding: 0 !important;
 }
 .container :global(.vtex-button) :global(.vtex-button__label):hover {
   background-color: transparent;
@@ -23,7 +26,8 @@
 .label {
   text-transform: initial;
   color: #FFFFFF;
-  font-size: 14px;
+  font-size: 13px;
+  text-align: left;
 }
 
 .box {

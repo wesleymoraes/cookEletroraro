@@ -13,7 +13,7 @@
   },
   "header-layout.desktop": {
     "children": [
-     
+      "PixelStyle",
       "sticky-layout#4-desktop"
     ]
   },
@@ -65,25 +65,29 @@
       "blockClass": "main-header",
       "horizontalAlign": "center",
       "verticalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true
+      "colSizing": "auto"
     },
     "children": [
-      "flex-layout.col#esquerda-menu",
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#searchBar",
       "flex-layout.col#direita-menu"
     ]
   },
   "flex-layout.col#esquerda-menu": {
     "children": [
-      "flex-layout.col#logo-desktop",
-      "flex-layout.col#searchBar"
-    ]
+    ],
+    "props": {
+      "width": "grow",
+      "blockClass": ["esquerda-menu", "esquerda-menu-desktop"]
+    }
   },
   "flex-layout.col#direita-menu": {
     "children": [
       "flex-layout.col#Header.components-desktop"
-    ]
+    ],
+    "props": {
+      "blockClass": ["direita-menu", "direita-menu-desktop"]
+    }
   },
   "flex-layout.col#Header.components-desktop": {
     "props": {
@@ -97,9 +101,7 @@
   },
   "flex-layout.col#logo-desktop": {
     "props": {
-      "width": "10%",
-      "blockClass": "logo-desktop-componets",
-      "verticalAlign": "middle"
+      "blockClass": "logo-desktop"
     },
     "children": [
       "logo#desktop"
@@ -116,8 +118,7 @@
   },
   "flex-layout.col#searchBar": {
     "props": {
-      "blockClass": "searchBar",
-      "width": "60%"
+      "blockClass": "searchBar"
     },
     "children": [
       "search-bar"
@@ -175,7 +176,7 @@
     "props": {
       "blockClass": "image-shelf-search",
       "showBadge": false,
-      "aspectRatio": "1:2"
+      "aspectRatio": "1:1"
     }
   },
   "flex-layout.col#header.login": {
@@ -233,6 +234,7 @@
   },
   "header-layout.mobile": {
     "children": [
+      "PixelStyle",
       "sticky-layout#1-mobile"
     ]
   },

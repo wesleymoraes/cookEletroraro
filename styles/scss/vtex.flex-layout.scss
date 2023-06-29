@@ -47,6 +47,7 @@
 }
 
 .flexRow--main-header {
+    transition: background 300ms ease-in-out;
     border-bottom: 1px solid $cor2;
 
     .flexRowContent {
@@ -63,7 +64,7 @@
     align-items: center;
     height: fit-content;
     flex-direction: row;
-    gap: 20px;
+    gap: 18px;
 }
 
 .flexRow--main-header {
@@ -318,5 +319,26 @@
             border: none;
             background-color: $cor31;
         }
+    }
+}
+
+.flexRow--main-header {
+    .flexRowContent--main-header {
+        .stretchChildrenWidth {
+            width: calc(100% - 513px) !important;
+            &:first-child {
+                width: 150px !important;
+            }
+            &:last-child {
+                width: 363px !important;
+            }
+        }
+    }
+}
+
+.flexCol--searchBar {
+    .flexColChild--searchBar {
+        width: 100%;
+        display: block;
     }
 }
