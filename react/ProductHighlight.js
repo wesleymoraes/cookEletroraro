@@ -10,6 +10,8 @@ export default function ProductHighlight() {
     console.log("Contexto de Produto:", productContext);
     console.log("Cluster", highlights);
   };
+  
+  //<button onClick={handleButtonClick}></button>
 
   return (
     <div>
@@ -20,7 +22,6 @@ export default function ProductHighlight() {
           </p>
         ))}
 
-        <button onClick={handleButtonClick}></button>
       </div>
     </div>
   );

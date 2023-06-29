@@ -10,6 +10,7 @@
       "discount#plp",
       "flex-layout.row#selling-price-summary",
       "flex-layout.row#sku-add-cart"
+     
     ]
   },
   "discount#plp": {
