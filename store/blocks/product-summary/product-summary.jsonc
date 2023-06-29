@@ -2,7 +2,7 @@
   "product-summary.shelf": {
     "title": "Vitrine",
     "children": [
-      "product-highlight-text",
+      "ProductHighlight",
       "stack-layout#prodsum",
       "product-summary-name",
       "product-list-price#summary",
@@ -25,7 +25,8 @@
         "highlightNames": ["10% Boleto"]
       }
     },
-    "children": ["product-highlight-text"]
+    "children": [
+    "ProductHighlight"]
   },
   "product-highlight-text": {
     "props": {
@@ -111,7 +112,7 @@
   "stack-layout#prodsum": {
     "children": [
       "product-summary-image#shelf",
-      "flex-layout.col#highlights",
+      //"flex-layout.col#highlights",
       "flex-layout.row#sku-selector"
     ]
   },

@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from "react";
 import useProduct from "vtex.product-context/useProduct";
-//import style from "../styles/ProductImage.css";
+import React, { useEffect, useState } from "react";
+//import style from "../styles/ProductImage.css"
 
-export default function ProductDescriptionWithTab() {
+export default function ProductDescription() {
   const productContext = useProduct();
   const [sanitizedDescription, setSanitizedDescription] = useState("");
-  const [activeTab, setActiveTab] = useState(null);
 
   useEffect(() => {
     if (productContext && productContext.product) {
@@ -14,10 +13,10 @@ export default function ProductDescriptionWithTab() {
       setSanitizedDescription(sanitizedHTML);
     }
   }, [productContext]);
-  
-  const toggleTab = () => {
-    setActiveTab((prevTab) => (prevTab === "description" ? null : "description"));
-  };
+
+  if (!productContext || !productContext.product) {
+    return null;
+  }
 
   const descriptionStyle = {
     marginBottom: "10px",
@@ -50,22 +49,10 @@ export default function ProductDescriptionWithTab() {
       {sanitizedDescription && (
         <>
           <span style={descriptionStyle}></span>
-          <div className="product-tab-container">
-            <div className="tab-item">
-              <button
-                className={`tab-button ${activeTab === "description" ? "active" : ""}`}
-                onClick={toggleTab}
-              >
-                Description
-              </button>
-              {activeTab === "description" && (
-                <div
-                  className="tab-content"
-                  dangerouslySetInnerHTML={{ __html: sanitizedDescription }}
-                ></div>
-              )}
-            </div>
-          </div>
+          <div
+            className="description-container"
+            dangerouslySetInnerHTML={{ __html: sanitizedDescription }}
+          ></div>
         </>
       )}
     </div>

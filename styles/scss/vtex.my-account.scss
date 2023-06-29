@@ -96,21 +96,25 @@
         justify-content: center;
         margin: 10px auto;
     }
-    :global(.CustomInstallmentsContainer){
+
+    :global(.CustomInstallmentsContainer) {
         display: flex;
         margin: auto;
         justify-content: center;
     }
-    :global(.vtex-store-components-3-x-productNameContainer--quickview){
-      
+
+    :global(.vtex-store-components-3-x-productNameContainer--quickview) {
+
         text-align: center;
     }
-    :global(.vtex-store-components-3-x-productBrand--quickview){
-        font-size: 24px!important;
-        font-weight: 600!important;
-        line-height: 25px!important;
+
+    :global(.vtex-store-components-3-x-productBrand--quickview) {
+        font-size: 24px !important;
+        font-weight: 600 !important;
+        line-height: 25px !important;
     }
-    :global(.FloatBottomH3){
+
+    :global(.FloatBottomH3) {
         font-size: 16px;
     }
 
@@ -145,4 +149,220 @@
     font-size: 19px;
     font-weight: bold;
     margin: 5px 0;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+    background-color: transparent;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) {
+    :global(.vtex-sticky-layout-0-x-container--sticky-header) {
+
+        :global(.vtex-flex-layout-0-x-flexRow--main-header) {
+            background-color: #000;
+
+        }
+
+        :global(.vtex-flex-layout-0-x-flexRow--MenuDesktop) {
+            :global(.vtex-flex-layout-0-x-flexRow--MenuDesktop) {
+                background-color: #ffffff00 !important;
+
+                :global(.vtex-flex-layout-0-x-flexRowContent--MenuDesktop) {
+                    :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+                        :global(.wavepartnerbr-wave-menu-0-x-theme5) {
+                            :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItemsWrapper) {
+                                :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItems) {
+                                    :global(.wavepartnerbr-wave-menu-0-x-desktop-departmentsItemLink) {
+                                        color: black !important;
+                                    }
+
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
+:global(.render-route-store-home) {
+    :global(.render-provider) {
+        :global(.vtex-store__template) {
+
+            :global(.flex),
+            :global(.flex-column),
+            :global(.min-vh-100),
+            :global(.w-100) {
+                :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+                    :global(.vtex-sticky-layout-0-x-container--sticky-header) {
+                        :global(.vtex-flex-layout-0-x-flexRow--MenuDesktop) {
+                            background-color: transparent !important;
+
+                            :global(.vtex-flex-layout-0-x-flexRowContent--MenuDesktop) {
+                                :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+                                    :global(.wavepartnerbr-wave-menu-0-x-theme5) {
+                                        :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItemsWrapper) {
+                                            :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItems) {
+                                                :global(.wavepartnerbr-wave-menu-0-x-desktop-departmentsItemLink) {
+                                                    color: rgb(255, 255, 255) !important;
+
+                                                    :global(.wavepartnerbr-wave-menu-0-x-desktop-departmentsIconContent) {
+                                                        display: none;
+                                                    }
+                                                }
+
+                                            }
+                                        }
+                                    }
+
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+:global(.wavepartnerbr-wave-menu-0-x-desktop-departmentsItemLink) {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+:global(.render-route-store-home) {
+    :global(.render-provider) {
+        :global(.vtex-store__template) {
+
+            :global(.flex),
+            :global(.flex-column),
+            :global(.min-vh-100),
+            :global(.w-100) {
+                :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) {
+                    :global(.vtex-sticky-layout-0-x-container--sticky-header) {
+                        :global(.vtex-flex-layout-0-x-flexRow--MenuDesktop) {
+                            background-color: #ffffff !important;
+
+                            :global(.vtex-flex-layout-0-x-flexRowContent--MenuDesktop) {
+                                :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+                                    :global(.wavepartnerbr-wave-menu-0-x-theme5) {
+                                        :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItemsWrapper) {
+                                            :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItems) {
+                                                :global(.wavepartnerbr-wave-menu-0-x-desktop-departmentsItemLink) {
+                                                    color: #000000 !important;
+
+                                                    :global(.wavepartnerbr-wave-menu-0-x-desktop-departmentsIconContent) {
+                                                        display: none;
+                                                    }
+                                                }
+
+                                            }
+                                        }
+                                    }
+
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+:global(.render-route-store-search),
+:global(.render-route-store-search-department),
+:global(.render-route-store-search-category),
+:global(.render-route-store-search-subcategory),
+:global(.render-route-store-product) {
+    :global(.render-provider) {
+        :global(.vtex-store__template) {
+
+            :global(.flex),
+            :global(.flex-column),
+            :global(.min-vh-100),
+            :global(.w-100) {
+                :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+                    :global(.vtex-sticky-layout-0-x-container--sticky-header) {
+                        :global(.vtex-flex-layout-0-x-flexRow--main-header) {
+                            background-color: black;
+                        }
+
+                        :global(.vtex-flex-layout-0-x-flexRow--MenuDesktop) {
+                            background-color: white;
+
+                            :global(.vtex-flex-layout-0-x-flexRowContent--MenuDesktop) {
+                                :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+                                    :global(.wavepartnerbr-wave-menu-0-x-theme5) {
+                                        :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItemsWrapper) {
+                                            :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItems) {
+                                                :global(.wavepartnerbr-wave-menu-0-x-desktop-departmentsItemLink) {
+                                                    color: black !important;
+                                                }
+                                            }
+
+                                        }
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+:global(.ContainerHighlight) {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+:global(.ContainerHighlight) {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+    p {
+        margin: 0px 10px;
+    }
+}
+
+//highlight-item-Frete Grátis algumaCoisa Sul e Sudeste
+:global(.highlight-item-Seleção) {
+    font-size: 12px;
+    color: black;
+}
+
+:global(.highlight-item-Frete) {
+    font-size: 12px;
+    color: black;
+    background-color: #F2F2F2;
+    padding: 5px 10px;
+    border-radius: 20px;
+
+}
+
+:global(.highlight-item-A) {
+    color: red;
+    text-transform: initial;
+    font-size: 12px;
+}
+:global(.highlight-item-110V),
+:global(.highlight-item-220V),
+:global(.highlight-item-BIVOLT) {
+    color: white;
+    text-transform: capitalize;
+    font-size: 12px;
+    padding: 5px;
+    background-color: black;
+    border-radius: 20px;
 }

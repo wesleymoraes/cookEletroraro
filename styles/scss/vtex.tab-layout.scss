@@ -1,0 +1,32 @@
+.container--pdp {
+    background-color: white;
+    padding: 20px 0;
+
+    .listContainer {
+        .listItem  {
+            :global(.vtex-button) {
+                background-color: transparent;
+
+                :global(.vtex-button__label) {
+                    color: #afaeae;
+                    font-weight: 500;
+                }
+
+            }
+        }
+        .listItemActive {
+            :global(.vtex-button) {
+                background-color: transparent;
+                border: none;
+                border-radius: 0;
+                border-bottom: 2px solid black !important;
+
+                :global(.vtex-button__label) {
+                    color: black;
+                    font-weight: 700;
+                }
+
+            }
+        }
+    }
+}

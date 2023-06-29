@@ -22,5 +22,8 @@
   },
   "ProductDescriptionWithTab":{
     "component":"ProductDescriptionWithTab"
+  },
+  "ProductHighlight":{
+    "component": "ProductHighlight"
   }
 }

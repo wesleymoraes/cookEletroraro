@@ -95,7 +95,7 @@
 .theme5 .desktop-menuItemLink,
 .theme5 .desktop-departmentsItemLink {
   padding: 12px 0px;
-  font-size: 10px;
+  font-size: 14px;
   letter-spacing: 1px;
   color: #FFFFFF;
   font-weight: bold;
@@ -103,7 +103,6 @@
   text-decoration: none;
   position: relative;
   text-transform: uppercase;
-  font-family: Montserrat, sans-serif;
 }
 
 .theme5 .desktop-menuItemLink::after,

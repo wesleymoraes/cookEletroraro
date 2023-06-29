@@ -5,13 +5,72 @@
       "condition-layout.product#availability",
       "flex-layout.row#description",
       "sticky-layout#buy-button-pdp",
-      //"sticky-layout#buy-button-pdp",
-      "product-specification-group#table",
+      "tab-layout#home",
+      //"product-specification-group#table",
       "product-questions-and-answers",
       "flex-layout.row#shelf-pdp",
+      "flex-layout.row#newsletter-title",
+      "flex-layout.row#newsletter-footer",
       "product-reviews"
     ]
   },
+  "tab-layout#home": {
+    "children": [
+      "tab-list#home",
+      "tab-content#home"
+    ],
+    "props": {
+      "blockClass": "pdp",
+      "defaultActiveTabId": "home1"
+    }
+  },
+  "tab-list#home": {
+    "children": [
+      "tab-list.item#home2",
+      "tab-list.item#home1"
+    ]
+  },
+  "tab-list.item#home1": {
+    "props": {
+      "tabId": "home1",
+      "label": "Especificações Técnicas",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#home2": {
+    "props": {
+      "tabId": "home2",
+      "label": "Descrição do produto"
+    }
+  },
+  "tab-content#home": {
+    "children": [
+      "tab-content.item#home1",
+      "tab-content.item#home2"
+    ]
+  },
+  "tab-content.item#home1": {
+    "children": [
+      "product-specification-group#table"
+    ],
+    "props": {
+      "tabId": "home1"
+    }
+  },
+  "tab-content.item#home2": {
+       "children": [
+        "flex-layout.row#product-description"
+       ],
+       "props": {
+         "tabId": "home2"
+       }
+     },
+     "flex-layout.row#product-description": {
+      "children": [
+        "product-description"
+      ]
+     },
+
   "sticky-layout#buy-button-pdp": {
     "props": {
       "position": "bottom",
@@ -20,7 +79,6 @@
     "children": [
       "flex-layout.row#StickyFloatBottom",
       "flex-layout.row#add-to-cart-button"
-   
     ]
   },
   "flex-layout.row#StickyFloatBottom": {
@@ -46,7 +104,7 @@
       "marginBottom": 7
     },
     "children": [
-      "ProductDescriptionWithTab"
+     
     ]
   },
   "condition-layout.product#availability": {
@@ -130,7 +188,6 @@
       "shipping-simulator"
     ]
   },
-
   "responsive-layout.desktop#discountQuantity": {
     "children": [
       "flex-layout.row#discountQuantity"
@@ -252,7 +309,7 @@
       "recommendation": "view",
       "productList": {
         "maxItems": 9,
-        "titleText": "QUEM VIU, VIU TAMBÉM",
+        "titleText": "APROVEITE E VEJA TAMBÉM",
         "gap": "ph0",
         "minItemsPerPage": 1,
         "itemsPerPage": 4,
