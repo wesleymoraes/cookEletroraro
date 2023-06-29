@@ -16,3 +16,81 @@
 [class*="searchBarContainer"] [class*="portalContainer"] > div > div > div {
     position: static !important;
 }
+
+.custom-info-card {
+    display: block;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #ddd;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.custom-info-card .custom-info-card__content .custom-info-card__title,
+.custom-info-card .custom-info-card__content .custom-info-card__subtitle,
+.custom-info-card .custom-info-card__content .custom-info-card__description {
+    color: #fff;
+    margin: 0 0 20px;
+    max-width: 50%;
+}
+
+.custom-info-card .custom-info-card__content .custom-info-card__title {
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.custom-info-card .custom-info-card__content .custom-info-card__subtitle {
+    font-size: 60px;
+}
+
+.custom-info-card .custom-info-card__content .custom-info-card__description {
+    font-size: 25px;
+}
+
+.custom-info-card .custom-info-card__content .custom-info-card__cta {
+    color: #fff;
+    margin: 20px 0 0;
+    padding: 10px 20px;
+    display: inline-flex;
+    row-gap: 10px;
+    align-items: center;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #DC3E3F;
+}
+
+.custom-info-card .custom-info-card__content .custom-info-card__cta::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    margin: 0 0 0 10px;
+    display: block;
+    background-size: 8px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4.635' height='8.106' viewBox='0 0 4.635 8.106'%3E%3Cpath id='Icon_ionic-ios-arrow-forward' data-name='Icon ionic-ios-arrow-forward' d='M14.484,10.248,11.417,7.183a.577.577,0,0,1,0-.818.584.584,0,0,1,.821,0l3.475,3.473a.578.578,0,0,1,.017.8l-3.49,3.5a.579.579,0,1,1-.821-.818Z' transform='translate(-11.246 -6.196)' fill='%23fff'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (max-width: 768px) {
+    .custom-info-card {
+        padding: 50px 30px;
+        border-radius: 0;
+    }
+
+    .custom-info-card .custom-info-card__content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .custom-info-card .custom-info-card__content .custom-info-card__title,
+    .custom-info-card .custom-info-card__content .custom-info-card__subtitle,
+    .custom-info-card .custom-info-card__content .custom-info-card__description {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .custom-info-card .custom-info-card__content .custom-info-card__cta {
+        margin: 20px auto 0;
+    }
+}

@@ -1,19 +1,20 @@
 import React from 'react';
-import { InfoCard } from 'vtex.store-components';
+import styles from './GlobalStyles.css';
 
-const CustomInfoCard = ({ title = 'Título do Info Card', description = 'Descrição do Info Card', paragraph1 = 'Parágrafo 1', paragraph2 = 'Parágrafo 2', paragraph3 = 'Parágrafo 3', imageUrl = '', ctaText = 'Call to Action', ctaUrl = '' }) => {
+const CustomInfoCard = (data) => {
   return (
-    <InfoCard
-      title={title}
-      description={description}
-      imageUrl={imageUrl}
-      href={ctaUrl}
-      ctaText={ctaText}
-    >
-      <p>{paragraph1}</p>
-      <p>{paragraph2}</p>
-      <p>{paragraph3}</p>
-    </InfoCard>
+    <div className={styles["custom-info-card"]} style={{
+      backgroundImage: `url(${
+        window.innerWidth <= 768 ? data.imageUrlMobile : data.imageUrl
+      })`
+    }}>
+      <div className={styles["custom-info-card__content"]}>
+        <h2 className={styles["custom-info-card__title"]}>{data.title}</h2>
+        <h3 className={styles["custom-info-card__subtitle"]}>{data.subtitle}</h3>
+        <p className={styles["custom-info-card__description"]}>{data.description}</p>
+        <a href={data.ctaUrl} className={styles["custom-info-card__cta"]}>{data.ctaText}</a>
+      </div>
+    </div>
   );
 };
 
@@ -28,30 +29,31 @@ CustomInfoCard.schema = {
       type: 'string',
       default: 'Título do Info Card'
     },
+    subtitle: {
+      title: 'Subtítulo',
+      type: 'string',
+      default: 'Subtítulo do Info Card'
+    },
     description: {
       title: 'Descrição',
       type: 'string',
       default: 'Descrição do Info Card'
     },
-    paragraph1: {
-      title: 'Parágrafo 1',
-      type: 'string',
-      default: 'Parágrafo 1'
-    },
-    paragraph2: {
-      title: 'Parágrafo 2',
-      type: 'string',
-      default: 'Parágrafo 2'
-    },
-    paragraph3: {
-      title: 'Parágrafo 3',
-      type: 'string',
-      default: 'Parágrafo 3'
-    },
     imageUrl: {
-      title: 'URL da Imagem',
+      title: 'Imagem',
       type: 'string',
-      default: ''
+      default: '',
+      widget: {
+        'ui:widget': 'image-uploader'
+      }
+    },
+    imageUrlMobile: {
+      title: 'Imagem',
+      type: 'string',
+      default: '',
+      widget: {
+        'ui:widget': 'image-uploader'
+      }
     },
     ctaText: {
       title: 'Texto do Botão CTA',

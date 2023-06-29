@@ -3,46 +3,47 @@
     "blocks": [
       "list-context.image-list#demo",
       "flex-layout.row#deals",
-      "__fold__",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "TituloVitrine",
       "__fold__",
       "flex-layout.row#shelf.banner",
       "flex-layout.row#section-3",
-      "__fold__",
       "responsive-layout.mobile#section-3",
       "flex-layout.row#newsletter-title",
       "flex-layout.row#newsletter-footer",
-      "__fold__",
       "responsive-layout.desktop#section-3",
       "TituloVitrine#segundotitulo",
       "responsive-layout.desktop#section-4-FullBanner",
-      "__fold__",
       "responsive-layout.mobile#section-4-FullBanner",
       "flex-layout.row#shelf-3",
       "flex-layout.row#info-card",
-      "__fold__",
       "TituloVitrine#3",
       "list-context.image-list#slideSelecao",
       "TituloVitrine#4",
-      "__fold__",
       "flex-layout.row#section-5-shelf.banner",
       "responsive-layout.mobile#fullbanner2",
       "responsive-layout.desktop#fullbanner2",
       "TituloVitrine#4",
-      "__fold__",
       "responsive-layout.desktop#fullbanner3",
       "responsive-layout.mobile#fullbanner3",
       "list-context.product-list#section-5-shelf-5",
-      "__fold__",
       "responsive-layout.desktop#fullbanner4",
       "responsive-layout.mobile#fullbanner4",
       "flex-layout.row#Home.seo",
-      "__fold__",
       "flex-layout.row#newsletter-title",
       "flex-layout.row#newsletter-footer"
     ]
+  },
+  "CustomInfoCard#2": {
+    "props": {
+      "title": "LISTAS DE CASAMENTO",
+      "subtitle": "Vocês merecem presentes raros!",
+      "description": "Crie sua lista de casamento e torne seu momento ainda mais especial.",
+      "imageUrl": "https://placehold.co/1252x570",
+      "ctaText": "Saiba mais",
+      "ctaUrl": "#"
+    }
   },
   "list-context.image-list#demo": {
     "children": [
@@ -260,8 +261,12 @@
     }
   },
   "flex-layout.row#info-card": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": "info-card"
+    },
     "children": [
-      "info-card#home"
+      "CustomInfoCard#2"
     ]
   },
   "info-card#home": {
