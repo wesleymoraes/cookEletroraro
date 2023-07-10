@@ -2,16 +2,31 @@
 
 .container {
     margin-top: 20px;
-    
+
     .arrow {
         text-transform: lowercase;
-        .caretIcon {
-        }
-        .link{
-            &:focus{
-                color: $secondary-color;
-            }
-            
-        }
     }
+}
+
+:global(.vtex-breadcrumb-1-x-term) {
+    font-size: 14px !important;
+    color: black;
+
+}
+
+:global(.vtex-breadcrumb-1-x-arrow) {
+    font-size: 14px !important;
+}
+
+@media (max-width:758px) {
+    :global(.vtex-breadcrumb-1-x-term) {
+        font-size: 12px !important;
+        color: black;
+
+    }
+
+    :global(.vtex-breadcrumb-1-x-arrow) {
+        font-size: 12px !important;
+    }
+
 }

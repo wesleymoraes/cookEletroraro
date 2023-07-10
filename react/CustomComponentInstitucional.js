@@ -1,0 +1,2 @@
+import CustomComponentInstitucional from './Components/CustomComponentInstitucional'
+export default CustomComponentInstitucional

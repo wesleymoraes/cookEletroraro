@@ -2,28 +2,19 @@
   "store.custom#pagina-institucional-quem-somos": {
     "path": "/quem-somos"
   },
-  "store.custom#pagina-institucional-politica-e-seguranca": {
-    "path": "/politica-e-seguranca"
+  "store.custom#pagina-institucional-nossas-lojas": {
+    "path": "/nossas-lojas"
   },
-  "store.custom#pagina-institucional-trabalhe-conosco": {
-    "path": "/trabalhe-conosco"
+  "store.custom#pagina-institucional-politicas-de-entrega": {
+    "path": "/politicas-de-entrega"
   },
-  "store.custom#pagina-institucional-fale-conosco": {
-    "path": "/fale-conosco"
+  "store.custom#pagina-institucional-politica-de-seguranca": {
+    "path": "/politica-de-seguranca"
   },
-  "store.custom#pagina-institucional-formas-de-entregas": {
-    "path": "/formas-de-entregas"
-  },
-  "store.custom#pagina-institucional-pagamento": {
-    "path": "/pagamento"
-  },
-  "store.custom#pagina-institucional-prazos-de-envio": {
-    "path": "/prazos-de-envio"
+  "store.custom#pagina-institucional-privacidade-e-lgpd": {
+    "path": "/privacidade-e-lgpd"
   },
   "store.custom#pagina-institucional-trocas-e-devolucoes": {
     "path": "/trocas-e-devolucoes"
-  },
-  "store.custom#pagina-institucional-duvidas-frequentes": {
-    "path": "/duvidas-frequentes"
   }
 }

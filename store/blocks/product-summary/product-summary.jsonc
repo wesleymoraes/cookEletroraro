@@ -7,13 +7,13 @@
       "product-summary-name",
       "product-list-price#summary",
       "flex-layout.row#spot-price-summary",
-      "discount#plp",
+      "Discount#plp",
       "flex-layout.row#selling-price-summary",
       "flex-layout.row#sku-add-cart"
      
     ]
   },
-  "discount#plp": {
+  "Discount#plp": {
     "props": {
       "context": "plp"
     }

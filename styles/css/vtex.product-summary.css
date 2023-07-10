@@ -10,6 +10,7 @@
   padding: 23px;
   box-sizing: border-box;
   align-items: center;
+  justify-content: space-between;
 }
 .containerNormal .clearLink .element .nameContainer {
   margin-bottom: 10px;

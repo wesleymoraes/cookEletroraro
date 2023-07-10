@@ -24,6 +24,9 @@
   },
 
   "flex-layout.col#menu-institucional": {
+    "props": {
+      "width":"30%"
+    },
     "title": "Menus Laterais da Página",
     "children": [
       "responsive-layout.desktop#menu-institucional-desktop",

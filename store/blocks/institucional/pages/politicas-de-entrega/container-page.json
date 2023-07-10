@@ -1,12 +1,12 @@
 {
-  "store.custom#pagina-institucional-trabalhe-conosco": {
+  "store.custom#pagina-institucional-politicas-de-entrega": {
     "blocks": [
       "responsive-layout.desktop#banner",
       "flex-layout.row#breadcrumb-institucional-trabalhe-conosco",
-      "flex-layout.row#body-institucional-trabalhe-conosco"
+      "flex-layout.row#body-institucional-politicas-de-entrega"
     ]
   },
-  "flex-layout.row#body-institucional-trabalhe-conosco": {
+  "flex-layout.row#body-institucional-politicas-de-entrega": {
     "title": "Container Trabalhe Conosco",
     "props": {
       "preventHorizontalStretch": true,

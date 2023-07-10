@@ -3,14 +3,14 @@
     "title": "Menu Link 01",
     "props": {
       "blockClass": "footerSubmenuItem",
-      "text": "##### [Quem Somos](/)"
+      "text": "##### [Quem Somos](/quem-somos)"
     }
   },
   "rich-text#link-institucional-02": {
     "title": "Menu Link 02",
     "props": {
       "blockClass": "footerSubmenuItem",
-      "text": "##### [Nossas Lojas](/)"
+      "text": "##### [Nossas Lojas](/nossas-lojas)"
     }
   },
   "rich-text#link-institucional-03": {

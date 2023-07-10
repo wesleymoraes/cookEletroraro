@@ -143,10 +143,10 @@
   "flex-layout.col#stack": {
     "children": [
       "product-images",
-      "product-bookmark",
-      "product-specification-badges"
+      "product-bookmark"
     ],
     "props": {
+      "blockClass":"stack",
       "width": "60%",
       "rowGap": 0
     }
@@ -207,7 +207,7 @@
   },
   "flex-layout.col#discount": {
     "children": [
-      "discount#pdp",
+      "Discount#pdp",
       "product-installments"
     ]
   },
@@ -217,7 +217,7 @@
       "product-quantity"
     ]
   },
-  "discount#pdp": {
+  "Discount#pdp": {
     "props": {
       "context": "pdp"
     }

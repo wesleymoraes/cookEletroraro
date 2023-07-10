@@ -9,6 +9,22 @@
 .container .arrow {
   text-transform: lowercase;
 }
-.container .arrow .link:focus {
-  color: #000000;
+
+:global(.vtex-breadcrumb-1-x-term) {
+  font-size: 14px !important;
+  color: black;
+}
+
+:global(.vtex-breadcrumb-1-x-arrow) {
+  font-size: 14px !important;
+}
+
+@media (max-width: 758px) {
+  :global(.vtex-breadcrumb-1-x-term) {
+    font-size: 12px !important;
+    color: black;
+  }
+  :global(.vtex-breadcrumb-1-x-arrow) {
+    font-size: 12px !important;
+  }
 }

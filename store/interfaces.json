@@ -2,8 +2,8 @@
   "header.full": {
     "around": ["wave-menu-context"]
   },
-  "discount":{
-    "component": "discount"
+  "Discount":{
+    "component": "Discount"
   },
   "TituloVitrine":{
     "component": "TituloVitrine"
@@ -28,5 +28,17 @@
   },
   "PixelStyle":{
     "component": "GlobalStyles"
+  },
+  "ImageComponent":{
+    "component": "ImageComponent"
+  },
+  "CustomCardLojasContainer":{
+    "component": "CustomCardLojasContainer"
+  },
+  "CustomCardLojas":{
+    "component": "CustomCardLojas"
+  },
+  "CustomComponentInstitucional":{
+    "component": "CustomComponentInstitucional"
   }
 }

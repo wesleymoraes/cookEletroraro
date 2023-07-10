@@ -1,17 +1,17 @@
 {
-  "menu-item#forma-de-entrega": {
+  "menu-item#privacidade-e-lgpd": {
     "title": "Link 6",
     "props": {
       "blockClass": "link__menu-institucional",
-      "id": "menu-item-formas-de-entregas",
+      "id": "menu-item-privacidade-e-lgpd",
       "type": "custom",
       "iconId": null,
       "itemProps": {
         "type": "internal",
-        "href": "/formas-de-entregas",
+        "href": "/privacidade-e-lgpd",
         "noFollow": false,
-        "tagTitle": "Formas de Entregas",
-        "text": "Formas de Entregas"
+        "tagTitle": "Privacidade e LGPD",
+        "text": "Privacidade e LGPD"
       }
     }
   }

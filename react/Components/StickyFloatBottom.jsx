@@ -60,6 +60,18 @@ const ProductImage = () => {
   const listPrice = productContext.product.priceRange.listPrice.highPrice;
   const sellingPrice = productContext.product.priceRange.sellingPrice.highPrice;
 
+  function limitarCaracteres(texto, limite) {
+    if (texto.length > limite) {
+      return texto.slice(0, limite) + "...";
+    }
+    return texto;
+  }
+
+  const nomeItemLimitado = limitarCaracteres(
+    productContext.selectedItem.name,
+    30
+  );
+
   return (
     <div className="FloatBottomContainer" style={floatBottomContainerStyles}>
       <div className="FloatBottomWrapper" style={floatBottomWrapperStyles}>
@@ -69,9 +81,9 @@ const ProductImage = () => {
           alt={productContext.selectedItem.images[0]}
           style={floatBottomImageStyles}
         />
-        <h3 className="FloatBottomH3" style={floatBottomH3Styles}>
-          {productContext.selectedItem.name}
-        </h3>
+        <h4 className="FloatBottomH4" style={floatBottomH3Styles}>
+          {nomeItemLimitado}
+        </h4>
         <div className="FloatBottomPrices" style={floatBottomPricesStyles}>
           {listPrice === sellingPrice ? (
             <p

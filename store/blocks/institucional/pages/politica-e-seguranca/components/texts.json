@@ -8,42 +8,8 @@
       ]
     },
     "children": [
-      "rich-text#titulo-institucional-politica-e-seguranca",
-      "rich-text#text-institucional-politica-e-seguranca-1",
-      "rich-text#text-institucional-politica-e-seguranca-2",
-      "rich-text#text-institucional-politica-e-seguranca-3",
-      "rich-text#text-institucional-politica-e-seguranca-4"
+      "CustomComponentInstitucional#politica-e-seguranca"
     ]
   },
-  "rich-text#text-institucional-politica-e-seguranca-1": {
-    "title": "Texto 01",
-    "props": {
-      "text": "Lorem ipsum dolor sit amet. Id cumque quia est voluptatem quas quo magni nemo in commodi consequuntur cum veritatis nulla ea velit mollitia. Eum illo deleniti et delectus facilis ut nulla rerum sit enim perspiciatis et ipsam omnis ut quaerat optio et quia itaque.",
-      "blockClass": "text__institucional"
-    }
-  },
-
-  "rich-text#text-institucional-politica-e-seguranca-2": {
-    "title": "Texto 02",
-    "props": {
-      "text": "Lorem ipsum dolor sit amet. Id cumque quia est voluptatem quas quo magni nemo in commodi consequuntur cum veritatis nulla ea velit mollitia. Eum illo deleniti et delectus facilis ut nulla rerum sit enim perspiciatis et ipsam omnis ut quaerat optio et quia itaque.",
-      "blockClass": "text__institucional"
-    }
-  },
-
-  "rich-text#text-institucional-politica-e-seguranca-3": {
-    "title": "Texto 03",
-    "props": {
-      "text": "Lorem ipsum dolor sit amet. Id cumque quia est voluptatem quas quo magni nemo in commodi consequuntur cum veritatis nulla ea velit mollitia. Eum illo deleniti et delectus facilis ut nulla rerum sit enim perspiciatis et ipsam omnis ut quaerat optio et quia itaque.",
-      "blockClass": "text__institucional"
-    }
-  },
-  "rich-text#text-institucional-politica-e-seguranca-4": {
-    "title": "Texto 04",
-    "props": {
-      "text": "Lorem ipsum dolor sit amet. Id cumque quia est voluptatem quas quo magni nemo in commodi consequuntur cum veritatis nulla ea velit mollitia. Eum illo deleniti et delectus facilis ut nulla rerum sit enim perspiciatis et ipsam omnis ut quaerat optio et quia itaque.",
-
-      "blockClass": "text__institucional"
-    }
-  }
+  "CustomComponentInstitucional#politica-e-seguranca":{}
 }

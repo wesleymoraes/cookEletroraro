@@ -30,9 +30,9 @@
     },
     "children": [
       "rich-text#redes-sociais",
-      "image#youtube",
+      "image#instagram",
       "image#facebook",
-      "image#instagram"
+      "image#youtube"
      // "image#linkedin"
     ]
   },
@@ -52,7 +52,7 @@
       "blockClass": [
         "social-flags-icons"
       ],
-      "srcSet": "assets/icons/Icons-Sociais/Instagram.png",
+      "srcSet": "assets/icons/Icons-Sociais/Youtube.png",
       "link": {
         "url": "https://www.instagram.com/",
         "newTab": true
@@ -86,7 +86,7 @@
       "blockClass": [
         "social-flags-icons"
       ],
-      "srcSet": "assets/icons/Icons-Sociais/Youtube.png",
+      "srcSet": "assets/icons/Icons-Sociais/Instagram.png",
       "link": {
         "url": "https://www.youtube.com/",
         "newTab": true

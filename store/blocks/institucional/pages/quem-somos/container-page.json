@@ -1,7 +1,7 @@
 {
   "store.custom#pagina-institucional-quem-somos": {
     "blocks": [
-      "responsive-layout.desktop#banner",
+      "flex-layout.row#image-banner-institucional",
       "flex-layout.row#breadcrumb-institucional-quem-somos",
       "flex-layout.row#body-institucional-quem-somos"
     ]

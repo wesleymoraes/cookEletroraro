@@ -1,0 +1,14 @@
+{
+  "flex-layout.col#container-content-and-title-institucional-prazos-de-envio": {
+    "title": "Container Titulo E Conteudo",
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "container__conteudo-institucional"
+      ]
+    },
+    "children": [
+     "CustomCardLojas"
+    ]
+  }
+}

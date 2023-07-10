@@ -98,7 +98,7 @@
   font-size: 14px;
   letter-spacing: 1px;
   color: #FFFFFF;
-  font-weight: bold;
+  font-weight: lighter!important;
   cursor: pointer;
   text-decoration: none;
   position: relative;

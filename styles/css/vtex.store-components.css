@@ -52,6 +52,7 @@
 @media (max-width: 1024px) {
   .searchBarContainer .searchBarInnerContainer {
     margin: auto;
+    position: relative;
   }
 }
 @media (min-width: 1024px) {
@@ -118,49 +119,104 @@
   color: white !important;
 }
 
-.shippingContainer :global(.vtex-button) {
-  border-radius: 20px;
-  margin: auto;
-}
-.shippingContainer :global(.vtex-button) :global(.vtex-button__label) {
-  font-size: 17px;
-  text-transform: initial;
-  font-weight: 400;
+.logoContainer.sizeDesktop {
+  padding: 0;
 }
 
-@media (max-width: 758px) {
-  .shippingContainer :global(.vtex-button) {
+.imageElement--carousel {
+  object-fit: cover;
+}
+
+@media (min-width: 758px) {
+  .shippingContainer {
+    margin: 40px 0;
+    padding: 0;
+    position: relative;
+  }
+  .shippingContainer :global(.vtex-input) :global(.vtex-input-prefix__group) {
+    border: none;
+  }
+  .shippingContainer :global(.vtex-input) :global(.vtex-input__label) {
+    font-size: 0;
+  }
+  .shippingContainer :global(.vtex-input) :global(.vtex-input__label)::after {
+    content: "Cep";
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60%;
+    justify-content: start;
+  }
+  .shippingContainer :global(.vtex-address-form-4-x-input) {
+    width: 154px;
+    background-color: white;
+    border: 1px solid #ebebeb;
     border-radius: 20px;
-    margin: auto;
+  }
+  .shippingContainer :global(.vtex-address-form__postalCode) {
+    padding-bottom: 0;
+  }
+  .shippingContainer :global(.vtex-address-form__postalCode-forgottenURL) {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+  }
+  .shippingContainer :global(.vtex-button) {
+    border-radius: 20px;
+    top: 22px;
+    left: 154px;
+    width: fit-content;
+    border: 0;
+    height: 40px;
+    position: absolute;
+    margin-left: 10px;
   }
   .shippingContainer :global(.vtex-button) :global(.vtex-button__label) {
-    font-size: 17px;
-    text-transform: initial;
-    font-weight: 400;
+    font-size: 0;
   }
-  .shippingContainer :global(.vtex-address-form__postalCode) :global(.vtex-input) {
+  .shippingContainer :global(.vtex-button) :global(.vtex-button__label)::after {
+    content: "Calcular o frete";
+    font-size: 16px;
+  }
+}
+@media (max-width: 758px) {
+  .shippingContainer {
     display: flex;
     flex-direction: column;
-    text-align: center;
-  }
-  .shippingContainer :global(.vtex-address-form__postalCode) :global(.vtex-input) :global(.vtex-input-prefix__group) {
-    border-radius: 20px;
-    width: 60%;
+    width: 70%;
     margin: auto;
-    display: flex;
-    justify-content: center;
+  }
+  .shippingContainer :global(.vtex-input-prefix__group) {
+    border: none;
+    width: 270px;
+  }
+  .shippingContainer :global(.vtex-address-form-4-x-input) {
+    background-color: white !important;
+    border: 1px solid #ebebeb;
+    border-radius: 20px;
+  }
+  .shippingContainer :global(.vtex-button) {
+    border-radius: 20px;
+    height: 40px;
+  }
+  .shippingContainer :global(.vtex-button) :global(.vtex-button__label) {
+    font-size: 0;
+  }
+  .shippingContainer :global(.vtex-button) :global(.vtex-button__label)::after {
+    content: "Calcular o frete";
+    width: 300px;
+    font-size: 16px;
   }
   :global(.vtex-address-form__postalCode-forgottenURL) {
     display: flex;
     justify-content: center;
-    text-align: center;
-    align-items: center;
+    font-size: 12px !important;
   }
-}
-.logoContainer.sizeDesktop {
-  padding: 0;
+  :global(.vtex-address-form__postalCode) {
+    padding-bottom: 10px;
+  }
+  :global(.vtex-input__label) {
+    display: flex;
+    justify-content: center;
+  }
 }

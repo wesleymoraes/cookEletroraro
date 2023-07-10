@@ -1,17 +1,17 @@
 {
-  "menu-item#fale-conosco": {
+  "menu-item#politicas-de-seguranca": {
     "title": "Link 5",
     "props": {
       "blockClass": "link__menu-institucional",
-      "id": "menu-item-fale-conosco",
+      "id": "menu-item-politicas-de-seguranca",
       "type": "custom",
       "iconId": null,
       "itemProps": {
         "type": "internal",
-        "href": "/fale-conosco",
+        "href": "/politicas-de-seguranca",
         "noFollow": false,
-        "tagTitle": "Fale Conosco",
-        "text": "Fale Conosco"
+        "tagTitle": "politicas de segurança",
+        "text": "Politicas de Segurança"
       }
     }
   }

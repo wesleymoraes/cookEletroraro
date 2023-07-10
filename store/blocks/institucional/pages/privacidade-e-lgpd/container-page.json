@@ -1,12 +1,12 @@
 {
-  "store.custom#pagina-institucional-fale-conosco": {
+  "store.custom#pagina-institucional-privacidade-e-lgpd": {
     "blocks": [
       "responsive-layout.desktop#banner",
       "flex-layout.row#breadcrumb-institucional-fale-conosco",
-      "flex-layout.row#body-institucional-fale-conosco"
+      "flex-layout.row#body-institucional-privacidade-e-lgpd"
     ]
   },
-  "flex-layout.row#body-institucional-fale-conosco": {
+  "flex-layout.row#body-institucional-privacidade-e-lgpd": {
     "title": "Container Fale Conosco",
     "props": {
       "preventHorizontalStretch": true,
@@ -18,7 +18,7 @@
     },
     "children": [
       "flex-layout.col#menu-institucional",
-      "flex-layout.col#container-content-and-title-institucional-fale-conosco"
+      "flex-layout.col#container-content-and-title-institucional-privacidade-e-lgpd"
     ]
   }
 }

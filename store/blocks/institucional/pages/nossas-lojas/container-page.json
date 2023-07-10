@@ -1,13 +1,13 @@
 {
-  "store.custom#pagina-institucional-prazos-de-envio": {
+  "store.custom#pagina-institucional-nossas-lojas": {
     "blocks": [
       "responsive-layout.desktop#banner",
       "flex-layout.row#breadcrumb-institucional-prazos-de-envio",
-      "flex-layout.row#body-institucional-prazos-de-envio"
+      "flex-layout.row#body-institucional-nossas-lojas"
     ]
   },
-  "flex-layout.row#body-institucional-prazos-de-envio": {
-    "title": "Container Prazos de Envio",
+  "flex-layout.row#body-institucional-nossas-lojas": {
+    "title": "Container Nossas Lojas",
     "props": {
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,

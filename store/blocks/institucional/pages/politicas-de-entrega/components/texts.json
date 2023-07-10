@@ -1,0 +1,15 @@
+{
+  "flex-layout.col#container-content-and-title-institucional-trabalhe-conosco": {
+    "title": "Container Titulo E Conteudo",
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "container__conteudo-institucional"
+      ]
+    },
+    "children": [
+      "CustomComponentInstitucional#trabalhe-conosco"
+    ]
+  },
+  "CustomComponentInstitucional#trabalhe-conosco":{}
+}

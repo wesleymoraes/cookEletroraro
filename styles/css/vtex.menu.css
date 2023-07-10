@@ -62,15 +62,19 @@
 
 .styledLinkContent--link__menu-institucional {
   padding: 15px 12px;
-  background-color: #FAFAFA;
-  color: #fbfafa;
-  text-transform: uppercase;
+  color: #000000;
   font-size: 16px;
-  border-radius: 4px;
+}
+.styledLinkContent--link__menu-institucional:focus {
+  font-weight: bold;
+}
+
+.menuItem--link__menu-institucional {
+  border-bottom: 1px solid #BCBCBC;
 }
 
 .menuItem--link__menu-institucional--isOpen {
-  color: #FAFAFA;
+  color: #000000;
 }
 
 .styledLinkIcon--text__institucional-title-menu-mobile {
@@ -141,7 +145,7 @@
   border-radius: 4px;
 }
 .menuItemInnerDiv--text__institucional-title-menu-mobile .styledLinkContainer .styledLink .styledLinkContent {
-  color: #FAFAFA;
+  color: #000000;
 }
 
 @media (max-width: 758px) {

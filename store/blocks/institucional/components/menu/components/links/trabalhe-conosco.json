@@ -1,17 +1,17 @@
 {
-  "menu-item#trabalhe-conosco": {
+  "menu-item#politicas-de-entrega": {
     "title": "Link 4",
     "props": {
       "blockClass": "link__menu-institucional",
-      "id": "menu-item-trabalhe-conosco",
+      "id": "menu-item-politicas-de-entrega",
       "type": "custom",
       "iconId": null,
       "itemProps": {
         "type": "internal",
-        "href": "/trabalhe-conosco",
+        "href": "/politicas-de-entrega",
         "noFollow": false,
-        "tagTitle": "Trabalhe Conosco",
-        "text": "Trabalhe Conosco"
+        "tagTitle": "politicas de entrega",
+        "text": "Politicas de Entrega"
       }
     }
   }

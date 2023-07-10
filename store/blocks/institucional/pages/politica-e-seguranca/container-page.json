@@ -1,5 +1,5 @@
 {
-  "store.custom#pagina-institucional-politica-e-seguranca": {
+  "store.custom#pagina-institucional-politica-de-seguranca": {
     "blocks": [
       "responsive-layout.desktop#banner",
       "flex-layout.row#breadcrumb-institucional-politica-e-seguranca",

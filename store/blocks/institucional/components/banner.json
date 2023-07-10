@@ -8,14 +8,22 @@
       "fullWidth": true,
       "blockClass": ["container__banner-institucional"]
     },
-    "children": ["image#banner-institucional"]
+    "children": [ "ImageComponent#institucional"]
   },
 
-  "image#banner-institucional": {
-    "title": "Imagem",
+  "ImageComponent#institucional": {
     "props": {
-      "blockClass": "banner-institucional",
-      "src": "/arquivos/pensewave-institucional.jpg"
+      "className": "Imagem-Home",
+      "exibirImagem": true,
+      "imageUrl": "https://via.placeholder.com/1252x280",
+      "imageUrlMobile": "https://via.placeholder.com/320x200",
+      "alt": "Imagem",
+      "imageStyle": {
+        "marginTop":"10px",
+        "maxWidth":"100%",
+        "width": "100%"
+      },
+      "loadingType": "lazy"
     }
   }
 }

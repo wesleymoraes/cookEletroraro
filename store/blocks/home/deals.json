@@ -65,7 +65,7 @@
   },
   "rich-text#deal2": {
     "props": {
-      "text": "**ATÉ 10X SEM** \n JUROS",
+      "text": "**ATÉ 10X** \n SEM JUROS",
       "blockClass": "deals"
     }
   },

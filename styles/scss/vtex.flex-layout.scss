@@ -326,9 +326,11 @@
     .flexRowContent--main-header {
         .stretchChildrenWidth {
             width: calc(100% - 513px) !important;
+
             &:first-child {
                 width: 150px !important;
             }
+
             &:last-child {
                 width: 363px !important;
             }
@@ -341,4 +343,28 @@
         width: 100%;
         display: block;
     }
+}
+
+.flexRow--container__pagina-institucional {
+    margin: 30px 0;
+
+    .flexRowContent {
+        gap: 5%;
+    }
+}
+
+.flexCol--container__conteudo-institucional {
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.flexRow--searchbarmobile {
+    padding-bottom: 10px;
+    margin-top: -1px;
+}
+
+.flexRow--ShelfHome,
+.flexRow--info-card {
+    margin: 30px 0;
 }

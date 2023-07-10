@@ -6,14 +6,15 @@
 [class*="searchBarContainer"] [aria-expanded="true"] :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) {
     border-bottom-left-radius: 0;
 }
-[class*="searchBarContainer"] [aria-expanded="true"] :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) + :global(.vtex-input__suffix),
-[class*="searchBarContainer"] [aria-expanded="true"] :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) + :global(.vtex-input__suffix) {
+
+[class*="searchBarContainer"] [aria-expanded="true"] :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input)+ :global(.vtex-input__suffix),
+[class*="searchBarContainer"] [aria-expanded="true"] :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input)+ :global(.vtex-input__suffix) {
     border-bottom-right-radius: 0;
 }
 
 [class*="searchBarContainer"] [class*="portalContainer"],
-[class*="searchBarContainer"] [class*="portalContainer"] > div > div,
-[class*="searchBarContainer"] [class*="portalContainer"] > div > div > div {
+[class*="searchBarContainer"] [class*="portalContainer"]>div>div,
+[class*="searchBarContainer"] [class*="portalContainer"]>div>div>div {
     position: static !important;
 }
 
@@ -93,4 +94,26 @@
     .custom-info-card .custom-info-card__content .custom-info-card__cta {
         margin: 20px auto 0;
     }
+}
+
+.custom-image-component {}
+
+.custom-card {}
+
+.custom-card__image {}
+
+.custom-card__title,
+.custom-card__subtitle {
+   font-size: 19px;
+}
+
+
+
+.custom-card__paragraph,
+.custom-card__bold-word {
+   font-size: 14px;
+}
+.custom-card__boldWord{
+    font-size: 17px;
+    font-weight: 900;
 }

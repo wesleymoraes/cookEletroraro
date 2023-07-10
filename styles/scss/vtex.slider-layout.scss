@@ -1,7 +1,7 @@
 @import './variables.scss';
 
 .sliderLayoutContainer--carousel {
-    margin-top: -175px;
+    margin-top: -160px;
 
     .paginationDotsContainer--carousel {
         margin-bottom: 2em;
@@ -45,15 +45,38 @@
     margin: 20px auto;
 }
 
+:global(.vtex-store-components-3-x-swiperCaretNext),
+:global(.vtex-store-components-3-x-swiperCaretPrev) {
+
+    :global(.vtex-store-components-3-x-caretIcon) {
+        background-color: $cor7 !important;
+        border-radius: 50% !important;
+        padding: 5px;
+        box-sizing: border-box;
+        color: white;
+    }
+}
+:global(.vtex-shelf-1-x-dot--isActive--pdp),
+:global(.vtex-store-components-3-x-swiperBullet--active){
+    border-radius: 20px;
+    background-color: rgba(3, 3, 3, 0.253);
+    width: 34px !important;
+    height: 11px !important;
+}
+
 :global(.vtex-slider-layout-0-x-sliderArrows) {
     background-color: $cor7 !important;
-    height: 30px!important;
-    width: 30px!important;
+    height: 30px !important;
+    width: 30px !important;
     border-radius: 50% !important;
 
     :global(.vtex-slider-layout-0-x-caretIcon) {
         color: $cor2;
-        width: 70%!important;
+        width: 70% !important;
 
     }
+}
+
+.slideChildrenContainer--shelf {
+    margin-right: 10px;
 }

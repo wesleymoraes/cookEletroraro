@@ -1,17 +1,17 @@
 {
-  "menu-item#prazos-de-envio": {
+  "menu-item#nossas-lojas": {
     "title": "Link 8",
     "props": {
       "blockClass": "link__menu-institucional",
-      "id": "menu-item-prazos-de-envio",
+      "id": "menu-item-nossas-lojas",
       "type": "custom",
       "iconId": null,
       "itemProps": {
         "type": "internal",
-        "href": "/prazos-de-envio",
+        "href": "/nossas-lojas",
         "noFollow": false,
-        "tagTitle": "Prazos de Envio",
-        "text": "Prazos de Envio"
+        "tagTitle": "Nossas Lojas",
+        "text": "Nossas Lojas"
       }
     }
   }

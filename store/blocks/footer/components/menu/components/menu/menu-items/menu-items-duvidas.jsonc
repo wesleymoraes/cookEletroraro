@@ -3,28 +3,28 @@
     "title": "Menu Link 01",
     "props": {
       "blockClass": "footerSubmenuItem",
-      "text": "##### [Políticas de Entrega](/)"
+      "text": "##### [Políticas de Entrega](/politicas-de-entrega)"
     }
   },
   "rich-text#link-duvidas-02": {
     "title": "Menu Link 02",
     "props": {
       "blockClass": "footerSubmenuItem",
-      "text": "##### [Politicas de Segurança](/)"
+      "text": "##### [Politicas de Segurança](/politica-de-seguranca)"
     }
   },
   "rich-text#link-duvidas-03": {
     "title": "Menu Link 03",
     "props": {
       "blockClass": "footerSubmenuItem",
-      "text": "##### [Privacidade e LGPD](/)"
+      "text": "##### [Privacidade e LGPD](/privacidade-e-lgpd)"
     }
   },
   "rich-text#link-duvidas-04": {
     "title": "Menu Link 04",
     "props": {
       "blockClass": "footerSubmenuItem",
-      "text": "##### [Trocas e Devoluçoes](/)"
+      "text": "##### [Trocas e Devoluçoes](/trocas-e-devolucoes)"
     }
   },
   "rich-text#link-duvidas-05": {

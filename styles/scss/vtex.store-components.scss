@@ -2,6 +2,7 @@
 
 .searchBarContainer {
     padding: 0 30px 0 25px;
+
     :global(.vtex-input) {
         width: 100% !important;
         height: 37px !important;
@@ -11,12 +12,14 @@
             outline: none;
             border-radius: 0 !important;
             background-color: transparent !important;
+
             :global(.vtex-input__suffix) {
                 border: 1px solid #adaaaa;
                 border-left: 0;
                 background-color: $primary-color;
                 border-top-right-radius: 20px;
                 border-bottom-right-radius: 20px;
+
                 .searchBarIcon {
                     width: 30px;
                     padding: 0;
@@ -24,14 +27,17 @@
                     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' id='Grupo_17' data-name='Grupo 17' width='22.048' height='22.05' viewBox='0 0 22.048 22.05'%3E%3Cg id='procurar' transform='translate(0 0)'%3E%3Cg id='CIRCLE_3_' transform='translate(0 0)'%3E%3Cg id='Grupo_15' data-name='Grupo 15' transform='translate(0 0)'%3E%3Cpath id='Caminho_8' data-name='Caminho 8' d='M17.131,26.369h0a8.993,8.993,0,0,1-2.43-.334A9.26,9.26,0,0,1,8.153,15.507,9.316,9.316,0,0,1,17.215,8c.274,0,.55.013.823.038a9.253,9.253,0,0,1,8.337,9.149,9.154,9.154,0,0,1-.6,3.263,9.277,9.277,0,0,1-8.647,5.918Zm.084-16.53A7.35,7.35,0,0,0,15.2,24.265a7.167,7.167,0,0,0,1.934.266A7.429,7.429,0,0,0,24.06,19.8a7.321,7.321,0,0,0,.477-2.61A7.4,7.4,0,0,0,17.87,9.868c-.217-.019-.437-.029-.655-.029Z' transform='translate(-8.002 -8.001)'/%3E%3C/g%3E%3C/g%3E%3Cg id='LINE_28_' transform='translate(14.114 14.115)'%3E%3Cg id='Grupo_16' data-name='Grupo 16' transform='translate(0 0)'%3E%3Cpath id='Caminho_9' data-name='Caminho 9' d='M45.74,46.662a.914.914,0,0,1-.65-.269l-6.1-6.1a.919.919,0,1,1,1.3-1.3l6.1,6.1a.919.919,0,0,1-.65,1.568Z' transform='translate(-38.724 -38.727)'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
                     background-repeat: no-repeat;
                     background-position: center;
+
                     &--clear {
                         background-image: unset;
                     }
+
                     .searchIcon {
                         display: none;
                     }
                 }
             }
+
             :global(.vtex-styleguide-9-x-input) {
                 border: 1px solid #adaaaa;
                 border-right: 0;
@@ -111,10 +117,12 @@
         }
     }
 }
+
 .skuSelectorOptionsList {
     align-items: start;
     margin-left: 0;
 }
+
 .skuSelectorInternalBox {
     border-radius: 20px;
 }
@@ -136,58 +144,133 @@
     border-radius: 20%;
     color: white !important;
 }
-.shippingContainer {
-    :global(.vtex-button){
-        border-radius: 20px;
-        margin: auto;
-        :global(.vtex-button__label){
-            font-size:17px ;
-            text-transform:initial;
-            font-weight: 400;
-        }
-    }
-}
-@media (max-width:758px) {
-    .shippingContainer {
-        :global(.vtex-button){
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 60%;
-            border-radius: 20px;
-            margin: auto;
-            :global(.vtex-button__label){
-                font-size:17px ;
-                text-transform:initial;
-                font-weight: 400;
-            }
-        }
-        :global(.vtex-address-form__postalCode){
-            :global(.vtex-input){
-                display: flex;
-                flex-direction: column;
-                text-align: center;
-                
-                :global(.vtex-input-prefix__group){
-                    border-radius: 20px;
-                    width: 60%;
-                    margin: auto;
-                    display: flex;
-                    justify-content: center;
-                }
-            }
-        }
-    }
-    :global(.vtex-address-form__postalCode-forgottenURL){
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-    }
-}
+
 
 .logoContainer {
     &.sizeDesktop {
         padding: 0;
+    }
+}
+
+.imageElement--carousel {
+    object-fit: cover;
+}
+
+@media (min-width:758px) {
+    .shippingContainer {
+        margin: 40px 0;
+        padding: 0;
+        position: relative;
+
+        :global(.vtex-input) {
+
+            :global(.vtex-input-prefix__group) {
+                border: none;
+
+            }
+
+            :global(.vtex-input__label) {
+                font-size: 0;
+
+                &::after {
+                    content: "Cep";
+                    font-size: 14px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    display: flex;
+                    justify-content: start;
+                    // letter-spacing: 4px;
+                }
+            }
+        }
+
+
+        :global(.vtex-address-form-4-x-input) {
+            width: 154px;
+            background-color: white;
+            border: 1px solid #ebebeb;
+            border-radius: 20px;
+        }
+
+        :global(.vtex-address-form__postalCode) {
+            padding-bottom: 0;
+        }
+
+        :global(.vtex-address-form__postalCode-forgottenURL) {
+            font-size: 18px;
+            font-weight: 400;
+            color: #000;
+        }
+
+        :global(.vtex-button) {
+            border-radius: 20px;
+            top: 22px;
+            left: 154px;
+            width: fit-content;
+            border: 0;
+            height: 40px;
+            position: absolute;
+            margin-left: 10px;
+
+            :global(.vtex-button__label) {
+                font-size: 0;
+
+                &::after {
+                    content: "Calcular o frete";
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width:758px) {
+    .shippingContainer {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin: auto;
+
+        :global(.vtex-input-prefix__group) {
+            border: none;
+            width: 270px;
+        }
+
+        :global(.vtex-address-form-4-x-input) {
+            background-color: white !important;
+            border: 1px solid #ebebeb;
+            border-radius: 20px;
+        }
+
+        :global(.vtex-button) {
+            border-radius: 20px;
+            height: 40px;
+
+            :global(.vtex-button__label) {
+                font-size: 0;
+
+                &::after {
+                    content: "Calcular o frete";
+                    width: 300px;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    :global(.vtex-address-form__postalCode-forgottenURL) {
+        display: flex;
+        justify-content: center;
+        font-size: 12px !important;
+    }
+
+    :global(.vtex-address-form__postalCode) {
+        padding-bottom: 10px;
+    }
+
+    :global(.vtex-input__label) {
+        display: flex;
+        justify-content: center;
     }
 }

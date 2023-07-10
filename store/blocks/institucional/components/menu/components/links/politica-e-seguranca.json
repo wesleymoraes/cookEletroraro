@@ -1,17 +1,17 @@
 {
-  "menu-item#politica-e-seguranca": {
+  "menu-item#politica-de-seguranca": {
     "title": "Link 2",
     "props": {
       "blockClass": "link__menu-institucional",
-      "id": "menu-item-politica-e-seguranca",
+      "id": "menu-item-politica-de-seguranca",
       "type": "custom",
       "iconId": null,
       "itemProps": {
         "type": "internal",
-        "href": "/politica-e-seguranca",
+        "href": "/politica-de-seguranca",
         "noFollow": false,
-        "tagTitle": "Política e Segurança",
-        "text": "Política e Segurança"
+        "tagTitle": "Politica de Segurança",
+        "text": "Politica de Segurança"
       }
     }
   }

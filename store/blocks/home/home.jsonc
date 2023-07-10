@@ -33,7 +33,23 @@
       "flex-layout.row#Home.seo",
       "flex-layout.row#newsletter-title",
       "flex-layout.row#newsletter-footer"
+    
     ]
+  },
+  "ImageComponent#home02": {
+    "props": {
+      "className": "Imagem-Home",
+      "exibirImagem": true,
+      "imageUrl": "https://via.placeholder.com/220x280",
+      "imageUrlMobile": "https://via.placeholder.com/320x240",
+      "alt": "Imagem",
+      "imageStyle": {
+        "gap": "15px",
+        "border": "10px solid yellow"
+
+      },
+      "loadingType": "lazy"
+    }
   },
   "CustomInfoCard#2": {
     "props": {

@@ -1,0 +1,15 @@
+{
+  "flex-layout.col#container-content-and-title-institucional-privacidade-e-lgpd": {
+    "title": "Container Titulo E Conteudo",
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "container__conteudo-institucional"
+      ]
+    },
+    "children": [
+      "CustomComponentInstitucional#privacidade-e-lgpd"
+    ]
+  },
+  "CustomComponentInstitucional#privacidade-e-lgpd":{}
+}

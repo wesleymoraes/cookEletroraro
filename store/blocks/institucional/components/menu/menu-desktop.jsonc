@@ -5,7 +5,6 @@
       "flex-layout.col#menu-institucional-desktop"
     ]
   },
-
   "flex-layout.col#menu-institucional-desktop": {
     "title": "Container Menu",
     "props": {
@@ -16,25 +15,23 @@
       "vtex.menu@2.x:menu#menu-institucional-desktop"
     ]
   },
-
   "vtex.menu@2.x:menu#menu-institucional-desktop": {
     "props": {
       "orientation": "vertical",
       "blockClass": "container__menu-institucional-desktop-menu"
     },
     "children": [
-      "rich-text#menu-institucional",
+      //"rich-text#menu-institucional",
       "menu-item#quem-somos",
-      "menu-item#politica-e-seguranca",
-      "menu-item#trabalhe-conosco",
-      "rich-text#menu-atendimento",
-      "menu-item#fale-conosco",
-      "menu-item#forma-de-entrega",
-      "menu-item#pagamento",
-      "menu-item#prazos-de-envio",
-      "menu-item#troca-e-devolucao",
-      "menu-item#duvidas-frequentes"
+      "menu-item#nossas-lojas",
+      "menu-item#politicas-de-entrega",
+      //  "rich-text#menu-atendimento",
+      "menu-item#politica-de-seguranca",
+      "menu-item#privacidade-e-lgpd",
+      "menu-item#trocas-e-devolucoes"
+      //"menu-item#pagamento",
+      // "menu-item#troca-e-devolucao",
+      // "menu-item#duvidas-frequentes"
     ]
   }
 }
-
