@@ -1,7 +1,7 @@
 import React from "react";
 import useProduct from "vtex.product-context/useProduct";
 
-const ProductHighlight = () => {
+const CustomNameProduct = () => {
   const productContext = useProduct();
 
   const productName = productContext.product.productName.substring(0, 50);
@@ -11,7 +11,7 @@ const ProductHighlight = () => {
       ? `${productName}...`
       : productName;
 
-  console.log("Contexto de Produto:", productContext);
+  //console.log("Contexto de Produto:", productContext);
 
   return (
     <div>
@@ -31,4 +31,4 @@ const ProductHighlight = () => {
   );
 };
 
-export default ProductHighlight;
+export default CustomNameProduct;
