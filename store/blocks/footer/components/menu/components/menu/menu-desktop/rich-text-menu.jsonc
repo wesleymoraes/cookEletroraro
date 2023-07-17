@@ -16,7 +16,7 @@
   "rich-text#departamentos-footer": {
     "title": "Título Menu Rodapé 03",
     "props": {
-      "text": "#### Formas de pagamento",
+      "text": "#### Formas de Pagamento",
       "blockClass": "footerItemTitle"
     }
   },

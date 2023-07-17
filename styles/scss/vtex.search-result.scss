@@ -1,5 +1,11 @@
 @import './variables.scss';
 
+.searchResultContainer {
+    padding: 0px !important;
+}
+
+
+
 @media (min-width:$large-tablet-size) {
     .searchResultContainer {
         margin-bottom: 202px;
@@ -167,8 +173,13 @@
         .orderByButton {
             .filterPopupTitle {
                 color: $cor28;
+                text-transform: capitalize;
+                font-weight: 600;
 
                 .orderByText {
+                    text-transform: capitalize;
+                    margin-right: 3px;
+                    font-weight: 500;
                     color: $secondary-color;
 
                 }
@@ -182,9 +193,11 @@
 
 
     .galleryLayoutOptionButton {
+        gap: 10px;
         &:first-child {
             background-color: #F2F2F2;
             padding: 0px 20px;
+            gap: 10px;
             border-radius: 20px;
 
         }
@@ -222,51 +235,59 @@
 .filters--layout {
     .filtersWrapper {
         .filter__container--title {
-            
+
             .filterMessage {
                 font-weight: 600;
                 text-transform: uppercase;
+
                 &::after {
                     content: url("assets/icons/IconsHeader/filter.svg");
                     margin-left: 10px;
-                   // background-image: url("assets/icons/IconsHeader/filter.svg");
+                    // background-image: url("assets/icons/IconsHeader/filter.svg");
                 }
             }
         }
     }
 }
+
 .filterBreadcrumbsText {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 16px;
+
     &::after {
         content: url("assets/icons/IconsHeader/filter.svg");
         margin-left: 10px;
-       // background-image: url("assets/icons/IconsHeader/filter.svg");
-    } 
+        // background-image: url("assets/icons/IconsHeader/filter.svg");
+    }
 }
+
 .accordionFilterContainer {
-    padding-left: 1rem!important;
+    padding-left: 1rem !important;
 }
+
 .filterIcon {
     color: black;
 }
+
 .filterBreadcrumbsItemName,
-.accordionFilterItemTitle{
+.accordionFilterItemTitle {
     color: black;
     font-weight: 500;
     font-size: 15px;
 }
+
 .filterTitle {
     color: black;
     font-weight: 500;
 }
 
 .filterTemplateOverflow {
-    max-height:max-content!important;
-    overflow-y: none!important;
+    max-height: max-content !important;
+    overflow-y: none !important;
 }
-.filterPopupButton   {
-    background-color:white ;
+
+.filterPopupButton {
+    background-color: white;
     border-radius: 20px;
 }

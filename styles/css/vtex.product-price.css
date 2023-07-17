@@ -9,9 +9,13 @@
   color: #7D7B7B;
 }
 
+.spotPrice--summary {
+  margin-bottom: 13px;
+}
 .spotPrice--summary .spotPriceValue--summary {
   font-size: 24px;
   color: #000000;
+  font-weight: 600;
 }
 
 .installments--summary {

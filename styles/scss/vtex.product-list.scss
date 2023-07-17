@@ -65,16 +65,6 @@
 }
 
 
-:global(.vtex-dropdown__container) {
-    border: 1px solid $cor33 !important;
-    border-radius: 5px;
-    width: 98px;
-    display: flex;
-    justify-content: space-around;
-    font-weight: 700;
-
-}
-
 .removeButton {
     background-image: url("assets/icons/IconsHeader/awesome-trash.svg");
     background-size: cover;

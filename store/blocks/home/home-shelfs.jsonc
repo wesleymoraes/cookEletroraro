@@ -1,7 +1,7 @@
 {
     "rich-text#shelf-title": {
         "props": {
-            "text": "## DESTAQUES DA SEMANA",
+            "text": "# DESTAQUES DA SEMANA",
             "textPosition": "CENTER",
             "textAlignment": "CENTER",
             "blockClass": "shelfTitle"
@@ -39,7 +39,8 @@
             "infinite": true,
             "fullWidth": false,
             "blockClass": "shelf",
-            "showPaginationDots": "never"
+            "showPaginationDots": "never",
+            "showNavigationArrows": "desktopOnly"
         }
     },
     "responsive-layout.mobile#home.shelf-1": {
@@ -103,7 +104,8 @@
             "infinite": true,
             "fullWidth": false,
             "blockClass": "shelf",
-            "showPaginationDots": "never"
+            "showPaginationDots": "never",
+            "showNavigationArrows": "desktopOnly"
         }
     },
     "slider-layout#shelf-2": {
@@ -116,7 +118,8 @@
             "infinite": true,
             "fullWidth": false,
             "blockClass": "shelf",
-            "showPaginationDots": "never"
+            "showPaginationDots": "never",
+            "showNavigationArrows": "desktopOnly"
         }
     },
     "flex-layout.row#shelf-3": {
@@ -162,7 +165,8 @@
             "infinite": true,
             "fullWidth": false,
             "blockClass": "shelf",
-            "showPaginationDots": "never"
+            "showPaginationDots": "never",
+            "showNavigationArrows": "desktopOnly"
         }
     },
     "slider-layout#shelf-3": {
@@ -175,7 +179,8 @@
             "infinite": true,
             "fullWidth": false,
             "blockClass": "shelf",
-            "showPaginationDots": "never"
+            "showPaginationDots": "never",
+            "showNavigationArrows": "desktopOnly"
         }
     },
     "list-context.product-list#section-5-shelf-2": {
@@ -210,7 +215,8 @@
             "infinite": true,
             "fullWidth": false,
             "blockClass": "shelf",
-            "showPaginationDots": "never"
+            "showPaginationDots": "never",
+            "showNavigationArrows": "desktopOnly"
         }
     },
     "slider-layout#section-5-shelf-2": {
@@ -223,7 +229,8 @@
             "infinite": true,
             "fullWidth": false,
             "blockClass": "shelf",
-            "showPaginationDots": "never"
+            "showPaginationDots": "never",
+            "showNavigationArrows": "desktopOnly"
         }
     },
     "list-context.product-list#section-5-shelf-2": {
@@ -258,7 +265,8 @@
             "infinite": true,
             "fullWidth": false,
             "blockClass": "shelf",
-            "showPaginationDots": "never"
+            "showPaginationDots": "never",
+            "showNavigationArrows": "desktopOnly"
         }
     },
     "slider-layout#section-5-shelf-2": {
@@ -271,7 +279,8 @@
             "infinite": true,
             "fullWidth": false,
             "blockClass": "shelf",
-            "showPaginationDots": "never"
+            "showPaginationDots": "never",
+            "showNavigationArrows": "desktopOnly"
         }
     },
     "list-context.product-list#section-5-shelf-5": {
@@ -306,7 +315,8 @@
             "infinite": true,
             "fullWidth": false,
             "blockClass": "shelf",
-            "showPaginationDots": "never"
+            "showPaginationDots": "never",
+            "showNavigationArrows": "desktopOnly"
         }
     },
     "responsive-layout.mobile#section-5-home.shelf-5": {
@@ -329,7 +339,8 @@
             "infinite": true,
             "fullWidth": false,
             "blockClass": "shelf",
-            "showPaginationDots": "never"
+            "showPaginationDots": "never",
+            "showNavigationArrows": "desktopOnly"
         }
     }
 }

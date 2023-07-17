@@ -40,5 +40,8 @@
   },
   "CustomComponentInstitucional":{
     "component": "CustomComponentInstitucional"
+  },
+  "CustomNameProduct":{
+    "component": "CustomNameProduct"
   }
 }

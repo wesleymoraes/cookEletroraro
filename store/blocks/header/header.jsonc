@@ -94,7 +94,7 @@
       "blockClass": "componentsDesktop"
     },
     "children": [
-      "flex-layout.col#header.ListaDeCasamento",
+      //"flex-layout.col#header.ListaDeCasamento",
       "flex-layout.col#header.login",
       "flex-layout.col#header.minicart"
     ]

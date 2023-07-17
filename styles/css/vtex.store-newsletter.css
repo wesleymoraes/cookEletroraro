@@ -14,9 +14,10 @@
   }
   .newsletterForm .nameInputContainer {
     width: 18em;
-    height: 41px;
   }
   .newsletterForm .nameInputContainer :global(.vtex-input) :global(.vtex-input-prefix__group) {
+    height: 45px;
+    border-radius: 30px;
     border: 1px solid;
     border-radius: 20px;
     color: #000000;
@@ -24,9 +25,10 @@
   }
   .newsletterForm .emailInputContainer {
     width: 30em;
-    height: 41px;
   }
   .newsletterForm .emailInputContainer :global(.vtex-input) :global(.vtex-input-prefix__group) {
+    height: 45px;
+    border-radius: 30px;
     border: 1px solid;
     border-radius: 20px;
     color: #000000;
@@ -45,6 +47,8 @@
     border: none;
     background-color: #000000;
     color: #FAFAFA;
+    border-radius: 30px;
+    padding: 10px 25px;
   }
 }
 @media (max-width: 1024px) {
@@ -53,6 +57,8 @@
     margin: auto;
   }
   .newsletterForm .nameInputContainer :global(.vtex-input) :global(.vtex-input-prefix__group) {
+    height: 45px;
+    border-radius: 30px !important;
     border: 1px solid;
     border-radius: 20px;
     color: #000000;
@@ -63,6 +69,8 @@
     margin: 10px auto;
   }
   .newsletterForm .emailInputContainer :global(.vtex-input) :global(.vtex-input-prefix__group) {
+    height: 45px;
+    border-radius: 40px !important;
     border: 1px solid;
     border-radius: 20px;
     color: #000000;
@@ -73,7 +81,9 @@
     justify-content: center;
   }
   .newsletterForm .formSubmitContainer :global(.vtex-button) {
-    width: 60%;
+    width: 61%;
+    height: 45px;
+    border-radius: 30px !important;
     border: 1px solid;
     border-radius: 20px;
     color: #000000;

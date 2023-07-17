@@ -18,7 +18,7 @@
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
         "hideUnavailableItems": true,
-        "maxItemsPerPage": 10,
+        "maxItemsPerPage": 12,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -31,6 +31,7 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
+        "maxItemsPerPage": 12,
         "simulationBehavior": "skip"
       }
     }
@@ -42,6 +43,7 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
+        "maxItemsPerPage": 12,
         "simulationBehavior": "skip"
       }
     }
@@ -53,6 +55,7 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
+        "maxItemsPerPage": 12,
         "simulationBehavior": "skip"
       }
     }
@@ -66,6 +69,7 @@
   },
   "search-result-layout.desktop": {
     "children": [
+      "flex-layout.row#resultadoDePesquisa",
       "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
       "flex-layout.row#result"
@@ -74,6 +78,43 @@
       "pagination": "show-more",
       "preventRouteChange": false,
       "defaultGalleryLayout": "grid"
+    }
+  },
+  "flex-layout.row#resultadoDePesquisa": {
+    "children": [
+      "list-context.image-list#resultadoDePesquisa"
+    ]
+  },
+  "list-context.image-list#resultadoDePesquisa": {
+    "title": "Slide - categoria ",
+    "children": [
+      "slider-layout#resultadoDePesquisa"
+    ],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "https://via.placeholder.com/1252x280",
+          "mobileImage": "https://via.placeholder.com/320x200"
+        },
+        {
+          "image": "https://via.placeholder.com/1252x280",
+          "mobileImage": "https://via.placeholder.com/320x200"
+        }
+      ]
+    }
+  },
+  "slider-layout#resultadoDePesquisa": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "blockClass": "shelfBanner"
     }
   },
   "flex-layout.row#searchbread": {
@@ -192,7 +233,7 @@
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#searchbread",
       "flex-layout.row#contentmobile",
-     // "flex-layout.row#fetchprevious",
+      // "flex-layout.row#fetchprevious",
       "flex-layout.row#fetchmore"
     ],
     "props": {

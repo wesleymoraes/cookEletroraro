@@ -5,7 +5,7 @@
       "flex-layout.row#deals",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
-      "TituloVitrine",
+      "flex-layout.row#tituloDeVitrine",
       "__fold__",
       "flex-layout.row#shelf.banner",
       "flex-layout.row#section-3",
@@ -13,18 +13,18 @@
       "flex-layout.row#newsletter-title",
       "flex-layout.row#newsletter-footer",
       "responsive-layout.desktop#section-3",
-      "TituloVitrine#segundotitulo",
+      "flex-layout.row#tituloDeVitrine2",
       "responsive-layout.desktop#section-4-FullBanner",
       "responsive-layout.mobile#section-4-FullBanner",
       "flex-layout.row#shelf-3",
-      "flex-layout.row#info-card",
-      "TituloVitrine#3",
+      //"flex-layout.row#info-card",
+      "flex-layout.row#tituloDeVitrine3",
       "list-context.image-list#slideSelecao",
-      "TituloVitrine#4",
+      "flex-layout.row#tituloDeVitrine4",
       "flex-layout.row#section-5-shelf.banner",
       "responsive-layout.mobile#fullbanner2",
       "responsive-layout.desktop#fullbanner2",
-      "TituloVitrine#4",
+      "flex-layout.row#tituloDeVitrine5",
       "responsive-layout.desktop#fullbanner3",
       "responsive-layout.mobile#fullbanner3",
       "list-context.product-list#section-5-shelf-5",
@@ -33,10 +33,12 @@
       "flex-layout.row#Home.seo",
       "flex-layout.row#newsletter-title",
       "flex-layout.row#newsletter-footer"
-    
+      
     ]
   },
-  "ImageComponent#home02": {
+  "CustomNameProduct":{},
+  
+    "ImageComponent#home02": {
     "props": {
       "className": "Imagem-Home",
       "exibirImagem": true,
@@ -62,11 +64,13 @@
     }
   },
   "list-context.image-list#demo": {
+    "title": "Slider principal",
+
     "children": [
       "slider-layout#demo-images"
     ],
     "props": {
-      "height": 570,
+      "height": 1000,
       "preload": true,
       "images": [
         {
@@ -92,6 +96,24 @@
       "blockClass": "carousel"
     }
   },
+  "flex-layout.row#tituloDeVitrine": {
+    "title": "titulo De Vitrine 1",
+    "props": {
+      "blockClass": "tituloDeVitrine"
+    },
+    "children": [
+      "TituloVitrine"
+    ]
+  },
+  "flex-layout.row#tituloDeVitrine2": {
+    "title": "titulo De Vitrine 2",
+    "props": {
+      "blockClass": "tituloDeVitrine"
+    },
+    "children": [
+      "TituloVitrine#segundotitulo"
+    ]
+  },
   "TituloVitrine": {
     "props": {
       "paragraph": "dia das mães",
@@ -100,6 +122,7 @@
     }
   },
   "flex-layout.row#shelf.banner": {
+    "title": "Vitrine Com banner",
     "props": {
       "blockClass": "shelfBanner"
     },
@@ -126,6 +149,7 @@
     ]
   },
   "slider-layout#shelf.banner": {
+    "title": "Slider da Vitrine Com banner",
     "props": {
       "itemsPerPage": {
         "desktop": 1,
@@ -145,17 +169,17 @@
   "image#shelf.banner-1": {
     "props": {
       "title": "shelf.banner",
-      "maxHeight": "260",
+      "maxHeight": "285",
       "maxWidth": "560",
-      "src": "https://placehold.co/560x260"
+      "src": "https://placehold.co/560x285"
     }
   },
   "image#shelf.banner-2": {
     "props": {
       "title": "shelf.banner",
-      "maxHeight": "260",
+      "maxHeight": "285",
       "maxWidth": "560",
-      "src": "https://placehold.co/560x260"
+      "src": "https://placehold.co/560x285"
     }
   },
   "flex-layout.col#shelf.shelf": {
@@ -183,6 +207,7 @@
     ]
   },
   "flex-layout.row#section-3-desktop": {
+    "title": "Sessão dos dois banners",
     "props": {
       "horizontalAlign": "center",
       "blockClass": "section-3-desktop"
@@ -212,6 +237,7 @@
     ]
   },
   "slider-layout#mobile-3-Banner": {
+    "title": "Slider da Sessão dos dois banners",
     "props": {
       "itemsPerPage": {
         "desktop": 1,
@@ -221,7 +247,7 @@
       "infinite": true,
       "showNavigationArrows": "never",
       "showPaginationDots": "never",
-      "blockClass": "shelfBanner"
+      "blockClass": "section-3"
     },
     "children": [
       "image#section-mobile-3-Banner-1",
@@ -248,6 +274,10 @@
     ]
   },
   "flex-layout.row#fullbanner-desktop": {
+    "title": "Sessão do primeiro banner full",
+    "props": {
+      "blockClass": "fullbanner1"
+    },
     "children": [
       "image#fullbanner-desktop"
     ]
@@ -265,6 +295,10 @@
     ]
   },
   "flex-layout.row#fullbanner-mobile": {
+    "title": "Sessão do primeiro banner full",
+    "props": {
+      "blockClass": "4-FullBanner"
+    },
     "children": [
       "image#fullbanner-mobile"
     ]
@@ -277,6 +311,7 @@
     }
   },
   "flex-layout.row#info-card": {
+    "title": "Sessão do infocard",
     "props": {
       "fullWidth": true,
       "blockClass": "info-card"
@@ -300,6 +335,15 @@
       "textAlignment": "center"
     }
   },
+  "flex-layout.row#tituloDeVitrine3": {
+    "title": "titulo De Vitrine 3",
+    "props": {
+      "blockClass": "tituloDeVitrine"
+    },
+    "children": [
+      "TituloVitrine#3"
+    ]
+  },
   "TituloVitrine#3": {
     "props": {
       "paragraph": "PRODUTOS EM ALTA",
@@ -308,6 +352,7 @@
     }
   },
   "list-context.image-list#slideSelecao": {
+    "title": "Sesssão de slide Selecao de produtos",
     "children": [
       "slider-layout#slideSelecao"
     ],
@@ -327,6 +372,7 @@
     }
   },
   "slider-layout#slideSelecao": {
+    "title": "slide Selecao de produtos",
     "props": {
       "itemsPerPage": {
         "desktop": 1,
@@ -335,8 +381,18 @@
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
       "blockClass": "slideSelecao"
     }
+  },
+  "flex-layout.row#tituloDeVitrine4": {
+    "title": "Titulo de vitrine 4",
+    "props": {
+      "blockClass": "tituloDeVitrine"
+    },
+    "children": [
+      "TituloVitrine#4"
+    ]
   },
   "TituloVitrine#4": {
     "props": {
@@ -346,6 +402,7 @@
     }
   },
   "flex-layout.row#section-5-shelf.banner": {
+    "title": "sessão de banner e vitrine",
     "props": {
       "blockClass": "shelfBanner"
     },
@@ -372,6 +429,7 @@
     ]
   },
   "slider-layout#section-5-shelf.banner": {
+    "title": "slider de banner e vitrine",
     "props": {
       "itemsPerPage": {
         "desktop": 1,
@@ -391,9 +449,9 @@
   "image#section-5-shelf.banner-1": {
     "props": {
       "title": "shelf.banner",
-      "maxHeight": "540",
+      "maxHeight": "590",
       "maxWidth": "560",
-      "src": "https://placehold.co/560x540"
+      "src": "https://placehold.co/560x590"
     }
   },
   "image#section-5-shelf.banner-2": {
@@ -405,6 +463,7 @@
     }
   },
   "flex-layout.col#section-5-shelf.shelf": {
+    "title": "vitrine",
     "children": [
       "list-context.product-list#section-5-shelf-2"
     ]
@@ -423,6 +482,7 @@
     ]
   },
   "image#fullbanner2": {
+    "title": "Full banner 2",
     "props": {
       "maxHeight": "300",
       "maxWidth": "1252",
@@ -449,14 +509,22 @@
       "src": "https://placehold.co/400x150"
     }
   },
-  "TituloVitrine#4": {
+  "flex-layout.row#tituloDeVitrine5": {
+    "title": "Titulo de Vitrine 5",
+    "props": {
+      "blockClass": "tituloDeVitrine"
+    },
+    "children": ["TituloVitrine#5"]
+  },
+  "TituloVitrine#5": {
     "props": {
       "paragraph": "PRODUTOS EM ALTA",
-      "span1": " | ",
+      "span1": "|",
       "span2": "Seleção Marca"
     }
   },
   "flex-layout.row#fullbanner2": {
+    "title": "Sessão full banner 2",
     "props": {
       "blockClass": "fullbanner2"
     },
@@ -469,19 +537,14 @@
       "flex-layout.row#fullbanner3"
     ]
   },
-  "image#fullbanner3": {
-    "props": {
-      "maxHeight": "300",
-      "maxWidth": "1252",
-      "src": "https://placehold.co/1252x300"
-    }
-  },
+
   "responsive-layout.mobile#fullbanner3": {
     "children": [
       "flex-layout.row#mobile.fullbanner3"
     ]
   },
   "flex-layout.row#mobile.fullbanner3": {
+    "title": "Sessão full banner 3 - mobile",
     "props": {
       "blockClass": "fullbanner3"
     },
@@ -489,27 +552,39 @@
       "image#mobile.fullbanner3"
     ]
   },
+  "flex-layout.row#fullbanner3": {
+    "title": "Sessão full banner 3 ",
+    "props": {
+      "blockClass": "fullbanner3"
+    },
+    "children": [
+      "image#fullbanner3"
+    ]
+  },
+
   "image#mobile.fullbanner3": {
+    "title": "image full banner 3 - mobile",
     "props": {
       "maxHeight": "150",
       "maxWidth": "400",
       "src": "https://placehold.co/400x150"
     }
   },
-  "flex-layout.row#fullbanner3": {
+  "image#fullbanner3": {
     "props": {
-      "blockClass": "fullbanner2"
-    },
-    "children": [
-      "image#fullbanner3"
-    ]
+      "maxHeight": "300",
+      "maxWidth": "1252",
+      "src": "https://placehold.co/1252x300"
+    }
   },
+
   "responsive-layout.desktop#fullbanner3": {
     "children": [
       "flex-layout.row#fullbanner3"
     ]
   },
   "image#fullbanner3": {
+    "title": "image - full banner 3 ",
     "props": {
       "maxHeight": "150",
       "maxWidth": "1252",
@@ -522,14 +597,16 @@
     ]
   },
   "flex-layout.row#mobile.fullbanner3": {
+    "title": "Sessão full banner 3 - mobile",
     "props": {
-      "blockClass": "fullbanner2"
+      "blockClass": "fullbanner3"
     },
     "children": [
       "image#mobile.fullbanner3"
     ]
   },
   "image#mobile.fullbanner3": {
+    "title": "image - full banner 3 - mobile",
     "props": {
       "maxHeight": "150",
       "maxWidth": "400",
@@ -537,8 +614,9 @@
     }
   },
   "flex-layout.row#fullbanner4": {
+    "title": "Sessão full banner 4 ",
     "props": {
-      "blockClass": "fullbanner2"
+      "blockClass": "fullbanner4"
     },
     "children": [
       "image#fullbanner4"
@@ -550,6 +628,7 @@
     ]
   },
   "image#fullbanner4": {
+    "title": "image - full banner 4 ",
     "props": {
       "maxHeight": "300",
       "maxWidth": "1252",
@@ -562,14 +641,16 @@
     ]
   },
   "flex-layout.row#mobile.fullbanner4": {
+    "title": "Sessão full banner 4 - mobile",
     "props": {
-      "blockClass": "fullbanner2"
+      "blockClass": "fullbanner5"
     },
     "children": [
       "image#mobile.fullbanner4"
     ]
   },
   "image#mobile.fullbanner4": {
+    "title": "image - full banner 4 - mobile",
     "props": {
       "maxHeight": "150",
       "maxWidth": "400",
@@ -577,6 +658,7 @@
     }
   },
   "flex-layout.row#Home.seo": {
+    "title": "Sessão texto SEO",
     "props": {
       "fullWidth": true,
       "blockClass": "HomeSeo",
@@ -593,12 +675,14 @@
     ]
   },
   "rich-text#home.titleSeo": {
+    "title": "titulo SEO",
     "props": {
       "blockClass": "homeTitleSeo",
       "text": "SEO"
     }
   },
   "rich-text#home.blockSeo": {
+    "title": "conteudo SEO",
     "props": {
       "blockClass": "homeContentSeo",
       "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."

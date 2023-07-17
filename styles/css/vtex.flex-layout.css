@@ -36,7 +36,7 @@
 
 .flexRow--main-header {
   transition: background 300ms ease-in-out;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.452);
 }
 .flexRow--main-header .flexRowContent {
   padding: 14px;
@@ -65,11 +65,6 @@
   box-sizing: border-box;
 }
 
-.flexRow--containerDeals {
-  padding: 15px;
-  box-sizing: border-box;
-}
-
 .flexRow--deals .flexRowContent {
   display: flex;
   align-items: center;
@@ -91,13 +86,15 @@
 .flexRow--shelfBanner .flexRowContent {
   align-items: center;
 }
-.flexRow--shelfBanner .flexRowContent .stretchChildrenWidth:first-child .flexCol {
-  gap: 1.2em;
+.flexRow--shelfBanner .flexRowContent .stretchChildrenWidth .flexCol .flexColChild {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
 }
 
-@media (min-width: 758px) {
+@media (max-width: 758px) {
   .flexRow--shelfBanner .flexRowContent .stretchChildrenWidth:first-child .flexCol {
-    gap: 0;
+    gap: 0em !important;
   }
 }
 .flexRow--section-3 .flexRowContent .stretchChildrenWidth {
@@ -107,7 +104,7 @@
 .flexRow--newsletterTitle {
   background-color: #FFFFFF;
   padding-top: 30px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .flexRow--newsletterFooter {
@@ -120,10 +117,6 @@
 }
 .flexRow--section-3-desktop .flexRowContent {
   gap: 12px;
-}
-
-.flexRow--fullbanner2 {
-  margin: 30px 0;
 }
 
 .flexRow--HomeSeo .flexRowContent {
@@ -220,6 +213,9 @@
     width: 60%;
     padding: 10px 5px;
   }
+  .flexRow--info-card {
+    margin-bottom: 0px !important;
+  }
 }
 .flexRowContent--buybutton .stretchChildrenWidth :global(.vtex-button) {
   border-radius: 20px;
@@ -260,7 +256,26 @@
   margin-top: -1px;
 }
 
-.flexRow--ShelfHome,
-.flexRow--info-card {
-  margin: 30px 0;
+.flexRow--fullbanner2 {
+  margin-top: 50px !important;
+}
+
+.flexRow--4-FullBanner,
+.flexRow--fullbanner3 {
+  margin-bottom: 25px !important;
+}
+
+.flexRow--fullbanner4 {
+  margin: 50px auto;
+}
+
+.flexRow--fullbanner5,
+.flexRow--info-card,
+.flexRow--tituloDeVitrine {
+  margin-top: 50px !important;
+  margin-bottom: 25px;
+}
+
+.flexRow--fullbanner1 {
+  margin-bottom: 25px !important;
 }

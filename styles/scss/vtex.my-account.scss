@@ -26,18 +26,35 @@
     gap: 13px;
 }
 
+
 @media (max-width:758px) {
+    :global(.text-block-container) {
+        gap: 5px !important;
+        width: 65% !important;
+        ;
+        flex-wrap: wrap !important;
+        ;
+    }
+
+    :global(.text-block-span1) {
+        display: none;
+    }
+
+    :global(.text-block-paragraph) {
+        margin: 0px !important;
+        ;
+    }
 
     :global(.text-block-paragraph),
     :global(.text-block-span1),
     :global(.text-block-span2) {
-        font-size: 17px;
+        font-size: 23px !important;
     }
 }
 
 :global(.text-block-paragraph) {
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 600;
     color: $secondary-color;
     font-size: 20px;
 }
@@ -50,7 +67,7 @@
 :global(.text-block-span2) {
     color: $cor10 ;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 :global(.CustomInstallmentsContainer) {
@@ -123,7 +140,7 @@
     }
 
     :global(.FloatBottomH4) {
-        font-size: 16px!important;
+        font-size: 16px !important;
     }
 
 }
@@ -215,39 +232,6 @@
     }
 }
 
-:global(.render-route-store-custom-pagina-institucional-quem-somos),
-:global(.render-route-store-custom-pagina-institucional-nossas-lojas),
-:global(.render-route-store-custom-pagina-institucional-politica-de-seguranca),
-:global(.render-route-store-custom-pagina-institucional-politicas-de-entrega),
-:global(.render-route-store-custom-pagina-institucional-privacidade-e-lgpd),
-:global(.render-route-store-custom-pagina-institucional-trocas-e-devolucoes),
-:global(.render-route-store-search),
-:global(.render-route-store-search-department),
-:global(.render-route-store-search-category),
-:global(.render-route-store-search-subcategory),
-:global(.render-route-store-product) {
-    :global(.render-provider) {
-        :global(.vtex-store__template) {
-
-            :global(.flex),
-            :global(.flex-column),
-            :global(.min-vh-100),
-            :global(.w-100) {
-
-                :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck),
-                :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
-
-                    :global(.vtex-sticky-layout-0-x-container--sticky-header),
-                    :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
-                    :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile) {
-                        background-color: black !important;
-
-                    }
-                }
-            }
-        }
-    }
-}
 
 :global(.vtex-button) {
     border: none;
@@ -303,8 +287,8 @@
                                         :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItemsWrapper) {
                                             :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItems) {
                                                 :global(.wavepartnerbr-wave-menu-0-x-desktop-departmentsItemLink) {
-                                                    color: rgb(255, 255, 255) !important;
-                                                    font-weight: 300 !important;
+                                                    color: rgb(255, 255, 255);
+                                                    font-weight: 300!important;
 
                                                     :global(.wavepartnerbr-wave-menu-0-x-desktop-departmentsIconContent) {
                                                         display: none;
@@ -343,15 +327,74 @@
                     :global(.vtex-sticky-layout-0-x-container--sticky-header) {
                         :global(.vtex-flex-layout-0-x-flexRow--MenuDesktop) {
                             background-color: #ffffff !important;
+                            display: none !important;
 
                             :global(.vtex-flex-layout-0-x-flexRowContent--MenuDesktop) {
+
                                 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
                                     :global(.wavepartnerbr-wave-menu-0-x-theme5) {
                                         :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItemsWrapper) {
                                             :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItems) {
                                                 :global(.wavepartnerbr-wave-menu-0-x-desktop-departmentsItemLink) {
                                                     color: #000000 !important;
-                                                    font-weight: 300 !important;
+                                                    font-weight: 600 !important;
+
+                                                    :global(.wavepartnerbr-wave-menu-0-x-desktop-departmentsIconContent) {
+                                                        display: none;
+                                                    }
+                                                }
+
+                                            }
+                                        }
+                                    }
+
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+:global(.render-route-store-not-found-product),
+:global(.render-route-store-custom-pagina-institucional-quem-somos),
+:global(.render-route-store-custom-pagina-institucional-nossas-lojas),
+:global(.render-route-store-custom-pagina-institucional-politica-de-seguranca),
+:global(.render-route-store-custom-pagina-institucional-politicas-de-entrega),
+:global(.render-route-store-custom-pagina-institucional-privacidade-e-lgpd),
+:global(.render-route-store-custom-pagina-institucional-trocas-e-devolucoes),
+:global(.render-route-store-search),
+:global(.render-route-store-search-department),
+:global(.render-route-store-search-category),
+:global(.render-route-store-search-subcategory),
+:global(.render-route-store-product) {
+    :global(.render-provider) {
+        :global(.vtex-store__template) {
+
+            :global(.flex),
+            :global(.flex-column),
+            :global(.min-vh-100),
+            :global(.w-100) {
+                :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+                    :global(.vtex-sticky-layout-0-x-container--sticky-header) {
+                        :global(.vtex-flex-layout-0-x-flexRow--main-header){
+                            background-color: black;
+                        }
+
+                        :global(.vtex-flex-layout-0-x-flexRow--MenuDesktop) {
+                            background-color: #ffffff !important;
+
+                            :global(.vtex-flex-layout-0-x-flexRowContent--MenuDesktop) {
+
+                                :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+                                    :global(.wavepartnerbr-wave-menu-0-x-theme5) {
+                                        :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItemsWrapper) {
+                                            :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItems) {
+                                                :global(.wavepartnerbr-wave-menu-0-x-desktop-departmentsItemLink) {
+                                                    color: #000000 !important;
+                                                    font-weight: 600 !important;
 
                                                     :global(.wavepartnerbr-wave-menu-0-x-desktop-departmentsIconContent) {
                                                         display: none;
@@ -373,6 +416,9 @@
     }
 }
 
+
+    
+:global(.render-route-store-not-found-product),
 :global(.render-route-store-custom-pagina-institucional-quem-somos),
 :global(.render-route-store-custom-pagina-institucional-nossas-lojas),
 :global(.render-route-store-custom-pagina-institucional-politica-de-seguranca),
@@ -391,34 +437,34 @@
             :global(.flex-column),
             :global(.min-vh-100),
             :global(.w-100) {
-
-                :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck),
-                :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+                :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) {
                     :global(.vtex-sticky-layout-0-x-container--sticky-header) {
-                        :global(.vtex-flex-layout-0-x-flexRow--main-header) {
-                            background-color: black !important;
-                        }
-
                         :global(.vtex-flex-layout-0-x-flexRow--MenuDesktop) {
-                            background-color: white !important;
+                            background-color: #ffffff !important;
+                            display: none !important;
 
                             :global(.vtex-flex-layout-0-x-flexRowContent--MenuDesktop) {
+
                                 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
                                     :global(.wavepartnerbr-wave-menu-0-x-theme5) {
                                         :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItemsWrapper) {
                                             :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItems) {
-                                                font-weight: 300 !important;
+                                                :global(.wavepartnerbr-wave-menu-0-x-desktop-departmentsItemLink) {
+                                                    color: #000000 !important;
+                                                    font-weight: 600 !important;
 
-                                                :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItemLink) {
-                                                    color: #000 !important;
+                                                    :global(.wavepartnerbr-wave-menu-0-x-desktop-departmentsIconContent) {
+                                                        display: none;
+                                                    }
                                                 }
+
                                             }
-
                                         }
-
                                     }
+
                                 }
                             }
+
                         }
                     }
                 }
@@ -426,9 +472,17 @@
         }
     }
 }
+    
+
+
+:global(.cookeletroraro-store-theme-0-x-custom-image-component) {
+    margin-top: 0px !important;
+}
 
 :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItemLinkText) {
     font-weight: 300 !important;
+    text-transform: capitalize;
+    font-size: 14px!important;
 }
 
 
@@ -465,7 +519,7 @@
 }
 
 :global(.highlight-item-A) {
-    color: red;
+    color: #DC3E3F;
     text-transform: initial;
     font-size: 12px;
 }

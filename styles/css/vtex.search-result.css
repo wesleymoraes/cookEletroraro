@@ -3,6 +3,10 @@
 /* preto */
 /* cinza */
 /* branco */
+.searchResultContainer {
+  padding: 0px !important;
+}
+
 @media (min-width: 1024px) {
   .searchResultContainer {
     margin-bottom: 202px;
@@ -106,17 +110,26 @@
 
 .orderBy--layout .orderByDropdown .orderByButton .filterPopupTitle {
   color: #F71963;
+  text-transform: capitalize;
+  font-weight: 600;
 }
 .orderBy--layout .orderByDropdown .orderByButton .filterPopupTitle .orderByText {
+  text-transform: capitalize;
+  margin-right: 3px;
+  font-weight: 500;
   color: #000000;
 }
 
 .galleryLayoutSwitcher {
   gap: 10px;
 }
+.galleryLayoutSwitcher .galleryLayoutOptionButton {
+  gap: 10px;
+}
 .galleryLayoutSwitcher .galleryLayoutOptionButton:first-child {
   background-color: #F2F2F2;
   padding: 0px 20px;
+  gap: 10px;
   border-radius: 20px;
 }
 

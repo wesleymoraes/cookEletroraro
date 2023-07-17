@@ -15,11 +15,20 @@
         "tablet": 2,
         "phone": 2
       },
+      "autoplay": {
+        "timeout": 3000
+   },
+      "slideTransition": {
+        "speed": 400,
+        "delay": 0,
+        "timing": ""
+      },
       "infinite": true,
       "showPaginationDots": "never",
       "showNavigationArrows": "never",
       "blockClass": "deals"
     },
+    
     "children": [
       "flex-layout.row#deals1",
       "flex-layout.row#deals2",

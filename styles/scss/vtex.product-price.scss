@@ -7,9 +7,11 @@
     } 
  }
  .spotPrice--summary{
+   margin-bottom: 13px;
     .spotPriceValue--summary{
        font-size: 24px; 
        color: $secondary-color;
+       font-weight: 600;
     }
  }
  .installments--summary{

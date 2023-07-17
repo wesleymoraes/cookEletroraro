@@ -71,10 +71,31 @@
             font-weight: 700;
             line-height: 18px;
             color: $secondary-color;
+            
         }
     }
 
 }
+
+@media(min-width:1380px){
+    .imageElement--carousel{
+        height: 47vw;
+        width: 100vw;
+        object-fit: cover;
+    }   
+}
+
+
+@media(max-width:1370px){
+    .imageElement--carousel{
+        height: 545px;
+        width: 100vw!important;
+        object-fit: cover;
+    }
+
+}
+
+
 
 .productNameContainer {
     .productBrand {
@@ -152,9 +173,6 @@
     }
 }
 
-.imageElement--carousel {
-    object-fit: cover;
-}
 
 @media (min-width:758px) {
     .shippingContainer {

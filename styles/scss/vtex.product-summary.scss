@@ -2,20 +2,26 @@
 
 .containerNormal {
     background-color: $cor2;
+    margin-left: 0px;
+    margin-right: 15px;
+    box-shadow: -2px 0px 6px -2px rgba(0, 0, 0, 0.116);
     .clearLink {
         .element {
             padding: 23px;
             box-sizing: border-box;
             align-items: center;
             justify-content: space-between;
-            
+
             .nameContainer {
                 margin-bottom: 10px;
+
                 .productBrand {
                     text-align: center;
                     font-weight: 600;
                     color: $secondary-color;
                     letter-spacing: 0;
+
+
 
                 }
             }

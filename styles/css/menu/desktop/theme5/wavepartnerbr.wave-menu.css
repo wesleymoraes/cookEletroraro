@@ -123,7 +123,7 @@
 .theme5 .desktop-menuItem:hover .desktop-menuItemLink::after,
 .theme5 .desktop-departmentsItem:hover .desktop-departmentsItemLink::after {
   transform: scaleX(1);
-  background: #dc3e3f;
+  background: black;
 }
 
 .theme5 .desktop-menuIcon {
