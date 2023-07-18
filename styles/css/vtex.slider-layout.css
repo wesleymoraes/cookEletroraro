@@ -42,9 +42,6 @@
     margin-top: 25px;
     margin-bottom: 0;
   }
-  .slide--shelf {
-    width: 6.55556% !important;
-  }
 }
 @media (min-width: 758px) {
   .sliderLayoutContainer--slideSelecao {

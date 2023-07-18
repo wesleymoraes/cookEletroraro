@@ -54,7 +54,7 @@
                 "phone": 1
             },
             "centerMode": "to-the-left",
-            "centerModeSlidesGap": 2,
+            "centerModeSlidesGap": 5,
             "infinite": true,
             "fullWidth": false,
             "blockClass": "shelf",
@@ -100,7 +100,7 @@
                 "phone": 1
             },
             "centerMode": "to-the-left",
-            "centerModeSlidesGap": 2,
+            "centerModeSlidesGap": 5,
             "infinite": true,
             "fullWidth": false,
             "blockClass": "shelf",
@@ -161,7 +161,7 @@
                 "phone": 1
             },
             "centerMode": "to-the-left",
-            "centerModeSlidesGap": 2,
+            "centerModeSlidesGap": 5,
             "infinite": true,
             "fullWidth": false,
             "blockClass": "shelf",
@@ -211,7 +211,7 @@
                 "phone": 1
             },
             "centerMode": "to-the-left",
-            "centerModeSlidesGap": 2,
+            "centerModeSlidesGap": 5,
             "infinite": true,
             "fullWidth": false,
             "blockClass": "shelf",
@@ -335,7 +335,7 @@
                 "phone": 1
             },
             "centerMode": "to-the-left",
-            "centerModeSlidesGap": 2,
+            "centerModeSlidesGap": 5,
             "infinite": true,
             "fullWidth": false,
             "blockClass": "shelf",

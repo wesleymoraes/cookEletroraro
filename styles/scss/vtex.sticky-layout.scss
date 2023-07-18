@@ -8,20 +8,6 @@
     }
 }
 
-@media (max-width:$tablet-size) {
-    .wrapper--stuck {
-        .container {
-            :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile) {
-                background-color: $tertiary-color;
-            }
-        }
-    }
-
-    .container--container-float-button {
-        flex-direction: column !important;
-    }
-  
-}
 
 .container--container-float-button {
     display: flex;

@@ -64,6 +64,12 @@
   font-weight: 600;
 }
 
+@media (max-width: 758px) {
+  :global(.CustomInstallmentsContainer) {
+    border-top: 1px solid #BCBCBC;
+    border-bottom: 1px solid #BCBCBC;
+  }
+}
 :global(.CustomInstallmentsContainer) {
   display: flex;
   align-items: center;
@@ -105,7 +111,8 @@
   :global(.CustomInstallmentsOpen) {
     display: flex;
     justify-content: center;
-    margin: 10px auto;
+    margin: 0px auto 15px !important;
+    font-size: 12px;
   }
   :global(.CustomInstallmentsContainer) {
     display: flex;
@@ -135,6 +142,14 @@
   margin: 5px 0;
 }
 
+@media (max-width: 758px) {
+  :global(.pdp-price) {
+    font-size: 35px !important;
+  }
+  :global(.pdp-messageParcelado) {
+    font-size: 25px !important;
+  }
+}
 :global(.pdp-price) {
   color: #1B9A28;
   font-size: 26px;
@@ -170,44 +185,191 @@
   color: black !important;
 }
 
-:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
-:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
-:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
-:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
-:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
-:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
-:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
-:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
-:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
-:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
-:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
-:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile) {
-  background-color: transparent !important;
-}
-
 :global(.vtex-button) {
   border: none;
 }
 
-:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck),
-:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck),
-:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck),
-:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) {
-  transition: 2s ease-out;
-}
-:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
-:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
-:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
-:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
-:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
-:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
-:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
-:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
-:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
-:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
-:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
-:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile) {
+:global(.render-route-store-not-found-product) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-not-found-product) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-not-found-product) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-not-found-product) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-not-found-product) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-not-found-product) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-not-found-product) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-not-found-product) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-custom-pagina-institucional-quem-somos) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-custom-pagina-institucional-quem-somos) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-custom-pagina-institucional-quem-somos) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-custom-pagina-institucional-quem-somos) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-custom-pagina-institucional-quem-somos) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-custom-pagina-institucional-quem-somos) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-custom-pagina-institucional-quem-somos) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-custom-pagina-institucional-quem-somos) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-custom-pagina-institucional-nossas-lojas) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-custom-pagina-institucional-nossas-lojas) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-custom-pagina-institucional-nossas-lojas) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-custom-pagina-institucional-nossas-lojas) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-custom-pagina-institucional-nossas-lojas) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-custom-pagina-institucional-nossas-lojas) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-custom-pagina-institucional-nossas-lojas) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-custom-pagina-institucional-nossas-lojas) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-custom-pagina-institucional-politica-de-seguranca) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-custom-pagina-institucional-politica-de-seguranca) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-custom-pagina-institucional-politica-de-seguranca) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-custom-pagina-institucional-politica-de-seguranca) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-custom-pagina-institucional-politica-de-seguranca) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-custom-pagina-institucional-politica-de-seguranca) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-custom-pagina-institucional-politica-de-seguranca) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-custom-pagina-institucional-politica-de-seguranca) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-custom-pagina-institucional-politicas-de-entrega) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-custom-pagina-institucional-politicas-de-entrega) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-custom-pagina-institucional-politicas-de-entrega) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-custom-pagina-institucional-politicas-de-entrega) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-custom-pagina-institucional-politicas-de-entrega) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-custom-pagina-institucional-politicas-de-entrega) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-custom-pagina-institucional-politicas-de-entrega) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-custom-pagina-institucional-politicas-de-entrega) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-custom-pagina-institucional-privacidade-e-lgpd) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-custom-pagina-institucional-privacidade-e-lgpd) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-custom-pagina-institucional-privacidade-e-lgpd) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-custom-pagina-institucional-privacidade-e-lgpd) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-custom-pagina-institucional-privacidade-e-lgpd) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-custom-pagina-institucional-privacidade-e-lgpd) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-custom-pagina-institucional-privacidade-e-lgpd) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-custom-pagina-institucional-privacidade-e-lgpd) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-custom-pagina-institucional-trocas-e-devolucoes) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-custom-pagina-institucional-trocas-e-devolucoes) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-custom-pagina-institucional-trocas-e-devolucoes) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-custom-pagina-institucional-trocas-e-devolucoes) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-custom-pagina-institucional-trocas-e-devolucoes) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-custom-pagina-institucional-trocas-e-devolucoes) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-custom-pagina-institucional-trocas-e-devolucoes) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-custom-pagina-institucional-trocas-e-devolucoes) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-search) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-search) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-search) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-search) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-search) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-search) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-search) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-search) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-search-department) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-search-department) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-search-department) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-search-department) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-search-department) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-search-department) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-search-department) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-search-department) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-search-category) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-search-category) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-search-category) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-search-category) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-search-category) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-search-category) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-search-category) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-search-category) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-search-subcategory) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-search-subcategory) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-search-subcategory) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-search-subcategory) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-search-subcategory) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-search-subcategory) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-search-subcategory) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-search-subcategory) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-product) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-product) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-product) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-product) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-product) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-product) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-product) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-product) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile) {
   background-color: black !important;
+}
+:global(.render-route-store-not-found-product) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-not-found-product) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-not-found-product) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-not-found-product) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-custom-pagina-institucional-quem-somos) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-custom-pagina-institucional-quem-somos) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-custom-pagina-institucional-quem-somos) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-custom-pagina-institucional-quem-somos) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-custom-pagina-institucional-nossas-lojas) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-custom-pagina-institucional-nossas-lojas) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-custom-pagina-institucional-nossas-lojas) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-custom-pagina-institucional-nossas-lojas) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-custom-pagina-institucional-politica-de-seguranca) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-custom-pagina-institucional-politica-de-seguranca) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-custom-pagina-institucional-politica-de-seguranca) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-custom-pagina-institucional-politica-de-seguranca) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-custom-pagina-institucional-politicas-de-entrega) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-custom-pagina-institucional-politicas-de-entrega) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-custom-pagina-institucional-politicas-de-entrega) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-custom-pagina-institucional-politicas-de-entrega) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-custom-pagina-institucional-privacidade-e-lgpd) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-custom-pagina-institucional-privacidade-e-lgpd) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-custom-pagina-institucional-privacidade-e-lgpd) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-custom-pagina-institucional-privacidade-e-lgpd) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-custom-pagina-institucional-trocas-e-devolucoes) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-custom-pagina-institucional-trocas-e-devolucoes) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-custom-pagina-institucional-trocas-e-devolucoes) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-custom-pagina-institucional-trocas-e-devolucoes) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-search) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-search) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-search) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-search) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-search-department) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-search-department) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-search-department) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-search-department) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-search-category) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-search-category) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-search-category) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-search-category) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-search-subcategory) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-search-subcategory) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-search-subcategory) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-search-subcategory) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-product) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-product) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-product) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-product) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile) {
+  background-color: #f3f3f3 !important;
+}
+
+:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile) {
+  background-color: black !important;
+}
+:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile) {
+  background-color: #f3f3f3 !important;
+}
+
+:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
+:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header),
+:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile) {
+  background-color: transparent;
+}
+:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.min-vh-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile),
+:global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.w-100) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile) {
+  background-color: transparent;
 }
 
 :global(.render-route-store-home) :global(.render-provider) :global(.vtex-store__template) :global(.flex) :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) :global(.vtex-sticky-layout-0-x-container--sticky-header) :global(.vtex-flex-layout-0-x-flexRow--MenuDesktop),

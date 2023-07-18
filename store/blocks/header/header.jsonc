@@ -134,7 +134,7 @@
       "inputType": "text",
       "blockClass": "searchbarContainer",
       "autocompleteAlignment": "left",
-      "placeholder": "O que você está procurando?"
+      "placeholder": "Busque por nome do produto ou marca?"
     }
   },
   "autocomplete-result-list.v2": {
@@ -280,6 +280,7 @@
   },
   "logo#mobile": {
     "props": {
+      "width": 130,
       "title": "Logo",
       "href": "/",
       "url": "assets/icons/IconsHeader/mobile-logo.png"

@@ -92,7 +92,8 @@
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
       "blockClass": "carousel"
     }
   },

@@ -4,14 +4,88 @@
       "flex-layout.row#product-breadcrumb",
       "condition-layout.product#availability",
       "flex-layout.row#description",
-      "sticky-layout#buy-button-pdp",
-      "tab-layout#home",
+      //"sticky-layout#buy-button-pdp",
+      "responsive-layout.desktop#tab-layout",
+      "responsive-layout.mobile#descricaoProduto",
+      "responsive-layout.mobile#especificacoesTecnicas",
       //"product-specification-group#table",
       "product-questions-and-answers",
       "flex-layout.row#shelf-pdp",
       "flex-layout.row#newsletter-title",
       "flex-layout.row#newsletter-footer",
       "product-reviews"
+    ]
+  },
+
+  "responsive-layout.mobile#descricaoProduto": {
+    "children": [
+      "menu-item#descricaoProduto"
+    ]
+  },
+  "menu-item#descricaoProduto": {
+    "props": {
+      "blockClass": "PdpMenuItem",
+      "id": "menu-item-footer-atendimento",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Descrição do Produto",
+        "text": "Descrição do Produto"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#descricaoProduto"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#descricaoProduto": {
+    "props": {
+      "blockClass": "footerSubmenu",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#product-description"
+    ]
+  },
+  "responsive-layout.mobile#especificacoesTecnicas": {
+    "children": [
+      "menu-item#especificacoesTecnicas"
+    ]
+  },
+  "menu-item#especificacoesTecnicas": {
+    "props": {
+      "blockClass": "PdpMenuItem",
+      "id": "menu-item-footer-atendimento",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Especificações Técnicas",
+        "text": "Especificações Técnicas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#especificacoesTecnicas"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#especificacoesTecnicas": {
+    "props": {
+      "blockClass": "footerSubmenu",
+      "orientation": "vertical"
+    },
+    "children": [
+     
+      "product-specification-group#table"
+    ]
+  },
+  
+  "responsive-layout.desktop#tab-layout": {
+    "children": [
+      "tab-layout#home"
     ]
   },
   "tab-layout#home": {
@@ -175,15 +249,22 @@
       "responsive-layout.desktop#discountQuantity",
       "responsive-layout.mobile#discountQuantity",
       //"product-selling-price",
-      "product-separator",
+      "responsive-layout.desktop#separator",
 
       //"product-identifier.product",
       "product-assembly-options",
       "product-gifts",
       "flex-layout.row#buy-button",
       "CustomInstallments",
+      "responsive-layout.desktop#separator",
       "availability-subscriber",
       "shipping-simulator"
+    ]
+  },
+
+  "responsive-layout.desktop#separator": {
+    "children": [
+      "product-separator"
     ]
   },
   "responsive-layout.desktop#discountQuantity": {
@@ -308,7 +389,6 @@
       "productList": {
         "maxItems": 9,
         "titleText": "APROVEITE E VEJA TAMBÉM",
-        "gap": "ph0",
         "minItemsPerPage": 1,
         "itemsPerPage": 4,
         "arrows": false

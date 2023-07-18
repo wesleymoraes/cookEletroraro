@@ -8,14 +8,6 @@
   margin: auto;
 }
 
-@media (max-width: 768px) {
-  .wrapper--stuck .container :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile) {
-    background-color: transparent;
-  }
-  .container--container-float-button {
-    flex-direction: column !important;
-  }
-}
 .container--container-float-button {
   display: flex;
   flex-direction: column;

@@ -25,17 +25,6 @@ const CustomInstallments = () => {
     });
   };
 
-  const renderParcelas = (inicio, fim) => {
-    const parcelas = [];
-    for (let i = inicio; i <= fim; i++) {
-      const valorParcela = (price / i).toFixed(2);
-      parcelas.push(
-        <p key={i}>{i}x de <b>{formatCurrency(valorParcela)}</b> sem juros</p>
-      );
-    }
-    return parcelas;
-  };
-
   return (
     <div className="CustomInstallmentsContainer">
       <div className="CustomInstallmentsColumn">
@@ -46,7 +35,11 @@ const CustomInstallments = () => {
         <p>5x de <b>{formatCurrency(price / 5)}</b> sem juros</p>
       </div>
       <div className="CustomInstallmentsColumn">
-        {renderParcelas(6, 10)}
+      <p>6x de <b>{formatCurrency(price / 6)}</b> sem juros</p>
+        <p>7x de <b>{formatCurrency(price / 7)}</b> sem juros</p>
+        <p>8x de <b>{formatCurrency(price / 8)}</b> sem juros</p>
+        <p>9x de <b>{formatCurrency(price / 9)}</b> sem juros</p>
+        <p>10x de <b>{formatCurrency(price / 10)}</b> sem juros</p>
       </div>
     </div>
   );
@@ -77,7 +70,6 @@ const ProductPage = () => {
         {isOpen ? 'Fechar opções de parcelamento ' : 'Ver opções de parcelamento '}
         <img src="https://cookeletroraro.vtexassets.com/assets/vtex/assets-builder/cookeletroraro.store-theme/0.0.0/icons/angulo-para-baixo___621e8f8f6218d053b5847b62646237d4.png" alt="Seta" style={arrowStyle} />
       </button>
-      <hr />
       {isOpen && <CustomInstallments />}
       {/* Outros componentes e informações da página */}
     </div>

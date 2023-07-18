@@ -40,6 +40,7 @@
 
 .flexRow--main-header-mobile {
     .flexRowContent {
+        padding: 10px 0;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -84,7 +85,9 @@
     box-sizing: border-box;
 }
 
-
+.flexRow--searchbarmobile{
+    padding: 10px 0;
+}
 .flexRow--deals {
     .flexRowContent {
         display: flex;
@@ -147,6 +150,9 @@
                 }
             }
         }
+    }
+    .flexRowContent--productSpecificationGroup{
+        padding: 30px;
     }
 }
 
@@ -252,6 +258,9 @@
             justify-content: center;
 
         }
+    }
+    .flexRow--buybutton{
+        margin: 27px 0px;
     }
 }
 

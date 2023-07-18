@@ -70,6 +70,14 @@
     font-weight: 600;
 }
 
+@media (max-width:758px) {
+    :global(.CustomInstallmentsContainer) {
+        border-top: 1px solid #BCBCBC;
+        border-bottom: 1px solid #BCBCBC;
+    }
+
+}
+
 :global(.CustomInstallmentsContainer) {
     display: flex;
     align-items: center;
@@ -119,7 +127,8 @@
     :global(.CustomInstallmentsOpen) {
         display: flex;
         justify-content: center;
-        margin: 10px auto;
+        margin: 0px auto 15px !important;
+        font-size: 12px;
     }
 
     :global(.CustomInstallmentsContainer) {
@@ -154,6 +163,18 @@
     color: #7D7B7B;
     font-size: 13px;
     margin: 5px 0;
+}
+
+@media (max-width:758px) {
+    :global(.pdp-price) {
+        font-size: 35px !important;
+
+    }
+
+    :global(.pdp-messageParcelado) {
+        font-size: 25px !important;
+    }
+
 }
 
 :global(.pdp-price) {
@@ -210,6 +231,77 @@
     }
 }
 
+
+
+
+:global(.vtex-button) {
+    border: none;
+}
+
+:global(.render-route-store-not-found-product),
+:global(.render-route-store-custom-pagina-institucional-quem-somos),
+:global(.render-route-store-custom-pagina-institucional-nossas-lojas),
+:global(.render-route-store-custom-pagina-institucional-politica-de-seguranca),
+:global(.render-route-store-custom-pagina-institucional-politicas-de-entrega),
+:global(.render-route-store-custom-pagina-institucional-privacidade-e-lgpd),
+:global(.render-route-store-custom-pagina-institucional-trocas-e-devolucoes),
+:global(.render-route-store-search),
+:global(.render-route-store-search-department),
+:global(.render-route-store-search-category),
+:global(.render-route-store-search-subcategory),
+:global(.render-route-store-product) {
+    :global(.render-provider) {
+        :global(.vtex-store__template) {
+            :global(.flex),
+            :global(.flex-column),
+            :global(.min-vh-100),
+            :global(.w-100) {
+                :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+
+                    :global(.vtex-sticky-layout-0-x-container--sticky-header),
+                    :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile) {
+
+                        background-color: black !important;
+
+                    }
+
+                    :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile) {
+                        background-color: #f3f3f3 !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+:global(.render-route-store-home) {
+    :global(.render-provider) {
+        :global(.vtex-store__template) {
+
+            :global(.flex),
+            :global(.flex-column),
+            :global(.min-vh-100),
+            :global(.w-100) {
+
+                :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) {
+
+                    :global(.vtex-sticky-layout-0-x-container--sticky-header),
+                    :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile) {
+
+                        background-color: black !important;
+
+                    }
+
+                    :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile) {
+                        background-color: #f3f3f3 !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
 :global(.render-route-store-home) {
     :global(.render-provider) {
         :global(.vtex-store__template) {
@@ -222,42 +314,12 @@
                 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
 
                     :global(.vtex-sticky-layout-0-x-container--sticky-header),
-                    :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
-                    :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile) {
-                        background-color: transparent !important;
+                    :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile) {
+                        background-color: transparent;
                     }
-                }
-            }
-        }
-    }
-}
 
-
-:global(.vtex-button) {
-    border: none;
-}
-
-
-:global(.render-route-store-home) {
-    :global(.render-provider) {
-        :global(.vtex-store__template) {
-
-            :global(.flex),
-            :global(.flex-column),
-            :global(.min-vh-100),
-            :global(.w-100) {
-
-                :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) {
-                    transition: 2s ease-out;
-
-                    :global(.vtex-sticky-layout-0-x-container--sticky-header) {
-
-                        :global(.vtex-sticky-layout-0-x-container--sticky-header),
-                        :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile),
-                        :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile) {
-                            background-color: black !important;
-
-                        }
+                    :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile) {
+                        background-color: transparent
                     }
                 }
             }
@@ -288,7 +350,7 @@
                                             :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItems) {
                                                 :global(.wavepartnerbr-wave-menu-0-x-desktop-departmentsItemLink) {
                                                     color: rgb(255, 255, 255);
-                                                    font-weight: 300!important;
+                                                    font-weight: 300 !important;
 
                                                     :global(.wavepartnerbr-wave-menu-0-x-desktop-departmentsIconContent) {
                                                         display: none;
@@ -358,6 +420,7 @@
         }
     }
 }
+
 :global(.render-route-store-not-found-product),
 :global(.render-route-store-custom-pagina-institucional-quem-somos),
 :global(.render-route-store-custom-pagina-institucional-nossas-lojas),
@@ -379,7 +442,7 @@
             :global(.w-100) {
                 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
                     :global(.vtex-sticky-layout-0-x-container--sticky-header) {
-                        :global(.vtex-flex-layout-0-x-flexRow--main-header){
+                        :global(.vtex-flex-layout-0-x-flexRow--main-header) {
                             background-color: black;
                         }
 
@@ -417,7 +480,7 @@
 }
 
 
-    
+
 :global(.render-route-store-not-found-product),
 :global(.render-route-store-custom-pagina-institucional-quem-somos),
 :global(.render-route-store-custom-pagina-institucional-nossas-lojas),
@@ -472,7 +535,7 @@
         }
     }
 }
-    
+
 
 
 :global(.cookeletroraro-store-theme-0-x-custom-image-component) {
@@ -482,7 +545,7 @@
 :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItemLinkText) {
     font-weight: 300 !important;
     text-transform: capitalize;
-    font-size: 14px!important;
+    font-size: 14px !important;
 }
 
 

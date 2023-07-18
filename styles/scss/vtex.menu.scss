@@ -204,3 +204,19 @@
 
     }
 }
+@media(max-width:758px) {
+    .styledLinkContent--PdpMenuItem {
+        padding: 15px 10px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: black;
+        font-size: 17px;
+    }
+
+    .menuItem--PdpMenuItem {
+        border-bottom: 1px solid $cor7;
+    }
+    .menuItemInnerDiv--PdpMenuItem{
+        background-color: white;
+    }
+}

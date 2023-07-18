@@ -29,6 +29,7 @@
   }
 }
 .flexRow--main-header-mobile .flexRowContent {
+  padding: 10px 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -65,6 +66,10 @@
   box-sizing: border-box;
 }
 
+.flexRow--searchbarmobile {
+  padding: 10px 0;
+}
+
 .flexRow--deals .flexRowContent {
   display: flex;
   align-items: center;
@@ -95,6 +100,9 @@
 @media (max-width: 758px) {
   .flexRow--shelfBanner .flexRowContent .stretchChildrenWidth:first-child .flexCol {
     gap: 0em !important;
+  }
+  .flexRowContent--productSpecificationGroup {
+    padding: 30px;
   }
 }
 .flexRow--section-3 .flexRowContent .stretchChildrenWidth {
@@ -172,6 +180,9 @@
   .flexRow--flag-list-1 .flexRowContent {
     display: flex;
     justify-content: center;
+  }
+  .flexRow--buybutton {
+    margin: 27px 0px;
   }
 }
 .flexRow--footercol4 .flexRowContent {
