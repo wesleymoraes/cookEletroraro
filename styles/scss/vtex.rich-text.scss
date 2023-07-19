@@ -185,6 +185,13 @@
             margin-top: 0;
             font-weight: 600;
             color: black;
+            .strong{
+                color: black;
+                font-weight: 800; 
+            }
+            .link--homeContentSeo{
+                text-decoration: none;
+            }
         }
     }
 }

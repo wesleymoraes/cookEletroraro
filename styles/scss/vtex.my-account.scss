@@ -237,7 +237,7 @@
 :global(.vtex-button) {
     border: none;
 }
-
+:global(.render-route-store-account),
 :global(.render-route-store-not-found-product),
 :global(.render-route-store-custom-pagina-institucional-quem-somos),
 :global(.render-route-store-custom-pagina-institucional-nossas-lojas),
@@ -420,7 +420,7 @@
         }
     }
 }
-
+:global(.render-route-store-account),
 :global(.render-route-store-not-found-product),
 :global(.render-route-store-custom-pagina-institucional-quem-somos),
 :global(.render-route-store-custom-pagina-institucional-nossas-lojas),
@@ -480,7 +480,7 @@
 }
 
 
-
+:global(.render-route-store-account),
 :global(.render-route-store-not-found-product),
 :global(.render-route-store-custom-pagina-institucional-quem-somos),
 :global(.render-route-store-custom-pagina-institucional-nossas-lojas),

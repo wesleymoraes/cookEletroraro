@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from './GlobalStyles.css';
 
 const Title = ({ text }) => {
@@ -24,6 +24,7 @@ const Paragraph = ({ text, boldWord, className, before }) => {
   const paragraphStyle = {
     display: 'flex',
     alignItems: 'center',
+    flexDirection: 'row',
   };
 
   const parts = boldWord ? text.split(boldWord) : [text];
@@ -50,35 +51,49 @@ const CustomCardLojas = ({ title, showImage, imageUrlDesktop, imageUrlMobile, se
   const desktopImageUrl = imageUrlDesktop || desktopPlaceholder;
   const mobileImageUrl = imageUrlMobile || (imageUrlDesktop ? imageUrlDesktop : mobilePlaceholder);
 
+  const [items, setItems] = useState(sections || []);
+
+  const handleAddItem = () => {
+    setItems((prevItems) => [...prevItems, { type: 'paragraph', text: '', boldWord: '', before: null }]);
+  };
+
+  const handleItemChange = (index, updatedItem) => {
+    setItems((prevItems) => {
+      const newItems = [...prevItems];
+      newItems[index] = updatedItem;
+      return newItems;
+    });
+  };
+
   return (
     <div className={styles['custom-card']}>
       <Title text={title} />
       {showImage && <Image src={window.innerWidth <= 768 ? mobileImageUrl : desktopImageUrl} alt="Imagem" />}
-      {sections &&
-        sections.map((section, index) => {
-          if (section.type === 'subtitle') {
-            const subtitleStyle = {
-              color: section.subtitleColor || '#000000',
-            };
-            return (
-              <h2 key={index} className={styles['custom-card__subtitle']} style={subtitleStyle}>
-                {section.text}
-              </h2>
-            );
-          } else if (section.type === 'paragraph') {
-            const paragraphClassName = styles[`custom-card__paragraph${index + 1}`];
-            return (
-              <Paragraph
-                key={index}
-                text={section.text}
-                boldWord={section.boldWord}
-                className={paragraphClassName}
-                before={section.before}
-              />
-            );
-          }
-          return null;
-        })}
+      {items.map((item, index) => {
+        if (item.type === 'subtitle') {
+          const subtitleStyle = {
+            color: item.subtitleColor || '#000000',
+          };
+          return (
+            <h2 key={index} className={styles['custom-card__subtitle']} style={subtitleStyle}>
+              {item.text}
+            </h2>
+          );
+        } else if (item.type === 'paragraph') {
+          const paragraphClassName = styles[`custom-card__paragraph${index + 1}`];
+          return (
+            <Paragraph
+              key={index}
+              text={item.text}
+              boldWord={item.boldWord}
+              className={paragraphClassName}
+              before={item.before}
+            />
+          );
+        }
+        return null;
+      })}
+      <button onClick={handleAddItem}>Adicionar Item</button>
     </div>
   );
 };
@@ -100,7 +115,7 @@ CustomCardLojas.schema = {
     imageUrlDesktop: {
       title: 'Imagem (Desktop)',
       type: 'string',
-      default: desktopPlaceholder,
+      default: '',
       widget: {
         'ui:widget': 'image-uploader',
       },
