@@ -8,8 +8,10 @@
       ]
     },
     "children": [
-      "CustomComponentInstitucional#nossasLojas"
+      "CustomComponentInstitucional#nossasLojas-1",
+      "CustomComponentInstitucional#nossasLojas-2"
     ]
   },
-  "CustomComponentInstitucional#nossasLojas":{}
+  "CustomComponentInstitucional#nossasLojas-1":{},
+  "CustomComponentInstitucional#nossasLojas-2":{}
 }
