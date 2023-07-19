@@ -51,7 +51,8 @@
     "slider-layout#shelf-mobile-1": {
         "props": {
             "itemsPerPage": {
-                "phone": 1
+                "phone": 1,
+                "tablet":3
             },
             "centerMode": "to-the-left",
             "centerModeSlidesGap": 5,
@@ -258,7 +259,8 @@
     "slider-layout#section-5-shelf-mobile-1": {
         "props": {
             "itemsPerPage": {
-                "phone": 1
+                "phone": 1,
+                "tablet": 3
             },
             "centerMode": "to-the-left",
             "centerModeSlidesGap": 2,
@@ -332,7 +334,8 @@
     "slider-layout#section-5-shelf-mobile-1.shelf-5": {
         "props": {
             "itemsPerPage": {
-                "phone": 1
+                "phone": 1,
+                "tablet": 3
             },
             "centerMode": "to-the-left",
             "centerModeSlidesGap": 5,

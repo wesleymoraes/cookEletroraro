@@ -29,7 +29,7 @@ const Paragraph = ({ text, boldWord, className, before }) => {
   const parts = boldWord ? text.split(boldWord) : [text];
 
   return (
-    <p className={className} style={paragraphStyle}>
+    <p className={styles['custom-card__paragraph']} style={paragraphStyle}>
       {before && before.backgroundImage && <span className={styles['custom-card__icon-before']} style={iconBeforeStyle}></span>}
       {parts.map((part, index) => (
         <React.Fragment key={index}>

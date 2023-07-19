@@ -57,7 +57,7 @@
   font-weight: 500;
 }
 
-@media (max-width: 758px) {
+@media (max-width: 1050px) {
   .container--newsletterTitle {
     justify-content: center;
   }
@@ -100,7 +100,7 @@
   margin: 7px 0px 30px 0;
 }
 
-@media (max-width: 758px) {
+@media (max-width: 1050px) {
   .container--newsletterSubtitle {
     justify-content: center;
     width: 70%;
@@ -229,7 +229,7 @@
   margin-right: 10px;
 }
 
-@media (max-width: 758px) {
+@media (max-width: 1050px) {
   .container--footerSubmenuItem .wrapper .heading {
     padding: 0 30px !important;
     margin-left: 3px !important;

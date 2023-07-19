@@ -26,7 +26,7 @@
     padding: 5px 5px;
 }
 
-@media (min-width:758px) {
+@media (min-width:1050px) {
     
     .sliderLeftArrow--slideSelecao {
         left: -75px;
@@ -38,7 +38,7 @@
 
 }
 
-@media (max-width:758px) {
+@media (max-width:1050px) {
 
     .sliderLayoutContainer--shelfBanner {
         margin-top: 0px !important;
@@ -52,7 +52,7 @@
 
 }
 
-@media (min-width:758px) {
+@media (min-width:1050px) {
     .sliderLayoutContainer--slideSelecao {
         max-width: 1060px;
         margin: 0px auto;

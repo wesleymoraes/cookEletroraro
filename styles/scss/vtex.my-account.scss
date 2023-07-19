@@ -27,7 +27,7 @@
 }
 
 
-@media (max-width:758px) {
+@media (max-width:1050px) {
     :global(.text-block-container) {
         gap: 5px !important;
         width: 65% !important;
@@ -70,7 +70,7 @@
     font-weight: 600;
 }
 
-@media (max-width:758px) {
+@media (max-width:1050px) {
     :global(.CustomInstallmentsContainer) {
         border-top: 1px solid #BCBCBC;
         border-bottom: 1px solid #BCBCBC;
@@ -102,7 +102,7 @@
 
 }
 
-@media (max-width:758px) {
+@media (max-width:1050px) {
     :global(.vtex-product-price-1-x-installments) {
         display: flex;
         justify-content: center;
@@ -165,7 +165,7 @@
     margin: 5px 0;
 }
 
-@media (max-width:758px) {
+@media (max-width:1050px) {
     :global(.pdp-price) {
         font-size: 35px !important;
 
@@ -602,5 +602,13 @@
     .b {
         color: black;
         font-weight: bold;
+    }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 700px) {
+    :global(.CustomInstallmentsContainer) {
+        background-color: #fbfafa;
+        z-index: 100;
+        position: relative;
     }
 }
