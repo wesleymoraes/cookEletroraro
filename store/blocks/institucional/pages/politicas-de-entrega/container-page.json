@@ -1,7 +1,7 @@
 {
   "store.custom#pagina-institucional-politicas-de-entrega": {
     "blocks": [
-      "responsive-layout.desktop#banner",
+      "flex-layout.row#image-banner-institucional",
       "flex-layout.row#breadcrumb-institucional-trabalhe-conosco",
       "flex-layout.row#body-institucional-politicas-de-entrega"
     ]

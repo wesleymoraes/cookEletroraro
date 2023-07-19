@@ -1,7 +1,7 @@
 {
   "store.custom#pagina-institucional-trocas-e-devolucoes": {
     "blocks": [
-      "responsive-layout.desktop#banner",
+      "flex-layout.row#image-banner-institucional",
       "flex-layout.row#breadcrumb-institucional-trocas-e-devolucoes",
       "flex-layout.row#body-institucional-trocas-e-devolucoes"
     ]
