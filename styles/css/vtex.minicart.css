@@ -30,10 +30,25 @@
   background-color: #DC3E3F;
 }
 
-.childrenContainer .minicartSideBarContentWrapper .minicartContentContainer .minicartTitle {
-  font-size: 14px;
+.minicartTitle {
+  font-size: 15px;
   font-weight: 700;
+  color: black;
+  text-transform: uppercase;
 }
+
+.closeIconContainer {
+  display: flex;
+  padding: 25px;
+}
+.closeIconContainer .closeIconButton {
+  background-image: url("assets/icons/close.svg");
+  background-repeat: no-repeat;
+}
+.closeIconContainer .closeIconButton .closeIcon {
+  display: none;
+}
+
 .minicartSummary :global(.vtex-checkout-summary-0-x-summarySmallContent) :global(.vtex-checkout-summary-0-x-summaryItemContainer) :global(.vtex-checkout-summary-0-x-summaryItemLabel),
 .minicartSummary :global(.vtex-checkout-summary-0-x-summarySmallContent) :global(.vtex-checkout-summary-0-x-summaryItemContainer) :global(.vtex-checkout-summary-0-x-summaryItemPrice) :global(.vtex-checkout-summary-0-x-price) {
   font-size: 14px;

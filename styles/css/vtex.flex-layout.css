@@ -309,3 +309,6 @@
     width: 100% !important;
   }
 }
+.flexRow--notFound {
+  margin-bottom: 50px;
+}

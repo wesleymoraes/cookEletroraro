@@ -300,7 +300,37 @@
   "search-not-found-layout": {
     "children": [
       "flex-layout.row#searchbread",
-      "flex-layout.row#notfound"
+      "flex-layout.row#notfound",
+      "rich-text#notFound",
+      "flex-layout.row#Vitrine-notFound",
+      "flex-layout.row#newsletter-title",
+      "flex-layout.row#newsletter-footer"
+
+    ]
+  },
+"rich-text#notFound": {
+  "props": {
+    "blockClass":"notFound",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "NOVIDADES QUE CHEGARAM PRA VOCÊ"
+  }
+},
+  "flex-layout.row#Vitrine-notFound": {
+    "props": {
+      "blockClass": "notFound"
+    },
+    "children": [
+      "list-context.product-list#notFound"
+    ]
+  },
+  "list-context.product-list#notFound": {
+    "blocks": [
+        "product-summary.shelf"
+    ],
+    "children": [
+      "responsive-layout.mobile#home.shelf-1",
+      "responsive-layout.desktop#home.shelf-1"
     ]
   },
   "flex-layout.row#notfound": {

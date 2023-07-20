@@ -128,3 +128,9 @@
     font-size: 17px;
     font-weight: 900;
 }
+[class*="render-container"]:not([class*="render-route-store-home"]) [class*="desktop-menuItem"] [class*="desktop-menuItemLinkText"] {
+    color: #000;
+}
+[class*="render-container"]:not([class*="render-route-store-home"]) [class*="--main-header"]{
+    background-color: black;
+}

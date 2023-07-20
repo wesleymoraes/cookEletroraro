@@ -202,3 +202,34 @@
   background-color: white;
   border-radius: 20px;
 }
+
+.searchNotFoundOops {
+  display: none;
+}
+
+.searchNotFoundInfo .searchNotFoundTextListLine {
+  font-size: 24px;
+  color: black;
+  font-weight: 500;
+  text-align: center;
+}
+.searchNotFoundInfo .searchNotFoundTextListLine .searchNotFoundTerm {
+  font-weight: 900;
+}
+.searchNotFoundInfo .searchNotFoundWhatDoIDo {
+  display: none;
+}
+.searchNotFoundInfo .searchNotFoundWhatToDoDotsContainer {
+  list-style: none;
+  text-align: center;
+  color: #7D7B7B;
+  font-size: 17px;
+  line-height: 25px;
+  padding: 0;
+}
+
+@media (max-width: 1050px) {
+  .searchNotFound {
+    margin-top: 70px;
+  }
+}

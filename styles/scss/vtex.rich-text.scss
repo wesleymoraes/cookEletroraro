@@ -397,3 +397,19 @@
     font-weight: 500;
     color: black;
 }
+.paragraph--empty-state{
+    font-size: 17px;
+    color: black;
+    font-weight: 500;
+    margin: 35px 0px;
+}
+.container--notFound{
+    .wrapper{
+        .paragraph{
+            font-weight: 500;
+            font-size: 19px;
+            color: black;
+            margin-bottom: 25px;
+        }
+    }
+}

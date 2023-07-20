@@ -82,24 +82,35 @@
   },
   "flex-layout.col#empty-state": {
     "children": [
-      "icon-cart#minicart-empty-state",
-      "rich-text#minicart-default-empty-state"
+      "image#cart-empty-state",
+      "rich-text#minicart-default-empty-state",
+      "link#empty-state"
     ],
     "props": {
       "horizontalAlign": "center",
-      "verticalAlign": "middle",
-      "rowGap": 5
+      "verticalAlign": "middle"
     }
   },
-  "icon-cart#minicart-empty-state": {
-    "props": {
-      "size": 64,
-      "blockClass": "minicart-empty-state"
-    }
-  },
+"image#cart-empty-state": {
+  "props": {
+    "src": "assets/icons/carrinho-carrinho.svg",
+    "maxHeight": "",
+    "maxWidth": ""
+    
+  }
+},
   "rich-text#minicart-default-empty-state": {
     "props": {
+      "blockClass":"empty-state",
       "text": "Seu carrinho está vazio."
     }
+  },
+  "link#empty-state": {
+    "props": {
+      "blockClass":"empty-state",
+      "displayMode": "button",
+      "label": "VEJA AS NOVIDADES",
+      "href": "/"
+     }
   }
 }

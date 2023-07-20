@@ -38,15 +38,20 @@
     background-color: $cor10;
 }
 
-.childrenContainer {
-    .minicartSideBarContentWrapper {
-        .minicartContentContainer {
-            .minicartTitle {
-                font-size: 14px;
-                font-weight: 700;
-
-                .minicartProductListContainer {}
-            }
+.minicartTitle{
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+}
+.closeIconContainer{
+    display: flex;
+    padding: 25px;
+    .closeIconButton {
+        background-image: url("assets/icons/close.svg");
+        background-repeat: no-repeat;
+        .closeIcon{
+            display: none;
         }
     }
 }

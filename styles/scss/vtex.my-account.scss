@@ -197,346 +197,9 @@
     margin: 5px 0;
 }
 
-:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
-    background-color: transparent;
-}
-
-:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) {
-    :global(.vtex-sticky-layout-0-x-container--sticky-header) {
-
-        :global(.vtex-flex-layout-0-x-flexRow--main-header) {
-            background-color: #000;
-
-        }
-
-        :global(.vtex-flex-layout-0-x-flexRow--MenuDesktop) {
-            background-color: #ffffff00 !important;
-
-            :global(.vtex-flex-layout-0-x-flexRowContent--MenuDesktop) {
-                :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-                    :global(.wavepartnerbr-wave-menu-0-x-theme5) {
-                        :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItemsWrapper) {
-                            :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItems) {
-
-                                :global(.wavepartnerbr-wave-menu-0-x-desktop-departmentsItemLink),
-                                :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItemLinkText) {
-                                    color: black !important;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-
-
-
 :global(.vtex-button) {
     border: none;
 }
-:global(.render-route-store-account),
-:global(.render-route-store-not-found-product),
-:global(.render-route-store-custom-pagina-institucional-quem-somos),
-:global(.render-route-store-custom-pagina-institucional-nossas-lojas),
-:global(.render-route-store-custom-pagina-institucional-politica-de-seguranca),
-:global(.render-route-store-custom-pagina-institucional-politicas-de-entrega),
-:global(.render-route-store-custom-pagina-institucional-privacidade-e-lgpd),
-:global(.render-route-store-custom-pagina-institucional-trocas-e-devolucoes),
-:global(.render-route-store-search),
-:global(.render-route-store-search-department),
-:global(.render-route-store-search-category),
-:global(.render-route-store-search-subcategory),
-:global(.render-route-store-product) {
-    :global(.render-provider) {
-        :global(.vtex-store__template) {
-            :global(.flex),
-            :global(.flex-column),
-            :global(.min-vh-100),
-            :global(.w-100) {
-                :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
-
-                    :global(.vtex-sticky-layout-0-x-container--sticky-header),
-                    :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile) {
-
-                        background-color: black !important;
-
-                    }
-
-                    :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile) {
-                        background-color: #f3f3f3 !important;
-                    }
-                }
-            }
-        }
-    }
-}
-
-:global(.render-route-store-home) {
-    :global(.render-provider) {
-        :global(.vtex-store__template) {
-
-            :global(.flex),
-            :global(.flex-column),
-            :global(.min-vh-100),
-            :global(.w-100) {
-
-                :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) {
-
-                    :global(.vtex-sticky-layout-0-x-container--sticky-header),
-                    :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile) {
-
-                        background-color: black !important;
-
-                    }
-
-                    :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile) {
-                        background-color: #f3f3f3 !important;
-                    }
-                }
-            }
-        }
-    }
-}
-
-
-:global(.render-route-store-home) {
-    :global(.render-provider) {
-        :global(.vtex-store__template) {
-
-            :global(.flex),
-            :global(.flex-column),
-            :global(.min-vh-100),
-            :global(.w-100) {
-
-                :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
-
-                    :global(.vtex-sticky-layout-0-x-container--sticky-header),
-                    :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile) {
-                        background-color: transparent;
-                    }
-
-                    :global(.vtex-flex-layout-0-x-flexRow--searchbarmobile) {
-                        background-color: transparent
-                    }
-                }
-            }
-        }
-    }
-}
-
-
-
-:global(.render-route-store-home) {
-    :global(.render-provider) {
-        :global(.vtex-store__template) {
-
-            :global(.flex),
-            :global(.flex-column),
-            :global(.min-vh-100),
-            :global(.w-100) {
-
-                :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
-                    :global(.vtex-sticky-layout-0-x-container--sticky-header) {
-                        :global(.vtex-flex-layout-0-x-flexRow--MenuDesktop) {
-                            background-color: transparent !important;
-
-                            :global(.vtex-flex-layout-0-x-flexRowContent--MenuDesktop) {
-                                :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-                                    :global(.wavepartnerbr-wave-menu-0-x-theme5) {
-                                        :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItemsWrapper) {
-                                            :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItems) {
-                                                :global(.wavepartnerbr-wave-menu-0-x-desktop-departmentsItemLink) {
-                                                    color: rgb(255, 255, 255);
-                                                    font-weight: 300 !important;
-
-                                                    :global(.wavepartnerbr-wave-menu-0-x-desktop-departmentsIconContent) {
-                                                        display: none;
-                                                    }
-                                                }
-
-                                            }
-                                        }
-                                    }
-
-                                }
-                            }
-
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-:global(.wavepartnerbr-wave-menu-0-x-desktop-departmentsItemLink) {
-    font-size: 14px;
-    font-weight: 600;
-}
-
-:global(.render-route-store-home) {
-    :global(.render-provider) {
-        :global(.vtex-store__template) {
-
-            :global(.flex),
-            :global(.flex-column),
-            :global(.min-vh-100),
-            :global(.w-100) {
-                :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) {
-                    :global(.vtex-sticky-layout-0-x-container--sticky-header) {
-                        :global(.vtex-flex-layout-0-x-flexRow--MenuDesktop) {
-                            background-color: #ffffff !important;
-                            display: none !important;
-
-                            :global(.vtex-flex-layout-0-x-flexRowContent--MenuDesktop) {
-
-                                :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-                                    :global(.wavepartnerbr-wave-menu-0-x-theme5) {
-                                        :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItemsWrapper) {
-                                            :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItems) {
-                                                :global(.wavepartnerbr-wave-menu-0-x-desktop-departmentsItemLink) {
-                                                    color: #000000 !important;
-                                                    font-weight: 600 !important;
-
-                                                    :global(.wavepartnerbr-wave-menu-0-x-desktop-departmentsIconContent) {
-                                                        display: none;
-                                                    }
-                                                }
-
-                                            }
-                                        }
-                                    }
-
-                                }
-                            }
-
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-:global(.render-route-store-account),
-:global(.render-route-store-not-found-product),
-:global(.render-route-store-custom-pagina-institucional-quem-somos),
-:global(.render-route-store-custom-pagina-institucional-nossas-lojas),
-:global(.render-route-store-custom-pagina-institucional-politica-de-seguranca),
-:global(.render-route-store-custom-pagina-institucional-politicas-de-entrega),
-:global(.render-route-store-custom-pagina-institucional-privacidade-e-lgpd),
-:global(.render-route-store-custom-pagina-institucional-trocas-e-devolucoes),
-:global(.render-route-store-search),
-:global(.render-route-store-search-department),
-:global(.render-route-store-search-category),
-:global(.render-route-store-search-subcategory),
-:global(.render-route-store-product) {
-    :global(.render-provider) {
-        :global(.vtex-store__template) {
-
-            :global(.flex),
-            :global(.flex-column),
-            :global(.min-vh-100),
-            :global(.w-100) {
-                :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
-                    :global(.vtex-sticky-layout-0-x-container--sticky-header) {
-                        :global(.vtex-flex-layout-0-x-flexRow--main-header) {
-                            background-color: black;
-                        }
-
-                        :global(.vtex-flex-layout-0-x-flexRow--MenuDesktop) {
-                            background-color: #ffffff !important;
-
-                            :global(.vtex-flex-layout-0-x-flexRowContent--MenuDesktop) {
-
-                                :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-                                    :global(.wavepartnerbr-wave-menu-0-x-theme5) {
-                                        :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItemsWrapper) {
-                                            :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItems) {
-                                                :global(.wavepartnerbr-wave-menu-0-x-desktop-departmentsItemLink) {
-                                                    color: #000000 !important;
-                                                    font-weight: 600 !important;
-
-                                                    :global(.wavepartnerbr-wave-menu-0-x-desktop-departmentsIconContent) {
-                                                        display: none;
-                                                    }
-                                                }
-
-                                            }
-                                        }
-                                    }
-
-                                }
-                            }
-
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-
-:global(.render-route-store-account),
-:global(.render-route-store-not-found-product),
-:global(.render-route-store-custom-pagina-institucional-quem-somos),
-:global(.render-route-store-custom-pagina-institucional-nossas-lojas),
-:global(.render-route-store-custom-pagina-institucional-politica-de-seguranca),
-:global(.render-route-store-custom-pagina-institucional-politicas-de-entrega),
-:global(.render-route-store-custom-pagina-institucional-privacidade-e-lgpd),
-:global(.render-route-store-custom-pagina-institucional-trocas-e-devolucoes),
-:global(.render-route-store-search),
-:global(.render-route-store-search-department),
-:global(.render-route-store-search-category),
-:global(.render-route-store-search-subcategory),
-:global(.render-route-store-product) {
-    :global(.render-provider) {
-        :global(.vtex-store__template) {
-
-            :global(.flex),
-            :global(.flex-column),
-            :global(.min-vh-100),
-            :global(.w-100) {
-                :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) {
-                    :global(.vtex-sticky-layout-0-x-container--sticky-header) {
-                        :global(.vtex-flex-layout-0-x-flexRow--MenuDesktop) {
-                            background-color: #ffffff !important;
-                            display: none !important;
-
-                            :global(.vtex-flex-layout-0-x-flexRowContent--MenuDesktop) {
-
-                                :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-                                    :global(.wavepartnerbr-wave-menu-0-x-theme5) {
-                                        :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItemsWrapper) {
-                                            :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItems) {
-                                                :global(.wavepartnerbr-wave-menu-0-x-desktop-departmentsItemLink) {
-                                                    color: #000000 !important;
-                                                    font-weight: 600 !important;
-
-                                                    :global(.wavepartnerbr-wave-menu-0-x-desktop-departmentsIconContent) {
-                                                        display: none;
-                                                    }
-                                                }
-
-                                            }
-                                        }
-                                    }
-
-                                }
-                            }
-
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-
 
 :global(.cookeletroraro-store-theme-0-x-custom-image-component) {
     margin-top: 0px !important;
@@ -611,4 +274,190 @@
         z-index: 100;
         position: relative;
     }
+}
+
+:global(.vtex_my-authentication_box_container),
+.boxContainer {
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    box-shadow: -2px 0px 6px -2px rgba(0, 0, 0, 0.116);
+}
+
+.dataEntryLabel {
+    font-size: 16px;
+}
+
+.newsletterBoxContainer {
+    max-width: 340px;
+}
+
+.boxContainerBody {
+    .newsletterContainerTitle {
+        font-weight: bold;
+        color: black;
+    }
+
+    .newsletterContainerMessage {
+        color: black;
+    }
+}
+
+:global(.vtex-account_menu-link) {
+    border-top: 1px solid #d1d1d1;
+    //border-left: none;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+:global(.vtex-pageHeader__children),
+:global(.vtex-my-cards-1-x-newCardButton) {
+    :global(.vtex-button) {
+        border-radius: 20px;
+
+        :global(.vtex-button__label) {
+            padding: 10px;
+        }
+    }
+}
+
+@media(max-width:1050px) {
+    :global(.vtex-pageHeader__title) {
+        display: flex;
+        justify-content: center;
+        font-size: 27px;
+        margin: 20px auto;
+    }
+
+    :global(.vtex-pageHeader__children) {
+        display: flex;
+        margin: 20px auto;
+    }
+
+    :global(.vtex-account__page-body) {
+        span {
+            font-size: 14px;
+            color: black;
+        }
+    }
+}
+
+:global(.render-route-store-login),
+:global(.render-route-store-account),
+:global(.render-route-store-not-found-product),
+:global(.render-route-store-custom-pagina-institucional-quem-somos),
+:global(.render-route-store-custom-pagina-institucional-nossas-lojas),
+:global(.render-route-store-custom-pagina-institucional-politica-de-seguranca),
+:global(.render-route-store-custom-pagina-institucional-politicas-de-entrega),
+:global(.render-route-store-custom-pagina-institucional-privacidade-e-lgpd),
+:global(.render-route-store-custom-pagina-institucional-trocas-e-devolucoes),
+:global(.render-route-store-search),
+:global(.render-route-store-search-department),
+:global(.render-route-store-search-category),
+:global(.render-route-store-search-subcategory),
+:global(.render-route-store-product) {
+    :global(.render-provider) {
+        :global(.vtex-store__template) {
+
+            :global(.flex),
+            :global(.flex-column),
+            :global(.min-vh-100),
+            :global(.w-100) {
+
+                :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+                    :global(.vtex-sticky-layout-0-x-container--sticky-header) {
+                        :global(.vtex-flex-layout-0-x-flexRow--MenuDesktop) {
+                            background-color: #ffffff !important;
+                            // display: none !important;
+
+                            :global(.vtex-flex-layout-0-x-flexRowContent--MenuDesktop) {
+
+                                :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+                                    :global(.wavepartnerbr-wave-menu-0-x-theme5) {
+                                        :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItemsWrapper) {
+                                            :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItems) {
+                                                :global(.wavepartnerbr-wave-menu-0-x-desktop-departmentsItemLink) {
+                                                    color: #000000 !important;
+                                                    font-weight: 600 !important;
+
+                                                    :global(.wavepartnerbr-wave-menu-0-x-desktop-departmentsIconContent) {
+                                                        display: none;
+                                                    }
+                                                }
+
+                                            }
+                                        }
+                                    }
+
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+:global(.render-route-store-login),
+:global(.render-route-store-account),
+:global(.render-route-store-not-found-product),
+:global(.render-route-store-custom-pagina-institucional-quem-somos),
+:global(.render-route-store-custom-pagina-institucional-nossas-lojas),
+:global(.render-route-store-custom-pagina-institucional-politica-de-seguranca),
+:global(.render-route-store-custom-pagina-institucional-politicas-de-entrega),
+:global(.render-route-store-custom-pagina-institucional-privacidade-e-lgpd),
+:global(.render-route-store-custom-pagina-institucional-trocas-e-devolucoes),
+:global(.render-route-store-search),
+:global(.render-route-store-search-department),
+:global(.render-route-store-search-category),
+:global(.render-route-store-search-subcategory),
+:global(.render-route-store-product) {
+    :global(.render-provider) {
+        :global(.vtex-store__template) {
+
+            :global(.flex),
+            :global(.flex-column),
+            :global(.min-vh-100),
+            :global(.w-100) {
+
+                :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) {
+                    :global(.vtex-sticky-layout-0-x-container--sticky-header) {
+                        :global(.vtex-flex-layout-0-x-flexRow--MenuDesktop) {
+                            display: none !important;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+:global(.render-route-store-home){
+    :global(.render-provider) {
+        :global(.vtex-store__template) {
+
+            :global(.flex),
+            :global(.flex-column),
+            :global(.min-vh-100),
+            :global(.w-100) {
+
+                :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) {
+                    :global(.vtex-sticky-layout-0-x-container--sticky-header) {
+                        :global(.vtex-flex-layout-0-x-flexRow--main-header){
+                            background-color: black;
+                        }
+                        :global(.vtex-flex-layout-0-x-flexRow--MenuDesktop) {
+                            display: none !important;
+
+                        }
+                    }
+                }
+            }
+        }
+    }   
 }

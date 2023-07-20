@@ -17,5 +17,13 @@
             margin-top: 1px;
         }
     }
-
+    
+}
+.buttonLink--empty-state{
+    border: none;
+    background-color: #1B9A28;
+    border-radius: 20px;
+    .label {
+        font-size: 13px;
+    }
 }
