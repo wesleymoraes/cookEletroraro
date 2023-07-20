@@ -1,0 +1,14 @@
+.product-identifier {
+    color: #7d7b7b;
+    margin: 10px 0 0;
+    display: block;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 400;
+    @media (min-width: 768px) {
+        text-align: left;
+    }
+    @media (max-width: 1024px) {
+        padding: 0 25px;
+    }
+}

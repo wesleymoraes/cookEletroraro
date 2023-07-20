@@ -22,9 +22,33 @@
 }
 
 .sliderTrackContainer--shelf {
-  padding: 5px 5px;
+  padding: 0;
+}
+.sliderTrackContainer--shelf .sliderTrack .slide {
+  margin: 12px;
 }
 
+@media (max-width: 1024px) {
+  .sliderTrackContainer--shelf {
+    padding: 0 !important;
+  }
+  .sliderTrackContainer--shelf .sliderTrack {
+    width: auto !important;
+    transform: unset !important;
+    overflow-x: auto;
+  }
+  .sliderTrackContainer--shelf .sliderTrack .slide {
+    margin: 8px;
+    padding: 0 !important;
+    min-width: 62vw;
+  }
+  .sliderTrackContainer--shelf .sliderTrack .slide:first-child {
+    margin: 8px 8px 8px 16px;
+  }
+  .sliderTrackContainer--shelf .sliderTrack .slide:last-child {
+    margin: 8px 16px 8px 8px;
+  }
+}
 @media (min-width: 758px) {
   .sliderLeftArrow--slideSelecao {
     left: -75px;
@@ -66,13 +90,17 @@
   height: 11px !important;
 }
 
-:global(.vtex-slider-layout-0-x-sliderArrows) {
+.sliderArrows {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  border-radius: 50%;
   background-color: #B1B1B1 !important;
-  height: 30px !important;
-  width: 30px !important;
-  border-radius: 50% !important;
 }
-:global(.vtex-slider-layout-0-x-sliderArrows) :global(.vtex-slider-layout-0-x-caretIcon) {
+.sliderArrows--carousel {
+  margin: 0 15px;
+}
+.sliderArrows .caretIcon {
   color: #FFFFFF;
   width: 70% !important;
 }

@@ -12,8 +12,8 @@
       "product-questions-and-answers",
       "flex-layout.row#shelf-pdp",
       "flex-layout.row#newsletter-title",
-      "flex-layout.row#newsletter-footer",
-      "product-reviews"
+      "flex-layout.row#newsletter-footer"
+      // "product-reviews"
     ]
   },
 
@@ -74,11 +74,10 @@
 
   "vtex.menu@2.x:submenu.accordion#especificacoesTecnicas": {
     "props": {
-      "blockClass": "footerSubmenu",
+      "blockClass": "product-specification",
       "orientation": "vertical"
     },
     "children": [
-     
       "product-specification-group#table"
     ]
   },
@@ -167,7 +166,8 @@
   },
   "flex-layout.row#product-breadcrumb": {
     "props": {
-      "marginTop": 4
+      "marginTop": 4,
+      "blockClass": "product-breadcrumb"
     },
     "children": [
       "breadcrumb"
@@ -245,15 +245,10 @@
     },
     "children": [
       "flex-layout.row#product-name",
+      "product-identifier.product",
       "product-rating-summary",
       "responsive-layout.desktop#discountQuantity",
       "responsive-layout.mobile#discountQuantity",
-      //"product-selling-price",
-      "responsive-layout.desktop#separator",
-
-      //"product-identifier.product",
-      "product-assembly-options",
-      "product-gifts",
       "flex-layout.row#buy-button",
       "CustomInstallments",
       "responsive-layout.desktop#separator",
@@ -287,14 +282,25 @@
   "flex-layout.col#discount": {
     "children": [
       "Discount#pdp",
-      "product-installments"
+      "product-installments#pdp"
     ]
+  },
+  "product-installments#pdp": {
+    "props": {
+      "message": "ou {installmentsNumber}x de {installmentValue} {hasInterest, select, true { com juros } false { sem juros }}",
+      "blockClass": "pdp"
+    }
   },
   "flex-layout.col#quantity": {
     "children": [
       "sku-selector",
-      "product-quantity"
+      "product-quantity#pdp"
     ]
+  },
+  "product-quantity#pdp": {
+    "props": {
+      "blockClass": "pdp"
+    }
   },
   "Discount#pdp": {
     "props": {
@@ -330,7 +336,8 @@
       "colGap": 7,
       "marginTop": 4,
       "marginBottom": 7,
-      "paddingTop": 7
+      "paddingTop": 7,
+      "blockClass": "product-availability"
     },
     "children": [
       "flex-layout.col#stack",
@@ -347,7 +354,6 @@
       "flex-layout.row#product-name",
       "product-identifier.product",
       "sku-selector",
-      "rich-text#productIndisponivel",
       "flex-layout.row#availability"
     ]
   },
@@ -387,11 +393,10 @@
       "blockClass": "pdp",
       "recommendation": "view",
       "productList": {
-        "maxItems": 9,
         "titleText": "APROVEITE E VEJA TAMBÉM",
-        "minItemsPerPage": 1,
+        "minItemsPerPage": 3,
         "itemsPerPage": 4,
-        "arrows": false
+        "arrows": true
       }
     },
     "blocks": [

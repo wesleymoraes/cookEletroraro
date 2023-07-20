@@ -75,11 +75,7 @@
       "images": [
         {
           "image": "https://cookeletroraro.vteximg.com.br/arquivos/ids/186436/DESK-Arquiteto.png?v=638225147026700000",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
-        },
-        {
-          "image": "https://cookeletroraro.vteximg.com.br/arquivos/ids/186436/DESK-Arquiteto.png?v=638225147026700000",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
+          "mobileImage": "assets/main-mobile-1.jpg"
         }
       ]
     }

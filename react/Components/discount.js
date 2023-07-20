@@ -34,7 +34,6 @@ export default function Discount({ context }) {
   } = product;
 
 
-
   if (!sellingPrice || sellingPrice.lowPrice === null) return null;
 
   const price = sellingPrice.lowPrice;
@@ -52,7 +51,7 @@ export default function Discount({ context }) {
       {context === 'plp' && (
         <>
           <p className={classHandle.message}>
-            {result.toLocaleString('pt-BR', localePriceSettings)} à vista com 5% de <br></br> desconto ou em até
+            {result.toLocaleString('pt-BR', localePriceSettings)} à vista com 5% de desconto ou em até
           </p>
         </>
       )}

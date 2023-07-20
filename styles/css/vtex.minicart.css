@@ -3,6 +3,10 @@
 /* preto */
 /* cinza */
 /* branco */
+.drawer {
+  z-index: 1000;
+}
+
 .minicartWrapperContainer .minicartContainer .openIconContainer {
   padding: 0;
 }

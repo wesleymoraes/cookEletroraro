@@ -48,19 +48,19 @@
             "slider-layout#shelf-mobile-1"
         ]
     },
-    "slider-layout#shelf-mobile-1": {
-        "props": {
-            "itemsPerPage": {
-                "phone": 1
-            },
-            "centerMode": "to-the-left",
-            "centerModeSlidesGap": 5,
-            "infinite": true,
-            "fullWidth": false,
-            "blockClass": "shelf",
-            "showPaginationDots": "never"
-        }
-    },
+    // "slider-layout#shelf-mobile-1": {
+    //     "props": {
+    //         "itemsPerPage": {
+    //             "phone": 1
+    //         },
+    //         "centerMode": "to-the-left",
+    //         "centerModeSlidesGap": 5,
+    //         "infinite": true,
+    //         "fullWidth": false,
+    //         "blockClass": "shelf",
+    //         "showPaginationDots": "never"
+    //     }
+    // },
     "flex-layout.row#shelf-2": {
         "props": {
             "blockClass": "ShelfHome",
@@ -96,16 +96,16 @@
     },
     "slider-layout#shelf-mobile-1": {
         "props": {
-            "itemsPerPage": {
-                "phone": 1
-            },
-            "centerMode": "to-the-left",
-            "centerModeSlidesGap": 5,
-            "infinite": true,
-            "fullWidth": false,
-            "blockClass": "shelf",
+            "showNavigationArrows": "never",
             "showPaginationDots": "never",
-            "showNavigationArrows": "desktopOnly"
+            "itemsPerPage": 1,
+            "centerMode": "to-the-left",
+            "usePagination": false,
+            "centerModeSlidesGap": 12,
+            "navigationStep": 1,
+            "infinite": false,
+            "fullWidth": false,
+            "blockClass": "shelf"
         }
     },
     "slider-layout#shelf-2": {

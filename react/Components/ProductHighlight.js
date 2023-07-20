@@ -6,22 +6,19 @@ export default function ProductHighlight() {
   const productContext = useProduct();
   const highlights = productContext.product.clusterHighlights;
 
-  const handleButtonClick = () => {
-    console.log("Contexto de Produto:", productContext);
-    console.log("Cluster", highlights);
-  };
-  
-  //<button onClick={handleButtonClick}></button>
-
   return (
-    <div>
-      <div className="ContainerHighlight">
-        {highlights.slice(0, 3).map((highlight, index) => (
-          <p key={index} className={`highlight-item-${highlight.name.toString().replace(" | ", "algumaCoisa").replace("5%", "Cinco").replace("10%", "Dez")}`}>
-            {highlight.name}
-          </p>
-        ))}
-
+    <div className="ContainerHighlight">
+      <div className="row-1">
+        <span>
+          {
+            highlights.find(hightlight => hightlight.id === '155')?.name || ''
+          }
+        </span>
+        <span>
+          {
+            highlights.find(hightlight => ['223', '226', '227'].includes(hightlight.id))?.name || ''
+          }
+        </span>
       </div>
     </div>
   );

@@ -60,6 +60,11 @@
   background-color: transparent;
 }
 
+.submenuAccordion--product-specification {
+  width: 100%;
+  padding: 0;
+}
+
 .styledLinkContent--link__menu-institucional {
   padding: 15px 12px;
   color: #000000;
@@ -155,16 +160,19 @@
 }
 @media (max-width: 758px) {
   .styledLinkContent--PdpMenuItem {
-    padding: 15px 10px;
+    padding: 15px 0;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 500;
     color: black;
     font-size: 17px;
   }
   .menuItem--PdpMenuItem {
     border-bottom: 1px solid #B1B1B1;
   }
-  .menuItemInnerDiv--PdpMenuItem {
+  .menuItem--PdpMenuItem .menuItemInnerDiv--PdpMenuItem {
     background-color: white;
+  }
+  .menuItem--PdpMenuItem .menuItemInnerDiv--PdpMenuItem .styledLinkContainer {
+    margin: 0 25px;
   }
 }

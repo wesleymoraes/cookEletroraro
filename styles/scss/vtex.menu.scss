@@ -85,6 +85,11 @@
     }
 }
 
+.submenuAccordion--product-specification {
+    width: 100%;
+    padding: 0;
+}
+
 .styledLinkContent--link__menu-institucional {
     padding: 15px 12px;
     color: $secondary-color;
@@ -206,17 +211,20 @@
 }
 @media(max-width:758px) {
     .styledLinkContent--PdpMenuItem {
-        padding: 15px 10px;
+        padding: 15px 0;
         text-transform: uppercase;
-        font-weight: bold;
+        font-weight: 500;
         color: black;
         font-size: 17px;
     }
 
     .menuItem--PdpMenuItem {
         border-bottom: 1px solid $cor7;
-    }
-    .menuItemInnerDiv--PdpMenuItem{
-        background-color: white;
+        .menuItemInnerDiv--PdpMenuItem{
+            background-color: white;
+            .styledLinkContainer {
+                margin: 0 25px;
+            }
+        }
     }
 }

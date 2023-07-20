@@ -11,7 +11,7 @@
       "flex-layout.row#footer-flags-01",
       "flex-layout.row#footer-desktop",
       "flex-layout.row#footer-description",
-      "flex-layout.row#footer-copyright"
+      "flex-layout.row#copyright-images"
     ]
   },
   "flex-layout.row#footer-desktop": {
@@ -35,7 +35,7 @@
       "flex-layout.row#footer-menu-mobile",
      // "flex-layout.row#footer-flags",
       "flex-layout.row#footer-description",
-      "flex-layout.row#footer-copyright"
+      "flex-layout.row#copyright-images"
     ]
   }
 }

@@ -1,12 +1,25 @@
 .container--pdp {
   background-color: white;
-  padding: 20px 0;
+  padding: 50px 0 20px;
+}
+.container--pdp .listContainer {
+  margin: auto;
+  max-width: 1252px;
+  column-gap: 25px;
+  justify-content: flex-start;
+}
+.container--pdp .listContainer .listItem {
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
 .container--pdp .listContainer .listItem :global(.vtex-button) {
+  border-bottom: 2px solid transparent !important;
   background-color: transparent;
 }
 .container--pdp .listContainer .listItem :global(.vtex-button) :global(.vtex-button__label) {
   color: #afaeae;
+  padding: 5px 0 6px !important;
   font-weight: 500;
 }
 .container--pdp .listContainer .listItemActive :global(.vtex-button) {
@@ -17,6 +30,7 @@
 }
 .container--pdp .listContainer .listItemActive :global(.vtex-button) :global(.vtex-button__label) {
   color: black;
+  padding: 5px 5px 6px !important;
   font-weight: 700;
 }
 

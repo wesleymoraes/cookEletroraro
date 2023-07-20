@@ -1,21 +1,71 @@
 @import './variables.scss';
-.shelfContentContainer--pdp{
-    margin: 20px 0 100px 0
-}
-.slide--pdp{
-    background-color: $tertiary-color;
-    margin-left: 15px;
-}
-.title--pdp{
-    display: flex;
-    justify-content: center;
-    font-size: 22px;
-    color: black;
-    font-weight: 700;
-    
-}
-:global(.vtex-shelf-1-x-dot--isActive){
-    background-color:$primary-color ;
-    border-radius: 4;
 
+.relatedProducts--pdp {
+    .title {
+        color: black;
+        margin: 0;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .shelfContentContainer {
+        .sliderContainer {
+            @media (min-width: 1024px) {
+                padding: 0 50px;
+            }
+            :global(.vtex-slider-0-x-sliderFrame) {
+                padding: 0 0 12px;
+                @media (max-width: 768px) {
+                    width: auto !important;
+                    height: auto;
+                    padding: 0;
+                    transform: unset !important;
+                    overflow-x: auto;
+                }
+                .slide {
+                    margin: 12px;
+                    overflow: initial;
+                    @media (max-width: 768px) {
+                        margin: 8px;
+                        padding: 0 !important;
+                        overflow: initial;
+                        min-width: 62vw;
+                        &:first-child {
+                            margin: 8px 8px 8px 16px;
+                        }
+                        &:last-child {
+                            margin: 8px 16px 8px 8px;
+                        }
+                    }
+                }
+            }
+            :global(.vtex-slider-0-x-dotsContainer) {
+                @media (max-width: 768px) {
+                    display: none;
+                }
+            }
+            .arrow {
+                &Right {
+                    right: 0;
+                }
+                &Left {
+                    left: 0;
+                }
+                width: 30px;
+                height: 30px;
+                margin: 0;
+                display: flex;
+                align-items: center;
+                border-radius: 50%;
+                justify-content: center;
+                background-color: $cor7 !important;
+                .caretIcon {
+                    width: 12px;
+                    color: $cor2;
+                }
+                @media (max-width: 768px) {
+                    display: none;
+                }
+            }
+        }
+    }
 }

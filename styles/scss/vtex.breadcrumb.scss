@@ -8,6 +8,16 @@
     }
 }
 
+.homeLink,
+.arrow--1 .caretIcon {
+    display: none;
+}
+
+.arrow--1,
+.link--1 {
+    padding-left: 0;
+}
+
 :global(.vtex-breadcrumb-1-x-term) {
     font-size: 14px !important;
     color: black;

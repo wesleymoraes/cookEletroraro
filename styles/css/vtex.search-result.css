@@ -54,12 +54,16 @@
   color: #000000;
 }
 
+.sidebar {
+  box-shadow: unset;
+}
+
 .filterButtonsBox .filterClearButtonWrapper :global(.vtex-button) {
   border-radius: 10px;
   background-color: #000000;
 }
 .filterButtonsBox .filterClearButtonWrapper :global(.vtex-button) :global(.vtex-button__label) {
-  color: transparent;
+  color: #fff;
   padding-top: 0.25em;
   padding-bottom: 0.32em;
 }
@@ -68,11 +72,31 @@
   background-color: #000000;
 }
 .filterButtonsBox .filterApplyButtonWrapper :global(.vtex-button) :global(.vtex-button__label) {
-  color: transparent;
+  color: #fff;
   padding-top: 0.25em;
   padding-bottom: 0.32em;
 }
 
+.gallery {
+  gap: 15px;
+  padding: 15px;
+  justify-content: center;
+}
+.gallery .galleryItem--grid {
+  padding: 0;
+  max-width: 80% !important;
+  flex-basis: unset !important;
+}
+@media (min-width: 450px) {
+  .gallery .galleryItem--grid {
+    max-width: calc(50% - 7.5px) !important;
+  }
+}
+@media (min-width: 768px) {
+  .gallery .galleryItem--grid {
+    max-width: calc(33% - 7.5px) !important;
+  }
+}
 .gallery .galleryItem :global(.vtex-product-summary-2-x-container) {
   background-color: white;
 }
@@ -108,8 +132,12 @@
   font-size: 13px;
 }
 
+.orderBy--layout .orderByDropdown .orderByButton {
+  border: 0;
+  padding: 0;
+}
 .orderBy--layout .orderByDropdown .orderByButton .filterPopupTitle {
-  color: #F71963;
+  color: #dc3e3f;
   text-transform: capitalize;
   font-weight: 600;
 }
@@ -134,18 +162,10 @@
 }
 
 .buttonShowMore--layout {
-  margin: 40px 0px;
+  margin: 15px 0;
 }
 .buttonShowMore--layout .buttonShowMore :global(.vtex-button) {
   border-radius: 20px;
-}
-.buttonShowMore--layout .buttonShowMore :global(.vtex-button) :global(.vtex-button__label) {
-  font-size: 0;
-}
-.buttonShowMore--layout .buttonShowMore :global(.vtex-button) :global(.vtex-button__label)::after {
-  padding: 0.65em 7em;
-  content: "VER MAIS PRODUTOS";
-  font-size: 12px !important;
 }
 
 .totalProducts--layout {
@@ -199,6 +219,8 @@
 }
 
 .filterPopupButton {
-  background-color: white;
+  height: auto;
+  padding: 0;
   border-radius: 20px;
+  background-color: transparent;
 }

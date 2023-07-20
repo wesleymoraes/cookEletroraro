@@ -172,8 +172,8 @@
   },
   "flex-layout.row#orderByAndSwitcher": {
     "children": [
-      "order-by.v2",
-      "gallery-layout-switcher"
+      "order-by.v2"
+      // "gallery-layout-switcher"
     ],
     "props": {
       "horizontalAlign": "right",
@@ -232,8 +232,8 @@
       "flex-layout.row#productCountMobile",
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#searchbread",
+      "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
-      // "flex-layout.row#fetchprevious",
       "flex-layout.row#fetchmore"
     ],
     "props": {
@@ -256,13 +256,12 @@
   "flex-layout.row#searchinfomobile": {
     "children": [
       "flex-layout.col#orderByMobile",
-      "flex-layout.col#filterMobile",
-      "flex-layout.col#switcherMobile"
+      "flex-layout.col#filterMobile"
     ],
     "props": {
+      "blockClass": "search-info-mobile",
       "preserveLayoutOnMobile": true,
-      "colSizing": "auto",
-      "colJustify": "around"
+      "colSizing": "auto"
     }
   },
   "flex-layout.col#orderByMobile": {
@@ -320,7 +319,7 @@
     "props": {
       "layouts": [
         {
-          "name": "Grade",
+          "name": "grid",
           "component": "GridSummary",
           "itemsPerRow": {
             "(min-width:1300px)": 3,
@@ -328,14 +327,14 @@
             "tablet": 3,
             "phone": 1
           }
-        },
-        {
-          "name": "Lista",
-          "component": "ListSummary",
-          "itemsPerRow": 1
         }
+        // {
+        //   "name": "list",
+        //   "component": "ListSummary",
+        //   "itemsPerRow": 1
+        // }
       ],
-      "ListSummary": "product-summary.shelf#listLayout",
+      // "ListSummary": "product-summary.shelf#listLayout",
       "GridSummary": "product-summary.shelf"
     }
   },

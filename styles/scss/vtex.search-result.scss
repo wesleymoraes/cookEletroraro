@@ -94,6 +94,10 @@
     }
 }
 
+.sidebar {
+    box-shadow: unset;
+}
+
 .filterButtonsBox {
     .filterClearButtonWrapper {
         :global(.vtex-button) {
@@ -101,7 +105,7 @@
             background-color: $secondary-color;
 
             :global(.vtex-button__label) {
-                color: $tertiary-color;
+                color: #fff;
                 padding-top: 0.25em;
                 padding-bottom: 0.32em;
             }
@@ -114,7 +118,7 @@
             background-color: $secondary-color;
 
             :global(.vtex-button__label) {
-                color: $tertiary-color;
+                color: #fff;
                 padding-top: 0.25em;
                 padding-bottom: 0.32em;
             }
@@ -123,7 +127,21 @@
 }
 
 .gallery {
+    gap: 15px;
+    padding: 15px;
+    justify-content: center;
     .galleryItem {
+        &--grid {
+            padding: 0;
+            max-width: 80% !important;
+            flex-basis: unset !important;
+            @media (min-width: 450px) {   
+                max-width: calc(50% - 7.5px) !important;
+            }
+            @media (min-width: 768px) {
+                max-width: calc(33% - 7.5px) !important;
+            }
+        }
         :global(.vtex-product-summary-2-x-container) {
             background-color: white;
 
@@ -171,8 +189,10 @@
 .orderBy--layout {
     .orderByDropdown {
         .orderByButton {
+            border: 0;
+            padding: 0;
             .filterPopupTitle {
-                color: $cor28;
+                color: #dc3e3f;
                 text-transform: capitalize;
                 font-weight: 600;
 
@@ -206,22 +226,10 @@
 }
 
 .buttonShowMore--layout {
-    margin: 40px 0px;
-
+    margin: 15px 0;
     .buttonShowMore {
-
         :global(.vtex-button) {
             border-radius: 20px;
-
-            :global(.vtex-button__label) {
-                font-size: 0;
-
-                &::after {
-                    padding: 0.65em 7em;
-                    content: "VER MAIS PRODUTOS";
-                    font-size: 12px !important;
-                }
-            }
         }
     }
 }
@@ -288,6 +296,8 @@
 }
 
 .filterPopupButton {
-    background-color: white;
+    height: auto;
+    padding: 0;
     border-radius: 20px;
+    background-color: transparent;
 }

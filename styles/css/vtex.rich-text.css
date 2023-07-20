@@ -7,20 +7,44 @@
   color: #7D7B7B;
   font-size: 14px;
   margin: 0;
+  display: flex;
+  align-items: center;
 }
 .container--topbar-1 .wrapper .paragraph::before {
-  margin-right: 11px;
+  width: 12px;
+  height: 12px;
+  display: block;
+  margin-right: 8px;
   content: url("assets/icons/IconsHeader/phone-alt.svg");
+}
+@media (min-width: 1024px) {
+  .container--topbar-1 .wrapper .paragraph::before {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+  }
 }
 
 .container--topbar-2 .wrapper .paragraph {
   margin: 0;
   color: #7D7B7B;
   font-size: 14px;
+  display: flex;
+  align-items: center;
 }
 .container--topbar-2 .wrapper .paragraph::before {
-  margin-right: 11px;
+  width: 12px;
+  height: 12px;
+  display: block;
+  margin-right: 8px;
   content: url("assets/icons/IconsHeader/logo-whatsapp.svg");
+}
+@media (min-width: 1024px) {
+  .container--topbar-2 .wrapper .paragraph::before {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -50,9 +74,10 @@
 
 .container--shelfTitle {
   margin-top: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
-.container--shelfTitle .wrapper .heading-level-2 {
+.container--shelfTitle .wrapper .heading {
+  margin: 0;
   font-size: 23px;
   font-weight: 500;
 }
@@ -127,6 +152,11 @@
   margin-top: 0;
   font-weight: 600;
   color: black;
+}
+@media (max-width: 768px) {
+  .container--homeContentSeo .wrapper .paragraph {
+    font-size: 14px;
+  }
 }
 
 .container--redes-sociais-flag .wrapper .paragraph {

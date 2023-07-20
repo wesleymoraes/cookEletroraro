@@ -15,7 +15,8 @@
                 align-items: center;
                 display: flex;
                 flex-direction: row;
-                gap: 10px;
+                gap: 15px;
+                padding: 0 15px;
                 justify-content: flex-end;
             }
 
@@ -112,16 +113,35 @@
     .flexRowContent {
         .stretchChildrenWidth {
             :global(.vtex-button) {
-                background-color: $cor31 ;
+                padding: 4px 40px;
+                max-width: 80%;
+                min-height: 36px;
                 border-radius: 25px;
-                padding: 8px 40px;
+                background-color: $cor31;
+                :global(.vtex-button__label) {
+                    padding: 0 !important;
+                    :global(.vtex-add-to-cart-button-0-x-buttonText) {
+                        font-size: .9rem;
+                    }
+                }
             }
         }
     }
 }
 
+.flexRow--search-info-mobile {
+    .flexRowContent--search-info-mobile {
+        padding: 15px;
+    }
+}
+
+.flexRow--product-breadcrumb {
+    padding: 0 25px;   
+}
+
 .flexRow--shelfBanner {
-    .flexRowContent {
+    .flexRowContent--shelfBanner {
+        column-gap: 30px;
         align-items: center;
 
         .stretchChildrenWidth {
@@ -222,6 +242,10 @@
     }
 }
 
+.flexRow--buybutton {
+    margin: 20px 0 0;
+}
+
 @media (max-width:758px) {
     .flexCol--social-flags-footer-logo {
         display: none;
@@ -259,7 +283,7 @@
 
         }
     }
-    .flexRow--buybutton{
+    .flexRow--buybutton {
         margin: 27px 0px;
     }
 }
@@ -309,12 +333,30 @@
     }
 }
 
+.flexRowContent--buybutton {
+    .stretchChildrenWidth {
+        :global(.vtex-button) {
+            border-radius: 50px;
+            background-color: $cor31;
+        }
+    }
+}
+
 @media (max-width:758px) {
     .flexRowContent--buybutton {
         .stretchChildrenWidth {
             :global(.vtex-button) {
-                width: 60%;
+                width: 265px;
+                border: none;
                 padding: 10px 5px;
+                border-radius: 50px;
+                background-color: $cor31;
+                :global(.vtex-button__label) {
+                    :global(.vtex-add-to-cart-button-0-x-buttonText) {
+                        font-size: 17px;
+                        font-weight: 600;
+                    }
+                }
             }
         }
     }
@@ -324,27 +366,17 @@
     }
 }
 
-.flexRowContent--buybutton {
-    .stretchChildrenWidth {
-        :global(.vtex-button) {
-            border-radius: 20px;
-            border: none;
-            background-color: $cor31;
-        }
-    }
-}
-
 .flexRow--main-header {
     .flexRowContent--main-header {
         .stretchChildrenWidth {
-            width: calc(100% - 513px) !important;
+            width: calc(100% - (193px + 150px)) !important;
 
             &:first-child {
                 width: 150px !important;
             }
 
             &:last-child {
-                width: 363px !important;
+                width: 193px !important;
             }
         }
     }
@@ -398,4 +430,40 @@
 
 .flexRow--fullbanner1 {
     margin-bottom: 25px !important;
+}
+
+.flexRowContent--footer-copyright-images {
+    display: flex;
+    padding: 0 0 20px;
+    column-gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexRow--productSpecificationGroup {
+    .flexRowContent--productSpecificationGroup {
+        padding: 0 25px 25px;
+        @media (min-width: 1024px) {
+            padding: 0;
+        }
+        .flexRow--productSpecificationGroupName {
+            display: none;
+        }
+        .flexRow--productSpecification {
+            margin: 0 0 5px;
+            &:last-child {
+                margin: 0;
+            }
+            .flexRowContent--productSpecification {
+                display: flex;
+                flex-wrap: wrap;
+                .stretchChildrenWidth {
+                    width: 100% !important;
+                    .flexColChild--productSpecificationName {
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
 }

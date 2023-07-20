@@ -36,13 +36,13 @@
   "rich-text#topbar-1": {
     "props": {
       "blockClass": "topbar-1",
-      "text": "Atendimento: 0800-708-0010"
+      "text": "0800-708-0010"
     }
   },
   "rich-text#topbar-2": {
     "props": {
       "blockClass": "topbar-2",
-      "text": "Whatsapp: +55 31 991292-1800"
+      "text": "+55 31 991292-1800"
     }
   },
   "flex-layout.col#spacer": {
@@ -134,7 +134,7 @@
       "inputType": "text",
       "blockClass": "searchbarContainer",
       "autocompleteAlignment": "left",
-      "placeholder": "Busque por nome do produto ou marca?"
+      "placeholder": "Busque por nome do produto ou marca"
     }
   },
   "autocomplete-result-list.v2": {
@@ -150,6 +150,9 @@
   },
   "product-summary.shelf#search": {
     "title": "Vitrine Busca",
+    "props": {
+      "blockClass": "search"
+    },
     "children": [
       "stack-layout#prodsum-search",
       "flex-layout.col#content-shelf-search"
@@ -158,8 +161,6 @@
   "flex-layout.col#content-shelf-search": {
     "children": [
       "product-summary-name"
-      //  "product-selling-price",
-      //"product-installments#summary"
     ],
     "props": {
       "blockClass": [

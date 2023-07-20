@@ -3,24 +3,74 @@
 /* preto */
 /* cinza */
 /* branco */
-.shelfContentContainer--pdp {
-  margin: 20px 0 100px 0;
-}
-
-.slide--pdp {
-  background-color: transparent;
-  margin-left: 15px;
-}
-
-.title--pdp {
-  display: flex;
-  justify-content: center;
-  font-size: 22px;
+.relatedProducts--pdp .title {
   color: black;
-  font-weight: 700;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
 }
-
-:global(.vtex-shelf-1-x-dot--isActive) {
-  background-color: #FAFAFA;
-  border-radius: 4;
+@media (min-width: 1024px) {
+  .relatedProducts--pdp .shelfContentContainer .sliderContainer {
+    padding: 0 50px;
+  }
+}
+.relatedProducts--pdp .shelfContentContainer .sliderContainer :global(.vtex-slider-0-x-sliderFrame) {
+  padding: 0 0 12px;
+}
+@media (max-width: 768px) {
+  .relatedProducts--pdp .shelfContentContainer .sliderContainer :global(.vtex-slider-0-x-sliderFrame) {
+    width: auto !important;
+    height: auto;
+    padding: 0;
+    transform: unset !important;
+    overflow-x: auto;
+  }
+}
+.relatedProducts--pdp .shelfContentContainer .sliderContainer :global(.vtex-slider-0-x-sliderFrame) .slide {
+  margin: 12px;
+  overflow: initial;
+}
+@media (max-width: 768px) {
+  .relatedProducts--pdp .shelfContentContainer .sliderContainer :global(.vtex-slider-0-x-sliderFrame) .slide {
+    margin: 8px;
+    padding: 0 !important;
+    overflow: initial;
+    min-width: 62vw;
+  }
+  .relatedProducts--pdp .shelfContentContainer .sliderContainer :global(.vtex-slider-0-x-sliderFrame) .slide:first-child {
+    margin: 8px 8px 8px 16px;
+  }
+  .relatedProducts--pdp .shelfContentContainer .sliderContainer :global(.vtex-slider-0-x-sliderFrame) .slide:last-child {
+    margin: 8px 16px 8px 8px;
+  }
+}
+@media (max-width: 768px) {
+  .relatedProducts--pdp .shelfContentContainer .sliderContainer :global(.vtex-slider-0-x-dotsContainer) {
+    display: none;
+  }
+}
+.relatedProducts--pdp .shelfContentContainer .sliderContainer .arrow {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+  background-color: #B1B1B1 !important;
+}
+.relatedProducts--pdp .shelfContentContainer .sliderContainer .arrowRight {
+  right: 0;
+}
+.relatedProducts--pdp .shelfContentContainer .sliderContainer .arrowLeft {
+  left: 0;
+}
+.relatedProducts--pdp .shelfContentContainer .sliderContainer .arrow .caretIcon {
+  width: 12px;
+  color: #FFFFFF;
+}
+@media (max-width: 768px) {
+  .relatedProducts--pdp .shelfContentContainer .sliderContainer .arrow {
+    display: none;
+  }
 }

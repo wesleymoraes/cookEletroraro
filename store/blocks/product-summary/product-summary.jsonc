@@ -4,15 +4,12 @@
     "children": [
       "ProductHighlight",
       "stack-layout#prodsum",
-      "CustomNameProduct",
-      //"product-summary-name",
+      "product-summary-name",
       "product-list-price#summary",
       "flex-layout.row#spot-price-summary",
       "Discount#plp",
       "flex-layout.row#selling-price-summary",
       "flex-layout.row#sku-add-cart"
-
-     
     ]
   },
   "Discount#plp": {
@@ -133,13 +130,7 @@
     "props": {
       "blockClass": "shelf-search",
       "showBadge": false,
-      "maxHeight": 300,
-      "height":{
-        "desktop": "300"
-      },
-      "width":{
-        "desktop":"300"
-      },
+      "aspectRatio": "1:1",
       "hoverImage": {
         "criteria": "index",
         "index": 1,

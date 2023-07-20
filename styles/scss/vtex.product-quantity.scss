@@ -1,26 +1,28 @@
 @import './variables.scss';
 
-
+.quantitySelectorContainer--pdp {
+    margin: 20px 0 0;
+}
 
 :global(.vtex-numeric-stepper-container) {
     width: fit-content;
     border-radius: 4px;
 
-    :global(.vtex-numeric-stepper__input) {}
+    :global(.vtex-numeric-stepper__input) {
+        height: 2.5rem;
+    }
 
     :global(.vtex-numeric-stepper__plus-button-container) {
         :global(.vtex-numeric-stepper__plus-button) {
+            height: 2.5rem;
             border-radius: 4px;
-
-
         }
     }
 
     :global(.vtex-numeric-stepper__minus-button-container) {
         :global(.vtex-numeric-stepper__minus-button) {
+            height: 2.5rem;
             border-radius: 4px;
-
-
         }
     }
 }

@@ -1,5 +1,9 @@
 @import './variables.scss';
 
+.drawer {
+    z-index: 1000;
+}
+
 .minicartWrapperContainer {
     .minicartContainer {
         .openIconContainer {

@@ -117,3 +117,45 @@
     font-size: 17px;
     font-weight: 900;
 }
+
+[class*="carouselGaleryCursor"] [class*="swiper-caret"][class*="disabled"] {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    [class*="flexRow--product-availability"] [class*="flexRowContent--product-availability"] {
+        display: flex;
+        flex-direction: column;
+    }
+    [class*="flexRow--product-availability"] [class*="flexRowContent--product-availability"] > [class*="stretchChildrenWidth"] {
+        width: 100% !important;
+    }
+}
+
+[class*="swiper-thumbnails-caret-prev"],
+[class*="swiper-thumbnails-caret-next"] {
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    padding: 0;
+    transform: translateX(-50%);
+    background: #b1b1b1 !important;
+    align-items: center;
+    border-radius: 30px;
+    justify-content: center;
+}
+
+[class*="swiper-thumbnails-caret-next"] [class*="caretIcon"],
+[class*="swiper-thumbnails-caret-prev"] [class*="caretIcon"] {
+    color: #fff;
+    width: 12px;
+}
+
+[class*="carouselGaleryThumbs"] [class*="swiper-container-thumbs"] {
+    /* margin: 50px 0; */
+}
+
+[class*="productImagesGallerySwiperContainer"] > [class*="swiper-wrapper"] {
+    /* padding: 50px 0; */
+}
