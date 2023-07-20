@@ -28,7 +28,6 @@
   margin: 12px;
 }
 
-<<<<<<< HEAD
 @media (max-width: 1024px) {
   .sliderTrackContainer--shelf {
     padding: 0 !important;
@@ -50,10 +49,7 @@
     margin: 8px 16px 8px 8px;
   }
 }
-@media (min-width: 758px) {
-=======
 @media (min-width: 1050px) {
->>>>>>> d094e40237ae9995ceaad1a95a5ce58c4923b59d
   .sliderLeftArrow--slideSelecao {
     left: -75px;
   }

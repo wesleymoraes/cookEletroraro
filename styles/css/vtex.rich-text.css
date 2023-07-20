@@ -153,19 +153,17 @@
   font-weight: 600;
   color: black;
 }
-<<<<<<< HEAD
 @media (max-width: 768px) {
   .container--homeContentSeo .wrapper .paragraph {
     font-size: 14px;
   }
-=======
+}
 .container--homeContentSeo .wrapper .paragraph .strong {
   color: black;
   font-weight: 800;
 }
 .container--homeContentSeo .wrapper .paragraph .link--homeContentSeo {
   text-decoration: none;
->>>>>>> d094e40237ae9995ceaad1a95a5ce58c4923b59d
 }
 
 .container--redes-sociais-flag .wrapper .paragraph {
