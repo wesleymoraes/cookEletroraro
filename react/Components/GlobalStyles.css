@@ -169,3 +169,14 @@
 [class*="render-container"]:not([class*="render-route-store-home"]) [class*="--main-header"]{
     background-color: black;
 }
+
+[class*="render-container"]:not([class*="render-route-store-home"]) [class*="flexRow--main-header-mobile"],
+[class*="render-route-store-home"] [class*="wrapper--sticky-header--stuck"] [class*="flexRow--main-header-mobile"] {
+    background-color: #000;
+}
+
+[class*="render-container"]:not([class*="render-route-store-home"]) [class*="flexRow--searchbarmobile"],
+[class*="render-route-store-home"] [class*="wrapper--sticky-header--stuck"] [class*="flexRow--searchbarmobile"] {
+    border-bottom: 1px solid #b1b1b1;
+    background-color: #fff;
+}
