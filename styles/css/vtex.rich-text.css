@@ -82,7 +82,7 @@
   font-weight: 500;
 }
 
-@media (max-width: 758px) {
+@media (max-width: 1050px) {
   .container--newsletterTitle {
     justify-content: center;
   }
@@ -125,7 +125,7 @@
   margin: 7px 0px 30px 0;
 }
 
-@media (max-width: 758px) {
+@media (max-width: 1050px) {
   .container--newsletterSubtitle {
     justify-content: center;
     width: 70%;
@@ -153,10 +153,19 @@
   font-weight: 600;
   color: black;
 }
+<<<<<<< HEAD
 @media (max-width: 768px) {
   .container--homeContentSeo .wrapper .paragraph {
     font-size: 14px;
   }
+=======
+.container--homeContentSeo .wrapper .paragraph .strong {
+  color: black;
+  font-weight: 800;
+}
+.container--homeContentSeo .wrapper .paragraph .link--homeContentSeo {
+  text-decoration: none;
+>>>>>>> d094e40237ae9995ceaad1a95a5ce58c4923b59d
 }
 
 .container--redes-sociais-flag .wrapper .paragraph {
@@ -259,7 +268,7 @@
   margin-right: 10px;
 }
 
-@media (max-width: 758px) {
+@media (max-width: 1050px) {
   .container--footerSubmenuItem .wrapper .heading {
     padding: 0 30px !important;
     margin-left: 3px !important;
@@ -303,4 +312,18 @@
   font-size: 22px;
   font-weight: 500;
   color: black;
+}
+
+.paragraph--empty-state {
+  font-size: 17px;
+  color: black;
+  font-weight: 500;
+  margin: 35px 0px;
+}
+
+.container--notFound .wrapper .paragraph {
+  font-weight: 500;
+  font-size: 19px;
+  color: black;
+  margin-bottom: 25px;
 }

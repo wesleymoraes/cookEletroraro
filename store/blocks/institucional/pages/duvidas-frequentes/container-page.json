@@ -1,7 +1,7 @@
 {
   "store.custom#pagina-institucional-duvidas-frequentes": {
     "blocks": [
-      "responsive-layout.desktop#banner",
+      "flex-layout.row#image-banner-institucional",
       "flex-layout.row#breadcrumb-institucional-duvidas-frequentes",
       "flex-layout.row#body-institucional-duvidas-frequentes"
     ]

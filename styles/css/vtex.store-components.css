@@ -151,6 +151,18 @@
   padding: 0;
 }
 
+@media only screen and (max-width: 1000px) and (min-width: 700px) {
+  .shippingContainer {
+    margin-top: 90px !important;
+  }
+  .shippingContainer :global(.vtex-button) {
+    margin-left: -50px !important;
+  }
+  .shippingContainer :global(.vtex-button) :global(.vtex-button__label)::after {
+    width: 110px !important;
+    font-size: 12px !important;
+  }
+}
 @media (min-width: 758px) {
   .shippingContainer {
     margin: 40px 0 20px;
@@ -200,7 +212,7 @@
     text-transform: initial;
   }
 }
-@media (max-width: 758px) {
+@media (max-width: 1050px) {
   .shippingContainer {
     width: 265px;
     margin: 35px auto;

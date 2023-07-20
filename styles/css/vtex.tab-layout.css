@@ -34,7 +34,7 @@
   font-weight: 700;
 }
 
-@media (max-width: 758px) {
+@media (max-width: 1050px) {
   .container--pdp {
     background-color: white;
     padding: 20px 0;

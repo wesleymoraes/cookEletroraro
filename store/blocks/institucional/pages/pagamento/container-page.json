@@ -1,7 +1,7 @@
 {
   "store.custom#pagina-institucional-pagamento": {
     "blocks": [
-      "responsive-layout.desktop#banner",
+      "flex-layout.row#image-banner-institucional",
       "flex-layout.row#breadcrumb-institucional-pagamento",
       "flex-layout.row#body-institucional-pagamento"
     ]

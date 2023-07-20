@@ -8,7 +8,10 @@
       ]
     },
     "children": [
-     "CustomCardLojas"
+      "CustomComponentInstitucional#nossasLojas-1",
+      "CustomComponentInstitucional#nossasLojas-2"
     ]
-  }
+  },
+  "CustomComponentInstitucional#nossasLojas-1":{},
+  "CustomComponentInstitucional#nossasLojas-2":{}
 }

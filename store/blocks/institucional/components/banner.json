@@ -1,7 +1,5 @@
 {
-  "responsive-layout.desktop#banner": {
-    "children": ["flex-layout.row#image-banner-institucional"]
-  },
+
   "flex-layout.row#image-banner-institucional": {
     "title": "Banner principal",
     "props": {

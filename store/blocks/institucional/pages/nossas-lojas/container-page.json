@@ -1,7 +1,7 @@
 {
   "store.custom#pagina-institucional-nossas-lojas": {
     "blocks": [
-      "responsive-layout.desktop#banner",
+      "flex-layout.row#image-banner-institucional",
       "flex-layout.row#breadcrumb-institucional-prazos-de-envio",
       "flex-layout.row#body-institucional-nossas-lojas"
     ]

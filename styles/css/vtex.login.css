@@ -42,6 +42,10 @@
   border-radius: 20px;
 }
 
+.profile {
+  color: white;
+}
+
 .loginOptionsContainer .options .formTitle {
   font-weight: 600;
   color: #000000;

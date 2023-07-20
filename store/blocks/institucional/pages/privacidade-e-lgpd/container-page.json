@@ -1,7 +1,7 @@
 {
   "store.custom#pagina-institucional-privacidade-e-lgpd": {
     "blocks": [
-      "responsive-layout.desktop#banner",
+      "flex-layout.row#image-banner-institucional",
       "flex-layout.row#breadcrumb-institucional-fale-conosco",
       "flex-layout.row#body-institucional-privacidade-e-lgpd"
     ]

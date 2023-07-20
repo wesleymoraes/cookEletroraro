@@ -137,7 +137,7 @@
   border-bottom: 1px solid #FAFAFA;
 }
 
-@media (max-width: 758px) {
+@media (max-width: 1050px) {
   .styledLinkContent--footerMenuItem {
     padding: 15px 10px;
   }
@@ -153,12 +153,12 @@
   color: #000000;
 }
 
-@media (max-width: 758px) {
+@media (max-width: 1050px) {
   .styledLinkContent--footerMenuItem {
     text-transform: uppercase;
   }
 }
-@media (max-width: 758px) {
+@media (max-width: 1050px) {
   .styledLinkContent--PdpMenuItem {
     padding: 15px 0;
     text-transform: uppercase;
