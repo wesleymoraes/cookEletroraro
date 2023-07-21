@@ -56,11 +56,11 @@
     content: url("assets/icons/IconsHeader/mobile-awesome-phone-alt.svg");
     margin-right: 8px !important;
   }
-  .container--topbar-2 .wrapper .paragraph {
+  .container--topbar-2 .wrapper .link {
     color: #7D7B7B;
     font-size: 11px;
   }
-  .container--topbar-2 .wrapper .paragraph::before {
+  .container--topbar-2 .wrapper .link::before {
     content: url("assets/icons/IconsHeader/mobile-logo-whatsapp.svg");
     margin-right: 8px !important;
   }
