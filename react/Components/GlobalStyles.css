@@ -181,6 +181,10 @@
     background-color: #fff;
 }
 
+[class*="render-container"]:not([class*="render-route-store-home"]) [class*="flexRow--MenuDesktop"] {
+    background-color: #fff;
+}
+
 [class*="flexRow--shelfBanner"] [class*="imageElement"] {
     width: 100%;
     height: auto;
