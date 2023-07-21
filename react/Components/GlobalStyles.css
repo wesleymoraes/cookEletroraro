@@ -190,3 +190,16 @@
     height: auto;
     max-width: unset;
 }
+
+[class*="flexRowContent--result"] {
+    display: flex;
+    align-items: flex-start;
+}
+
+[class*="flexRowContent--result"] > [class*="stretchChildrenWidth"]:first-child {
+    width: 17em !important;
+}
+
+[class*="filterContent"] > div:not([class*="filterItem"]) {
+    display: none;
+}

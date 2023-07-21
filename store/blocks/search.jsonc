@@ -141,7 +141,7 @@
       "flex-layout.col#content"
     ],
     "props": {
-      "preventHorizontalStretch": true,
+      "blockClass": "result",
       "fullWidth": true
     }
   },

@@ -241,9 +241,17 @@
 }
 
 .filters--layout {
+    margin: 0 !important;
+    padding: 0 16px 0 0 !important;
     .filtersWrapper {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        .filter__container {
+            width: 100%;
+        }
         .filter__container--title {
-
             .filterMessage {
                 font-weight: 600;
                 text-transform: uppercase;
@@ -254,6 +262,9 @@
                     // background-image: url("assets/icons/IconsHeader/filter.svg");
                 }
             }
+        }
+        .filter__container--marca {
+            display: none;
         }
     }
 }
