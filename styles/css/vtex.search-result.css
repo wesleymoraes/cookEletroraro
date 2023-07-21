@@ -222,9 +222,7 @@
   height: auto;
   padding: 0;
   border-radius: 20px;
-<<<<<<< HEAD
   background-color: transparent;
-=======
 }
 
 .searchNotFoundOops {
@@ -256,5 +254,4 @@
   .searchNotFound {
     margin-top: 70px;
   }
->>>>>>> d094e40237ae9995ceaad1a95a5ce58c4923b59d
 }

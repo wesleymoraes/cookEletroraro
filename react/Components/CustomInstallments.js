@@ -28,7 +28,7 @@ const CustomInstallments = () => {
   return (
     <div className="CustomInstallmentsContainer">
       <div className="CustomInstallmentsColumn">
-        <p>À vista: <b style={{ color: 'green' }}>{formatCurrency(price)}</b></p>
+        <p>À vista: <b style={{ color: 'green' }}>{formatCurrency(price - price * 0.05)}</b></p>
         <p>2x de <b>{formatCurrency(price / 2)}</b> sem juros</p>
         <p>3x de <b>{formatCurrency(price / 3)}</b> sem juros</p>
         <p>4x de <b>{formatCurrency(price / 4)}</b> sem juros</p>

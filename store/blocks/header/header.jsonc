@@ -42,7 +42,7 @@
   "rich-text#topbar-2": {
     "props": {
       "blockClass": "topbar-2",
-      "text": "+55 31 991292-1800"
+      "text": "[+55 31 991292-1800](https://api.whatsapp.com/send?phone=559912921800)"
     }
   },
   "flex-layout.col#spacer": {
