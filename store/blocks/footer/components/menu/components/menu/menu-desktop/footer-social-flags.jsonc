@@ -31,9 +31,7 @@
     "children": [
       "rich-text#redes-sociais",
       "image#instagram",
-      "image#facebook",
-      "image#youtube"
-     // "image#linkedin"
+      "image#facebook"
     ]
   },
   "rich-text#redes-sociais": {
