@@ -21,8 +21,8 @@
     },
     "children": [
       "rich-text#link-institucional-01",
-      "rich-text#link-institucional-02"
-      //"rich-text#link-institucional-03",
+      "rich-text#link-institucional-02",
+      "rich-text#link-institucional-03"
      // "rich-text#link-institucional-04",
     //  "rich-text#link-institucional-05"
     ]

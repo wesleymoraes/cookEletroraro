@@ -106,14 +106,15 @@
   "tab-list.item#home1": {
     "props": {
       "tabId": "home1",
-      "label": "Especificações Técnicas",
-      "defaultActiveTab": true
+      "label": "Especificações Técnicas"
+     
     }
   },
   "tab-list.item#home2": {
     "props": {
       "tabId": "home2",
-      "label": "Descrição do produto"
+      "label": "Descrição do produto",
+      "defaultActiveTab": true
     }
   },
   "tab-content#home": {

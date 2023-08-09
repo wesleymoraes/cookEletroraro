@@ -16,10 +16,10 @@
         "phone": 2
       },
       "autoplay": {
-        "timeout": 3000
+        "timeout": 5000
    },
       "slideTransition": {
-        "speed": 400,
+        "speed": 1000,
         "delay": 0,
         "timing": ""
       },

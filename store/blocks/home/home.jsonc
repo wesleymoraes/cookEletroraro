@@ -90,7 +90,16 @@
       "infinite": true,
       "showNavigationArrows": "always",
       "showPaginationDots": "always",
-      "blockClass": "carousel"
+      "blockClass": "carousel",
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+      "slideTransition": {
+        "speed": 1000,
+        "delay": 0,
+        "timing": ""
+      }
     }
   },
   "flex-layout.row#tituloDeVitrine": {

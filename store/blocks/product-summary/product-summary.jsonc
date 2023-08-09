@@ -6,35 +6,18 @@
       "stack-layout#prodsum",
       "product-summary-name",
       "product-list-price#summary",
-      "flex-layout.row#spot-price-summary",
+      "CustomPrice",
       "Discount#plp",
       "flex-layout.row#selling-price-summary",
       "flex-layout.row#sku-add-cart"
     ]
   },
+  
   "Discount#plp": {
     "props": {
       "context": "plp"
     }
   },
-  "vtex.product-highlights@2.x:product-highlights": {
-    "props": {
-      "type": "collection",
-      "filter": {
-        "type": "show",
-        "highlightNames": ["10% Boleto"]
-      }
-    },
-    "children": [
-    "ProductHighlight"]
-  },
-  "product-highlight-text": {
-    "props": {
-      "message": "{highlightName}",
-      "blockClass": "boleto"
-    }
-  },
-
   "stack-layout#summaryListDesktop": {
     "children": [
       "product-summary-image#summaryListDesktop",

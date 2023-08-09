@@ -15,6 +15,7 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
+    "vtex.sandbox": "0.x",
     "vtex.product-context": "0.x",
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
