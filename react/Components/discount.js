@@ -38,7 +38,7 @@ export default function Discount({ context }) {
 
   const price = sellingPrice.lowPrice;
   const result = price - price * 0.05;
-
+  const resultplp = price 
   const classHandle = classHandles[context];
 
   if (!classHandle) {
@@ -51,7 +51,7 @@ export default function Discount({ context }) {
       {context === 'plp' && (
         <>
           <p className={classHandle.message}>
-            {price.toLocaleString('pt-BR', localePriceSettings)} à vista com 5% de desconto ou em até
+            {resultplp.toLocaleString('pt-BR', localePriceSettings)} à prazo ou em até 
           </p>
         </>
       )}

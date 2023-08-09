@@ -3,6 +3,9 @@
 /* preto */
 /* cinza */
 /* branco */
+.container--topbar-1 {
+  width: max-content;
+}
 .container--topbar-1 .wrapper .paragraph {
   color: #7D7B7B;
   font-size: 14px;
@@ -25,6 +28,24 @@
   }
 }
 
+.container--topbar-3 .wrapper .paragraph {
+  color: #7D7B7B;
+  line-height: 0;
+}
+.container--topbar-3 .wrapper .paragraph .link {
+  font-size: 15px;
+  color: #7D7B7B;
+  text-decoration: none;
+}
+@media (max-width: 758px) {
+  .container--topbar-3 .wrapper .paragraph .link {
+    font-size: 12px;
+  }
+}
+
+.container--topbar-2 {
+  width: max-content;
+}
 .container--topbar-2 .wrapper .link {
   margin: 0;
   color: #7D7B7B;

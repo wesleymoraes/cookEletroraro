@@ -29,3 +29,38 @@
 .buttonLink--empty-state .label {
   font-size: 13px;
 }
+
+.link--topbar-3 {
+  text-decoration: none;
+  color: #7D7B7B;
+}
+.link--topbar-3 .label {
+  font-size: 15px;
+}
+@media (max-width: 758px) {
+  .link--topbar-3 .label {
+    font-size: 12px;
+  }
+}
+
+.link--footerSubmenuItem {
+  text-decoration: none;
+  font-size: 15px;
+  color: #000000;
+  font-weight: 500;
+  margin: 7px 0 !important;
+}
+@media (max-width: 758px) {
+  .link--footerSubmenuItem {
+    border-top: 1px solid #B1B1B1;
+    background-color: #f1f1f1;
+    padding: 3px !important;
+    margin-top: 0 !important;
+  }
+}
+@media (max-width: 758px) {
+  .link--footerSubmenuItem .label {
+    margin: 7px 30px !important;
+    color: #3f3f40;
+  }
+}

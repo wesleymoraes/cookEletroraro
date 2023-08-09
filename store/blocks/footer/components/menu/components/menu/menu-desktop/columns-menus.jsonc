@@ -27,8 +27,7 @@
   "flex-layout.col#footer-menu-desktop-03": {
     "title": "Menu - Coluna 3",
     "children": [
-      "rich-text#departamentos-footer",
-      "flex-layout.row#footer-flags"
+    
     ],
     "props": {
       "width":"20%",
@@ -36,6 +35,7 @@
       "preventVerticalStretch": true
     }
   },
+ 
   "flex-layout.row#footer-menu-desktop-04": {
     "props": {
       "blockClass": "footercol4"

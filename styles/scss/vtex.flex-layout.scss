@@ -1,27 +1,39 @@
 @import './variables.scss';
 
-.flexRow--topbar {
-    background-color: $primary-color;
-
+.flexRow--topbar{
+    height: 30px;
+    background-color: #f1f1f1;
     .flexRowContent {
-        height: 35px;
         display: flex;
         align-items: center;
-
-
-        .stretchChildrenWidth {
-            .flexCol {
-                height: fit-content;
-                align-items: center;
-                display: flex;
-                flex-direction: row;
-                gap: 15px;
-                padding: 0 15px;
-                justify-content: flex-end;
+        height: 30px;
+        @media (max-width:758px) {
+            margin-left: 10%!important;
+        }
+        &:first-child{
+            .stretchChildrenWidth{
+                .flexCol  {
+                    display: flex;
+                    align-items: center!important;
+                    flex-direction: row;
+                    height: fit-content;
+                    gap: 5%;
+                }
             }
-
         }
     }
+}
+.flexCol--topbar-2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center!important;
+    .flexColChild{
+        margin-right: 10px;
+        @media (max-width:758px) {
+            margin-right: 0px;
+        }
+    }
+
 }
 
 @media (max-width: $large-tablet-size) {

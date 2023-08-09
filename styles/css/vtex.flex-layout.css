@@ -4,21 +4,39 @@
 /* cinza */
 /* branco */
 .flexRow--topbar {
-  background-color: #FAFAFA;
+  height: 30px;
+  background-color: #f1f1f1;
 }
 .flexRow--topbar .flexRowContent {
-  height: 35px;
   display: flex;
   align-items: center;
+  height: 30px;
 }
-.flexRow--topbar .flexRowContent .stretchChildrenWidth .flexCol {
-  height: fit-content;
-  align-items: center;
+@media (max-width: 758px) {
+  .flexRow--topbar .flexRowContent {
+    margin-left: 10% !important;
+  }
+}
+.flexRow--topbar .flexRowContent:first-child .stretchChildrenWidth .flexCol {
   display: flex;
+  align-items: center !important;
   flex-direction: row;
-  gap: 15px;
-  padding: 0 15px;
+  height: fit-content;
+  gap: 5%;
+}
+
+.flexCol--topbar-2 {
+  display: flex;
   justify-content: flex-end;
+  align-items: center !important;
+}
+.flexCol--topbar-2 .flexColChild {
+  margin-right: 10px;
+}
+@media (max-width: 758px) {
+  .flexCol--topbar-2 .flexColChild {
+    margin-right: 0px;
+  }
 }
 
 @media (max-width: 1024px) {

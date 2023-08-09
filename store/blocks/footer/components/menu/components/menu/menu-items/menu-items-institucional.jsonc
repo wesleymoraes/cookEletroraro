@@ -17,8 +17,15 @@
     "title": "Menu Link 03",
     "props": {
       "blockClass": "footerSubmenuItem",
-      "text": "##### [Envio e Entrega](/)"
+      "text": "##### [Blog](http://blog.cookeletroraro.com.br/)"
     }
+  },
+  "link#link-institucional-03": {
+    "props": {
+      "blockClass": "topbar-3",
+      "label": "Blog",
+      "href": "http://blog.cookeletroraro.com.br/"
+     }
   },
   "rich-text#link-institucional-04": {
     "title": "Menu Link 05",

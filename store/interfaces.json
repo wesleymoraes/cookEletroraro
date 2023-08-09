@@ -43,5 +43,11 @@
   },
   "CustomNameProduct":{
     "component": "CustomNameProduct"
+  },
+  "CustomPrice":{
+    "component": "CustomPrice"
+  },
+  "EbitSelo":{
+    "component": "Ebit"
   }
 }
