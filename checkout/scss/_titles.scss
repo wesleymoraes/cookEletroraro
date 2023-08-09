@@ -1,0 +1,13 @@
+#cart-title,
+#orderform-title {
+  color: $just-black;
+  margin: 75px 0 30px;
+  font-size: 1.225rem;
+  text-align: left;
+  font-weight: $font-regular;
+  text-transform: uppercase;
+  @media (max-width: $mobile) {
+    margin: 30px 0 0;
+    font-weight: $font-bolder;
+  }
+}

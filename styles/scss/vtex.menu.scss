@@ -88,6 +88,10 @@
 .submenuAccordion--product-specification {
     width: 100%;
     padding: 0;
+    @media (max-width: 1024px) {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .styledLinkContent--link__menu-institucional {

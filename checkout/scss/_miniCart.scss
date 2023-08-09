@@ -1,0 +1,140 @@
+.cart-template {
+  margin-top: 0 !important;
+}
+
+.mini-cart {
+  margin-top: 0;
+  .table {
+    tr {
+      &.Shipping {
+        display: table-row !important;
+      }
+      td {
+        color: $color-base-primary;
+        font-size: 13px;
+        line-height: 15px;
+        vertical-align: middle;
+      }
+    }
+    tfoot {
+      td {
+        color: $color-base-primary;
+      }
+    }
+  }
+  h2 {
+    color: $just-black;
+    margin: 0;
+    padding: 6px 8px;
+    font-size: .875rem;
+    text-align: right;
+    font-weight: $font-medium;
+    background-color: $color-light-gray-1;
+    @media (max-width: $mobile) {
+      width: calc(100% + 20vw);
+      border: 0;
+      margin: 0 -10vw;
+      padding: 18px 10vw !important;
+      font-size: 18px;
+      text-align: left;
+      text-transform: uppercase;
+      background-color: $color-light-gray-1;
+    }
+  }
+
+  #go-to-cart-button {
+    width: 100%;
+    margin: 8px 0 0;
+    padding: 1px 8px;
+    font-size: .775rem;
+    box-sizing: border-box;
+    text-align: right;
+    font-weight: $font-medium;
+    background-color: $color-light-gray-1;
+    small {
+      a {
+        color: $just-black;
+      }
+    }
+  }
+  .totalizers {
+    .accordion-group {
+      padding: 20px 0;
+      .accordion-inner {
+        border: 0;
+      }
+    }
+    .totalizers-list {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: flex-end;
+      tr {
+        color: $color-base-primary;
+        border: 0 !important;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        justify-content: flex-end;
+        &.Shipping {
+          display: none !important;
+        }
+        .info {
+          width: auto;
+          font-size: .85rem;
+          text-align: left;
+          @media (max-width: $mobile) {
+            font-size: .85rem;
+          }
+        }
+        .monetary {
+          width: 150px;
+          font-size: .85rem;
+          text-align: right;
+          @media (max-width: $mobile) {
+            font-size: .85rem;
+          }
+        }
+      }
+      .empty,
+      .space {
+        display: none;
+      }
+    }
+    tfoot {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: flex-end;
+      tr {
+        color: $just-black;
+        border: 0 !important;
+        display: flex;
+        font-weight: $font-medium;
+        align-items: center;
+        text-transform: uppercase;
+        justify-content: flex-end;
+        .info {
+          width: auto;
+          font-size: .925rem;
+          text-align: left !important;
+          @media (max-width: $mobile) {
+            font-size: .95rem;
+          }
+        }
+        .monetary {
+          width: 150px;
+          font-size: .925rem;
+          text-align: right !important;
+          @media (max-width: $mobile) {
+            font-size: .95rem;
+          }
+        }
+      }
+      .empty,
+      .space {
+        display: none;
+      }
+    }
+  }
+}

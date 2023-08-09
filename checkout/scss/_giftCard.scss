@@ -1,0 +1,67 @@
+.steps-view {
+  padding: 0;
+  background: #fff;
+}
+
+.payment-discounts-alert,
+.steps-view {
+  width: 60%;
+  border-left: 1px solid #f3f3f3;
+  border-radius: 0;
+  padding-left: 30px;
+}
+
+.gift-card-section {
+  margin: 15px 0 0;
+  padding: 0;
+  background-color: $just-white;
+  @media (max-width: $mobile) {
+    margin-bottom: 20px;
+  }
+  .gift-card-provider-default {
+    .payment-discounts-options {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 20px;
+      & > label {
+        color: #000;
+        width: 100%;
+        font-size: 14px;
+        text-align: left;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin: 0 0 5px;
+      }
+      #btn-add-gift-card {
+        height: $input-medium-height;
+        border: 1px solid #000;
+        box-shadow: unset;
+        background-color: #000;
+        background-image: unset;
+        text-shadow: unset;
+        text-transform: uppercase;
+        font-size: 0.775rem;
+        margin-left: 5px;
+        border-radius: 100px;
+        color: #fff;
+        font-weight: $font-medium;
+      }
+      #payment-discounts-code {
+        color: $color-base-primary;
+        width: 40%;
+        border: 1px solid #bcbcbc;
+        height: $input-medium-height;
+        padding: 0 15px;
+        font-weight: $font-light;
+        font-family: $font-secondary;
+        margin-bottom: 0;
+        border-radius: 100px;
+        background-color: transparent;
+        &:hover {
+          border-color: #000;
+        }
+      }
+    }
+  }
+}

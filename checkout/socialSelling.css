@@ -1,0 +1,84 @@
+/* START Pick Color Nuevo Carrito */
+.sb-b-erasecart .sb-icon,
+.sb-b-erasecart .sb-label,
+.sb-b-erasecart a:hover .sb-icon {
+   color: #fff!important;
+   background-color: #000!important
+}
+/* END Pick Color Nuevo Carrito */
+/* START Pick Color Codigo Vendedor */
+.sb-b-codigovendedor .sb-icon,
+.sb-b-codigovendedor .sb-label,
+.sb-b-codigovendedor a:hover .sb-icon {
+   color: #fff!important;
+   background-color: #000!important
+}
+/* END Pick Color Codigo Vendedor */
+/* START Pick Color Whatsapp */
+.sb-b-whatsapp .sb-icon,
+.sb-b-whatsapp .sb-label,
+.sb-b-whatsapp a:hover .sb-icon {
+   color: #fff!important;
+   background-color: #000!important
+}
+/* END Pick Color Whatsapp */
+/* START Pick Color Facebook Messenger */
+.sb-b-facebook-messenger .sb-icon,
+.sb-b-facebook-messenger .sb-label,
+.sb-b-facebook-messenger a:hover .sb-icon {
+   color: #fff!important;
+   background-color: #000!important
+}
+/* END Pick Color Facebook Messenger */
+/* START Pick Color SMS */
+.sb-b-sms .sb-icon,
+.sb-b-sms .sb-label,
+.sb-b-sms a:hover .sb-icon {
+   color: #fff!important;
+   background-color: #000!important
+}
+/* END Pick Color SMS */
+/* START Pick Color Link */
+.sb-b-link .sb-icon,
+.sb-b-link .sb-label,
+.sb-b-link a:hover .sb-icon {
+   color: #fff!important;
+   background-color:#000!important
+}
+/* END Pick Color Link */
+/* START Pick Color GMAIL */
+.sb-b-gmail .sb-icon,
+.sb-b-gmail .sb-label,
+.sb-b-gmail a:hover .sb-icon {
+   color: #fff!important;
+   background-color:#000!important
+}
+/* END Pick Color GMAIL */
+/* START Pick Color Email */
+.sb-b-email .sb-icon,
+.sb-b-email .sb-label,
+.sb-b-email a:hover .sb-icon {
+   color: #fff!important;
+   background-color:#000!important
+}
+/* END Pick Color Email */
+/* START Pick Color BUTTON OK */
+.swal2-styled.swal2-confirm {
+   border: 0!important;
+   border-radius: .25em!important;
+   background: initial!important;
+   background-color:#000!important;
+   color: #fff!important;
+   font-size: 1.0625em!important;
+}
+/* END Pick Color BUTTON OK */
+/* START Pick Color BUTTON CANCEL */
+.swal2-styled.swal2-cancel {
+   border: 0!important;
+   border-radius: .25em!important;
+   background: initial!important;
+   background-color: #000!important;
+   color: #fff!important;
+   font-size: 1.0625em!important;
+}
+/* END Pick Color BUTTON CANCEL */

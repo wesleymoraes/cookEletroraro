@@ -51,7 +51,7 @@ export default function Discount({ context }) {
       {context === 'plp' && (
         <>
           <p className={classHandle.message}>
-            {result.toLocaleString('pt-BR', localePriceSettings)} à vista com 5% de desconto ou em até
+            {price.toLocaleString('pt-BR', localePriceSettings)} à vista com 5% de desconto ou em até
           </p>
         </>
       )}
@@ -61,7 +61,7 @@ export default function Discount({ context }) {
             5% de desconto à vista
           </p>
           <p className="pdp-price">
-            {result.toLocaleString('pt-BR', localePriceSettings)}
+            {price.toLocaleString('pt-BR', localePriceSettings)}
           </p>
           <p className="pdp-message-2">
             Preço a prazo

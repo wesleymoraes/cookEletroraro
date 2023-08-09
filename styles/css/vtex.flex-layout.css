@@ -327,8 +327,13 @@
   justify-content: center;
 }
 
+@media (min-width: 1024px) {
+  .flexRow--productSpecificationGroup {
+    width: 50%;
+  }
+}
 .flexRow--productSpecificationGroup .flexRowContent--productSpecificationGroup {
-  padding: 0 25px 25px;
+  padding: 0 25px;
 }
 @media (min-width: 1024px) {
   .flexRow--productSpecificationGroup .flexRowContent--productSpecificationGroup {
@@ -339,20 +344,36 @@
   display: none;
 }
 .flexRow--productSpecificationGroup .flexRowContent--productSpecificationGroup .flexRow--productSpecification {
-  margin: 0 0 5px;
-}
-.flexRow--productSpecificationGroup .flexRowContent--productSpecificationGroup .flexRow--productSpecification:last-child {
-  margin: 0;
+  margin: 10px 0 0;
 }
 .flexRow--productSpecificationGroup .flexRowContent--productSpecificationGroup .flexRow--productSpecification .flexRowContent--productSpecification {
   display: flex;
   flex-wrap: wrap;
 }
+@media (min-width: 1024px) {
+  .flexRow--productSpecificationGroup .flexRowContent--productSpecificationGroup .flexRow--productSpecification .flexRowContent--productSpecification {
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+}
 .flexRow--productSpecificationGroup .flexRowContent--productSpecificationGroup .flexRow--productSpecification .flexRowContent--productSpecification .stretchChildrenWidth {
   width: 100% !important;
 }
+@media (min-width: 1024px) {
+  .flexRow--productSpecificationGroup .flexRowContent--productSpecificationGroup .flexRow--productSpecification .flexRowContent--productSpecification .stretchChildrenWidth {
+    width: auto !important;
+  }
+}
 .flexRow--productSpecificationGroup .flexRowContent--productSpecificationGroup .flexRow--productSpecification .flexRowContent--productSpecification .stretchChildrenWidth .flexColChild--productSpecificationName {
   font-weight: bold;
+}
+@media (min-width: 1024px) {
+  .flexRow--productSpecificationGroup .flexRowContent--productSpecificationGroup .flexRow--productSpecification .flexRowContent--productSpecification .stretchChildrenWidth .flexColChild--productSpecificationName {
+    margin: 0 5px 0 0;
+  }
+  .flexRow--productSpecificationGroup .flexRowContent--productSpecificationGroup .flexRow--productSpecification .flexRowContent--productSpecification .stretchChildrenWidth .flexColChild--productSpecificationName::after {
+    content: ":";
+  }
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 700px) {

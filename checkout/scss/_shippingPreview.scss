@@ -1,0 +1,106 @@
+#shipping-preview-container {
+  .srp-content {
+    .srp-main-title {
+      margin: 0 0 10px;
+      font-size: 0;
+      line-height: 1;
+
+      &::before {
+        content: "Simular Frete";
+        color: #000;
+        font-size: 14px;
+        font-weight: $font-regular;
+        text-transform: uppercase;
+      }
+    }
+
+    .srp-description {
+      color: #000;
+    }
+
+    .srp-data {
+      .srp-postal-code {
+        .srp-postal-code__form {
+          .vtex-shipping-preview-0-x-postalCodeForgotten {
+            margin: 0;
+            align-items: flex-start;
+          }
+
+          label {
+            display: none;
+          }
+
+          small {
+            a {
+              color: $just-black;
+              margin: 5px 0 0;
+              display: block;
+              font-size: 12px;
+              font-weight: $font-light;
+              font-family: $font-secondary;
+              text-decoration: underline;
+            }
+          }
+
+          #ship-postalCode {
+            width: 100%;
+            color: $color-base-primary;
+            border: 1px solid #bcbcbc;
+            height: $input-medium-height;
+            padding: 0 0 0 15px;
+            box-sizing: border-box;
+            font-weight: $font-light;
+            font-family: $font-secondary;
+            border-radius: 100px;
+            background-color: transparent;
+            small {
+              a {
+                font-size: 12px;
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+
+      .srp-result {
+        .srp-delivery-header {
+          .srp-items {
+            strong {
+              font-size: .85rem;
+              font-weight: $font-regular;
+            }
+          }
+
+          span {
+            font-size: .85rem;
+          }
+
+          #deliver-at-text {
+            a {
+              color: $color-brand-primary;
+              font-size: .85rem;
+              font-weight: $font-medium;
+              text-decoration: underline;
+            }
+          }
+        }
+        .srp-shipping-current-single {
+          border-radius: 100px;
+        }
+        .srp-delivery-select-container {
+          border-width: 1px;
+          border-radius: 100px;
+          .srp-delivery-current-many {
+            border: 0;
+          }
+          .srp-icon-arrow-down {
+            g {
+              fill: $color-base-primary;
+            }
+          }
+        }
+      }
+    }
+  }
+}

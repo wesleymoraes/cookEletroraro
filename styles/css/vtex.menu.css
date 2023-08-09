@@ -64,6 +64,12 @@
   width: 100%;
   padding: 0;
 }
+@media (max-width: 1024px) {
+  .submenuAccordion--product-specification {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 .styledLinkContent--link__menu-institucional {
   padding: 15px 12px;

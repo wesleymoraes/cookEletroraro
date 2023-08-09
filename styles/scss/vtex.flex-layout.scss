@@ -445,8 +445,11 @@
 }
 
 .flexRow--productSpecificationGroup {
+    @media (min-width: 1024px) {
+        width: 50%;
+    }
     .flexRowContent--productSpecificationGroup {
-        padding: 0 25px 25px;
+        padding: 0 25px;
         @media (min-width: 1024px) {
             padding: 0;
         }
@@ -454,17 +457,27 @@
             display: none;
         }
         .flexRow--productSpecification {
-            margin: 0 0 5px;
-            &:last-child {
-                margin: 0;
-            }
+            margin: 10px 0 0;
             .flexRowContent--productSpecification {
                 display: flex;
                 flex-wrap: wrap;
+                @media (min-width: 1024px) {
+                    flex-wrap: nowrap;
+                    flex-direction: row;
+                }
                 .stretchChildrenWidth {
                     width: 100% !important;
+                    @media (min-width: 1024px) {
+                        width: auto !important;
+                    }
                     .flexColChild--productSpecificationName {
                         font-weight: bold;
+                        @media (min-width: 1024px) {
+                            margin: 0 5px 0 0;
+                            &::after {
+                                content: ":";
+                            }
+                        }
                     }
                 }
             }
