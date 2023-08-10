@@ -9,7 +9,7 @@ const CustomPrice = () => {
     };
 
     const productContext = useProduct();
-    const value = productContext.product.priceRange.listPrice.highPrice
+    const value = productContext.product.priceRange.sellingPrice.highPrice
     const endPrice = value - value * 0.05;
 
     console.log(productContext)

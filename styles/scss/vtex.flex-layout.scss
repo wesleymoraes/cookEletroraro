@@ -1,20 +1,23 @@
 @import './variables.scss';
 
-.flexRow--topbar{
+.flexRow--topbar {
     height: 30px;
     background-color: #f1f1f1;
+
     .flexRowContent {
         display: flex;
         align-items: center;
         height: 30px;
+
         @media (max-width:758px) {
-            margin-left: 10%!important;
+            margin-left: 10% !important;
         }
-        &:first-child{
-            .stretchChildrenWidth{
-                .flexCol  {
+
+        &:first-child {
+            .stretchChildrenWidth {
+                .flexCol {
                     display: flex;
-                    align-items: center!important;
+                    align-items: center !important;
                     flex-direction: row;
                     height: fit-content;
                     gap: 5%;
@@ -23,12 +26,15 @@
         }
     }
 }
-.flexCol--topbar-2{
+
+.flexCol--topbar-2 {
     display: flex;
     justify-content: flex-end;
-    align-items: center!important;
-    .flexColChild{
+    align-items: center !important;
+
+    .flexColChild {
         margin-right: 10px;
+
         @media (max-width:758px) {
             margin-right: 0px;
         }
@@ -131,8 +137,10 @@
                 min-height: 36px;
                 border-radius: 25px;
                 background-color: $cor31;
+
                 :global(.vtex-button__label) {
                     padding: 0 !important;
+
                     :global(.vtex-add-to-cart-button-0-x-buttonText) {
                         font-size: .9rem;
                     }
@@ -149,7 +157,7 @@
 }
 
 .flexRow--product-breadcrumb {
-    padding: 0 25px;   
+    padding: 0 25px;
 }
 
 .flexRow--shelfBanner {
@@ -366,6 +374,7 @@
                 padding: 10px 5px;
                 border-radius: 50px;
                 background-color: $cor31;
+
                 :global(.vtex-button__label) {
                     :global(.vtex-add-to-cart-button-0-x-buttonText) {
                         font-size: 17px;
@@ -460,32 +469,43 @@
     @media (min-width: 1024px) {
         width: 50%;
     }
+
     .flexRowContent--productSpecificationGroup {
         padding: 0 25px;
+
         @media (min-width: 1024px) {
             padding: 0;
         }
+
         .flexRow--productSpecificationGroupName {
             display: none;
         }
+
         .flexRow--productSpecification {
             margin: 10px 0 0;
+
             .flexRowContent--productSpecification {
                 display: flex;
                 flex-wrap: wrap;
+
                 @media (min-width: 1024px) {
                     flex-wrap: nowrap;
                     flex-direction: row;
                 }
+
                 .stretchChildrenWidth {
                     width: 100% !important;
+
                     @media (min-width: 1024px) {
                         width: auto !important;
                     }
+
                     .flexColChild--productSpecificationName {
                         font-weight: bold;
+
                         @media (min-width: 1024px) {
                             margin: 0 5px 0 0;
+
                             &::after {
                                 content: ":";
                             }
@@ -507,20 +527,40 @@
         .stretchChildrenWidth {
             .flexCol {
                 display: flex;
-                justify-content: flex-end!important;
+                justify-content: flex-end !important;
                 margin-right: 5%;
             }
         }
     }
-    .flexRowContent--shelfBanner{
+
+    .flexRowContent--shelfBanner {
         display: flex;
         flex-direction: column;
-        .stretchChildrenWidth   {
-            width: 100%!important;
+
+        .stretchChildrenWidth {
+            width: 100% !important;
         }
     }
 }
 
-.flexRow--notFound{
+.flexRow--notFound {
     margin-bottom: 50px;
+}
+
+.flexRow--SelosEbitReclame {
+    .flexRowContent {
+        display: flex;
+        justify-content: start;
+        padding-top: 10px;
+        flex-direction: row;
+        @media (max-width:1000px) {
+            padding-top: 20px;
+            justify-content: center;
+        }
+        .stretchChildrenWidth   {
+            width: fit-content!important;
+            margin-right: 10px;
+        }
+     
+    }
 }

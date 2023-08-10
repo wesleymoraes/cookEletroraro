@@ -10,14 +10,19 @@
     "children": [
       "flex-layout.row#footer-flags-01",
       "flex-layout.row#footer-desktop",
-      "flex-layout.row#seloebit",
       "flex-layout.row#footer-description",
       "flex-layout.row#copyright-images"
     ]
   },
   "flex-layout.row#seloebit": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": "SelosEbitReclame"
+    },
     "children": [
-    "EbitSelo"  
+    "SeloEbit",
+    "ReclameAqui"
+
     ]
   },
   "flex-layout.row#footer-desktop": {
@@ -25,7 +30,7 @@
       "flex-layout.col#footer-menu-desktop-01",
       "flex-layout.col#footer-menu-desktop-04",
       "flex-layout.col#footer-menu-desktop-02",
-    // "flex-layout.col#footer-menu-desktop-03",
+      // "flex-layout.col#footer-menu-desktop-03",
       "flex-layout.row#footer-menu-desktop-04"
     ],
     "props": {
@@ -40,6 +45,7 @@
       "flex-layout.row#footer-flags-01",
       "flex-layout.row#footer-menu-mobile",
      // "flex-layout.row#footer-flags",
+      "flex-layout.row#seloebit",
       "flex-layout.row#footer-description",
       "flex-layout.row#copyright-images"
     ]

@@ -47,7 +47,10 @@
   "CustomPrice":{
     "component": "CustomPrice"
   },
-  "EbitSelo":{
-    "component": "Ebit"
+  "SeloEbit":{
+    "component": "SeloEbit"
+  },
+  "ReclameAqui":{
+    "component": "ReclameAqui"
   }
 }

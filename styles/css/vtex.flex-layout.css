@@ -415,3 +415,20 @@
 .flexRow--notFound {
   margin-bottom: 50px;
 }
+
+.flexRow--SelosEbitReclame .flexRowContent {
+  display: flex;
+  justify-content: start;
+  padding-top: 10px;
+  flex-direction: row;
+}
+@media (max-width: 1000px) {
+  .flexRow--SelosEbitReclame .flexRowContent {
+    padding-top: 20px;
+    justify-content: center;
+  }
+}
+.flexRow--SelosEbitReclame .flexRowContent .stretchChildrenWidth {
+  width: fit-content !important;
+  margin-right: 10px;
+}

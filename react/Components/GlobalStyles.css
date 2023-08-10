@@ -203,3 +203,7 @@
 [class*="filterContent"] > div:not([class*="filterItem"]) {
     display: none;
 }
+.reclameAquiLogo {
+    height: 12.75px;
+    width: 80px;
+}

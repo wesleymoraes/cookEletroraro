@@ -42,7 +42,8 @@
     },
     "children": [
       "flex-layout.col#footer-menu-desktop-05",
-      "flex-layout.col#footer-menu-desktop-03"
+      "flex-layout.col#footer-menu-desktop-03",
+      "flex-layout.row#seloebit"
     ]
   },
   "flex-layout.col#footer-menu-desktop-04": {
