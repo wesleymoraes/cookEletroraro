@@ -1,25 +1,35 @@
 import React from "react";
 import useProduct from "vtex.product-context/useProduct";
 
-
 export default function ProductHighlight() {
   const productContext = useProduct();
   const highlights = productContext.product.clusterHighlights;
 
+  const renderHighlight = (id) => {
+    const highlight = highlights.find(hightlight => hightlight.id === id);
+    return highlight ? <p className={`highlight-${id}`}>{highlight.name}</p> : null;
+  };
+
+  const renderInlineHighlights = (ids) => {
+    return (
+      <div className="inline-highlights">
+        {ids.map(id => renderHighlight(id))}
+      </div>
+    );
+  };
+
+  const renderSingleHighlight = (id) => {
+    return (
+      <div className="single-highlight">
+        {renderHighlight(id)}
+      </div>
+    );
+  };
+
   return (
     <div className="ContainerHighlight">
-      <div className="row-1">
-        <span>
-          {
-            highlights.find(hightlight => hightlight.id === '155')?.name || ''
-          }
-        </span>
-        <span>
-          {
-            highlights.find(hightlight => ['223', '226', '227'].includes(hightlight.id))?.name || ''
-          }
-        </span>
-      </div>
+      { renderInlineHighlights(['155', '227', '226', '223']) }
+      { renderSingleHighlight('186') }
     </div>
   );
 }
