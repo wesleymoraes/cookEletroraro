@@ -11,8 +11,6 @@ const CustomNameProduct = () => {
       ? `${productName}...`
       : productName;
 
-  //console.log("Contexto de Produto:", productContext);
-
   return (
     <div>
       <p

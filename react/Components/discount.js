@@ -1,5 +1,6 @@
 import React from 'react';
 import { useProduct } from 'vtex.product-context';
+import { getClusterDiscount } from './utils/getClusterDiscount';
 
 const localePriceSettings = {
   style: 'currency',
@@ -20,7 +21,7 @@ const classHandles = {
   },
 };
 
-export default function Discount({ context }) {
+export default function Discount({ context = "plp" }) {
   const productContext = useProduct();
 
   if (!productContext || productContext.product === null) return null;
@@ -31,14 +32,11 @@ export default function Discount({ context }) {
 
   const {
     priceRange: { sellingPrice },
+    clusterHighlights
   } = product;
-
 
   if (!sellingPrice || sellingPrice.lowPrice === null) return null;
 
-  const price = sellingPrice.highPrice;
-  const result = price - price * 0.05;
-  const resultplp = price 
   const classHandle = classHandles[context];
 
   if (!classHandle) {
@@ -46,27 +44,46 @@ export default function Discount({ context }) {
     return null;
   }
 
+  const discount = getClusterDiscount(clusterHighlights);
+
+  const price = sellingPrice.lowPrice;
+  const result = price - price * (discount / 100);
+
   return (
     <div className={classHandle.container}>
       {context === 'plp' && (
         <>
           <p className={classHandle.message}>
-            {resultplp.toLocaleString('pt-BR', localePriceSettings)} à prazo ou em até 
+            {
+              discount > 0 && `${price.toLocaleString('pt-BR', localePriceSettings)} à prazo ou`
+            } em até 
           </p>
         </>
       )}
       {context === 'pdp' && (
         <>
-          <p className="pdp-message">
-            5% de desconto à vista
-          </p>
-          <p className="pdp-price">
-            {result.toLocaleString('pt-BR', localePriceSettings)}
-          </p>
-          <p className="pdp-message-2">
-            Preço a prazo
-          </p>
-          <p className="pdp-messageParcelado">
+          {
+            discount > 0 && (
+              <>
+                <p className="pdp-message">
+                  {discount}% de desconto à vista
+                </p>
+                <p className="pdp-price">
+                  {result.toLocaleString('pt-BR', localePriceSettings)}
+                </p>
+              </>
+            )
+          }
+          {
+            discount > 0 && (
+              <p className="pdp-message-2">
+                Preço a prazo
+              </p>
+            )
+          }
+          <p className="pdp-messageParcelado" style={{
+            fontSize: discount > 0 ? "19px" : "25.5px",
+          }}>
             {price.toLocaleString('pt-BR', localePriceSettings)}
           </p>
         </>
