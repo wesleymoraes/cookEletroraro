@@ -212,11 +212,16 @@
 :global(.ContainerHighlight) {
     width: 100%;
 
+    :global(.contentHighlight) {
+        display: flex;
+        flex-direction: column;
+
+    }
+
     :global(.row-1) {
         width: 100%;
         display: flex;
         align-items: center;
-        justify-content: space-between;
 
         >span {
             &:first-child {
@@ -237,39 +242,55 @@
     }
 }
 
-
-//highlight-item-Frete Grátis algumaCoisa Sul e Sudeste
-:global(.highlight-item-Seleção) {
-    font-size: 12px;
-    color: black;
+:global(.highlight-155) {
+    font-size: 11px;
+    color: red;
+    padding: 5px 25px;
+    margin: 0;
 }
 
-:global(.highlight-item-Frete) {
-    font-size: 12px;
+:global(.highlight-227),
+:global(.highlight-226),
+:global(.highlight-223) {
+    font-size: 11px;
+    padding: 5px 7px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    margin: 0px;
+    align-self: flex-end;
+    display: flex;
+}
+
+:global(.highlight-186) {
     color: black;
     background-color: #F2F2F2;
-    padding: 5px 10px;
-    border-radius: 20px;
-    margin-top: 5px !important;
-
-}
-
-:global(.highlight-item-A) {
-    color: #DC3E3F;
-    text-transform: initial;
-    font-size: 12px;
-}
-
-:global(.highlight-item-110V),
-:global(.highlight-item-220V),
-:global(.highlight-item-BIVOLT) {
-    color: white;
-    text-transform: capitalize;
     font-size: 11px;
-    padding: 5px 10px;
+    padding: 5px 20px;
     border-radius: 20px;
-    background: black;
+    margin: 10px auto;
+
 }
+
+:global(.ContainerHighlight) {
+    display: flex;
+    flex-direction: column;
+    align-items: start; 
+}
+
+:global(.inline-highlights) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+}
+
+:global(.single-highlight ){
+    display: flex;
+    flex-direction: row; 
+    margin: auto;
+}
+
 
 .itemListLinkTitle {
     .b {
@@ -447,7 +468,8 @@
     }
 
 }
-:global(.render-route-store-home){
+
+:global(.render-route-store-home) {
     :global(.render-provider) {
         :global(.vtex-store__template) {
 
@@ -458,9 +480,10 @@
 
                 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) {
                     :global(.vtex-sticky-layout-0-x-container--sticky-header) {
-                        :global(.vtex-flex-layout-0-x-flexRow--main-header){
+                        :global(.vtex-flex-layout-0-x-flexRow--main-header) {
                             background-color: black;
                         }
+
                         :global(.vtex-flex-layout-0-x-flexRow--MenuDesktop) {
                             display: none !important;
 
@@ -469,5 +492,5 @@
                 }
             }
         }
-    }   
+    }
 }
