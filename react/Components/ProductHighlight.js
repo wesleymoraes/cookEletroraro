@@ -10,6 +10,8 @@ export default function ProductHighlight() {
     return highlight ? <p className={`highlight-${id}`}>{highlight.name}</p> : null;
   };
 
+  console.log(productContext.product)
+
   const renderInlineHighlights = (ids) => {
     return (
       <div className="inline-highlights">
@@ -28,8 +30,10 @@ export default function ProductHighlight() {
 
   return (
     <div className="ContainerHighlight">
-      { renderInlineHighlights(['155', '227', '226', '223']) }
+      { renderInlineHighlights(['155', '227', '226', '223','630']) }
       { renderSingleHighlight('186') }
+      { renderSingleHighlight('640') }
+      { renderSingleHighlight('639') }
     </div>
   );
 }

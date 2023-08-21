@@ -20,8 +20,8 @@
   "flex-layout.row#1-desktop": {
     "title": "topbar",
     "children": [
-      "flex-layout.col#topbar-1",
-      "flex-layout.col#topbar-2"
+      "flex-layout.col#topbar-1"
+      //"flex-layout.col#topbar-2"
     ],
     "props": {
       "blockClass": "topbar",
@@ -43,7 +43,7 @@
   "rich-text#topbar-2": {
     "props": {
       "blockClass": "topbar-2",
-      "text": "[31 991292-1800](https://api.whatsapp.com/send?phone=559912921800)"
+      "text": "[31 99192-1800](https://api.whatsapp.com/send?phone=55991921800)"
     }
   },
   "flex-layout.col#topbar-2": {

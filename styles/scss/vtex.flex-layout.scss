@@ -2,16 +2,14 @@
 
 .flexRow--topbar {
     height: 30px;
-    background-color: #f1f1f1;
+    background-color: #000000;
 
     .flexRowContent {
         display: flex;
         align-items: center;
         height: 30px;
 
-        @media (max-width:758px) {
-            margin-left: 10% !important;
-        }
+     
 
         &:first-child {
             .stretchChildrenWidth {
@@ -20,7 +18,12 @@
                     align-items: center !important;
                     flex-direction: row;
                     height: fit-content;
-                    gap: 5%;
+                    gap: 20px;
+                    margin-right: 1% !important;
+                    justify-content: flex-end;
+                    @media (max-width:758px) {
+                        justify-content: center;
+                    }
                 }
             }
         }

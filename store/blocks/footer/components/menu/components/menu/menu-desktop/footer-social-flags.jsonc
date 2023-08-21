@@ -31,7 +31,8 @@
     "children": [
       "rich-text#redes-sociais",
       "image#instagram",
-      "image#facebook"
+      "image#facebook",
+      "image#blog"
     ]
   },
   "rich-text#redes-sociais": {
@@ -74,19 +75,19 @@
       }
     }
   },
-  "image#youtube": {
-    "title": "Icone Youtube",
+  "image#blog": {
+    "title": "Icone blog",
     "props": {
       "maxWidth": "40px",
       "maxHeight": "40px",
       "width": "100%",
-      "alt": "Youtube Footer Logo",
+      "alt": "blog Footer Logo",
       "blockClass": [
         "social-flags-icons"
       ],
-      "srcSet": "assets/icons/Icons-Sociais/Instagram.png",
+      "srcSet": "assets/icons/blog.png",
       "link": {
-        "url": "https://www.youtube.com/",
+        "url": "http://blog.cookeletroraro.com.br/",
         "newTab": true
       }
     }
