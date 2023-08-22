@@ -351,8 +351,14 @@
   margin: 0 auto;
   max-width: 1252px;
 }
-@media (max-width: 1252px) {
+@media (min-width: 1025px) {
   .container--search-result {
+    width: 100%;
+  }
+}
+@media (max-width: 1024px) {
+  .container--search-result {
+    width: auto !important;
     padding: 0 15px;
   }
 }
@@ -362,7 +368,7 @@
   font-size: 14px;
   text-align: left;
 }
-@media (max-width: 1252px) {
+@media (max-width: 1024px) {
   .container--search-result .wrapper .paragraph {
     font-size: 13px;
     text-align: justify;
