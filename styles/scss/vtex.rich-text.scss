@@ -457,3 +457,22 @@
         }
     }
 }
+
+.container--search-result {
+    margin: 0 auto;
+    max-width: 1252px;
+    @media (max-width: 1252px) {
+        padding: 0 15px;
+    }
+    .wrapper {
+        .paragraph {
+            color: #979899;
+            margin: 0 0 15px;
+            font-size: 14px;
+            @media (max-width: 1252px) {
+                font-size: 13px;
+                text-align: justify;
+            }
+        }
+    }
+}

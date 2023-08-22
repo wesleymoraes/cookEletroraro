@@ -37,12 +37,20 @@
   .gallery .galleryItem--normal :global(.vtex-product-summary-2-x-container) :global(.vtex-product-summary-2-x-clearLink) :global(.vtex-product-summary-2-x-element) :global(.vtex-flex-layout-0-x-flexRow--addToCart) {
     display: none !important;
   }
+}
+.galleryTitle--layout {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+}
+@media (max-width: 1024px) {
   .galleryTitle--layout {
     font-size: 24px;
-    font-weight: 700;
-    color: #000000;
+    padding: 0 20px;
+    text-align: center;
   }
 }
+
 .accordionFilter .filterAccordionBreadcrumbs .filterBreadcrumbsContent .filterBreadcrumbsText {
   color: #000000;
   margin-right: 10px;

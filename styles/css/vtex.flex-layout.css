@@ -432,3 +432,11 @@
   width: fit-content !important;
   margin-right: 10px;
 }
+
+.flexRowContent--title-and-content-mobile {
+  display: flex;
+  flex-direction: column;
+}
+.flexRowContent--title-and-content-mobile .stretchChildrenWidth {
+  width: 100% !important;
+}
