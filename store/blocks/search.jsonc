@@ -84,7 +84,7 @@
   "rich-text#search-result.desktop": {
     "title": "Texto SEO (Desktop)",
     "props": {
-      "text": "dasdsadsa",
+      "text": "",
       "blockClass": "search-result"
     }
   },
@@ -301,7 +301,7 @@
   "rich-text#search-result.mobile": {
     "title": "Texto SEO (Mobile)",
     "props": {
-      "text": "dsadsadasdas",
+      "text": "",
       "blockClass": "search-result"
     }
   },
