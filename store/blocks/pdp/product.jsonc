@@ -210,6 +210,7 @@
   "flex-layout.col#stack": {
     "children": [
       "product-images",
+      "ProductHighlight",
       "product-bookmark"
     ],
     "props": {

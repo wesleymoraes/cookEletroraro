@@ -204,7 +204,7 @@
 }
 
 :global(.wavepartnerbr-wave-menu-0-x-desktop-menuItemLinkText) {
-    font-weight: 300 !important;
+    font-weight: 700 !important;
     text-transform: capitalize;
     font-size: 14px !important;
 }
@@ -242,11 +242,27 @@
     }
 }
 
+:global(.highlight-630),
 :global(.highlight-155) {
     font-size: 11px;
-    color: red;
-    padding: 5px 25px;
+    padding: 5px 30px;
+    color: #dc3e3f;
+    border-radius: 20px;
+    margin: 0px 0px 0px 10px;
+}
+
+:global(.highlight-640) {
+    font-size: 11px;
+    width: 200px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background-color: black;
+    border-radius: 20px;
     margin: 0;
+
 }
 
 :global(.highlight-227),
@@ -261,21 +277,36 @@
     align-self: flex-end;
     display: flex;
 }
-
+:global(.highlight-639){
+    color: #F2F2F2;
+    background-color: #dc3e3f;
+    font-size: 11px;
+    width: 200px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 5px auto;   
+}
 :global(.highlight-186) {
     color: black;
     background-color: #F2F2F2;
     font-size: 11px;
-    padding: 5px 20px;
+    width: 200px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 20px;
-    margin: 10px auto;
+    margin: 5px auto;
 
 }
 
 :global(.ContainerHighlight) {
     display: flex;
     flex-direction: column;
-    align-items: start; 
+    align-items: start;
 }
 
 :global(.inline-highlights) {
@@ -283,11 +314,12 @@
     flex-direction: row;
     align-items: center;
     margin: auto;
+    gap: 3px;
 }
 
-:global(.single-highlight ){
+:global(.single-highlight) {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     margin: auto;
 }
 
@@ -490,6 +522,22 @@
                         }
                     }
                 }
+            }
+        }
+    }
+}
+:global(.vtex-flex-layout-0-x-flexCol--stack ){
+    position: relative;
+    :global(.vtex-flex-layout-0-x-flexColChild--stack){
+        :global(.ContainerHighlight){
+            position: absolute;
+            top: 10px;
+            width: fit-content;
+            right:  0;
+            z-index: 100;
+            @media (max-width:758px) {
+                top: 10px;  
+                right:  10px;
             }
         }
     }

@@ -7,7 +7,7 @@
   width: max-content;
 }
 .container--topbar-1 .wrapper .paragraph {
-  color: #7D7B7B;
+  color: #FFFFFF;
   font-size: 14px;
   margin: 0;
   display: flex;
@@ -18,7 +18,7 @@
   height: 12px;
   display: block;
   margin-right: 8px;
-  content: url("assets/icons/IconsHeader/phone-alt.svg");
+  content: url("assets/icons/telefone.png");
 }
 @media (min-width: 1024px) {
   .container--topbar-1 .wrapper .paragraph::before {
@@ -48,7 +48,7 @@
 }
 .container--topbar-2 .wrapper .link {
   margin: 0;
-  color: #7D7B7B;
+  color: #FFFFFF;
   font-size: 14px;
   display: flex;
   align-items: center;
@@ -58,7 +58,7 @@
   height: 12px;
   display: block;
   margin-right: 8px;
-  content: url("assets/icons/IconsHeader/logo-whatsapp.svg");
+  content: url("assets/icons/whatsapp.png");
 }
 @media (min-width: 1024px) {
   .container--topbar-2 .wrapper .link::before {
@@ -70,20 +70,20 @@
 
 @media (max-width: 1024px) {
   .container--topbar-1 .wrapper .paragraph {
-    color: #7D7B7B;
-    font-size: 11px;
+    font-size: 12px;
   }
   .container--topbar-1 .wrapper .paragraph::before {
-    content: url("assets/icons/IconsHeader/mobile-awesome-phone-alt.svg");
+    content: url("assets/icons/telefone.png");
     margin-right: 8px !important;
+    margin-bottom: 5px;
   }
   .container--topbar-2 .wrapper .link {
-    color: #7D7B7B;
-    font-size: 11px;
+    font-size: 12px;
   }
   .container--topbar-2 .wrapper .link::before {
-    content: url("assets/icons/IconsHeader/mobile-logo-whatsapp.svg");
+    content: url("assets/icons/whatsapp.png");
     margin-right: 8px !important;
+    margin-bottom: 5px;
   }
 }
 .paragraph--deals .strong {

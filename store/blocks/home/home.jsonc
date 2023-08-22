@@ -18,7 +18,7 @@
       "responsive-layout.mobile#section-4-FullBanner",
       "flex-layout.row#shelf-3",
       //"flex-layout.row#info-card",
-      "flex-layout.row#tituloDeVitrine3",
+      //"flex-layout.row#tituloDeVitrine3",
       "list-context.image-list#slideSelecao",
       "flex-layout.row#tituloDeVitrine4",
       "flex-layout.row#section-5-shelf.banner",

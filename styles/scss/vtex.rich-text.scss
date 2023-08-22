@@ -4,7 +4,7 @@
     width: max-content;
     .wrapper {
         .paragraph {
-            color: $cor8;
+            color: #FFFFFF;
             font-size: 14px;
             margin: 0;
 
@@ -16,7 +16,7 @@
                 height: 12px;
                 display: block;
                 margin-right: 8px;
-                content: url("assets/icons/IconsHeader/phone-alt.svg");
+                content: url("assets/icons/telefone.png");
 
                 @media (min-width: 1024px) {
                     width: 15px;
@@ -49,9 +49,8 @@
     .wrapper {
         .link {
             margin: 0;
-            color: $cor8;
+            color: #FFFFFF;
             font-size: 14px;
-
             display: flex;
             align-items: center;
 
@@ -60,7 +59,7 @@
                 height: 12px;
                 display: block;
                 margin-right: 8px;
-                content: url("assets/icons/IconsHeader/logo-whatsapp.svg");
+                content: url("assets/icons/whatsapp.png");
 
                 @media (min-width: 1024px) {
                     width: 15px;
@@ -76,12 +75,12 @@
     .container--topbar-1 {
         .wrapper {
             .paragraph {
-                color: $cor8;
-                font-size: 11px;
+                font-size: 12px;
 
                 &::before {
-                    content: url("assets/icons/IconsHeader/mobile-awesome-phone-alt.svg");
+                    content: url("assets/icons/telefone.png");
                     margin-right: 8px !important;
+                    margin-bottom: 5px;
                 }
             }
         }
@@ -90,12 +89,12 @@
     .container--topbar-2 {
         .wrapper {
             .link {
-                color: $cor8;
-                font-size: 11px;
+                font-size: 12px;
 
                 &::before {
-                    content: url("assets/icons/IconsHeader/mobile-logo-whatsapp.svg");
+                    content: url("assets/icons/whatsapp.png");
                     margin-right: 8px !important;
+                    margin-bottom: 5px;
                 }
             }
         }
