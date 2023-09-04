@@ -456,3 +456,27 @@
         }
     }
 }
+
+.container--search-result {
+    margin: 0 auto;
+    max-width: 1252px;
+    @media (min-width: 1025px) {
+        width: 100%;
+    }
+    @media (max-width: 1024px) {
+        width: auto !important;
+        padding: 0 15px;
+    }
+    .wrapper {
+        .paragraph {
+            color: #979899;
+            margin: 0 0 15px;
+            font-size: 14px;
+            text-align: left;
+            @media (max-width: 1024px) {
+                font-size: 13px;
+                text-align: justify;
+            }
+        }
+    }
+}

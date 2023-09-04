@@ -346,3 +346,31 @@
   color: black;
   margin-bottom: 25px;
 }
+
+.container--search-result {
+  margin: 0 auto;
+  max-width: 1252px;
+}
+@media (min-width: 1025px) {
+  .container--search-result {
+    width: 100%;
+  }
+}
+@media (max-width: 1024px) {
+  .container--search-result {
+    width: auto !important;
+    padding: 0 15px;
+  }
+}
+.container--search-result .wrapper .paragraph {
+  color: #979899;
+  margin: 0 0 15px;
+  font-size: 14px;
+  text-align: left;
+}
+@media (max-width: 1024px) {
+  .container--search-result .wrapper .paragraph {
+    font-size: 13px;
+    text-align: justify;
+  }
+}

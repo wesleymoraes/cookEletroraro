@@ -567,6 +567,17 @@
      
     }
 }
+<<<<<<< HEAD
 .flexCol--col-minicart-footer{
         margin-bottom: 10%;
 }
+=======
+
+.flexRowContent--title-and-content-mobile {
+    display: flex;
+    flex-direction: column;
+    .stretchChildrenWidth {
+        width: 100% !important;
+    }
+}
+>>>>>>> 3d77d2c617b7cf5d20fa6f7e4478cdb8e14dc675
