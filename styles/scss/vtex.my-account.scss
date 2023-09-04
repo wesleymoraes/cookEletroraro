@@ -542,3 +542,26 @@
         }
     }
 }
+
+
+#blip-chat-container #blip-chat-open-iframe {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    /* z-index: 2; */
+    position: fixed;
+    width: 4%;
+    max-width: 60px;
+    min-width: 48px;
+    max-height: 60px;
+    min-height: 48px;
+    left: 35px;
+    bottom: 124px;
+    transition: transform 200ms, opacity 500ms, visibility 500ms;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1), 0 2px 32px rgba(0, 0, 0, 0.1);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}

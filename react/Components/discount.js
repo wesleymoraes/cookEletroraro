@@ -64,21 +64,25 @@ export default function Discount({ context = "plp" }) {
         <>
           {
             discount > 0 && (
-              <>
-                <p className="pdp-message">
-                  {discount}% de desconto à vista
-                </p>
-                <p className="pdp-price">
-                  {result.toLocaleString('pt-BR', localePriceSettings)}
-                </p>
-              </>
+              <p className="pdp-message">
+                {
+                  discount >= 6 
+                      ? `${discount} % de desconto à vista` 
+                      : `preço à vista`
+                }
+              </p>
             )
           }
           {
             discount > 0 && (
-              <p className="pdp-message-2">
-                Preço a prazo
-              </p>
+              <>
+                <p className="pdp-price">
+                  {result.toLocaleString('pt-BR', localePriceSettings)}
+                </p>
+                <p className="pdp-message-2">
+                  Preço a prazo
+                </p>
+              </>
             )
           }
           <p className="pdp-messageParcelado" style={{

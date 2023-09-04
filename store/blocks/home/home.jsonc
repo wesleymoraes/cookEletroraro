@@ -3,10 +3,10 @@
     "blocks": [
       "list-context.image-list#demo",
       "flex-layout.row#deals",
+      "__fold__",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "flex-layout.row#tituloDeVitrine",
-      "__fold__",
       "flex-layout.row#shelf.banner",
       "flex-layout.row#section-3",
       "responsive-layout.mobile#section-3",

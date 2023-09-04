@@ -1,17 +1,14 @@
 import React from "react";
 import useProduct from "vtex.product-context/useProduct";
-
 export default function ProductHighlight() {
   const productContext = useProduct();
   const highlights = productContext.product.clusterHighlights;
-
+  console.log('highlights', highlights);
   const renderHighlight = (id) => {
     const highlight = highlights.find(hightlight => hightlight.id === id);
     return highlight ? <p className={`highlight-${id}`}>{highlight.name}</p> : null;
   };
-
   console.log(productContext.product)
-
   const renderInlineHighlights = (ids) => {
     return (
       <div className="inline-highlights">
@@ -19,7 +16,6 @@ export default function ProductHighlight() {
       </div>
     );
   };
-
   const renderSingleHighlight = (id) => {
     return (
       <div className="single-highlight">
@@ -27,13 +23,28 @@ export default function ProductHighlight() {
       </div>
     );
   };
-
+  const renderDiscountFlag = () => {
+    const matchClusterDiscount = /a vista [0-9]*\% off/gi;
+    const discountCluster = highlights.filter((highlight) => matchClusterDiscount.test(highlight.name));
+    if (discountCluster.length > 0) {
+      const [
+        {
+          id: clusterId,
+          name: clusterName,
+        }
+      ] = discountCluster;
+      const discountValue = parseInt(clusterName.match(/[0-9]+/g)[0]);
+      if (discountValue <= 5) return null;
+      renderHighlight(clusterId);
+    }
+    return null;
+  }
   return (
     <div className="ContainerHighlight">
-      { renderInlineHighlights(['155', '227', '226', '223','630']) }
-      { renderSingleHighlight('186') }
-      { renderSingleHighlight('640') }
-      { renderSingleHighlight('639') }
+      {renderDiscountFlag()}
+      {renderSingleHighlight('186')}
+      {renderSingleHighlight('640')}
+      {renderSingleHighlight('639')}
     </div>
   );
 }

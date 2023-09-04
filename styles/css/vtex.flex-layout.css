@@ -363,9 +363,6 @@
 .flexRow--productSpecificationGroup .flexRowContent--productSpecificationGroup .flexRow--productSpecificationGroupName {
   display: none;
 }
-.flexRow--productSpecificationGroup .flexRowContent--productSpecificationGroup .flexRow--productSpecification {
-  margin: 10px 0 0;
-}
 .flexRow--productSpecificationGroup .flexRowContent--productSpecificationGroup .flexRow--productSpecification .flexRowContent--productSpecification {
   display: flex;
   flex-wrap: wrap;
@@ -433,4 +430,8 @@
 .flexRow--SelosEbitReclame .flexRowContent .stretchChildrenWidth {
   width: fit-content !important;
   margin-right: 10px;
+}
+
+.flexCol--col-minicart-footer {
+  margin-bottom: 10%;
 }
