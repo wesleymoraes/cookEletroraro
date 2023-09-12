@@ -1,20 +1,26 @@
 {
   "store.custom#pagina-institucional-quem-somos": {
+    "isSitemapEntry": true,
     "path": "/quem-somos"
   },
   "store.custom#pagina-institucional-nossas-lojas": {
+    "isSitemapEntry": true,
     "path": "/nossas-lojas"
   },
   "store.custom#pagina-institucional-politicas-de-entrega": {
+    "isSitemapEntry": true,
     "path": "/politicas-de-entrega"
   },
   "store.custom#pagina-institucional-politica-de-seguranca": {
+    "isSitemapEntry": true,
     "path": "/politica-de-seguranca"
   },
   "store.custom#pagina-institucional-privacidade-e-lgpd": {
+    "isSitemapEntry": true,
     "path": "/privacidade-e-lgpd"
   },
   "store.custom#pagina-institucional-trocas-e-devolucoes": {
+    "isSitemapEntry": true,
     "path": "/trocas-e-devolucoes"
   }
 }

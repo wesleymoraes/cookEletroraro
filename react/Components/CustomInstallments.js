@@ -1,55 +1,61 @@
 import React, { useState } from 'react';
 import { useProduct } from 'vtex.product-context';
 import classNames from 'classnames';
+import { getClusterDiscount } from './utils/getClusterDiscount';
 
 const CustomInstallments = () => {
   const parcelasMaximas = 10;
   const productContext = useProduct();
 
-  if (!productContext || !productContext.product) return null;
+  if (!productContext?.product) return null;
 
   const {
-    product: { priceRange },
+    product: { priceRange, clusterHighlights },
   } = productContext;
 
-  const { sellingPrice } = priceRange;
-  const price = sellingPrice.lowPrice;
-  const valorParcelaSemJuros = (price / parcelasMaximas).toFixed(2);
+  const discountPercentage = getClusterDiscount(clusterHighlights);
+  const price = priceRange.sellingPrice.lowPrice;
 
-  const formatCurrency = (value) => {
-    return value.toLocaleString('pt-BR', {
-      style: 'currency',
-      currency: 'BRL',
-      minimumFractionDigits: 2,
-      maximumFractionDigits: 2,
-    });
-  };
+  const precoFinal = applyDiscount(price, discountPercentage);
+
+  const renderInstallment = (installmentNumber) => (
+    <p>
+      {installmentNumber}x de <b>{formatCurrency(price / installmentNumber)}</b> sem juros
+    </p>
+  );
 
   return (
     <div className="CustomInstallmentsContainer">
       <div className="CustomInstallmentsColumn">
-        <p>À vista: <b style={{ color: 'green' }}>{formatCurrency(price - price * 0.05)}</b></p>
-        <p>2x de <b>{formatCurrency(price / 2)}</b> sem juros</p>
-        <p>3x de <b>{formatCurrency(price / 3)}</b> sem juros</p>
-        <p>4x de <b>{formatCurrency(price / 4)}</b> sem juros</p>
-        <p>5x de <b>{formatCurrency(price / 5)}</b> sem juros</p>
+        <p>À vista: <b style={{ color: 'green' }}>{formatCurrency(precoFinal)}</b></p>
+        {Array.from({ length: 4 }, (_, i) => renderInstallment(i + 2))}
       </div>
       <div className="CustomInstallmentsColumn">
-      <p>6x de <b>{formatCurrency(price / 6)}</b> sem juros</p>
-        <p>7x de <b>{formatCurrency(price / 7)}</b> sem juros</p>
-        <p>8x de <b>{formatCurrency(price / 8)}</b> sem juros</p>
-        <p>9x de <b>{formatCurrency(price / 9)}</b> sem juros</p>
-        <p>10x de <b>{formatCurrency(price / 10)}</b> sem juros</p>
+        {Array.from({ length: 5 }, (_, i) => renderInstallment(i + 6))}
       </div>
     </div>
   );
+};
+
+const applyDiscount = (price, discountPercentage) => {
+  const percentageDiscount = discountPercentage / 100;
+  return price * (1 - percentageDiscount);
+};
+
+const formatCurrency = (value) => {
+  return value.toLocaleString('pt-BR', {
+    style: 'currency',
+    currency: 'BRL',
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 2,
+  });
 };
 
 const ProductPage = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleToggleInstallments = () => {
-    setIsOpen(!isOpen);
+    setIsOpen(prevOpen => !prevOpen);
   };
 
   const linkClasses = classNames({
@@ -71,7 +77,6 @@ const ProductPage = () => {
         <img src="https://cookeletroraro.vtexassets.com/assets/vtex/assets-builder/cookeletroraro.store-theme/0.0.0/icons/angulo-para-baixo___621e8f8f6218d053b5847b62646237d4.png" alt="Seta" style={arrowStyle} />
       </button>
       {isOpen && <CustomInstallments />}
-      {/* Outros componentes e informações da página */}
     </div>
   );
 };

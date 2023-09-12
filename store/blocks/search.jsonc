@@ -72,7 +72,7 @@
       "flex-layout.row#resultadoDePesquisa",
       "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
-      "rich-text#search-result.desktop",
+      "flex-layout.row#search-result.desktop",
       "flex-layout.row#result"
     ],
     "props": {
@@ -81,6 +81,12 @@
       "defaultGalleryLayout": "grid"
     }
   },
+  "flex-layout.row#search-result.desktop": {
+    "children": [
+      "rich-text-seo"
+    ]
+  },
+
   "rich-text#search-result.desktop": {
     "title": "Texto SEO (Desktop)",
     "props": {
@@ -232,6 +238,7 @@
     "children": [
       "image#search-mobile",
       "flex-layout.row#title-and-content.mobile",
+      "rich-text-seo",
       "flex-layout.row#productCountMobile",
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#searchbread",
@@ -247,6 +254,11 @@
       },
       "defaultGalleryLayout": "grid"
     }
+  },
+  "flex-layout.row#search-result.mobile": {
+    "children": [
+      "rich-text-seo"
+    ]
   },
   "image#search-mobile": {
     "title": "Search Banner - Mobile",

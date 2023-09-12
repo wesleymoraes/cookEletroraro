@@ -75,7 +75,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "product-specification-group#table"
+      "ProductProperties"
     ]
   },
   "responsive-layout.desktop#tab-layout": {
@@ -119,7 +119,7 @@
   },
   "tab-content.item#home1": {
     "children": [
-      "product-specification-group#table"
+      "ProductProperties"
     ],
     "props": {
       "tabId": "product-specification",

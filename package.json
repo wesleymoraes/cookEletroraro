@@ -14,7 +14,8 @@
   "dependencies": {
     "global": "^4.4.0",
     "gulp-clean-css": "^4.3.0",
-    "gulp-cli": "^2.3.0"
+    "gulp-cli": "^2.3.0",
+    "react-markdown": "^8.0.7"
   },
   "repository": "https://github.com/wesleymoraes/BoilerplatePadrao.git",
   "author": "wesley moraes <wesleymoraesserafim@gmail.com>"

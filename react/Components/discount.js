@@ -67,7 +67,7 @@ export default function Discount({ context = "plp" }) {
               <p className="pdp-message">
                 {
                   discount >= 6 
-                      ? `${discount} % de desconto à vista` 
+                      ? `${discount}% de desconto à vista` 
                       : `preço à vista`
                 }
               </p>

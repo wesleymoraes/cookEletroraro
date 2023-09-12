@@ -20,8 +20,8 @@
   "StickyFloatBottom":{
     "component": "StickyFloatBottom"
   },
-  "ProductDescriptionWithTab":{
-    "component":"ProductDescriptionWithTab"
+  "ProductProperties":{
+    "component":"ProductProperties"
   },
   "ProductHighlight":{
     "component": "ProductHighlight"
@@ -52,5 +52,10 @@
   },
   "ReclameAqui":{
     "component": "ReclameAqui"
+  },
+  "rich-text-seo": {
+    "component": "searchResultSeo",
+    "composition": "children",
+    "allowed": []
   }
 }

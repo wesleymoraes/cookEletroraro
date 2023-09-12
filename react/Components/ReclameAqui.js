@@ -1,5 +1,5 @@
 import React from "react";
-import RAregular from '../../assets/RAregular.png';
+import RAregular from '../../assets/ra-regular.png';
 
 const ReclameAqui = () => {
 
@@ -47,7 +47,7 @@ const ReclameAqui = () => {
             <div style={styles.container}>
                 <img style={styles.mainImage} src={RAregular} alt="Reclame Aqui Rating" />
                 <div style={styles.reputationContainer} id="reputation-ra">
-                    <p style={styles.reputationContent}>Regular</p>
+                    <p style={styles.reputationContent}>BOM</p>
                     <img style={styles.logoImage} src="https://s3.amazonaws.com/raichu-beta/selos/assets/images/reclame-aqui-logo.svg" alt="Reclame Aqui Logo" />
                 </div>
             </div>

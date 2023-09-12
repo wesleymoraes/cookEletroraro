@@ -218,3 +218,12 @@
 :global(.custom-price) > span {
     font-size: 12px;
 }
+
+.SearchResultSEO-sectionContent {
+  padding: 10px;
+
+  @media (min-width:758px) {
+    padding: 0;
+  }
+
+}
