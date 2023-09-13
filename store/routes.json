@@ -22,5 +22,9 @@
   "store.custom#pagina-institucional-trocas-e-devolucoes": {
     "isSitemapEntry": true,
     "path": "/trocas-e-devolucoes"
+  },
+  "store.custom#search-custom":{
+    "isSitemapEntry": true,
+    "path": "/search-custom"
   }
 }
