@@ -41,13 +41,13 @@ export default function ProductHighlight() {
   }
   return (
     <div className="ContainerHighlight">
-      {renderDiscountFlag()}
-      {renderSingleHighlight('630')}
-      {renderSingleHighlight('223')}
-      {renderSingleHighlight('226')}
       {renderSingleHighlight('186')}
+      {renderSingleHighlight('630')}
       {renderSingleHighlight('640')}
       {renderSingleHighlight('639')}
+      {renderSingleHighlight('227')}
+      {renderSingleHighlight('226')}
+      {renderSingleHighlight('223')}
     </div>
   );
 }

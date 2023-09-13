@@ -270,21 +270,28 @@
 
 }
 
-:global(.highlight-227),
-:global(.highlight-226),
-:global(.highlight-223) {
+:global(.highlight-227){
   font-size: 11px;
-  width: 200px;
-  height: 22px;
-  display: flex;
-  justify-content: center;
+  width: fit-content;
+  height: auto;
   padding: 5px 7px;
   color: white;
   background-color: black;
   border-radius: 20px;
   margin: 2.5px auto;
-  align-self: flex-end;
-  display: flex;
+  margin-left: 150%;
+}
+:global(.highlight-226),
+:global(.highlight-223) {
+  font-size: 11px;
+  width: fit-content;
+  height: auto;
+  padding: 5px 7px;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  margin: 2.5px auto;
+  margin-left: 200%;
 }
 
 :global(.highlight-639) {
@@ -579,4 +586,3 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-
