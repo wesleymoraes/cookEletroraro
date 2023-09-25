@@ -1,0 +1,39 @@
+.productNameContainer--product-details {
+  margin-top: 16px;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir,
+    helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+}
+.price_sellingPrice--product-details {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 30px !important;
+}
+.skuSelectorSubcontainer{
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.productImagesGallerySwiperContainer--product-details {
+  background-color: #fff !important;
+}
+
+@media screen and (min-width: 40em) {
+  .productNameContainer--product-details {
+    font-size: 20px;
+    margin-top: 30px
+  }
+  .productDescriptionText--product-details {
+    max-height: 80px;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+  }
+  .content--product-details {
+    width: 389px;
+    min-height: 388px;
+    max-height: auto;
+  }
+  .productImagesThumb--product-details {
+    margin: 10px 10px;
+  }
+}

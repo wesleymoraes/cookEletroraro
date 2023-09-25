@@ -1,0 +1,26 @@
+.addToListButtonContainer--button {
+  margin-top: 0;
+}
+
+.addToListButtonContainer--button :global(.vtex-button) {
+  width: 100%;
+  border-color: black !important;
+  background-color: black !important;
+}
+
+.addToListButtonContainer--button :global(.vtex-button__label) {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.addToListButtonText--button {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+@media (min-width: 64em) {
+  .addToListButtonContainer--button {
+    margin-top: 24px;
+  }
+}

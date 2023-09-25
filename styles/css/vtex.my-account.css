@@ -663,3 +663,11 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+:global(.rowTable):nth-child(odd) {
+  background-color: #ffffff;
+}
+
+:global(.rowTable):nth-child(even) {
+  background-color: #f1f1f1;
+}

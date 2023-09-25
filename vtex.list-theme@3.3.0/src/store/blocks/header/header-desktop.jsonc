@@ -1,0 +1,44 @@
+{
+  "header-row#desktop-1": {
+    "children": [
+      "flex-layout.row#header-topbar"
+    ],
+    "props": {
+      "blockClass": "header-topbar"
+    }
+  },
+  "flex-layout.row#header-topbar": {
+    "children": [
+      "menu#top-navbar-link",
+      "header-spacer",
+      "menu#actionaccess"
+    ],
+    "props": {
+      "blockClass": [
+        "container",
+        "header-top-bar"
+      ]
+    }
+  },
+  "header-row#desktop-2": {
+    "children": [
+      "flex-layout.row#header-bottombar"
+    ],
+    "props": {
+      "blockClass": "border-bottom"
+    }
+  },
+  "flex-layout.row#header-bottombar": {
+    "children": [
+      "logo",
+      "header-spacer",
+      "auth-condition#header-menu"
+    ],
+    "props": {
+      "blockClass": [
+        "container",
+        "header-bottom-bar"
+      ]
+    }
+  }
+}

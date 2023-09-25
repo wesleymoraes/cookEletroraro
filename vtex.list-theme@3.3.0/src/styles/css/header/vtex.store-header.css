@@ -1,0 +1,22 @@
+.headerRowBackground--header-topbar {
+  background-color: #f2f4f5;
+}
+.headerRowBackground {
+  background-color: black;
+}
+
+.headerRowBackground--border-bottom {
+  border-bottom: 1px solid #cacbcc;
+}
+
+.headerRowContentContainer--header-topbar {
+  padding: 0px;
+}
+
+.headerRowBackground :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+  max-width: 100%;
+}
+.listOrderSearch {
+  border-top: 1px solid #cacbcc;
+}

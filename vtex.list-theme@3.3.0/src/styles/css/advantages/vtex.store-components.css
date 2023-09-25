@@ -1,0 +1,63 @@
+.infoCardTextContainer--advantage-card {
+  height: 180px;
+  width: 100%;
+  margin: 0;
+}
+
+.infoCardContainer--advantage-card {
+  background-size: 40px !important;
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #979899;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--home-without-user)
+  .infoCardContainer--advantage-card {
+  border: none;
+}
+
+.infoCardHeadline--advantage-card {
+  color: #3f3f40;
+  line-height: 36px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.infoCardSubhead--advantage-card {
+  color: black;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 24px;
+}
+
+@media (min-width: 20em) {
+  .infoCardContainer--advantage-card {
+    background-position: center 20px;
+    padding: 70px 8px 16px;
+    margin: 0 20px;
+  }
+
+  .infoCardHeadline--advantage-card {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 64em) {
+  .infoCardContainer--advantage-card {
+    background-position: center 36px;
+    padding: 86px 24px 32px;
+    margin: 0 16px;
+  }
+
+  .infoCardContainer--advantage-card:first-child() {
+    margin-left: 0;
+  }
+
+  .infoCardContainer--advantage-card:last-child() {
+    margin-right: 0;
+  }
+
+  .infoCardHeadline--advantage-card {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,84 @@
+/*Colors */
+/* End colors */
+/* preto */
+/* cinza */
+/* branco */
+.drawer {
+  z-index: 1000;
+}
+
+.minicartWrapperContainer .minicartContainer .openIconContainer {
+  padding: 0;
+}
+.minicartWrapperContainer .minicartContainer .openIconContainer :global(.vtex-button) {
+  border: 0;
+}
+.minicartWrapperContainer .minicartContainer .openIconContainer :global(.vtex-button):hover {
+  background-color: transparent;
+}
+.minicartWrapperContainer .minicartContainer .openIconContainer :global(.vtex-button) .minicartIconContainer .cartIcon {
+  display: none;
+}
+.minicartWrapperContainer .minicartContainer .openIconContainer :global(.vtex-button) :global(.vtex-button__label) {
+  padding: 0;
+}
+.minicartWrapperContainer .minicartContainer .openIconContainer :global(.vtex-button) :global(.vtex-button__label)::after {
+  content: url("https://cookeletroraro.vtexassets.com/assets/vtex/assets-builder/cookeletroraro.store-theme/0.0.31/icons/IconsHeader/minicart___0029408f7ed1dba417e167457a9950f0.svg");
+}
+
+.minicartQuantityBadgeDefault {
+  height: 15px;
+  width: 15px;
+  top: -1.3rem;
+  right: -2.1rem;
+  background-color: #DC3E3F;
+}
+
+.minicartTitle {
+  font-size: 15px;
+  font-weight: 700;
+  color: black;
+  text-transform: uppercase;
+}
+
+.closeIconContainer {
+  display: flex;
+  padding: 25px;
+}
+.closeIconContainer .closeIconButton {
+  background-image: url("https://cookeletroraro.vtexassets.com/assets/vtex/assets-builder/cookeletroraro.store-theme/0.0.31/icons/close___311323588e1041623aa323d05b7ae876.svg");
+  background-repeat: no-repeat;
+}
+.closeIconContainer .closeIconButton .closeIcon {
+  display: none;
+}
+
+.minicartSummary :global(.vtex-checkout-summary-0-x-summarySmallContent) :global(.vtex-checkout-summary-0-x-summaryItemContainer) :global(.vtex-checkout-summary-0-x-summaryItemLabel),
+.minicartSummary :global(.vtex-checkout-summary-0-x-summarySmallContent) :global(.vtex-checkout-summary-0-x-summaryItemContainer) :global(.vtex-checkout-summary-0-x-summaryItemPrice) :global(.vtex-checkout-summary-0-x-price) {
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #000000;
+}
+.minicartSummary :global(.vtex-checkout-summary-0-x-summarySmallContent) :global(.vtex-checkout-summary-0-x-summaryItemContainer):last-child :global(.vtex-checkout-summary-0-x-summaryItemLabel),
+.minicartSummary :global(.vtex-checkout-summary-0-x-summarySmallContent) :global(.vtex-checkout-summary-0-x-summaryItemContainer):last-child :global(.vtex-checkout-summary-0-x-summaryItemPrice) :global(.vtex-checkout-summary-0-x-price) {
+  font-size: 20px;
+  font-weight: 8700;
+  color: #000000;
+}
+.minicartSummary :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+  display: none;
+}
+
+.minicartCheckoutButton :global(.vtex-button) {
+  background-color: #1B9A28;
+  border-radius: 20px;
+  border: none;
+}
+.minicartCheckoutButton :global(.vtex-button) :global(.vtex-button__label) {
+  font-size: 0px;
+}
+.minicartCheckoutButton :global(.vtex-button) :global(.vtex-button__label)::after {
+  content: "Comprar";
+  font-size: 14px !important;
+  font-weight: 600;
+}

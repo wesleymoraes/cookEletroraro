@@ -1,0 +1,86 @@
+/* block: find a list - Home */
+.flexColChild--search-list-col {
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  max-width: 500px;
+}
+
+/* Div do botão criar lista na página logada */
+.flexColChild--search-list:last-child {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.flexRow--search-list-without-user {
+  margin-top: 24px;
+  margin-bottom: 28px;
+}
+
+.flexCol--search-list-col {
+  align-items: center;
+}
+
+.flexColChild--search-list-col :global(.vtex__icon-search) {
+  color: #0c389f;
+}
+
+.flexRowContent--search-list-buttons {
+  display: block;
+  text-align: center;
+  margin-top: 32px;
+}
+
+.flexRowContent--search-list-buttons .stretchChildrenWidth {
+  display: inline-block;
+  width: auto !important;
+}
+
+.flexRowContent--search-list-buttons .stretchChildrenWidth:last-child {
+  margin-left: 24px;
+}
+
+.flexRow--home-with-user :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
+
+.flexRow--search-list
+  :global(.vtex-rich-text-0-x-container--search-list-title) {
+  margin-bottom: 8px;
+}
+
+
+.flexRow--search-list {
+  background-color: #f7f9fa;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.flexRow--orderList {
+  padding-top: 18px;
+  border-top: 1px solid #cacbcc !important;
+  border-bottom: 1px solid #cacbcc !important;
+  padding-bottom: 20px;
+  margin: 18px;
+}
+.flexRow--search-list-col-guest {
+  display: none !important;
+}
+
+.flexRow--user-list {
+  padding-top: 16px;
+  padding-bottom: 64px;
+}
+
+@media screen and (min-width: 40em) {
+  .flexRowContent--search-list-buttons {
+    margin-top: 40px;
+  }
+
+  .flexRow--search-list-without-user {
+    margin-top: 236px;
+    margin-bottom: 236px;
+  }
+}

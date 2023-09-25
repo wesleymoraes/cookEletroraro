@@ -1,0 +1,34 @@
+.skuSelectorItem {
+  margin: 0;
+}
+.frameAround--product-details {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: none;
+}
+.skuSelectorOptionsList {
+  margin-left: 0;
+}
+.skuSelectorItem--product-details--selected .skuSelectorItemTextValue--product-details {
+  color: #00009C;
+}
+.skuSelectorItem--product-details--selected{
+  border: 3px solid #00009C !important;
+}
+.skuSelectorItem--product-details {
+  border: 1px solid #727273;
+  border-radius: 4px;
+  margin-right: 12px;
+}
+.skuSelectorContainer--product-details {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.skuSelectorInternalBox--product-details {
+  border: none !important;
+}
+:global(.vtex-product-summary-2-x-container){
+  pointer-events: all;
+}

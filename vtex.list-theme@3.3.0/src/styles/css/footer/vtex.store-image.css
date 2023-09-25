@@ -1,0 +1,38 @@
+.imageElement--footer-accept-payment:first-child {
+  height: 8.89px;
+  width: 26.67px;
+}
+
+.imageElement--payment-img-card:first-child {
+  height: 8.89px;
+  width: 26.67px;
+}
+
+.imageElement--payment-img-card {
+  margin-right: 17px;
+  margin-left: 8.5px;
+}
+
+.imageElement--footer-safe-buy {
+  margin-right: 8.5px;
+  margin-left: 8.5px;
+}
+
+.imageElement--footer-social-networks {
+  margin-right: 8.5px;
+  margin-left: 8.5px;
+}
+@media (min-width: 64em) {
+  .imageElement--footer-safe-buy:first-child {
+    margin-left: 0px;
+  }
+  .imageElement--footer-safe-buy:last-child {
+    margin-right: 0px;
+  }
+  .imageElement--payment-img-card:first-child {
+    margin-left: 0px;
+  }
+  .imageElement--footer-social-networks:first-child {
+    margin-left: 0px;
+  }
+}

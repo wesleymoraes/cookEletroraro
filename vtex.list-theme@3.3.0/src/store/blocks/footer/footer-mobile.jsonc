@@ -1,0 +1,156 @@
+{
+  "flex-layout.row#footer-mobile-1": {
+    "children": [
+      "flex-layout.col#footer-payment-mobile",
+      "flex-layout.col#footer-safebuy-mobile",
+      "flex-layout.col#footer-socialnetwork-mobile"
+    ],
+    "props": {
+      "blockClass": ["container", "footer-mobile-1"]
+    }
+  },
+  "flex-layout.row#footer-mobile-2": {
+    "children": ["flex-layout.row#footer-textbottom-mobile"],
+    "props": {
+      "blockClass": ["container"],
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#footer-payment-mobile": {
+    "children": ["rich-text#title-payment", "image-list#payment-card-mobile"],
+    "props": {
+      "blockClass": "footer-payment-mobile"
+    }
+  },
+  "rich-text#title-payment": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Formas de Pagamento",
+      "blockClass": "title-payment"
+    }
+  },
+  "image-list#payment-card-mobile": {
+    "props": {
+      "blockClass": "payment-img-card",
+      "height": 28,
+      "images": [
+        {
+          "image": "assets/footer/visa.png",
+          "width": "auto"
+        },
+        {
+          "image": "assets/footer/master.png",
+          "width": "auto"
+        },
+        {
+          "image": "assets/footer/dinners.png",
+          "width": "auto"
+        }
+      ]
+    }
+  },
+  "flex-layout.col#footer-safebuy-mobile": {
+    "children": ["rich-text#title-safe-buy", "image-list#footer-safe-buy"],
+    "props": {
+      "blockClass": "footer-safebuy-mobile"
+    }
+  },
+  "rich-text#title-safe-buy": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Compra segura",
+      "blockClass": "title-safe-buy"
+    }
+  },
+  "image-list#footer-social-networks-mobile": {
+    "props": {
+      "blockClass": "footer-social-networks",
+      "height": 27,
+      "images": [
+        {
+          "image": "assets/footer/youtube.png",
+          "width": "auto"
+        },
+        {
+          "image": "assets/footer/instagram.png",
+          "width": "auto"
+        },
+        {
+          "image": "assets/footer/facebook.png",
+          "width": "auto"
+        },
+        {
+          "image": "assets/footer/twitter.png",
+          "width": "auto"
+        }
+      ]
+    }
+  },
+  "image-list#footer-safe-buy": {
+    "props": {
+      "blockClass": "footer-safe-buy",
+      "height": 40,
+      "images": [
+        {
+          "image": "assets/footer/site_blindado.png",
+          "width": "auto"
+        },
+        {
+          "image": "assets/footer/ssl.png",
+          "width": "auto"
+        }
+      ]
+    }
+  },
+  "flex-layout.col#footer-socialnetwork-mobile": {
+    "children": ["rich-text#title-social", "image-list#footer-social-networks"],
+    "props": {
+      "blockClass": "footer-socialnetwork-mobile"
+    }
+  },
+  "image-list#footer-social-networks": {
+    "props": {
+      "blockClass": "footer-social-networks",
+      "height": 27,
+      "images": [
+        {
+          "image": "assets/footer/youtube.png",
+          "width": "auto"
+        },
+        {
+          "image": "assets/footer/instagram.png",
+          "width": "auto"
+        },
+        {
+          "image": "assets/footer/facebook.png",
+          "width": "auto"
+        },
+        {
+          "image": "assets/footer/twitter.png",
+          "width": "auto"
+        }
+      ]
+    }
+  },
+  "rich-text#title-social": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Nossas Redes",
+      "blockClass": "title-social-networks"
+    }
+  },
+  "flex-layout.row#footer-textbottom-mobile": {
+    "children": ["rich-text#textbottom-mobile"]
+  },
+  "rich-text#textbottom-mobile": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "© 2003, Cook Eletroraro - Todos os direitos reservados \n\n Shopping Ponteio: - Br 356, 2500 - 2º Piso - Santa Lúcia - Belo Horizonte - MG - (31) 3264-0008 / (31) 99201-0493 \n\n Praça da Liberdade: - Rua Sergipe, 719 - Funcionários - Belo Horizonte - MG - (31) 3281-4665 / (31) 98455-3055 \n\n Todas as marcas e suas imagens são de propriedade de seus respectivos donos. É vedada a reprodução, total ou parcial, \n de qualquer conteúdo sem expressa autorização.",
+      "blockClass": "footer-description-text"
+    }
+  }
+}

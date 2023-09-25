@@ -1,0 +1,13 @@
+.userListText {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 40em) {
+  .userListText {
+    margin-bottom: 32px;
+  }
+}
+.searchListTitle{
+  color: black;
+}

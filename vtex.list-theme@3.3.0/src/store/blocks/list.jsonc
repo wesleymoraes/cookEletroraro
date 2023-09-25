@@ -1,0 +1,252 @@
+{
+  "store.list": {
+    "children": [
+      "flex-layout.row#list-header",
+      "responsive-layout.desktop#list-items",
+      "responsive-layout.mobile#list-items",
+      "flex-layout.row#fetchmore"
+    ]
+  },
+  "responsive-layout.desktop#list-items": {
+    "children": [
+      "flex-layout.row#list-items-gallery"
+    ]
+  },
+  "flex-layout.row#list-items-gallery": {
+    "children": [
+      "gallery.list-items"
+    ],
+    "props": {
+      "blockClass": [
+        "container"
+      ]
+    }
+  },
+  "responsive-layout.mobile#list-items": {
+    "children": [
+      "flex-layout.row#list-items-gallery-mobile"
+    ]
+  },
+  "flex-layout.row#list-items-gallery-mobile": {
+    "children": [
+      "gallery.list-items#mobile"
+    ]
+  },
+  "flex-layout.row#list-header": {
+    "children": [
+      "flex-layout.col#list-header"
+    ],
+    "props": {
+      "blockClass": [
+        "list-header"
+      ]
+    }
+  },
+  "flex-layout.col#list-header": {
+    "children": [
+      "flex-layout.row#breadcrumb",
+      "flex-layout.row#list-info",
+      "responsive-layout.desktop#tools-bar",
+      "responsive-layout.mobile#tools-bar-mobile"
+    ]
+  },
+  "flex-layout.row#list-info": {
+    "children": [
+      "flex-layout.row#list-info-header",
+      "flex-layout.row#list-info-footer"
+    ],
+    "props": {
+      "blockClass": [
+        "list-info",
+        "container"
+      ]
+    }
+  },
+  "flex-layout.row#list-info-header": {
+    "children": [
+      "list-info.name",
+      "share-list"
+    ],
+    "props": {
+      "blockClass": "list-info-title"
+    }
+  },
+  "flex-layout.row#list-info-footer": {
+    "children": [
+      "flex-layout.row#owner-and-date",
+      "flex-layout.row#edit-list"
+    ],
+    "props": {
+      "blockClass": "list-info-footer"
+    }
+  },
+  "flex-layout.row#owner-and-date": {
+    "children": [
+      "list-info.owner",
+      "list-info.event-date"
+    ],
+    "props": {
+      "blockClass": "owner-and-date",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.row#edit-list": {
+    "children": [
+      "create-or-edit-list-modal#edit"
+    ]
+  },
+  "responsive-layout.desktop#tools-bar": {
+    "children": [
+      "flex-layout.row#tools-bar"
+    ]
+  },
+  "responsive-layout.mobile#tools-bar-mobile": {
+    "children": [
+      "flex-layout.row#tools-bar-mobile"
+    ]
+  },
+  "flex-layout.row#tools-bar": {
+    "children": [
+      "flex-layout.row#tools",
+      "flex-layout.row#btn-add-itens"
+    ],
+    "props": {
+      "blockClass": [
+        "container",
+        "tools",
+        "tools-ownerList"
+      ]
+    }
+  },
+  "flex-layout.row#tools": {
+    "children": [
+      "flex-layout.col#orderby",
+      "flex-layout.col#search-bar.list-item"
+    ]
+  },
+  "flex-layout.row#tools-bar-mobile": {
+    "children": [
+      "flex-layout.col#search-bar.list-item",
+      "flex-layout.row#tools-mobile"
+    ],
+    "props": {
+      "blockClass": [
+        "container",
+        "tools",
+        "tools-ownerList"
+      ]
+    }
+  },
+  "flex-layout.row#tools-mobile": {
+    "children": [
+      "flex-layout.col#orderby",
+      "flex-layout.row#btn-add-itens"
+    ],
+    "props": {
+      "blockClass": [
+        "tools-ownerList"
+      ]
+    }
+  },
+  "flex-layout.col#search-bar.list-item": {
+    "children": [
+      "search-bar.list-item"
+    ],
+    "props": {
+      "blockClass": [
+        "search-list-item"
+      ]
+    }
+  },
+  "flex-layout.row#btn-add-itens": {
+    "children": [
+      "flex-layout.col#btn-add-itens"
+    ]
+  },
+  "flex-layout.col#btn-add-itens": {
+    "children": [
+      "responsive-layout.desktop#desktop.add-itens-link-header",
+      "responsive-layout.mobile#mobile.add-itens-link-header"
+    ]
+  },
+  "responsive-layout.desktop#desktop.add-itens-link-header": {
+    "children": [
+      "add-new-item#desktop.add-itens-link-header-button"
+    ]
+  },
+  "responsive-layout.mobile#mobile.add-itens-link-header": {
+    "children": [
+      "add-new-item#mobile.add-itens-link-header-button"
+    ]
+  },
+  "add-new-item#desktop.add-itens-link-header-button": {
+    "props": {
+      "linkIcon": "assets/ico_plus_blue.svg",
+      "linkRedirection": "/alimentos",
+      "textAlignment": "CENTER",
+      "textPosition": "RIGHT",
+      "blockClass": [
+        "add-itens-link-header",
+        "primary-button"
+      ],
+      "classes": "header"
+    }
+  },
+  "add-new-item#mobile.add-itens-link-header-button": {
+    "props": {
+      "linkIcon": "assets/ico_plus_blue.svg",
+      "linkRedirection": "/alimentos",
+      "nameButton": "Pôr item",
+      "textAlignment": "CENTER",
+      "textPosition": "RIGHT",
+      "blockClass": [
+        "add-itens-link-header",
+        "primary-button"
+      ],
+      "classes": "header"
+    }
+  },
+  // Organizar o conteudo da lista interna de acordo com os blocos abaixo
+  "flex-layout.row#breadcrumb": {
+    "children": [
+      "breadcrumbs"
+    ],
+    "props": {
+      "blockClass": "container"
+    }
+  },
+  "flex-layout.row#fetchmore": {
+    "children": [
+      "search-fetch-more"
+    ]
+  },
+  "gallery.list-items": {
+    "blocks": [
+      "product-summary.shelf#OwnerList"
+    ],
+    "props": {
+      "blockClass": "owner-list",
+      "emptyListIcon": "assets/sad.svg",
+      "buttonEmptyList": true,
+      "linkButtonEmptyList": "/apparel",
+      "linkIconButtonEmptyList":"assets/add.svg"
+    }
+  },
+  "gallery.list-items#mobile": {
+    "blocks": [
+      "product-summary.shelf#ListOwnerMobile"
+    ],
+    "props": {
+      "blockClass": "list-items-mobile",
+      "emptyListIcon": "assets/sad.svg",
+      "buttonEmptyList": true,
+      "linkButtonEmptyList": "/apparel",
+      "linkIconButtonEmptyList": "assets/add.svg"
+    }
+  },
+  "create-or-edit-list-modal#edit":{
+    "props":{
+      "edit": true
+    }
+  }
+}

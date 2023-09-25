@@ -1,0 +1,105 @@
+.flexRowContent--list-info .stretchChildrenWidth {
+  width: auto !important;
+}
+
+.flexRowContent--owner-and-date {
+  column-gap: 4px;
+}
+
+.flexRow--edit-list {
+  margin-left: 6px;
+}
+.flexRowContent--list-info-footer {
+  display: flex;
+  align-items: baseline;
+}
+
+@media screen and (min-width: 40em) {
+  .flexRowContent--list-info :first-child {
+    flex: 0 1 auto;
+  }
+
+  .flexRow--owner-and-date {
+    margin-left: 16px;
+  }
+
+  .flexRow--edit-list {
+    margin-left: 16px;
+    height: 20px;
+  }
+  .flexRowContent--list-info {
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+  }
+  .flexColChild--orderBy{
+    display: flex;
+  }
+}
+.flexRow--search-bar-list-item {
+  border-top: 1px solid #cacbcc;
+  border-bottom: 1px solid #cacbcc;
+  padding: 13px 13px;
+}
+
+/* .flexRow--tools {
+  /* border-top: 1px solid #CACBCC!important;
+  border-bottom: 1px solid #CACBCC!important; *
+  /* margin: 20px ; *
+} */
+.flexRowContent--tools {
+  border-top: 1px solid #CACBCC!important;
+  border-bottom: 1px solid #CACBCC!important;
+  padding: 13px 0;
+  margin: 20px 0;
+}
+.flexRowContent--tools-ownerList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexCol--orderBy :global(.vtex-dropdown__container) {
+  border: none;
+}
+.flexCol--orderBy :global(.vtex-dropdown__button){
+  color:#3F3F40;
+}
+.flexColChild--orderBy{
+  width: 210px;
+}
+.flexRow--tools .stretchChildrenWidth  {
+  width:auto !important;
+}
+
+.flexColChild--search-list-item{
+  width: 451px;
+}
+.flexCol--orderBy {
+  margin-right: 34px;
+}
+
+@media screen and (max-width: 63em){
+  .flexColChild--search-list-item{
+    width: 100%;
+  }
+  .flexRowContent--tools {
+    flex-direction: column;
+    padding: 8px 0;
+  }
+  .flexCol--orderBy {
+    margin-right: inherit;
+  }
+  .flexColChild--orderBy{
+    width: 150px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+  }
+  @media screen and (max-width: 40em) {
+    .flexRowContent--tools-ownerList {
+      margin-top: 12px;
+    }
+  }
+}

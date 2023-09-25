@@ -1,0 +1,148 @@
+{
+  "flex-layout.row#advantages": {
+    "props": {
+      "blockClass": "advantages-container",
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#advantages"]
+  },
+  "flex-layout.row#advantages-muted": {
+    "props": {
+      "blockClass": ["advantages-container", "muted"],
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#advantages-muted"]
+  },
+
+  "flex-layout.col#advantages-muted": {
+    "props": {
+      "blockClass": "advantages-container",
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#advantages",
+      "responsive-layout.desktop#advantages-muted",
+      "responsive-layout.mobile#advantages"
+    ]
+  },
+
+  "responsive-layout.desktop#advantages-muted": {
+    "props": {
+      "blockClass": "advantages"
+    },
+    "children": ["flex-layout.row#advantage-cards", "rich-text#cta"]
+  },
+
+  "flex-layout.col#advantages": {
+    "props": {
+      "blockClass": "advantages-container",
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#advantages",
+      "responsive-layout.desktop#advantages",
+      "responsive-layout.mobile#advantages"
+    ]
+  },
+
+  "responsive-layout.desktop#advantages": {
+    "props": {
+      "blockClass": "advantages"
+    },
+    "children": ["flex-layout.row#advantage-cards"]
+  },
+
+  "flex-layout.row#advantage-cards": {
+    "props": {
+      "blockClass": "advantages-cards",
+      "fullWidth": true
+    },
+    "children": [
+      "info-card#agility-card",
+      "info-card#share-card",
+      "info-card#gift-card"
+    ]
+  },
+
+  "rich-text#cta": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[![](assets/plus.svg)Crie sua lista](/login)",
+      "blockClass": "advantages-cta"
+    }
+  },
+
+  "responsive-layout.mobile#advantages": {
+    "children": ["slider-layout#advantages"]
+  },
+
+  "slider-layout#advantages": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "blockClass": "advantages"
+    },
+    "children": [
+      "info-card#agility-card",
+      "info-card#share-card",
+      "info-card#gift-card"
+    ]
+  },
+
+  "rich-text#advantages": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Por que ter uma Lista?",
+      "blockClass": ["advantages-title", "title-2"]
+    }
+  },
+
+  "info-card#agility-card": {
+    "props": {
+      "id": "advantages-card",
+      "blockClass": "advantage-card",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/clock.svg",
+      "callToActionMode": "none",
+      "textAlignment": "center",
+      "headline": "Agilidade",
+      "subhead": "Nunca é demais lembrar o peso e o significado destes problemas, uma vez que o consenso sobre a necessidade de qualificação acarreta um processo interno"
+    }
+  },
+
+  "info-card#share-card": {
+    "props": {
+      "id": "advantages-card",
+      "blockClass": "advantage-card",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/heart.svg",
+      "callToActionMode": "none",
+      "textAlignment": "center",
+      "headline": "Compartilhar",
+      "subhead": "As experiências acumuladas demonstram que a consolidação das estruturas maximiza as possibilidades por conta das diretrizes de desenvolvimento"
+    }
+  },
+
+  "info-card#gift-card": {
+    "props": {
+      "id": "advantages-card",
+      "blockClass": "advantage-card",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/gift.svg",
+      "callToActionMode": "none",
+      "textAlignment": "center",
+      "headline": "Presente",
+      "subhead": "O  cuidado em identificar pontos críticos no consenso sobre a necessidade de qualificação exige a precisão e a definição do impacto na agilidade decisória"
+    }
+  }
+}

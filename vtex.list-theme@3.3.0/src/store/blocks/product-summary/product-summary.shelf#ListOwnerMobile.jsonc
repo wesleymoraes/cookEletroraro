@@ -1,0 +1,71 @@
+{
+  "product-summary.shelf#ListOwnerMobile": {
+    "children": ["flex-layout.row#listOwnerProductinfo"],
+    "props": {
+      "blockClass": "showCaseProduct"
+    }
+  },
+  "flex-layout.row#listOwnerProductinfo": {
+    "children": [
+      "flex-layout.row#listOwnerHeaderProduct",
+      "add-to-list-button#listOwnerMobileAddToListButton",
+      "gifted-button"
+    ],
+    "props": {
+      "blockClass": "productInfo"
+    }
+  },
+  "flex-layout.row#listOwnerHeaderProduct": {
+    "children": [
+      "product-summary-image#listOwnerMobileImage",
+      "flex-layout.col#listOwnerMobileProductTexts"
+    ],
+    "props": {
+      "blockClass": "headerProduct"
+    }
+  },
+  "product-summary-image#listOwnerMobileImage": {
+    "props": {
+      "blockClass": "desktopImageMobile"
+    }
+  },
+  "flex-layout.col#listOwnerMobileProductTexts": {
+    "props": {
+      "blockClass": "productTexts"
+    },
+    "children": [
+      "flex-layout.row#title-sku-titleOwnerListMobile",
+      "product-summary-price#listOwnerMobilePrice",
+      "quantity-selector-shelf-owner-list"
+    ]
+  },
+  "flex-layout.row#title-sku-titleOwnerListMobile": {
+    "props": {
+      "blockClass": "title-sku-title"
+    },
+    "children": [
+      "product-summary-name#listOwnerMobileProductName",
+      "product-summary-sku-name#listOwnerMobileProductName"
+    ]
+  },
+  "product-summary-sku-name#listOwnerMobileProductName": {
+    "props": {
+      "blockClass": "title-sku-mobile"
+    }
+  },
+  "product-summary-name#listOwnerMobileProductName": {
+    "props": {
+      "blockClass": "title"
+    }
+  },
+  "product-summary-price#listOwnerMobilePrice": {
+    "props": {
+      "showLabels": false
+    }
+  },
+  "add-to-list-button#listOwnerMobileAddToListButton": {
+    "props": {
+      "blockClass": "button"
+    }
+  }
+}

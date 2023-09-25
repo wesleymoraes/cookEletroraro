@@ -1,0 +1,27 @@
+.flexRow--filterNavigatorList {
+  height: 40px;
+  border: 1px solid #f2f4f5;
+  background-color: #f2f4f5;
+}
+.flexRowContent--list-info-title {
+  display: flex;
+  position: relative;
+}
+
+.flexRowContent--list-info-title .stretchChildrenWidth {
+  width: 100% !important;
+}
+
+@media screen and (min-width: 40em) {
+  .flexRowContent--list-info-title {
+    display: flex;
+  }
+  .flexColChild--product-details-main-desk :global(.vtex-button) {
+    width: 100%;
+    margin: 0 auto;
+    text-transform: uppercase;
+  }
+  .flexRow--title-sku-title {
+    display: inline-flex;
+  }
+}

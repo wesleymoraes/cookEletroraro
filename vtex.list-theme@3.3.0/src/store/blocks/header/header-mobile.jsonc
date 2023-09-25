@@ -1,0 +1,113 @@
+{
+  "header-row#mobile-1": {
+    "children": [
+      "flex-layout.row#header-topbar-mobile"
+    ],
+    "props": {
+      "blockClass": "header-topbar"
+    }
+  },
+  "flex-layout.row#header-topbar-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "minicart.v2"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": [
+        "container",
+        "header-topbar-mobile"
+      ]
+    }
+  },
+  "auth-condition#login": {
+    "props": {
+      "Then": "link#to-account-page",
+      "Else": "link#to-login"
+    }
+  },
+  "link#to-account-page": {
+    "children": [
+      "rich-text#login-logout"
+    ],
+    "props": {
+      "href": "https://vtex511p--acupula.myvtex.com/"
+    },
+    "title": "Logout Link"
+  },
+  "link#to-login": {
+    "children": [
+      "rich-text#login-logout"
+    ],
+    "props": {
+      "href": "/login"
+    },
+    "title": "Login Link"
+  },
+  "rich-text#login-logout": {
+    "props": {
+      "text": "![](assets/login.svg)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "login-logout"
+    },
+    "title": "Icon"
+  },
+  "logo#mobile": {
+    "props": {
+      "blockClass": "header-topbar-mobile-logo",
+      "url": "assets/Logo_mobile.png",
+      "href": "/"
+    }
+  },
+  "menu#drawer": {
+    "children": [
+      "auth-condition#drawer-menu-mobile",
+      "header-spacer",
+      "menu#top-navbar-link"
+    ],
+    "props": {
+      "blockClass": "header-drawer",
+      "orientation": "horizontal"
+    }
+  },
+  "drawer": {
+    "children": [
+      "login",
+      "menu#drawer"
+    ],
+    "props": {
+      "blockClass": [
+        "header-topbar-drawer"
+      ]
+    }
+  },
+  "auth-condition#drawer-menu-mobile": {
+    "props": {
+      "Then": "menu#bottom-navbar-link",
+      "Else": "flex-layout.row#drawer-menu-mob"
+    }
+  },
+  "flex-layout.row#drawer-menu-mob": {
+    "children": [
+      "rich-text#drawer-create-list-button",
+      "rich-text#drawer-my-lists-button"
+    ],
+    "props": {
+      "blockClass": "drawer-menu-mob"
+    }
+  },
+  "rich-text#drawer-create-list-button": {
+    "props": {
+      "text": "[Crie sua lista](/login)",
+      "blockClass": "drawer-menu-mob"
+    }
+  },
+  "rich-text#drawer-my-lists-button": {
+    "props": {
+      "text": "[Minhas listas](/login)",
+      "blockClass": "drawer-menu-mob"
+    }
+  }
+}

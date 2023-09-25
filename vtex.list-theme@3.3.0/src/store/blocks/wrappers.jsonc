@@ -1,0 +1,12 @@
+{
+  "storeWrapper#home": {
+    "props": {
+      "CustomContext": "user-lists-wrapper"
+    }
+  },
+  "searchWrapper#default": {
+    "props": {
+      "CustomContext": "owner-list-wrapper"
+    }
+  }
+}

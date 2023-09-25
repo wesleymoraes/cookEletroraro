@@ -1,0 +1,27 @@
+/* block: find a list - Home */
+
+.container--search-list-title {
+  margin-bottom: 8px;
+  justify-content: center;
+}
+
+.paragraph--search-list-title {
+  margin: 0;
+}
+
+.container--home-search-list-subtitle {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  justify-content: center;
+}
+
+.paragraph--search-list-button {
+  margin: 0;
+  padding: 10px 16px;
+}
+
+.paragraph--search-list-button .link {
+  color: #0c389f !important;
+  text-decoration: none;
+}

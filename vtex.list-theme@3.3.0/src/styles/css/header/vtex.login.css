@@ -1,0 +1,102 @@
+.label {
+  color: #ffffff;
+  padding: 0;
+}
+.button:hover {
+  border-radius: 4px;
+}
+.container :global(.vtex-button__label) {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+div[class*='vtex-store-drawer-0-x-drawerContent vtex-store-drawer-0-x-drawerContent--header-topbar-drawer overflow-y-auto'] {
+  overflow-y: inherit;
+}
+/*minicart*/
+div[class*='vtex-minicart-2-x-minicartSummary ph4 ph6-l pt5']
+  span[class*='vtex-checkout-summary-0-x-summarySmallDisclaimer t-small db mv4'] {
+  display: none;
+}
+a[class*='vtex-product-list-0-x-productImageAnchor']
+  img[class*='vtex-product-list-0-x-productImage br2 vtex-render-runtime-8-x-lazyload ls-is-cached lazyloaded'],
+a[class*='vtex-product-list-0-x-productImageAnchor']
+  img[class*='vtex-product-list-0-x-productImage br2 vtex-render-runtime-8-x-lazyload lazyloaded'] {
+  border: 1px solid #727273;
+  border-radius: 6px;
+  max-width: 96px;
+  height: 96px;
+  object-fit: scale-down;
+  margin-top: 4px;
+}
+div[class*='vtex-product-list-0-x-removeButtonContainer vtex-product-list-0-x-item ']
+  button[class*='vtex-product-list-0-x-removeButton pointer bg-transparent bn pa2'] {
+  color: #0c389f !important;
+  margin: 2px 42px;
+}
+div[class*='ttu f7 fw6 c-muted-1 fw5-m vtex-product-list-0-x-productBrandName '] {
+  display: none;
+}
+div[class*='vtex-checkout-summary-0-x-summarySmallContent c-on-base']
+  div[class*='flex w-100 c-on-base lh-copy items-center vtex-checkout-summary-0-x-summaryItemContainer mt3'],
+div[class*='flex w-100 c-on-base lh-copy items-center vtex-checkout-summary-0-x-summaryItemContainer mt3']
+  div[class*='vtex-checkout-summary-0-x-summaryItemLabel flex-none fw6 fw5-l'] {
+  font-weight: normal !important;
+  font-size: 12px;
+  line-height: 20px;
+}
+div[class*='flex w-100 c-on-base lh-copy items-center vtex-checkout-summary-0-x-summaryItemContainer mt3']
+  div[class*='flex w-100 c-on-base lh-copy items-center vtex-checkout-summary-0-x-summaryItemContainer f4 mt4 pb5'] {
+  font-size: 16px;
+  line-height: 24px;
+  color: #3f3f40;
+}
+
+/*product-summary-quantity - Guest shelf*/
+:global(.vtex-numeric-stepper__minus-button-container)
+  button[class*='vtex-numeric-stepper__minus-button numeric-stepper__minus-button br2 pa0 br-0 flex items-center justify-center ba b--muted-4 bw1  h-small f6  pointer bg-base c-action-primary '],
+:global(.vtex-numeric-stepper__plus-button-container)
+  button[class*='vtex-numeric-stepper__plus-button numeric-stepper__plus-button br2 pa0 bl-0 flex items-center justify-center ba b--muted-4 bw1  h-small f6  pointer bg-base c-action-primary '] {
+  color: black;
+  cursor: pointer;
+  pointer-events: all;
+  width: 100% !important;
+}
+:global(.vtex-numeric-stepper__minus-button-container)
+  button[class*='vtex-numeric-stepper__minus-button numeric-stepper__minus-button br2 pa0 br-0 flex items-center justify-center ba b--muted-4 bw1  h-small f6  bg-muted-5 c-disabled o-100 '],
+:global(.vtex-numeric-stepper__plus-button-container)
+  button[class*='vtex-numeric-stepper__plus-button numeric-stepper__plus-button br2 pa0 bl-0 flex items-center justify-center ba b--muted-4 bw1  h-small f6  bg-muted-5 c-disabled o-100 '] {
+  cursor: pointer;
+  pointer-events: all;
+  width: 100% !important;
+}
+
+@media (max-width: 65em) {
+  /*mobile login icon*/
+  .profileIcon--login-topbar {
+    width: 20px;
+    height: 20px;
+    color: #ffffff;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 50em) {
+  div[class*='vtex-product-list-0-x-removeButtonContainer vtex-product-list-0-x-item ']
+    button[class*='vtex-product-list-0-x-removeButton pointer bg-transparent bn pa2'] {
+    margin: 0 auto;
+  }
+  a[class*='vtex-product-list-0-x-productImageAnchor']
+    img[class*='vtex-product-list-0-x-productImage br2 vtex-render-runtime-8-x-lazyload ls-is-cached lazyloaded'],
+  a[class*='vtex-product-list-0-x-productImageAnchor']
+    img[class*='vtex-product-list-0-x-productImage br2 vtex-render-runtime-8-x-lazyload lazyloaded'] {
+    border: 1px solid #727273;
+    border-radius: 6px;
+    max-width: 96px;
+    height: 96px;
+    object-fit: scale-down;
+    margin-top: 4px;
+  }
+}
+.label{
+font-weight: 100;
+}

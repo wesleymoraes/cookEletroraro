@@ -1,0 +1,44 @@
+:global(.vtex-product-summary-2-x-container--showcase) :global(.vtex-product-summary-2-x-clearLink--showcase) :global(.vtex-product-summary-2-x-element--showcase) button[class*='vtex-button bw1 ba fw5 v-mid relative pa0 lh-solid br2 min-h-regular t-action bg-disabled b--muted-5 c-on-disabled w-100 '] {
+  cursor: default;
+  pointer-events: none;
+}
+
+:global(.vtex-product-summary-2-x-containerNormal--showCaseProduct) :global(.vtex-product-summary-2-x-clearLink--showCaseProduct) :global(.vtex-product-summary-2-x-element--showCaseProduct) :global(.vtex-flex-layout-0-x-flexRowContent--productInfo) button[class*='vtex-button bw1 ba fw5 v-mid relative pa0 lh-solid br2 min-h-regular t-action bg-disabled b--muted-5 c-on-disabled w-100'] {
+  cursor: default;
+  pointer-events: none;
+}
+
+/* remove clickURL product */
+:global(.vtex-product-summary-2-x-container) {
+  cursor: default;
+  pointer-events: none;
+}
+.emailPasswordOptionBtn :global(.vtex-button),
+.sendButton :global(.vtex-button),
+.accessCodeOptionBtn :global(.vtex-button) {
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  font-weight: 100;
+  border: 1px solid #a8a7a7;
+  border-radius: 20px;
+}
+.inputContainerAccessCode :global(.vtex-input-prefix__group)
+.inputContainerEmail :global(.vtex-input-prefix__group),
+.inputContainerPassword :global(.vtex-input-prefix__group) {
+  border-radius: 20px;
+  border: 1px solid #504f4f;
+}
+
+:global(.vtex-login-2-x-container):hover{
+  background-color: transparent;
+}
+.contentInitialScreen{
+  border-radius: 20px;
+}
+.arrowUp {
+  right: 10px;
+}
+
+.profile{
+  color: white;
+}

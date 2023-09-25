@@ -1,0 +1,37 @@
+.paragraph--advantages-cta {
+  margin: 0;
+}
+
+.link--advantages-cta {
+  display: block;
+  background-color: black;
+  color: #fff;
+  text-decoration: none;
+  padding: 11px 20px;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.link--advantages-cta:hover {
+  background-color: #0c389f;
+}
+
+.image--advantages-cta {
+  vertical-align: text-top;
+  margin-right: 8px;
+  
+}
+
+.container--advantages-cta {
+  margin-bottom: 68px;
+}
+
+.paragraph--advantages-title {
+  margin-bottom: 16px !important;
+}
+
+
+

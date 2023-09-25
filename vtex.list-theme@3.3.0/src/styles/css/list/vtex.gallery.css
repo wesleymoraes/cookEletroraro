@@ -1,0 +1,3 @@
+.galleryItem--list-items :global(.vtex-button) {
+  background-color: red;
+}

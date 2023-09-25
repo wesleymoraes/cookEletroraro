@@ -1,0 +1,14 @@
+.container--showcase
+  .clearLink--showcase
+  .element--showcase
+  :global(.vtex-button) {
+  cursor: pointer;
+  pointer-events: all;
+}
+.container--showCaseProduct
+  .clearLink--showCaseProduct
+  .element--showCaseProduct
+  :global(.vtex-button) {
+  cursor: pointer;
+  pointer-events: all;
+}

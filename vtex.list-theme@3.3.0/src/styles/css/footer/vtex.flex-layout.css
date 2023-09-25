@@ -1,0 +1,139 @@
+/*
+ * A partir daqui seguem estilos para header topbar mobile
+ * -------------------------------------------------------- */
+
+.flexRow--header-topbar-mobile {
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
+.flexRowContent--header-topbar-mobile {
+  -webkit-box-pack: start;
+  justify-content: space-between;
+}
+
+.flexRowContent--header-topbar-mobile .stretchChildrenWidth:first-child {
+  width: auto !important;
+  padding: 0;
+}
+
+.flexRowContent--header-topbar-mobile .stretchChildrenWidth:last-child {
+  justify-content: flex-end;
+  width: auto !important;
+}
+
+.flexColChild--footer-payment-mobile {
+  width: auto;
+  height: auto !important;
+  display: flex;
+  align-self: center;
+  align-items: center;
+}
+
+.flexColChild--footer-socialnetwork-mobile {
+  height: auto !important;
+  align-self: center;
+}
+
+.flexColChild--footer-socialnetwork-mobile:last-child {
+  margin-bottom: 24px;
+}
+
+/*
+ * A partir daqui seguem estilos para header top
+ * -------------------------------------------------------- */
+
+.flexRowContent--header-top-bar .stretchChildrenWidth {
+  justify-content: flex-start;
+}
+
+.flexRowContent--header-top-bar .stretchChildrenWidth:last-child {
+  justify-content: flex-end;
+}
+
+.flexRow--header-bottom-bar .stretchChildrenWidth {
+  justify-content: flex-start;
+}
+
+.flexRow--header-bottom-bar .stretchChildrenWidth:last-child {
+  justify-content: flex-end;
+  align-self: center;
+}
+
+/*
+ * A partir daqui seguem estilos para container da pagina
+ * -------------------------------------------------------- */
+
+/*
+ * A partir daqui seguem estilos para footer
+ * -------------------------------------------------------- */
+
+.flexRow--footer-navbar-link {
+  background-color: #f7f9fa;
+  border: 1px solid #e3e4e6;
+}
+
+.flexRow--footer-mobile-1 {
+  border-top: 1px solid #e3e4e6;
+}
+
+.flexRow--footer-top {
+  align-items: center;
+}
+
+.flexRowContent--footer-bottom-icons {
+  justify-content: space-between;
+}
+
+.flexRowContent--footer-bottom-icons .stretchChildrenWidth {
+  width: auto !important;
+}
+
+/**
+footer-accept-payment-image
+*/
+
+.flexRowContent--footer-accept-payment-image .stretchChildrenWidth {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flexRowContent--footer-safe-buy-image .stretchChildrenWidth {
+  justify-content: 'center' !important;
+}
+
+.flexRowContent--footer-social-networks-image .stretchChildrenWidth {
+  justify-content: flex-end;
+}
+
+.flexRowContent--footer-accept-payment-image
+  .stretchChildrenWidth
+  :first-child {
+  margin-right: 17px;
+}
+
+.flexRowContent--footer-accept-payment-image .stretchChildrenWidth :last-child {
+  margin-right: 17px;
+  margin-left: 17px;
+}
+
+.flexRowContent--footer-main-desktop {
+  justify-content: space-between !important;
+}
+
+.flexRowContent--footer-mobile-1 {
+  justify-content: space-between !important;
+}
+
+.flexRowContent--footer-main-desktop .stretchChildrenWidth {
+  width: auto !important;
+}
+
+.flexColChild--footer-safebuy-mobile {
+  align-self: center;
+}
+
+.flexRowContent--footer-mobile-1 .stretchChildrenWidth {
+  width: auto !important;
+}
+

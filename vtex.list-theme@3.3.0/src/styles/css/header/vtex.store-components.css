@@ -1,0 +1,21 @@
+.logoContainer {
+  padding: 0px 0px;
+}
+
+.logoContainer--header-bottom-bar-logo {
+  padding: 8px 0px;
+}
+
+.logoContainer--header-topbar-mobile-logo {
+  align-self: center;
+}
+
+.logoImage--header-bottom-bar-logo {
+  padding: 12px 0px;
+}
+
+@media (min-width: 64em) {
+  .logoImage--header-bottom-bar-logo {
+    padding: 24px 0px;
+  }
+}

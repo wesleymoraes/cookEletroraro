@@ -1,0 +1,137 @@
+{
+  "flex-layout.row#footer-desktop-1": {
+    "children": ["flex-layout.row#footer-nav"],
+    "props": {
+      "blockClass": ["footer-navbar-link"]
+    }
+  },
+  "flex-layout.row#footer-nav": {
+    "children": ["menu#footer-navbar-link"],
+    "props": {
+      "blockClass": ["container"]
+    }
+  },
+  "flex-layout.row#footer-desktop-2": {
+    "children": ["flex-layout.row#footer-main"],
+    "props": {
+      "blockClass": "footer-desktop-2"
+    }
+  },
+  "flex-layout.row#footer-main": {
+    "children": [
+      "flex-layout.col#footer-accept-payment",
+      "flex-layout.col#footer-safe-buy",
+      "flex-layout.col#footer-social-desktop"
+    ],
+    "props": {
+      "blockClass": ["container", "footer-main-desktop"]
+    }
+  },
+  "flex-layout.col#footer-accept-payment": {
+    "children": [
+      "rich-text#title-payment",
+      "flex-layout.row#footer-accept-payment-image"
+    ],
+    "props": {
+      "blockClass": "footer-accept-payment"
+    }
+  },
+  "flex-layout.col#footer-safe-buy": {
+    "children": [
+      "rich-text#title-safe-buy",
+      "flex-layout.row#footer-safe-buy-image"
+    ],
+    "props": {
+      "blockClass": "footer-safe-buy"
+    }
+  },
+  "flex-layout.col#footer-social-desktop": {
+    "children": [
+      "rich-text#title-social-desktop",
+      "flex-layout.row#footer-social-networks-image"
+    ],
+    "props": {
+      "blockClass": "footer-social-desktop"
+    }
+  },
+  "rich-text#title-payment-desktop": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Formas de Pagamento",
+      "blockClass": "title-payment"
+    }
+  },
+  "rich-text#title-safe-buy-desktop": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Compra segura",
+      "blockClass": "title-safe-buy"
+    }
+  },
+  "rich-text#title-social-desktop": {
+    "props": {
+      "blockClass": "title-social-networks",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Nossas Redes"
+    }
+  },
+  "flex-layout.row#footer-accept-payment-image": {
+    "children": ["image-list#footer-accept-payment"],
+    "props": {
+      "blockClass": "footer-accept-payment-image"
+    }
+  },
+  "image-list#footer-accept-payment": {
+    "props": {
+      "height": 24,
+      "blockClass": "footer-accept-payment",
+      "images": [
+        {
+          "image": "assets/footer/visa.png",
+          "width": "auto"
+        },
+        {
+          "image": "assets/footer/master.png",
+          "width": "auto"
+        },
+        {
+          "image": "assets/footer/dinners.png",
+          "width": "auto"
+        }
+      ]
+    }
+  },
+  "flex-layout.row#footer-safe-buy-image": {
+    "children": ["image-list#footer-safe-buy"],
+    "props": {
+      "blockClass": "footer-safe-buy-image"
+    }
+  },
+  "flex-layout.row#footer-social-networks-image": {
+    "children": ["image-list#footer-social-networks"],
+    "props": {
+      "blockClass": "footer-social-networks-image"
+    }
+  },
+  "flex-layout.row#footer-desktop-3": {
+    "children": ["flex-layout.row#footer-bottom"]
+  },
+  "flex-layout.row#footer-bottom": {
+    "children": ["rich-text#footer-bottom"],
+    "props": {
+      "blockClass": "container"
+    }
+  },
+  "rich-text#footer-bottom": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "© 2003, Cook Eletroraro - Todos os direitos reservados\n \n Shopping Ponteio: - Br 356, 2500 - 2º Piso - Santa Lúcia - Belo Horizonte - MG - (31) 3264-0008 / (31) 99201-0493\n Praça da Liberdade: - Rua Sergipe, 719 - Funcionários - Belo Horizonte - MG - (31) 3281-4665 / (31) 98455-3055\nTodas as marcas e suas imagens são de propriedade de seus respectivos donos. É vedada a reprodução, total ou parcial,\n de qualquer conteúdo sem expressa autorização.",
+      "textColor": "c-on-emphasis",
+      "blockClass": "footer-bottom-text"
+    }
+  }
+}

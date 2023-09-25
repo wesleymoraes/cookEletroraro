@@ -1,0 +1,41 @@
+div[class*='vtex-list-0-x-buttonErrorHome vtex-list-0-x-buttonErrorHome--owner-list flex flex-column mb6 center f5 lh-copy mh-auto'] a,
+div[class*='vtex-list-0-x-buttonErrorHome vtex-list-0-x-buttonErrorHome--list-items-mobile flex flex-column mb6 center f5 lh-copy mh-auto'] a {  
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+svg[class*='vtex-styleguide-9-x-rotate vtex__icon-spinner  c-action-primary'] {
+    width: 100%;
+    max-width: 50px;
+}
+
+div[class*='vtex-flex-layout-0-x-flexColChild vtex-flex-layout-0-x-flexColChild--product-details-main-desk pb0']
+div[class*='w-100 bt b--black-60 pt5 mt5'],
+div[class*='vtex-flex-layout-0-x-flexColChild vtex-flex-layout-0-x-flexColChild--product-details-main pb0']
+div[class*='w-100 bt b--black-60 pt5 mt5'] {
+    border-color: #CACBCC !important;
+}
+
+div[class*='vtex-toast flex justify-between items-start items-center-ns t-body bg-base--inverted c-on-base--inverted pa5 br2-ns shadow-5'] {
+    color: #FFFFFF !important;
+}
+
+div[class*='vtex-flex-layout-0-x-flexColChild vtex-flex-layout-0-x-flexColChild--product-details-main pb0']
+div[class*='w-100 bt b--black-60 pt5 mt5']
+:global(.vtex-button) {
+    width: 100%;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+div[class*='flex mt0 mb0 pt0 pb0    justify-start  vtex-flex-layout-0-x-flexRowContent vtex-flex-layout-0-x-flexRowContent--title-sku-title items-stretch w-100']
+div[class*='pr0 items-stretch vtex-flex-layout-0-x-stretchChildrenWidth   flex']:first-child {
+    width: auto !important;
+}
+div[class*='flex mt0 mb0 pt0 pb0    justify-start  vtex-flex-layout-0-x-flexRowContent vtex-flex-layout-0-x-flexRowContent--title-sku-title items-stretch w-100']
+div[class*='pr0 items-stretch vtex-flex-layout-0-x-stretchChildrenWidth   flex']:nth-child(2) {
+    width: auto !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

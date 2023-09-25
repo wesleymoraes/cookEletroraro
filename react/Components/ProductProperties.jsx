@@ -11,7 +11,7 @@ function ProductProperties() {
   const styles = {
     propertiesContainer: {},
     propertiesTable: {
-      width: '90%',
+      width: '80vw',
       margin:'10px auto',
       borderCollapse: 'collapse',
     },
@@ -24,7 +24,7 @@ function ProductProperties() {
     propertyValue: {
       border: '1px solid #ccc',
       padding: '8px 12px',
-    }
+    },
   };
 
   return (
@@ -32,7 +32,7 @@ function ProductProperties() {
       <table style={styles.propertiesTable}>
         <tbody>
           {product.properties.map((property, index) => (
-            <tr key={index} style={styles.propertyRow}>
+            <tr className="rowTable" key={index} style={styles.propertyRow}>
               <td style={styles.propertyKey}>{property.name}</td>
               <td style={styles.propertyValue}>{property.values.join(', ')}</td>
             </tr>

@@ -1,0 +1,21 @@
+.flexRowContent--header-bottom {
+  justify-content: space-between;
+}
+
+
+.flexRowContent--header-top-bar {
+  justify-content: space-between;
+}
+:global(.vtex-minicart-2-x-drawerStyles) .flexRow--minicart-footer {
+  box-shadow: 0px -5px 5px rgb(0 0 0 / 16%);
+}
+.flexRow--drawer-menu-mob {
+  flex-direction: column;
+  border-bottom: 1px solid;
+  justify-content: flex-end;
+}
+.flexRow--drawer-menu-mob .flexRowContent--drawer-menu-mob {
+  margin: 0px 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}

@@ -1,0 +1,66 @@
+/***************FOOTER********************/
+
+.wrapper--footer-bottom-text {
+  color: #979899;
+  font-size: 12px;
+
+}
+
+.container--title-payment {
+  justify-content: flex-start !important;
+}
+
+.container--title-safe-buy {
+  justify-content: flex-start !important;
+}
+
+.paragraph--footer-bottom-text {
+  color: #979899;
+  margin-top: 24px;
+  margin-bottom: 20px;
+}
+
+.paragraph--title-safe-buy {
+  margin-top: 24px;
+  margin-bottom: 24px !important;
+  color: black;
+}
+
+.paragraph--title-payment {
+  margin-top: 24px;
+  margin-bottom: 24px !important;
+  color: black;
+}
+
+.paragraph--title-social-networks {
+  margin-top: 24px;
+  margin-bottom: 24px !important;
+  color: black;
+}
+.container--footer-bottom-text{
+display: flex;
+justify-content: center;
+}
+
+@media (min-width: 64em) {
+  .paragraph--footer-bottom-text {
+    margin-top: 32px;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  .paragraph--title-social-networks {
+    margin-bottom: 12px !important;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .paragraph--title-payment {
+    margin-bottom: 12px !important;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .paragraph--title-safe-buy {
+    margin-bottom: 12px !important;
+    font-size: 12px;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,31 @@
+.formPrivacityContainer :global(.vtex-radioGroup) {
+  width: 100%;
+}
+
+.formPrivacityContainer :global(.vtex-radioGroup__fieldset) {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.formPrivacityContainer :global(.vtex-radio) {
+  margin-bottom: 0;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+}
+
+.formPrivacityContainer :global(.vtex-radio):last-child {
+  margin-left: 12px;
+}
+
+.formPrivacityContainer :global(.vtex-radioGroup__error) {
+  margin-left: 12px;
+}
+
+@media screen and (min-width: 40em) {
+  .formPrivacityContainer :global(.vtex-radio) {
+    margin-left: 12px;
+  }
+}

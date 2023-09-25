@@ -1,0 +1,67 @@
+.container {
+  display: block;
+  width: 100%;
+  max-width: 1600px;
+  padding: 0px 20px;
+}
+.listPriceValue {
+  color: #979899;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0;
+}
+
+.sellingPriceContainer {
+  padding: 0;
+}
+
+.sellingPriceValue {
+  color: #3f3f40;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.installmentContainer {
+  color: #8bc34a;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0;
+}
+
+.listPriceLabel,
+.sellingPriceLabel {
+  display: none;
+}
+
+.searchBarInnerContainer--header-search {
+  max-width: 451px;
+  height: 40px;
+}
+.searchBarIcon--header-search {
+  background-color: #ffffff;
+}
+.resultsList--header-search {
+  display: block;
+}
+.suffixWrapper--header-search
+  .searchBarIcon--header-search--clear
+  .closeIcon--header-search {
+  background: #cacbcc;
+  border-radius: 12px;
+  color: #ffffff;
+}
+
+@media (max-width: 50em) {
+  .searchBarInnerContainer--header-search--filled
+    .portalContainer--header-search
+    .portalWrapper--header-search
+    .resultsList {
+    min-width: 280px;
+    width: auto;
+    border-left: 2px solid #e3e4e6;
+    border-right: 2px solid #e3e4e6;
+    margin: 0 20px;
+  }
+}

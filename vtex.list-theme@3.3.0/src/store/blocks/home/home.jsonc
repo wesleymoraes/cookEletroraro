@@ -1,0 +1,102 @@
+{
+  "store.home": {
+    "blocks": ["auth-condition#breadcrumbs", "auth-condition#search-list"],
+    "parent": { "storeWrapper": "storeWrapper#home" }
+  },
+  "auth-condition#breadcrumbs": {
+    "props": {
+      "Then": "flex-layout.row#breadcrumbs"
+    }
+  },
+  "flex-layout.row#breadcrumbs": {
+    "children": ["breadcrumbs"],
+    "props": {
+      "blockClass": ["container"]
+    }
+  },
+  "auth-condition#search-list": {
+    "props": {
+      "Then": "flex-layout.row#home-with-user",
+      "Else": "flex-layout.row#home-without-user"
+    }
+  },
+  /* With User*/
+  "flex-layout.row#home-with-user": {
+    "children": ["flex-layout.col#home-with-user-col"],
+    "props": {
+      "blockClass": "home-with-user"
+    }
+  },
+  "flex-layout.col#home-with-user-col": {
+    "children": [
+      "flex-layout.row#user-list",
+      "store-wallet-list",
+      "flex-layout.row#search-list",
+      "flex-layout.row#advantages"
+    ],
+    "props": {
+      "blockClass": "home"
+    }
+  },
+  "flex-layout.row#user-list": {
+    "children": ["flex-layout.col#user-list-col"],
+    "props": {
+      "blockClass": ["user-list", "container"]
+    }
+  },
+    "flex-layout.row#search-list": {
+      "children": [
+        "flex-layout.col#search-list-col"
+      ],
+      "props": {
+        "blockClass": "search-list"
+      }
+    },
+  "flex-layout.col#user-list-col": {
+    "children": [
+      "user-lists"
+    ],
+    "props": {
+      "blockClass": "search-list"
+    }
+  },
+  "flex-layout.col#search-list-col": {
+    "children": ["search-list"],
+    "props": {
+      "blockClass": "search-list-col"
+    }
+  },
+  /* Without User */
+  "flex-layout.row#home-without-user": {
+    "children": ["flex-layout.col#home-without-user"],
+    "props": {
+      "blockClass": "home-without-user"
+    }
+  },
+  "flex-layout.col#home-without-user": {
+    "children": [
+      "flex-layout.row#search-list-without-user",
+      "flex-layout.row#advantages-muted"
+    ]
+  },
+  "flex-layout.row#search-list-without-user": {
+    "children": ["flex-layout.col#search-list-without-user"],
+    "props": {
+      "blockClass": ["search-list-without-user", "container"]
+    }
+  },
+  "flex-layout.col#search-list-without-user": {
+    "children": [
+      "search-list"
+    ],
+    "props": {
+      "blockClass": "search-list-col"
+    }
+  },
+  "search-list": {
+    "props": {
+      "buttons": true
+    }
+  }
+
+}

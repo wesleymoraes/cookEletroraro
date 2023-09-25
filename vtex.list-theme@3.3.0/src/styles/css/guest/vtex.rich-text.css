@@ -1,0 +1,24 @@
+.paragraph--copy-list-button{
+  color: #0c389f;
+  font-size: 20px;
+  line-height: 20px;
+  margin-left: 7px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 65em) {
+  .paragraph--copy-list-button-mobile { 
+    font-size: 20px;
+    line-height: 14px;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 40em) {
+  .paragraph--copy-list-button-mobile {
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 15px;
+  }
+}

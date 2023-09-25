@@ -1,0 +1,21 @@
+:global(.vtex-flex-layout-0-x-flexColChild--product-details-main)
+  .modalButtonAddListContainer
+  :global(.vtex-button),
+  :global(.vtex-flex-layout-0-x-flexColChild--product-details-main-desk)
+  .modalButtonAddListContainer
+  :global(.vtex-button) {
+    margin-top: 8px;
+    width: 100%;
+    background-color: #0C389F;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--product-details-main)
+  .modalButtonAddListContainer,
+  :global(.vtex-flex-layout-0-x-flexColChild--product-details-main-desk)
+  .modalButtonAddListContainer  {
+    border-top: 1px solid #cacbcc;
+    margin-top: 16px;
+}

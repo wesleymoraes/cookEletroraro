@@ -1,0 +1,12 @@
+.flexCol--filterCol {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.flexColChild--filterCol {
+  height: auto !important;
+}
+
+.filter__container {
+  border-color: #cacbcc;
+}

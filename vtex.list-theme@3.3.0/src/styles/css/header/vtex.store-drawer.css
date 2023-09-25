@@ -1,0 +1,9 @@
+.openIconContainer--header-topbar-drawer {
+  padding: 0px;
+  align-self: center;
+}
+.childrenContainer--header-topbar-drawer {
+  display: block;
+  width: 100%;
+  padding: 0px 12px;
+}

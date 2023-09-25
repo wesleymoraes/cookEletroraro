@@ -1,0 +1,12 @@
+.eventDateText::before {
+  content: '(';
+}
+.eventDateText::after {
+  content: ')';
+}
+
+@media screen and (min-width: 40em) {
+  .listNameText::after {
+    content: ':';
+  }
+}

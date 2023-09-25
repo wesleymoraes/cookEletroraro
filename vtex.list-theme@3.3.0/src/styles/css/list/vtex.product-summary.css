@@ -1,0 +1,17 @@
+.element--OwnerList
+  :global(.vtex-list-0-x-addToListButtonContainer)
+  :global(.vtex-button) {
+  pointer-events: all;
+  cursor: pointer;
+}
+.containerNormal--OwnerList,
+.containerNormal--showCaseProduct,
+.containerNormal--showcase {
+  pointer-events: none !important;
+    cursor: default;
+}
+.skuNameContainer--title-sku-mobile {
+  display: inline-flex;
+  text-align: left;
+  margin: 5px 0px;
+}

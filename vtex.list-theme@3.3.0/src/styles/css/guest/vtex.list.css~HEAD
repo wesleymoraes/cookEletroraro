@@ -1,0 +1,5 @@
+.gallery--items-gallery-guest .galleryItem--items-gallery-guest,
+.gallery--list-items-mobile .galleryItem--list-items-mobile {
+  cursor: default;
+  pointer-events: none;
+}

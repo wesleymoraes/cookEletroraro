@@ -1,0 +1,20 @@
+.quantitySelector
+  .quantityDropdownMobileContainer
+  :global(.vtex-dropdown__container) {
+  max-width: 59px;
+  width: 100%;
+  min-height: 44px;
+}
+
+.quantitySelector
+  .quantityDropdownContainer
+  :global(.vtex-dropdown__container)
+  :global(.vtex-dropdown__button)
+  :global(.vtex-dropdown__arrow),
+.quantitySelector
+  .quantityDropdownMobileContainer
+  :global(.vtex-dropdown__container)
+  :global(.vtex-dropdown__button)
+  :global(.vtex-dropdown__arrow) {
+  margin-top: 2px;
+}

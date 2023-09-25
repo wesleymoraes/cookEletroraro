@@ -1,0 +1,8 @@
+:global(.vtex-store-components-3-x-carouselGaleryThumbs--product-details)
+  div[class*='swiper-container swiper-container-initialized swiper-container-horizontal h-100 undefined swiper-container-thumbs']
+  div[class*='swiper-wrapper'] {
+  display: inline-flex;
+  justify-content: center;
+  margin: 0px auto;
+  width: 100%;
+}

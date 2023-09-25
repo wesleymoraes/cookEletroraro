@@ -1,0 +1,38 @@
+.quantitySelectorContainer--quantity {
+  margin-bottom: 0;
+}
+
+.quantitySelectorTitle--quantity {
+  display: none;
+}
+
+.quantitySelectorStepper--quantity :global(.vtex-numeric-stepper__input) {
+  width: 50px;
+  border: none;
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+}
+
+.quantitySelectorStepper--quantity :global(.vtex-numeric-stepper__plus-button),
+.quantitySelectorStepper--quantity
+  :global(.vtex-numeric-stepper__minus-button) {
+  width: 24px !important;
+  font-size: 20px;
+  border: none;
+  line-height: 24px;
+  color: black;
+}
+
+.quantitySelectorStepper--quantity
+  :global(.vtex-numeric-stepper__plus-button):disabled,
+.quantitySelectorStepper--quantity
+  :global(.vtex-numeric-stepper__minus-button):disabled {
+  background-color: unset;
+  color: #cacbcc;
+}
+.summaryContainer--quantity {
+  width: auto !important;
+  margin-bottom: 8px;
+  pointer-events: all;
+}

@@ -1,0 +1,57 @@
+.flexColChild--priceAndQuantity,
+.flexCol--priceAndQuantity {
+  height: unset !important;
+}
+
+.flexCol--priceAndQuantity {
+  flex-direction: column;
+}
+.flexRowContent--productInfo {
+  flex-direction: column;
+}
+.flexRowContent--productInfo .stretchChildrenWidth {
+  width: 100% !important;
+  max-width: 350px;
+  align-self: center;
+}
+.flexColChild--filterDesktop {
+  padding-left: 16px;
+  padding-right: 20px;
+}
+.flexRow--header-search {
+  border-top: 1px solid;
+  border-color: #cacbcc;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  margin-bottom: 24px;
+}
+.flexRowContent--header-search .stretchChildrenWidth:first-child {
+  width: auto !important;
+}
+@media (min-width: 65em) {
+  .flexRow--header-search {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #cacbcc;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-bottom: 64px;
+  }
+  .flexRowContent--productInfo {
+    flex-direction: row;
+  }
+  .flexCol--priceAndQuantity {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+}
+.flexRowContent--headerProduct {
+  display: flex;
+}
+.flexRowContent--headerProduct .stretchChildrenWidth {
+  width: auto !important;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 12px;
+}

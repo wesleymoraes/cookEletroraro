@@ -1,0 +1,29 @@
+.galleryTitle--layout {
+  font-size: 36px;
+  line-height: 50px;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.filterMessage {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--filterCol)
+  .filter__container--selectedFilters {
+  display: none;
+}
+
+.filterIcon {
+  padding-right: 2px;
+  color: #727273;
+}
+
+.filter {
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
