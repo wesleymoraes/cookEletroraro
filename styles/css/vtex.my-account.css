@@ -250,6 +250,14 @@
   margin-left: 150%;
 }
 
+:global(.vtex-product-summary-2-x-element) :global(.highlight-226) {
+  margin-right: -200%;
+}
+
+:global(.vtex-product-summary-2-x-element) :global(.highlight-223) {
+  margin-right: -200%;
+}
+
 :global(.highlight-226),
 :global(.highlight-223) {
   font-size: 11px;
@@ -259,8 +267,7 @@
   color: white;
   background-color: black;
   border-radius: 20px;
-  margin: 2.5px auto;
-  margin-left: 200%;
+  margin: 2.5px 10px;
 }
 
 :global(.highlight-639) {

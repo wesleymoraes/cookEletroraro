@@ -84,3 +84,23 @@
     margin-bottom: 236px;
   }
 }
+:global(.vtex-button){
+  background-color: black;
+  border-radius: 20px;
+  border: none;
+  color: white;
+}
+:global(.vtex-button):hover{
+  background-color: black;
+  color: white;
+}
+:global(.vtex-styleguide-9-x-input){
+
+  outline: none;
+}
+
+:global(.vtex-input-prefix__group){
+  border: 1px solid black;
+  border-radius: 20px;
+  outline: none;
+}

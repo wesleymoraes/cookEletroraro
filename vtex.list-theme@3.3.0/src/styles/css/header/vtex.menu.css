@@ -35,9 +35,17 @@
 .styledLinkIcon {
   display: none;
 }
+:global(.vtex-store-drawer-0-x-menuIcon--header-topbar-drawer) {
+  color: white!important;
+}
 
 .styledLinkContent--menu-topbar{
   color: white;
+}
+@media(max-width:758px){
+  .styledLinkContent--menu-topbar{
+    color: black!important;
+  }
 }
 
 @media (min-width: 64em) {
